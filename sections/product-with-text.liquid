@@ -1,0 +1,113 @@
+<section class="product-withText">
+  <div class="text">
+   {% if section.settings.subtitle != '' %} <h6>{{section.settings.subtitle}}</h6>{% endif %}
+    {% if section.settings.title != '' %}<h3>{{section.settings.title}}</h3>{% endif %}
+    {% if section.settings.smallDesc != '' %}<p>{{section.settings.smallDesc}}</p>{% endif %}
+    {% if section.settings.btnText != '' %}
+    <a href="{{section.settings.btnLink}}" class="action_button first_button highlight-true">
+           {{section.settings.btnText}}</a>{% endif %}
+  </div>
+  <div class="products">
+    <div class="product_gallery1">
+
+       {% for block in section.blocks %}
+      <div class="featured-link--quater">
+        <div class="text"><h3><a href="{{block.settings.link}}">{{block.settings.title}}</a></h3></div>
+        <div class="image"><a href="{{block.settings.link}}"><img src="{{block.settings.image | img_url:'master'}}"></a></div>
+        <div class="desc">{{block.settings.desc}}</div>
+        <div class="fromPrice">From {{block.settings.fromPrice}}</div>
+      </div>
+      {% endfor %}
+      {% comment %}
+     {% for block in section.blocks %}
+    {% assign product = all_products[block.settings.Product] %}
+    <div class="featured-link--quater">
+   		<div class="image">
+          <a href="{{product.url}}"><img src="{{product.featured_image | img_url:'400x'}}"></a>
+      </div>
+      <div class="product-name"><a href="{{product.url}}">{{product.title}}</a></div>
+    </div>
+    {% endfor %}
+      {% endcomment %}
+      
+  </div>
+  </div>
+</section>
+{% schema %}
+  {
+    "name": "Products with text left",
+    "settings": [
+		{
+			"type": "text",
+			"label": "Title",
+			"id": "title"
+		},
+		{
+			"type": "text",
+			"label": "Sub Title",
+			"id": "subtitle"
+		},
+		{
+			"type": "textarea",
+			"label": "Small Description",
+			"id": "smallDesc"
+		},
+		{
+			"type": "text",
+			"label": "Button Text",
+			"id": "btnText"
+		},
+		{
+			"type": "url",
+			"label": "Button Link",
+			"id": "btnLink"
+		}
+	],
+	"blocks": [
+		{
+			"type": "collection",
+			"name": "Collection",
+			"settings": [
+				{
+					"type": "text",
+					"label": "Collection Title",
+					"id": "title"
+				},
+				{
+					"type": "image_picker",
+					"label": "Image",
+					"id": "image"
+				},
+				{
+					"type": "text",
+					"label": "From Price",
+					"id": "fromPrice"
+				},
+				{
+					"type":"textarea",
+					"label": "Description",
+					"id": "desc"
+				},
+                {
+                    "type": "url",
+                    "label": "Link",
+                    "id": "link"
+                }
+			]
+		}
+	],
+	"presets":[
+		{
+			"category": "collection",
+			"name": "Products with text"
+		}
+	]
+
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

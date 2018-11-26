@@ -1,0 +1,11 @@
+.page-pp-provitalize #shopify-section-header,
+.page-provitalize-home #shopify-section-header
+{
+display: block; !important;
+}
+
+.page-pp-provitalize footer.footer,
+.page-provitalize-home footer.footer{
+display: block; !important;
+}
+

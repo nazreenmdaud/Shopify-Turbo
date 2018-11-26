@@ -1,0 +1,1031 @@
+body
+{
+	background:#f6ede6;
+}
+
+h1, h1.display-1, h1.display-2, h1.display-3, h1.display-4, h1.display-5,
+h2, h3, h4, h5, h6
+{
+	font-family:"Poppins", sans-serif;
+	font-weight:800;
+	color:#10131a;
+}
+
+h1 strong, h1.display-1 strong, h1.display-2 strong, h1.display-3 strong, h1.display-4 strong, h1.display-5 strong,
+h2 strong, h3 strong, h4 strong, h5 strong, h6 strong
+{
+	color:#d90913;
+	font-weight:inherit;
+}
+
+h1
+{
+	text-align:center;
+	font-size:2rem;
+	font-size:1.8rem;
+	font-weight:900;
+	line-height:1.2em;
+	line-height:1.3em;
+	margin-top:3rem;
+	margin-bottom:2rem;
+}
+
+h2
+{
+	text-align:center;
+	font-size:1.7rem;
+	font-weight:800;
+/*	line-height:2.5rem;
+	line-height:2.3rem; */
+	line-height:1.4em;
+	padding-top:1rem;
+	margin-bottom:2rem;
+}
+
+h3
+{
+	font-size:1.3rem;
+	font-weight:900;
+	line-height:1.5em;
+	margin-bottom:2rem;
+}
+h3 u
+{
+	border-bottom:3px solid #d90913;
+	text-decoration:none;
+}
+
+h4
+{
+	font-size:1.3rem;
+	font-weight:900;
+	line-height:1.3em;
+	margin-bottom:2rem;
+}
+
+h5
+{
+	color:#205796;
+	color:#10131a;
+	font-weight:600;
+	line-height:1.6rem;
+	margin-bottom:2rem;
+}
+
+p
+{
+	font-size:1.3rem;
+	font-family:"Roboto", sans-serif;
+	margin-bottom:1.5rem;
+	margin-bottom:2rem;
+	color:#333;
+    font-weight:400;
+}
+p strong
+{
+	color:#10131a;
+	font-weight:900;
+}
+
+ul.listinfo,
+ul.listyes
+{
+	list-style-type:none;
+	margin-bottom:2rem;
+}
+
+li
+{
+	font-size:1.3rem;
+	font-family:"Roboto", sans-serif;
+	margin-bottom:1rem;
+	color:#333;
+    font-weight:400;
+}
+li strong
+{
+	color:#10131a;
+	font-weight:900;
+}
+
+ul.listinfo li
+{
+	background:url(bullet-info.png) left top no-repeat;
+	padding:0 0 0.5rem 3rem;
+}
+ul.listyes li
+{
+	background:url(bullet-yes.png) left top no-repeat;
+	padding:0 0 0.5rem 3rem;
+}
+
+lfi.media
+{
+	margin-top:1rem;
+	margin-bottom:1rem;
+}
+
+.highlight
+{
+	padding:0px 5px;
+	background:#fae800;
+	color:#10131a;
+}
+
+.lead
+{
+	font-size:1.5rem;
+	font-weight:400;
+}
+
+.normalfont
+{
+	font-weight:400;
+}
+.normalfont b
+{
+	font-weight:900;
+}
+.normalfont strong
+{
+	font-weight:900;
+}
+
+.redalert
+{
+	color:#d90913;
+}
+
+.dropcaps
+{
+	font-size:4rem;
+	font-weight:700;
+	float:left;
+	color:#205796;
+}
+
+.highlightbox
+{
+	background:#205796;
+	color:#fff;
+	margin-top:3rem;
+	margin-bottom:3rem;
+	padding:1rem;
+	border-radius:1rem;
+}
+.highlightbox h2, .highlightbox h3
+{
+	color:#fff;
+	font-weight:400;
+}
+.highlightbox h2 strong, .highlightbox h3 strong
+{
+	background:#d90913;
+	padding:0px 5px;
+	color:#fff;
+}
+.highlightbox p
+{
+	color:#fff;
+	font-weight:300;
+}
+
+.borderbox
+{
+	margin-top:2.5rem;
+	margin-bottom:2.5rem;
+	padding:1.5rem;
+	border:1px dashed #205796;
+	border-width:1px 0;
+	background:#fafafa;
+}
+
+.testicontainer
+{
+	border-radius:1rem;
+	margin-top:2rem;
+	margin-bottom:2rem;
+	background:#e5e5e5;
+}
+.testipic
+{
+	margin-top:2rem;
+	margin-bottom:2rem;
+}
+.testipic img
+{
+	border-radius:50%;
+}
+.testibody
+{
+	margin-top:2rem;
+	margin-bottom:2rem;
+}
+.testibody h5
+{
+  color:#10131a !important;
+}
+.testibody p, .testibody p strong
+{
+	font-size:1rem;
+	margin-bottom:1rem;
+    color:#333 !important;
+}
+
+#heroarea.jumbotron
+{
+	padding-top:45px;
+	padding-bottom:60px;
+	background:url(bg-heroarea.png);
+	margin-bottom:0;
+}
+
+#row1-heroarea h1
+{
+	text-align:left;
+	color:#205796;
+	color:#000;
+	font-size:1.5rem;
+	font-weight:800;
+}
+#row1-heroarea h1 em
+{
+	font-style:normal;
+	background:#fae800;
+	color:#000;
+}
+#row1-heroarea h1 strong
+{
+	text-decoration:none;
+	color:#000;
+	color:#d90913;
+}
+
+#row1-heroarea h2
+{
+	text-align:left;
+	color:#f4f4f4;
+	background:#d90913;
+	font-weight:400;
+	font-size:1.5rem;
+	font-size:1.1rem;
+	padding:0.5rem;
+}
+#row1-heroarea h2 strong
+{
+	color:#000;
+	font-weight:700;
+	text-decoration:underline;
+}
+
+#row1-heroarea h3
+{
+	font-weight:600;
+	color:#333;
+	color:#205796;
+}
+#row1-heroarea h3 strong
+{
+	color:#000;
+	font-weight:600;
+}
+
+#cont-open
+{
+	margin-top:-60px;
+	padding-bottom:60px;
+}
+
+#row1-open
+{
+	background:#fff;
+	padding-top:60px;
+	border-top-left-radius:1rem;
+	border-top-right-radius:1rem;
+	border-top:5px solid #eee;
+}
+
+#reviewsrow1
+{
+	background:#fff;
+	padding-top:1rem;
+}
+
+#row2-open, #row3-open, #row4-open, #row5-open
+{
+	background:#fff;
+	padding-top:1rem;
+}
+
+#row2-open
+{
+	text-align:center;
+}
+
+#row2-open h3
+{
+	margin-bottom:0.5rem;
+}
+
+#row3-open
+{
+	border-bottom-left-radius:2rem;
+	border-bottom-right-radius:2rem;
+	border-bottom:5px solid #eee;
+}
+
+#bacteriaworld.jumbotron
+{
+	padding-top:60px;
+	padding-bottom:60px;
+	margin-bottom:0;
+	background:#501b09;
+}
+
+#row1-bacteriaworld
+{
+	background:#fff;
+	padding-top:30px;
+	padding-bottom:60px;
+	border-top-left-radius:20px;
+	border-radius:1rem;
+	border-top:5px solid #eee;
+	border-bottom:5px solid #eee;
+}
+
+#row1-after1
+{
+	background:#fff;
+	padding-top:60px;
+	padding-bottom:30px;
+	margin-top:30px;
+	margin-bottom:30px;
+	border-radius:1rem;
+	border-top:5px solid #eee;
+	border-bottom:5px solid #eee;
+}
+
+.doctorsquotes img
+{
+	border-radius:50%;
+}
+
+.doctorsquotes .col-lg-10
+{
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	resize:vertical;
+	overflow:auto;
+}
+
+#product-intro.jumbotron
+{
+	padding-top:60px;
+	padding-bottom:90px;
+	background:#10131a;
+	background-size:cover;
+	margin-bottom:0;
+}
+
+#row1-product-intro
+{
+	background:#10131a;
+	padding-top:30px;
+	padding-bottom:30px;
+	border-radius:1rem;
+	border-top:5px solid #eee;
+	border-bottom:5px solid #eee;
+}
+
+#row1-product-intro h1
+{
+	color:#eee;
+	font-weight:400;
+}
+#row1-product-intro h1 em
+{
+	background:#d90913;
+	font-style:normal;
+	padding:5px;
+	margin-bottom:0.5rem;
+	display:inline-block;
+	font-weight:900;
+}
+#row1-product-intro h1 .highlight
+{
+	font-size:0.85em;
+	font-weight:600;
+}
+
+#row1-product-intro h3
+{
+	color:#eee;
+	font-weight:400;
+}
+
+#row1-product-intro p,
+#row1-product-intro li
+{
+	color:#ccc;
+	font-weight:300;
+}
+#row1-product-intro p strong,
+#row1-product-intro li strong
+{
+	color:#eee;
+}
+
+#row1-after2
+{
+	background:#fff;
+	padding-top:60px;
+	padding-bottom:30px;
+	margin-top:30px;
+	margin-bottom:30px;
+	border-radius:1rem;
+	border-top:5px solid #eee;
+	border-bottom:5px solid #eee;
+}
+
+#product-benefits.jumbotron
+{
+	padding-top:60px;
+	padding-bottom:90px;
+	background:#10131a;
+	background-size:cover;
+	margin-bottom:0;
+}
+
+#row1-product-benefits
+{
+	background:#10131a;
+	padding-top:30px;
+	padding-bottom:30px;
+	border-radius:1rem;
+	border-top:5px solid #eee;
+	border-bottom:5px solid #eee;
+}
+
+#row1-product-benefits h1
+{
+	color:#eee;
+	font-weight:400;
+}
+#row1-product-benefits h1 em
+{
+	background:#d90913;
+	font-style:normal;
+	padding:5px;
+	margin-bottom:0.5rem;
+	display:inline-block;
+	font-weight:900;
+}
+#row1-product-benefits h1 .highlight
+{
+	font-size:0.85em;
+	font-weight:600;
+}
+
+#row1-product-benefits h3
+{
+	color:#eee;
+	font-weight:400;
+}
+
+#row1-product-benefits p,
+#row1-product-benefits li
+{
+	color:#ccc;
+	font-weight:300;
+}
+#row1-product-benefits p strong,
+#row1-product-benefits li strong
+{
+	color:#eee;
+}
+
+#row1-after3
+{
+	background:#fff;
+	padding-top:60px;
+	padding-bottom:30px;
+	margin-top:30px;
+	margin-bottom:30px;
+	border-radius:1rem;
+	border-top:5px solid #eee;
+	border-bottom:5px solid #eee;
+}
+
+#probiotic-gasseri.jumbotron
+{
+	padding-top:60px;
+	padding-bottom:90px;
+	background:#b8e5ea;
+	margin-bottom:0;
+}
+
+#row1-probiotic-gasseri
+{
+	padding-top:30px;
+	padding-bottom:30px;
+	border-radius:1rem;
+	border-top:5px solid #eee;
+	border-bottom:5px solid #eee;
+}
+
+#probiotic-breve.jumbotron
+{
+	padding-top:60px;
+	padding-bottom:90px;
+	background:#f8d8cb;
+	margin-bottom:0;
+}
+
+#row1-probiotic-breve
+{
+	padding-top:30px;
+	padding-bottom:30px;
+	border-radius:1rem;
+	border-top:5px solid #eee;
+	border-bottom:5px solid #eee;
+}
+
+#probiotic-lactis.jumbotron
+{
+	padding-top:60px;
+	padding-bottom:90px;
+	background:#d1bff8;
+	margin-bottom:0;
+}
+
+#row1-probiotic-lactis
+{
+	padding-top:30px;
+	padding-bottom:30px;
+	border-radius:1rem;
+	border-top:5px solid #eee;
+	border-bottom:5px solid #eee;
+}
+
+#cont-after4
+{
+	padding-bottom:30px;
+}
+
+#row1-after4
+{
+	background:#fff;
+	padding-top:60px;
+	padding-bottom:30px;
+	margin-top:30px;
+	margin-bottom:30px;
+	border-radius:1rem;
+	border-top:5px solid #eee;
+	border-bottom:5px solid #eee;
+}
+
+#guarantee.jumbotron
+{
+	padding-top:60px;
+	padding-bottom:90px;
+	background:#f2dfae url(bg-provitalize.png);
+	margin-bottom:0;
+}
+
+#row1-guarantee
+{
+	padding-top:30px;
+	padding-bottom:30px;
+	border-radius:1rem;
+	border:5px solid #eee;
+	border-width:5px 1px;
+	background:rgba(255, 255, 255, 0.5);
+	-moz-box-shadow:inset 0 0 30px rgba(255,255,255, 0.4);
+	-webkit-box-shadow:inset 0 0 30px rgba(255,255,255, 0.4);
+	box-shadow:inset 0 0 30px rgba(255,255,255, 0.4);
+}
+
+#row1-after5
+{
+	background:#fff;
+	padding-top:60px;
+	padding-bottom:30px;
+	margin-top:30px;
+	margin-bottom:30px;
+	border-radius:1rem;
+	border-top:5px solid #eee;
+	border-bottom:5px solid #eee;
+}
+
+#row2-after5
+{
+	padding-bottom:30px;
+	margin-bottom:30px;
+}
+
+#previtalize.jumbotron
+{
+	padding-top:60px;
+	padding-bottom:90px;
+	background:#0a2d01 url(bg-provitalize.png);
+	margin-bottom:0;
+}
+
+#row1-previtalize
+{
+	background:#0a2d01;
+	padding-top:30px;
+	padding-bottom:30px;
+	border-radius:1rem;
+	border-top:5px solid #eee;
+	border-bottom:5px solid #eee;
+	-webkit-box-shadow:0px 0px 15px 0px rgba(0,0,0,0.10);
+	-moz-box-shadow:0px 0px 15px 0px rgba(0,0,0,0.10);
+	box-shadow:0px 0px 15px 0px rgba(0,0,0,0.10);
+}
+
+#row1-previtalize h1
+{
+	color:#eee;
+	font-weight:400;
+}
+#row1-previtalize h1 em
+{
+	background:#d90913;
+	font-style:normal;
+	padding:5px;
+	margin-bottom:0.5rem;
+	display:inline-block;
+	font-weight:900;
+}
+#row1-previtalize h1 .highlight
+{
+	font-size:0.85em;
+	font-weight:600;
+}
+
+#row1-previtalize h2,
+#row1-previtalize h5
+{
+	color:#eee;
+}
+
+#row1-previtalize p,
+#row1-previtalize li
+{
+	color:#ccc;
+	font-weight:300;
+}
+#row1-previtalize p strong,
+#row1-previtalize li strong
+{
+	color:#eee;
+}
+
+#cont-after6
+{
+	padding-bottom:90px;
+}
+
+#row1-after6
+{
+	background:#fff;
+	padding-top:60px;
+	padding-bottom:30px;
+	margin-top:30px;
+	margin-bottom:30px;
+	border-radius:1rem;
+	border-top:5px solid #eee;
+	border-bottom:5px solid #eee;
+}
+
+.orderrow .col-lg-4
+{
+	border:1px solid #ccc;
+	border-radius:0.5rem;
+	background:#fff;
+	margin-top:2rem;
+	transition:all .3s ease-in-out;
+}
+.orderrow .col-lg-4:hover
+{
+	transform:scale(1.03);
+	z-index:10;
+}
+
+.orderrow .col-lg-4.best-seller
+{
+	border-color:#d59b2a;
+	border-color:#d90913;
+}
+
+.orderrow .col-lg-4 h1
+{
+	color:#205796;
+    color:#10131a;
+	padding:5px;
+	margin:10px -15px 10px -15px;
+    font-size:1.2rem;
+    font-weight:700;
+}
+
+.orderrow .col-lg-4 h2.num-bottle
+{
+	background:#205796;
+	color:#fff;
+	text-align:center;
+	text-transform:uppercase;
+	margin:0 -15px;
+	padding:10px 0;
+	border-top-left-radius:0.5rem;
+	border-top-right-radius:0.5rem;
+    font-size:1.2rem;
+    font-weight:700;
+}
+.orderrow .col-lg-4.best-seller h2.num-bottle
+{
+	background:#d90913;
+}
+
+.orderrow .col-lg-4 h2.price
+{
+	color:#d90913;
+	font-size:1.5rem;
+	margin:1rem -15px;
+	padding-top:0;
+	line-height:1.5rem;
+}
+.orderrow .col-lg-4 h2.price small
+{
+	font-size:1.5rem;
+	color:#10131a;
+}
+.orderrow .col-lg-4 h2.price small strike
+{
+	color:#666;
+}
+
+.orderrow .col-lg-4 h2.price small .savings
+{
+	font-style:italic;
+	color:#205796;
+}
+
+.orderrow .col-lg-4 h5.supp-amt
+{
+	background:#76c6cd;
+	color:#10131a;
+	text-align:center;
+	text-transform:uppercase;
+	margin:0 -15px;
+	padding:5px 0;
+}
+
+.orderrow .col-lg-4.best-seller h5.supp-amt
+{
+	background:#fae800;
+}
+.orderrow .col-lg-4 p.offer-image
+{
+	margin:0 -15px;
+	text-align:center;
+}
+
+.orderrow .col-lg-4 p.cta
+{
+	margin:0;
+	margin-bottom:1.5rem;
+	text-align:center;
+	transition:all .3s ease-in-out;
+}
+.orderrow .col-lg-4 p.cta:hover
+{
+	transform:scale(1.03);
+	z-index:100;
+}
+
+.orderrow .col-lg-4 p.cc-icons
+{
+	text-align:center;
+	max-width:250px;
+	margin:0 auto 1rem auto;
+}
+
+#row3-after6, #row5-after6, #row7-after6, #row9-after6
+{
+	background:#fff;
+	padding-top:60px;
+	padding-bottom:30px;
+	margin-top:30px;
+	margin-bottom:30px;
+	border-radius:1rem;
+	border-top:5px solid #eee;
+	border-bottom:5px solid #eee;
+}
+
+#row9-after6 button,
+#row9-after6 .btn
+{
+  font-size:1.3rem;
+  word-wrap:break-word;
+  -ms-word-break:break-all;
+  word-break:break-all;
+  /* Non standard for WebKit */
+  word-break:break-word;
+  overflow-wrap:break-word;
+  white-space:normal;
+  text-align:left;
+}
+
+#row9-after6 a
+{
+	color:#007bff;
+    text-decoration:none;
+}
+#row9-after6 a:active, #row9-after6 a:focus
+{
+  text-decoration:none;
+}
+#row9-after6 a:hover
+{
+  text-decoration:underline;
+}
+
+#row9-after6 [aria-expanded=false]::before
+{
+	content:"\25ba";
+	font-size:16px;
+	color:gray;
+}
+#row9-after6 [aria-expanded=true]::before
+{
+	content:"\25BC";
+	font-size:16px;
+}
+
+#cont-references
+{
+	padding-top:90px;
+    padding-bottom:90px;
+	border-top:1px solid #ccc;
+}
+
+#cont-references p,
+#cont-references ol li
+{
+	font-size:0.9rem;
+	word-wrap:break-word;
+    font-weight:400;
+}
+
+#cont-references ol
+{
+	margin-bottom:3rem;
+}
+
+#cont-references a
+{
+	color:#000;
+}
+
+
+@media only screen and (min-width:569px)
+{
+	#row1-heroarea h1
+	{
+		font-size:2.4rem;
+	}
+	#row1-heroarea h2
+	{
+		font-size:1.5rem;
+		font-size:1.4rem;
+		font-weight:300;
+		padding:1rem;
+	}
+	h2
+	{
+		font-size:1.8rem;
+	}
+	h3
+	{
+		font-size:1.5rem;
+	}
+	h4
+	{
+		font-size:1.4rem;
+	}
+	h5
+	{
+		font-weight:700;
+	}
+	#bacteriaworld.jumbotron
+	{
+/*		background:url(bg-bacteria.jpg) center center no-repeat;
+		background-attachment:fixed; */
+	}
+	#gasseri.jumbotron
+	{
+/*		background:url(bg-lgasseri.jpg) center center no-repeat;
+		background-attachment:fixed; */
+	}
+} /* End min-width:569px */
+
+@media only screen and (min-width:768px)
+{
+	h1
+	{
+		font-size:2.4rem;
+		font-weight:900;
+		margin-top:3rem;
+		margin-bottom:2rem;
+	}
+	h2
+	{
+		font-size:2rem;
+		font-weight:800;
+	}
+	h5
+	{
+		font-weight:800;
+	}
+	.highlightbox
+	{
+		padding:2rem 5rem;
+	}
+	.borderbox
+	{
+		padding:3rem 5rem 2rem 5rem;
+	}
+	#row9-after6 .btn
+	{
+		font-size:1.6rem;
+	}
+} /* End min-width:768px */
+
+@media only screen and (min-width:961px)
+{
+	h1
+	{
+		font-size:2.5rem;
+	}
+	h2
+	{
+		font-size:2.1rem;
+	}
+} /* End min-width:961px */
+
+@media only screen and (min-width:1024px)
+{
+	#heroarea.jumbotron
+	{
+		background:url(bg-woman-top-1024.jpg) right top no-repeat,
+					url(bg-heroarea.png);
+		background-attachment:fixed, scroll;
+	}
+} /* End min-width:1024px */
+
+@media (min-width: 1200px)
+{
+	h1
+	{
+		font-size:3rem;
+	}
+	h3
+	{
+		font-size:1.6rem;
+	}
+} /* End min-width:1200px */
+
+@media (min-width: 1500px)
+{
+	#heroarea.jumbotron
+	{
+		background:url(bg-woman-top.jpg) right top no-repeat,
+					url(bg-heroarea.png);
+		background-attachment:fixed, scroll;
+	}
+} /* End min-width:1500px */
+
+@media (min-width: 1900px)
+{
+	#bacteriaworld.jumbotron
+	{
+/*		background-size:cover; */
+	}
+	#gasseri.jumbotron
+	{
+/*		background-size:cover; */
+	}
+} /* End min-width:1200px */
+
+@media (min-height: 1010px) and (min-width: 1024px)
+{
+	#heroarea.jumbotron
+	{
+		background:url(bg-woman-top.jpg) right top no-repeat,
+					url(bg-heroarea.png);
+		background-attachment:fixed, scroll;
+		background-size:contain, auto;
+	}
+}

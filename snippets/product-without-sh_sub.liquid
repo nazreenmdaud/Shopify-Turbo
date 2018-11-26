@@ -1,0 +1,63 @@
+{% include 'shogun-products', content: product %}
+{{product.metafields.shogun.above}}
+{% comment %}
+  The contents of the product.liquid template can be found in /sections/product-template.liquid
+{% endcomment %}
+
+{% section 'product-template' %}
+
+<script>
+  // Override default values of shop.strings for each template.
+  // Alternate product templates can change values of
+  // add to cart button, sold out, and unavailable states here.
+  theme.productStrings = {
+    addToCart: {{ 'products.product.add_to_cart' | t | json }},
+    soldOut: {{ 'products.product.sold_out' | t | json }},
+    unavailable: {{ 'products.product.unavailable' | t | json }}
+  }
+  
+</script>
+
+<div itemscope itemtype="http://schema.org/Product">
+<meta itemprop="name" content="{{ product.title }}" />
+<div itemprop="offers" itemscope="" itemtype="http://schema.org/Offer">
+<meta itemprop="priceCurrency" content="{{ shop.currency }}">
+<meta itemprop="price" content="{{ product.price |money_without_currency  |strip_html }}">
+{% if product.available == true %}<meta itemprop="availability" content="http://schema.org/InStock"/>{% else %}<meta itemprop="availability" content="http://schema.org/OutOfStock"/>{% endif %}
+<meta itemprop="itemCondition" itemtype="http://schema.org/OfferItemCondition" content="http://schema.org/NewCondition" />
+<meta itemprop="sku" content="{{ product.variants.first.sku }}"/>
+<meta itemprop="gtin14" content="{{ product.variants.first.barcode }}"/>
+</div>
+</div>
+
+<script text="text/javascript">
+  var _learnq = _learnq || [];
+
+  var item = {
+    Name: {{ product.title|json }},
+    ProductID: {{ product.id|json }},
+    Categories: {{ product.collections|map:'title'|json }},
+    ImageURL: "https:{{ product.featured_image.src|img_url:'grande' }}",
+    URL: "{{ shop.secure_url }}{{ product.url }}",
+    Brand: {{ product.vendor|json }},
+    Price: {{ product.price|money|json }},
+    CompareAtPrice: {{ product.compare_at_price_max|money|json }}
+  };
+
+  _learnq.push(['track', 'Viewed Product', item]);
+  _learnq.push(['trackViewedItem', {
+    Title: item.Name,
+    ItemId: item.ProductID,
+    Categories: item.Categories,
+    ImageUrl: item.ImageURL,
+    Url: item.URL,
+    Metadata: {
+      Brand: item.Brand,
+      Price: item.Price,
+      CompareAtPrice: item.CompareAtPrice
+    }
+  }]);
+</script>{% include 'okendo-reviews-widget' %}
+
+{{product.metafields.shogun.below}}
+

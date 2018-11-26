@@ -1,0 +1,1539 @@
+<!DOCTYPE html>
+{% layout 'theme.provitalize.lfsl' %}
+
+
+<body>
+  <!-- Sticky Footer to appear on 1st Price Table -->
+ <script >
+
+  	$(window).scroll(function(event) {
+	function footer()
+    {
+        
+        var hT = $('#first-pt').offset().top,
+       hH = $('#first-pt').outerHeight(),
+       wH = $(window).height(),
+       wS = $(this).scrollTop();
+  		 if (wS > (hT+hH-wH))
+        { 
+          	$('#stickyfoot').width($('.container').width());
+            $(".footer-nav").fadeIn("slow").addClass("show");
+          
+        }
+        else
+        {
+            // $(".footer-nav").fadeOut("slow").removeClass("show");
+        }
+        
+    }
+    footer();
+});
+  
+</script>
+  
+<style>
+   @media only screen and (max-width: 480px) {
+     body{overflow-x:hidden;}
+     .startbutton{font-size: 20px!important;line-height: 30px!important;}
+     .startbutton{font-size: 17px!important;line-height: 25px!important;}
+     .listo{display: none;}
+ }
+/* Sticky Footer CSS */
+.startbutton {
+    background: linear-gradient(to right, #17A237, #17A237);
+    color: white;
+    padding: 15px 32px;
+    padding: 12px 25px;
+    text-align: center;
+    font-size: 40px;
+    font-size: 32px;
+    line-height: 70px;
+    line-height: 55px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    height:100%;
+}
+
+.stickyfoot-bg{
+	background-color: #fff;
+	margin: 0 auto;
+}
+
+.listo{
+	margin-top: 10px;
+	margin-bottom: 10px;
+    display:none;
+}
+
+.cta1{
+	background: linear-gradient(to right, #4998A7, #093783);
+}
+
+.footer-nav {
+    position: fixed;
+    z-index: 99999;
+    bottom: 0;
+    display: none;
+    text-align: center;
+    max-width: -webkit-fill-available;
+}
+.show, .footer-nav:hover {
+    display: flex;
+}
+  </style>
+
+<div class="jumbotron jumbotron-fluid" id="heroarea">
+	<div class="container">      
+		<div class="row" id="row1-heroarea">
+			
+			<div class="col-lg-9">
+				<h2>Detox teas, keto diets, magical &ldquo;nutrients&rdquo; not helping you lose weight yet? It's <strong>not</strong> your fault...</h2>
+				<h1>Secret &ldquo;<em>Skinny Bacteria</em>&rdquo; Found In 416 Pairs Of Twins Confirms That You Can &ldquo;<u>Reprogram</u>&rdquo; Your Body To Be Slim AGAIN... <strong>Without Any Exercise or Diet!</strong></h1>
+				<h3>London researchers say you can lose up to <strong>25 pounds of fat</strong> or more around your tummy, waist and hips areas with <strong>&ldquo;no exercise, no diet&rdquo;</strong>, as long as you take this strain of natural bacteria before breakfast...</h3>
+
+			</div> <!-- /col-lg-8 -->
+		</div> <!-- /row1-heroarea -->
+		<div class="row" id="row2-heroarea">
+			<div class="col-lg-6">
+			</div> <!-- /col-lg-6 -->
+		</div> <!-- /row2-heroarea -->
+	</div> <!-- /container -->
+</div> <!-- /heroarea -->
+
+<div class="container" id="cont-open">
+		<div class="stickyfoot-bg footer-nav" id="stickyfoot">
+	         <div class="cta1">
+               <a class="" style="text-decoration: none;" onclick="$('#stickyfoot').modal('hide')" href="#second-pt">
+                  <div class="startbutton"><b> Click Here To Select Your Bundle </b></div>
+               </a>
+	         </div>
+	    </div>
+	<div class="row" id="row1-open">
+		<!-- <div class="col-lg-12 mx-auto">
+			<div class="stickyfoot-bg footer-nav" id="stickyfoot">
+	         <div class="cta1">
+	         	<a class="" style="text-decoration: none;" onclick="$('#stickyfoot').modal('hide')" href="#first-pt"><div class="startbutton"><b> Click Here To Select Your Bundle </b></div></a>
+	         </div>
+	    </div>
+		</div> -->
+		<div class="col-lg-10 mx-auto">
+			<h3><span class="dropcaps">H</span>i there, my name is Reina Peterson.</h3>
+			<p>I'm a naturopath and mother of 2. Through my specialization in cultivating a healthy gut flora, I've helped over 12,000 women introduce &ldquo;skinny bacteria&rdquo; into their diets and lost anywhere from 5-25 pounds in just 60 days.</p>
+		</div> <!-- /col-lg-10 -->
+	</div> <!-- /row1-open -->
+	<div class="row" id="reviewsrow1">
+		<div class="col-lg-4 mx-auto">
+			<p><img src="{{ 'screenshot-review1.png' | asset_url }}" class="img-fluid img-thumbnail" alt=""></p>
+		</div> <!-- /col-lg-4 -->
+		<div class="col-lg-4 mx-auto">
+			<p><img src="{{ 'screenshot-review2.png' | asset_url }}" class="img-fluid img-thumbnail" alt=""></p>
+		</div> <!-- /col-lg-4 -->
+		<div class="col-lg-4 mx-auto">
+			<p><img src="{{ 'screenshot-review3.png' | asset_url }}" class="img-fluid img-thumbnail" alt=""></p>
+		</div> <!-- /col-lg-4 -->
+		<!-- div class="col-lg-4 mx-auto">
+			<p><img src="{{ 'screenshot-review4.png' | asset_url }}" class="img-fluid img-thumbnail" alt=""></p>
+		</div --> <!-- /col-lg-4 -->
+		<!-- div class="col-lg-4 mx-auto">
+			<p><img src="{{ 'screenshot-review5.png' | asset_url }}" class="img-fluid img-thumbnail" alt=""></p>
+		</div --> <!-- /col-lg-4 -->
+	</div> <!-- /reviewsrow1 -->
+	<div class="row" id="row2-open">
+		<div class="col-lg-1"></div>
+		<div class="col-lg-5">
+			<h3>This was me 2 years ago:</h3>
+			<p><img src="{{ 'reina-fat-new.jpg' | asset_url }}" class="img-fluid img-thumbnail" alt=""></p>
+		</div> <!-- /col-lg-5 -->
+		<div class="col-lg-5">
+			<h3>And this is me now.</h3>
+			<p><img src="{{ 'reina-slim-new.jpg' | asset_url }}" class="img-fluid img-thumbnail" alt=""></p>
+		</div> <!-- /col-lg-5 -->
+		<div class="col-lg-1"></div>
+	</div> <!-- /row2-open -->
+	<div class="row" id="row3-open">
+		<div class="col-lg-10 mx-auto">
+			<h2>The strangest thing?</h2>
+			<p>My transformation didn't demand for me to go to spin classes several times a week, do crazy workouts at home or go for runs around the block.</p>
+			<p>Nor did I have to undergo ridiculous &ldquo;juice diets&rdquo;, count calories or give up my favourite snacks.</p>
+			<h5>All it took was <em>introducing this one &ldquo;skinny bacteria&rdquo; into my diet</em> over a period of 3 months...</h5>
+			<p>Now, not only have I been able to drop inches in stubborn areas like my belly, underarms and thighs...</p>
+			<p>I can indulge on some ice cream, cakes and even chocolate donuts after dinner and I'm still looking pretty good.</p>
+			<p>But...</p>
+			<h1><strong>I Didn't Always Have A &ldquo;Cheerleader&rdquo; Body...</strong></h1>
+			<h3 class="text-center normalfont"><em>&ldquo;Miss Peterson, I'm sharing this again with you for the 4th time. If you don't lose at least 10 to 15 pounds in the next few weeks, you're going to have serious complications with your heart and liver. This can lead to serious health risks, even irreversible damage.&rdquo;</em></h3>
+		</div> <!-- /col-lg-10 -->
+	</div> <!-- /row3-open -->
+	<div class="row" id="row4-open">
+		<div class="col-lg-1"></div>
+		<div class="col-lg-5">
+			<p class="text-center"><img src="{{ 'doctor.jpg' | asset_url }}" class="img-fluid img-thumbnail" alt=""></p>
+		</div> <!-- /col-lg-5 -->
+		<div class="col-lg-5">
+			<p>The words from my doctor rang loudly in my head...</p>
+			<p>I tried to maintain my composure but inside, I was falling to pieces.</p>
+			<h4>The overwhelming pressure at work, stress eating at night and lack of exercise were finally catching up with me.</h4>
+			<p>I was 42, seriously overweight and on the verge of serious health issues.</p>
+		</div> <!-- /col-lg-5 -->
+		<div class="col-lg-1"></div>
+	</div> <!-- /row4-open -->
+	<div class="row" id="row5-open">
+		<div class="col-lg-10 mx-auto">
+			<h2>I was desperate...</h2>
+			<p>Over the last few years, I had received the bad news about my heart and weight from my doctor and <strong class="redalert">I was trying everything that could fix my body...</strong> FAST.</p>
+			<p>I was testing out every supplement that popped up on facebook or my email.</p>
+			<p>I was researching different diets and hopping from keto, to atkins to paleo.</p>
+			<h2>But nothing worked.</h2>
+			<p>I would lose 2 or 3 pounds, get excited and put them back on and more in just a couple of weeks.</p>
+			<p>Even when I was eating &ldquo;clean&rdquo;, watching my cravings and putting in a lot of hours and sacrificing my weekends to workout.</p>
+			<p>I was so scared and frightened that I even considered invasive liposuction surgery (which I backed out off after hearing horror stories of people getting infections and dying from those).</p>
+			<h2 class="redalert">&ldquo;Who was going to take care of Rachel and Emma?&rdquo;</h2>
+            <p class="text-center"><img src="{{ 'rachel-and-emma.jpg' | asset_url }}" class="img-fluid img-thumbnail" alt=""></p>
+			<p>After another massive failure (losing 10 pounds and putting back 15 during the summer), <strong>I was done with this stressful emotional rollercoaster.</strong></p>
+			<p>I thought it was just me. I'm just born to be fat... it's in my genes and I couldn't do anything about it. I should just accept my &ldquo;fate&rdquo;.</p>
+			<p>I even went as far as making plans for family members to take care of my 2 daughters should my health suddenly take a turn for the worst.</p>
+			<p>I know it sounds a little melodramatic... but that was where I was.</p>
+			<h4>I was desperate and helpless.</h4>
+			<p>But as God would have it, I came across a piece of research that would change my life.</p>
+			<p>One day, an old friend who used to be in the health industry tagged me in an article (on Facebook) about how...</p>
+			<div class="highlightbox">
+				<h2>A groundbreaking research on 416 pairs of twins showed that <strong>you can lose a HUGE amount of weight just by introducing &ldquo;skinny bacteria&rdquo; into your diet...</strong> and your genes have nothing to do with it!</h2>
+			</div> <!-- /highlightbox -->
+			<h2>I was hooked!</h2>
+			<p>There I thought that my genes was to blame and there was nothing I could do. But those scientist proved otherwise. <strong class="redalert">I had hope!</strong></p>
+			<p>Here's what the article said:</p>
+			<div class="borderbox">
+				<h5>Researchers at King's College London analyzed 416 pairs of twins, including 171 pairs of identical twins.</h5>
+				<p class="text-center"><img src="{{ 'twins-slim-fat.jpg' | asset_url }}" class="img-fluid img-thumbnail" alt=""></p>
+				<p>Those identical twins had 100% of the same genes, grew up in the same environment and for the most part of their lives, had the same diets.</p>
+				<p>But here's the strange thing.</p>
+				<p><strong>For each pair of twins, one twin grew up fat while the other twin grew up slim.</strong></p>
+				<p>And the difference was BIG.</p>
+				<p><em>It wasn't just a little &ldquo;chubbier&rdquo;, I'm talking about 15-20 pounds or more.</em></p>
+			</div> <!-- /borderbox -->
+			<h2 class="redalert">&ldquo;How could two identical twins have such drastic differences in their weight?&rdquo;</h2>
+			<p>I was curious, surprised and hungry for the answer.</p>
+			<h5>What the scientists uncovered was nothing short of shocking...</h5>
+			<p>Under the microscope...</p>
+			<h2 class="normalfont">They found that the answer to the biggest weight loss secret in the 21st century... was in your <strong class="redalert">gut</strong>.</h2>
+			<p>Or more specifically <strong class="redalert"><u>the bacteria in your gut</u></strong>.</p>
+			<p>Not your genes. Not how much you exercise. Not how little food you eat, or how little calories you can consume.</p>
+			<p>Because those twins were were doing everything similarly.</p>
+			<p>What the researchers found was that the fat and slim siblings have very different bacteria composition in their gut. The slim ones had a higher population of <strong class="redalert"><u>&ldquo;skinny bacteria&rdquo;</u></strong>.</p>
+			<h3>As it turns out, these <strong>&ldquo;skinny bacteria&rdquo; were the reason why the slim twins grew up slim</strong>.</h3>
+			<div class="highlightbox">
+				<h2>&ldquo;People who are overweight have a different set of gut bacteria than people who are slim" <small><em>- Tim Spector, a professor and expert in gut microbes</em></small></h2>
+			</div> <!-- /highlightbox -->
+		</div> <!-- /col-lg-10 -->
+	</div> <!-- /row5-open -->
+</div> <!-- /cont-open -->
+
+<div class="jumbotron jumbotron-fluid" id="bacteriaworld">
+	<div class="container">
+		<div class="row" id="row1-bacteriaworld">
+			<div class="col-lg-10 mx-auto">
+				<h2 class="redalert">The Unknown, Dangerous World Of Gut Bacteria:</h2>
+				<p class="text-center"><img src="{{ 'gut-bacteria.jpg' | asset_url }}" class="img-fluid img-thumbnail" alt=""></p>
+				<h2>Could Mischievous Microbes Be Turning Fibers Into Fat, Expanding Your Fat Cells & Creating Your Uncontrollable Midnight Cravings?</h2>
+				<p>Although there is little mainstream information about gut bacteria, scientists have long established that there are 3 key ways they impact your weight.</p>
+			<div class="borderbox">
+				<h3>1. Your gut bacteria affects <strong>how much calories and fat will be <u>absorbed</u> in the body.</strong></h3>
+				<p class="text-center"><img src="{{ 'fries-meat.jpg' | asset_url }}" class="img-fluid img-thumbnail float-lg-left mr-md-4 mb-4" alt=""></p>
+				<p>When food get digested, the gut bacteria determines how many calories will be absorbed by the body and what kinds of nutrients you draw from it.</p>
+				<p>Making sure you have the right composition is key.</p>
+				<p>Why?</p>
+				<p>Because <strong>some &ldquo;evil&rdquo; strains of gut bacteria can not just absorb more calories... they can even turn the FIBER you eat into FAT</strong>.</p>
+				<p>Yes, you read that right.</p>
+				<p>This explained why even though I was eating lots of veggies, munching on carrots and lettuce like a rabbit...I was still gaining weight. <strong>If that's happening to you, pay attention because <span class="redalert">it gets worse...</span></strong></p>
+				<p>This chemical reaction also causes fat deposits in your liver, which can lead to metabolic syndrome, a condition that often leads to <strong>type 2 diabetes, heart disease, and obesity.</strong></p>
+				<p>But there are also <strong>some bacteria that help reduce the number of calories</strong> that get absorbed in the body. Instead, they get passed out from your body!</p>
+				<p>This is one of the strains of &ldquo;skinny bacteria&rdquo; that I'll share more about later.</p>
+			</div> <!-- /borderbox -->
+			<div class="borderbox">
+				<h3>2. Your gut bacteria also <strong>affects the way your body <u>stores</u> fat.</strong></h3>
+				<p class="text-center"><img src="{{ 'fat-cells.jpg' | asset_url }}" class="img-fluid img-thumbnail float-lg-left mr-md-4 mb-4" alt=""></p>
+				<p>Excess calories in your body is usually stored in your fat cells.</p>
+				<p>This causes fat cells to expand.</p>
+				<p>Unfortunately for us, fat storage usually centers around the hips, thighs and belly.</p>
+				<p>That's why a lot of people call these &ldquo;stubborn areas&rdquo;.</p>
+				<p><strong>Certain bacteria can cause fat storage to happen quicker and &ldquo;forces&rdquo; you to put on weight quickly.</strong></p>
+				<p>In contrast, there are also other &ldquo;skinny bacteria&rdquo; that can prevent the cells from expanding, preventing the fat from being stored in your body. One of this &ldquo;skinny bacteria&rdquo; is found predominantly in breast milk.</p>
+			</div> <!-- /borderbox -->
+			<div class="borderbox">
+				<h3>3. Your gut bacteria also affects certain <strong>weight loss <u>hormones</u></strong> in the body</h3>
+				<p class="text-center"><img src="{{ 'leptin.jpg' | asset_url }}" class="img-fluid img-thumbnail float-lg-left mr-md-4 mb-4" alt=""></p>
+				<p>Some gut bacteria can cause uncontrollable food cravings and extremely large appetite.</p>
+				<p>You see...</p>
+				<p><strong>In your body is a hormone called leptin that is directly connected to body fat, weight gain and obesity.</strong></p>
+				<p>Leptin is supposed to be the &ldquo;<strong class="redalert">emergency brake</strong>&rdquo; that actually signals your brain to regulate food and nutrient intake. It's there to help your body maintain a healthy weight.</p>
+				<p>But bad gut bacteria can screw up your leptin receptors and also make you feel hungry all the time, even after a big meal.</p>
+			</div> <!-- /borderbox -->
+			<h1>As you can see, <strong>your gut bacteria is the deciding factor</strong> whether you become fat or slim.</h1>
+			</div> <!-- /col-lg-10 -->
+		</div> <!-- /row1-bacteriaworld -->
+	</div> <!-- /container -->
+</div> <!-- /bacteriaworld -->
+
+<div class="container" id="cont-after1">
+	<div class="row" id="row1-after1">
+		<div class="col-lg-10 mx-auto">
+			<h2>Woman <strong><u>Balloons from 136 Pounds To 177 Pounds:</u></strong> More groundbreaking research PROVES that weight loss isn't about dieting, exercise or willpower...</h2>
+            <p class="text-center"><img class="img-fluid img-thumbnail" src="{{ '136-2-177.jpg' | asset_url }}" alt=""></p>
+			<p>Ever wonder why some people can remain slim even though they eat a lot and hardly workout?</p>
+			<p>It's because they have <strong>healthy colonies of &ldquo;skinny bacteria&rdquo;</strong> in their gut that is blocking fat storage, suppressing fat cells from expanding and eliminating cravings... preventing them from ballooning.</p>
+			<p>Again it's not by chance or genes...</p>
+			<p>Their body is basically <strong class="redalert">programmed</strong> to be slim!</p>
+			<p>In fact, it doesn't matter how much they eat and eat and eat, anything that they want.</p>
+			<p>Or even how little they hit the gym.</p>
+			<p>The &ldquo;skinny bacteria&rdquo; in their gut will keep their body slim no matter what.</p>
+			<p><strong><em>On the other hand</em></strong>, if you find yourself gaining weight easily...</p>
+			<p>Or if you're finding it hard to lose weight...</p>
+			<p>It's likely...</p>
+			<h1>You Have <strong>&ldquo;Fat Bacteria&rdquo;</strong> Invading Your Gut!</h1>
+			<p>Another true (and scary) story shared by Colleen Kelly, MD (Infectious Diseases) shed even more light on how these &ldquo;fat bacteria&rdquo; may have been forcing you to gain weight...</p>
+			<h3>A normal-weight woman who was treated with C. Difficile (gut virus) became obese after receiving gut bacteria from her overweight daughter.</h3>
+            <p class="text-center"><img class="img-fluid img-thumbnail" src="https://cdn.shopify.com/s/files/1/2060/5733/files/Woman_Received_Fat_Bacteria.png" alt=""></p>
+			<p>The woman had to go through a surgical gut transplant to treat a recurring bacterial infection.</p>
+			<p>At the time of the transplant, she weighed 136 pounds.</p>
+			<p>However, 16 months later she had <strong><u>gained 34 pounds and continued to gain weight</u></strong> ever since. 3 years after her transplant, she weighed 177 pounds.</p>
+			<p>According to her doctors...</p>
+			<h2>&ldquo;She has <strong>continued to gain weight</strong> despite going on a medically supervised liquid protein diet and exercise program.&rdquo; <span class="normalfont">- Colleen R. Kelly, MD</span></h2>
+			<p>How's that for crazy?</p>
+			<p>And in case you didn't catch that...</p>
+			<h4>Yes, she continued to gain weight <strong>even on a liquid diet!</strong> Because of the &ldquo;fat bacteria&rdquo; in her gut.</h4>
+			<p>And this is not an isolated case for &ldquo;fat bacteria&rdquo;.</p>
+			<p>There've been plenty of human and animal studies on this recent weight gain discovery (&ldquo;Fecal Microbiota Transplant&rdquo; or FMT if you want to get sciency).</p>
+			<p><em>Michael Fischbach of the University of California, San Francisco called this study &ldquo;the clearest evidence to date that gut bacteria can help cause obesity.&rdquo;</em></p>
+			<p>In short, as long as those pesky &ldquo;Fat Bacteria&rdquo; are in control, there's nothing you can really do about it...</p>
+			<h2>OMG! The Cravings! Guess What? It <strong>Isn't</strong> Your Fault...</h2>
+			<p class="text-center"><img src="{{ 'donuts-cookies.jpg' | asset_url }}" class="img-fluid img-thumbnail float-lg-left mr-md-4 mb-4" alt=""></p>
+			<p>When was the last time that gnawing hunger hit you?</p>
+			<p>For a donut...</p>
+			<p>A cookie...</p>
+			<p>Heck anything sweet?</p>
+			<p>On the surface, these cravings might seem normal and common.</p>
+			<p>Everyone gets food craving once in a while.</p>
+			<p>No big deal right?</p>
+			<p>But here's what most people don't know:</p>
+			<h3>A lot of these cravings are actually caused by the Fat Bacteria in your gut.</h3>
+			<p>According to Dr. David Williams, a medical researcher and authority on gut microbiome...</p>
+			<h2 class="normalfont">&ldquo;Gut bacteria can alter the brain nerve signal to <b>change our taste receptors, induce cravings</b> and make us prefer one food over another.&rdquo;</h2>
+			<p>No wonder fried chicken tastes better than steamed broccoli (right)!</p>
+			<p>And that's not all...</p>
+			<p>Gut biomes can even release toxins to make us feel bad when we consume something not to their liking...</p>
+			<p>And then reward us by producing chemicals that make us feel good when we make the &ldquo;right&rdquo; (aka sinful, unhealthy) choices.</p>
+			<h3>Talk about mind control...</h3>
+			<h4><strong>Fact: Once the Fat Bacteria take control of your gut, they will start to program your body and brain to crave food that will help them to grow faster, stronger and more powerful.</strong></h4>
+			<p></p>
+			<p>You will start to experience strong, intense craving for fattening food that are high in sugar and fat all the time.</p>
+			<h4>And the more they grow, the more they will program your body to put on weight by:</h4>
+			<ul class="listinfo">
+				<li>Creating stronger, uncontrollable cravings to satisfy those parasitic &ldquo;fat bacteria&rdquo;</li>
+				<li>Destroying your metabolism so that your body can't burn excess calories</li>
+				<li>Increasing rate of fat storage which causes rapid weight gain</li>
+			</ul>
+			<p>This create a vicious cycle that's hard to break.</p>
+			<p>Not only is losing weight is going to be an uphill battle...</p>
+			<p><strong>You will find that your weight will continue to increase month after month, year after year.</strong></p>
+			<p>And then you might start seeing other major health issues start popping up, like high cholesterols, diabetes, and heart disease...</p>
+			<h2 class="normalfont">No Surprise... People Who Are <b>Over 40</b> Are In Even Greater Danger!</h2>
+            <p class="text-center"><img class="img-fluid img-thumbnail" src="{{ 'woman-pain.jpg' | asset_url }}" alt=""></p>
+			<p>If you happen to be above 40, you might have already started experiencing the negative side effects of these Fat Bacteria in your gut, such as:</p>
+			<ul class="listinfo">
+				<li>High inflammation and joint pains</li>
+				<li>Low Energy Levels / Tired all the time</li>
+				<li>Gut related symptoms like IBS, heartburn, constipation</li>
+			</ul>
+			<p>...And even continuous weight gain</p>
+			<h3>Many people with these conditions think that these are part of the &ldquo;aging process&rdquo;.</h3>
+			<p>Your doctors may tell you that they are part of life as we get older...</p>
+			<p>It's normal.</p>
+			<p>They are bound to happen.</p>
+			<p>Damage caused by stress, free radical, radiation, and unhealthy lifestyle.</p>
+			<p>While that could be true, recently <strong>there has been a ton of new scientific research showing how the bacteria in our gut influence our immune system, the level of inflammation in the body, and several of the key hormones that contributes to major health diseases</strong>.</p>
+			<p>And as long as these Fat Bacteria continue to grow and multiply, then not only will you continue to put on weight, <em>it's going to be very dangerous for your health in the long run</em>.</p>
+			<h2>The <u>Food We Eat, The Water We Drink</u>... <strong>These &ldquo;Fat Bacteria&rdquo; Are Everywhere</strong> &amp; We Can't Stop Them...</h2>
+            <p class="text-center"><img class="img-fluid img-thumbnail" src="{{ 'food-water-and-air.jpg' | asset_url }}" alt=""></p>
+			<p>There could be many reasons how it happened.</p>
+			<p>It could be the food you eat or the lifestyle you live. Work, family and other stresses of life might have contributed.</p>
+			<p>Somehow at some point, they start to dominate and take control of your gut and body.</p>
+			<h5>Then... one day without even realizing it... you find that you're 10-20+ pounds overweight.</h5>
+			<p>Ballooning up despite your best effort to slim down.</p>
+			<p>They eat away at your happinesses, self-confidence and self-esteem.</p>
+			<p>Making you feel frustrated with yourself.</p>
+			<p>And as long as they continue to remain in your gut, it's going to be very difficult to achieve a slimmer body.</p>
+			<h5>But here's the <strong><u>good news:</u></strong></h5>
+			<h1>&ldquo;Fat bacteria&rdquo; in your gut can be <strong>FIXED!</strong></h1>
+			<h5>Once you start to introduce certain types of &ldquo;skinny bacteria&rdquo; into your gut, they will start to grow, colonize and eventually eliminate the fat bacteria.</h5>
+			<p>It's that simple!</p>
+			<p>Not only will you stop gaining weight, you will even start seeing your weight fall off without even trying... as your body starts to be programed to be slim.</p>
+			<p>And as long as you continue to introduce more skinny bacteria in your gut... they can continue to grow, germinate and multiply...</p>
+			<h2>You Will <strong>Never</strong> Have To Worry About Gaining Weight Again!</h2>
+			<p>Once you allow the skinny bacteria to take root and multiply effectively, you'll start to see amazing changes to your body.</p>
+			<p>The first thing you'll notice is that you'll have less cravings, as your body's hunger hormones are conditioned to help you to consume less food.</p>
+			<p>Then you'll find yourself with more energy as your body burns off the excess fat in your body.</p>
+			<p>You'll even start noticing that your weight will drop, beginning with your belly and waist area.</p>
+			<p>Then thighs and arms.</p>
+			<p>And then all around your body, as it burns more and more unwanted fat.</p>
+			<p>You'll also start to see your figure get leaner and slimmer.</p>
+			<p>Until you achieve the ideal figure for your body.</p>
+			<p>The best part?</p>
+			<h4>All this happens naturally once your body is fully <strong>reprogrammed to be slim.</strong></h4>
+			<h2 class="normalfont">&ldquo;That's great Reina! I'm going to start taking a bunch of <b>probiotics</b> and see if I'm able to lose the weight!&rdquo;</h2>
+			<p class="text-center"><img src="{{ 'probiotics.jpg' | asset_url }}" class="img-fluid img-thumbnail float-lg-left mr-md-4 mb-4" alt=""></p>
+			<p>Hold up!</p>
+			<p>Before you rush off to buy a probiotic supplement, you need to know why most, if not all, off-the-shelf probiotic supplements are a waste of money.</p>
+          	<p>For a start, there are 3 specific, rare strains of skinny bacteria that are <b><u>not widely available</u></b> in drugs stores or supermarkets.</p>
+			<p>The truth?</p>
+			<h4>Just because it says &ldquo;probiotic&rdquo; on the label doesn't mean it's going to be effective at helping you lose weight.</h4>
+			<p>Far from it!</p>
+			<p>In fact there are even a few strains found in yogurt and certain fermented foods that make you <strong>GAIN</strong> weight (talk about walking through a minefield)...</p>
+			<p>Tons of scientific studies have found that <strong class="redalert">one of the most common probiotics called <em>acidophilus</em> might even cause weight gain.</strong></p>
+			<p class="text-center"><img src="{{ 'acidophilus.jpg' | asset_url }}" class="img-fluid img-thumbnail float-lg-right ml-md-4 mb-4" alt=""></p>
+			<p>In a scientific review of 17 randomized controlled trial, 51 studies and 14 experimental models, they found that <strong><em>acidophilus</em> caused significant weight gain in both humans and animals</strong>.</p>
+			<p>If you are currently taking some kind of probiotic, make sure to check for fat gaining strains like <em>acidophilus</em>. You would be surprised at just how many probiotic supplements contain these strains.</p>
+			<h2>And with probiotics projected to be a <strong><u>$1.7 BILLION dollar</u></strong> industry by 2019... be wary of who you buy from!</h2>
+			<p>To take advantage of the trend...</p>
+			<p>There are hundreds (names not revealed here) of companies who have simply thrown in as many probiotic strains as they can without doing due diligence to check if the science backs up the big claims they've slapped on the label.</p>
+			<p>Others have added fillers like caffeine to make people &ldquo;feel&rdquo; like the supplement's working, when all it does is give you the jitters.</p>
+			<p>Worst of all, some even use low quality capsules that disintegrate the moment they touch your stomach acid.</p>
+			<p>I'm sorry to say...</p>
+			<p>But many of them just make expensive pee.</p>
+			<h2><strong>10,240 Hours</strong> Of Sifting Through Research Papers, Speaking To Experts &amp; Verifying Test Results...</h2>
+			<p><img src="{{ 'research.jpg' | asset_url }}" class="img-fluid img-thumbnail" alt=""></p>
+			<p>We have a team of 8 product developers, researchers and content creators working 8 hours a day for the last year making sure that we had the exact formula that would allow you to effectively reprogram your body to be slim effectively.</p>
+			<h2 class="normalfont">We decided we couldn't just lump strains together and call it a day.</h2>
+			<p>So, we dug deep into the science on the complex biological processes your body has to go through to be reprogrammed to be slim.</p>
+			<p>We read all the research papers, analyzed the latest clinical studies, spoke to dieticians, interviewed functional health doctors, hired expert nutritionists, and even quizzed leading microbiologists.</p>
+			<h2>It took a long while, but after 9 months of research, testing and refining, we finally found the most effective <strong><u>Fat Loss Reprogramming Formula</u></strong></h2>
+			<p>It all starts with one specific strain of super &ldquo;skinny bacteria&rdquo;...</p>
+		</div> <!-- /col-lg-10 -->
+	</div> <!-- /row1-after1 -->
+</div> <!-- /cont-after1 -->
+
+<div class="jumbotron jumbotron-fluid" id="gasseri">
+	<div class="container">
+		<div class="row" id="row1-gasseri">
+			<div class="col-lg-10 mx-auto">
+				<h2 class="redalert">L. gasseri SBT 2055, The Most Sought-After Weight Loss Bacteria Known To Scientists <u>Right Now</u>...</h2>
+				<p><img src="{{ 'l-gasseri-sbt-2055.jpg' | asset_url }}" class="img-fluid img-thumbnail" alt=""></p>
+				<h4>This particular bacteria have been <strong>clinically proven to help you lose weight</strong> naturally and effectively without needing to change what you eat or your lifestyle.</h4>
+				<p>By helping your body to BLOCK fat absorption, while simultaneously BURN away the excess unwanted fat...</p>
+				<p>You will find the fat on your body falling off automatically.</p>
+				<p>In 2015, just 3 years ago, scientists in Kwago (Japan) ran a clinical test on 210 overweight subjects. Half of them taking 100mg this specific &ldquo;skinny&rdquo; bacteria for 12 weeks, the others were given a placebo.</p>
+				<h3>Here's what they found from the &ldquo;skinny&rdquo; bacteria group <strong>in just 3 months:</strong></h3>
+				<ul class="listyes">
+                  <li>They dropped 8.5% of visceral fat (the dangerous &ldquo;unseen&rdquo; type of fat that clings onto your heart, lungs, kidneys, making it difficult for organs to function). What does 8.5% of fat mean? Imagine taking <u><strong>half a 10 pound BOWLING BALL off your belly area</strong></u>.</li>
+                  <li>They eliminated 4.6% of belly fat in just 12 weeks. Boom! That's another 2.6 pounds off (the <u><strong>weight of a small dumb-bell</strong></u>).</li>
+                  <li>AND... that's not all, after the final weigh in, they also noticed that they lost 1.4% of their entire body weight (that's <u><strong>ONE pound PER WEEK</strong></u>).</li>
+				</ul>
+                <p><img src="{{ 'healthy-weight-loss.jpg' | asset_url }}" class="img-fluid img-thumbnail" alt=""></p>
+				<p>And unlike nearly every weight loss study...</p>
+              <h2 class="redalert">This Was Achieved <i>Without</i> Any Dieting Or Exercise</h2>
+				<p>Another thing to note, for the clinical study done by the Japanese scientists, NONE of the weight loss was from extreme diets or exercise. <strong>It was simply achieved by adding L. gasseri to their daily diet.</strong></p>
+				<p>If the amazing research above hasn't blown you away yet... That's not all.</p>
+				<p>Besides helping you to burn fats away naturally, teams of scientists at the French National Centre for Scientific Research (CNRS) and from Inserm (French National Institute of Health and Medical Research) also concluded that <strong>consuming L Gasseri results in:</strong></p>
+				<ul class="listyes">
+					<li>Improved digestion of food and nutrient absorption</li>
+					<li>Reduced gas, bloating, IBS, and constipation.</li>
+					<li>Regulation of metabolic pathways and absorption of fatty acids</li>
+					<li>Enhanced immunity against ill health and disease</li>
+				</ul>
+				<p>They even found that improving gut health from L. gasseri <strong>may relieve severe conditions like cancer, Crohn's disease, depression, anxiety, and even bipolar disorder</strong>.</p>
+				<h2 class="redalert">What if you could lose 5-25 pounds over 4 months, greatly increase your &ldquo;slowing&rdquo; metabolism and wear that little black dress again?</h2>
+				<h3>Here's the science behind how L. gasseri works:</h3>
+				<ul class="listyes">
+					<li><strong>Suppresses fat absorption</strong> from the food we eat, so the fat gets passed out instead of being absorbed (think about it like how a poncho repels rain off you in a storm).</li>
+					<li><strong>Blocks the fat cells from getting bigger</strong>, which prevents fat accumulation under the skin and weight gain (smaller fat cells, less obvious bulges)</li>
+					<li><strong>Increases metabolism by burning more calories</strong> (burn! Great for women who are guilty of spending too much time on the couch and have grown a small, unsightly &ldquo;pooch&rdquo;)</li>
+					<li><strong>Reduces inflammation</strong> which controls uncontrollable food cravings (donuts only when YOU decide)</li>
+				</ul>
+				<div class="borderbox">
+					<div class="row doctorsquotes">
+						<div class="col-lg-2">
+							<p class="text-center"><img src="{{ 'dr-oz.jpg' | asset_url }}" class="img-fluid img-thumbnail" alt=""></p>
+						</div>
+						<div class="col-lg-10 align-middle">
+							<p>Dr Oz said that L Gasseri &ldquo;blasts belly fat&rdquo;</p>
+						</div> <!-- /col-lg-10 -->
+					</div> <!-- /doctorsquotes -->
+					<div class="row doctorsquotes">
+						<div class="col-lg-2">
+							<p class="text-center"><img src="{{ 'dr-mercola.jpg' | asset_url }}" class="img-fluid img-thumbnail" alt=""></p>
+						</div>
+						<div class="col-lg-10 align-middle">
+							<p>Dr Mercola said that daily intake of L Gasseri &ldquo;helps weight loss in people.&rdquo;</p>
+						</div> <!-- /col-lg-10 -->
+					</div> <!-- /doctorsquotes -->
+					<div class="row doctorsquotes">
+						<div class="col-lg-2">
+							<p class="text-center"><img src="{{ 'dr-axe.jpg' | asset_url }}" class="img-fluid img-thumbnail" alt=""></p>
+						</div>
+						<div class="col-lg-10 align-middle">
+							<p>Dr Josh Axe said that L gasseri is &ldquo;especially effective when it comes to weight loss&rdquo;.</p>
+						</div> <!-- /col-lg-10 -->
+					</div> <!-- /doctorsquotes -->
+				</div> <!-- /borderbox -->
+				<h4>If you want to reprogram your body to burn the fat and keep you slim, fit and youthful looking, <strong>taking L. gasseri every day is a must.</strong></h4>
+				<p>You might probably be wondering...</p>
+				<div class="highlightbox">
+					<h2>Why haven't you heard of L. gasseri yet?</h2>
+					<p>This is a recent groundbreaking discovery in the scientific world (only tested & discovered in 2015). Typically, it takes established scientific discoveries 5 - 15 years before they go mainstream.</p>
+					<p>Plus, right now so many big pharma companies that have invested in other strains of bacteria in their products. It only makes economic sense that they try to bury this great news to protect their interests.</p>
+					<p>But our focus is creating the best, most effective product that will help the most people.</p>
+					<p>That's why on our quest to create the best product, we've  found that while L. gasseri is a fantastic probiotic for weight loss, there are 2 other super strains that work synergistically together and made each other even more effective for dropping pounds...</p>
+				</div> <!-- /highlightbox -->
+				<p>I'll share with you some of the results doctors have seen with them and how you can get your hands on them in a short while.</p>
+				<h4>When taken together, these 3 skinny bacteria have been found to:</h4>
+				<ul class="listyes">
+					<li><strong>Blast away the unwanted stubborn fat</strong>, especially in your belly area</li>
+					<li><strong>Ramp up body's metabolism</strong> to burn extra calories in the body</li>
+					<li><strong>Shrink fat cells permanently</strong> by block them from expanding</li>
+					<li><strong>Absorb less fat and calories</strong> from food</li>
+				</ul> <!-- /listyes -->
+				<p>Your body will start getting rid of the unwanted stubborn fat naturally on its own and then work very hard (for you) to maintain its slim figure.</p>
+				<p>All without you having to restrict what you eat or force yourself to go on another tiring exercise program!</p>
+				<p>When we heard about these 3 Slim Bacteria we knew I had to RUSH this to the market before &ldquo;Big Foods&rdquo; tried to start pushing counterfeit versions of this into &ldquo;special yogurts&rdquo; and tout more fake health benefits.</p>
+				<p>But we've decided to go one step further by combine these Slim Bacteria with 3 additional key ingredients that have been scientifically proven to work synergistically together to accelerate your weight loss.</p>
+				<p>In one randomized clinical study of 140 overweight people, those who took these 3 key ingredients saw huge weight loss results.</p>
+				<h4>As compared to the placebo, subjects who took these 3 key ingredients for 16 weeks:</h4>
+				<ul class="listyes">
+					<li>Lost almost 10 more pounds more</li>
+					<li>Lost over an inch more around the hips</li>
+					<li>Lost over an inch more around the waist</li>
+				</ul> <!-- /listyes -->
+              <h2 class="normalfont">And here at Better Body Co, we've created an <b>amazing new product that combines the most <span class="redalert">powerful Slim Bacteria</span> and <span class="redalert">3 Fat Burning Ingredients</span> to reprogram your body <span class="redalert">for maximum weight loss</span> effortlessly and naturally all in one place...</b></h2>
+			</div> <!-- /col-lg-10 -->
+		</div> <!-- /row1-gasseri -->
+	</div> <!-- /container -->
+</div> <!-- /gasseri -->
+
+<div class="jumbotron jumbotron-fluid" id="product-intro">
+	<div class="container">
+		<div class="row" id="row1-product-intro">
+			<div class="col-lg-12 mx-auto">
+				<p class="text-center"><img class="img-fluid float-lg-left mr-md-4 mb-4" src="{{ 'provitalize-1bottle.jpg' | asset_url }}" alt="Provitalize Bottle"></p>
+				<h1 class="text-left"><em>Introducing &ndash; Provitalize:</em><br>The Only Probiotic Supplement On The Market Designed Specifically <span class="highlight">For Maximum And Sustainable Weight Loss!</span></h1>
+			</div> <!-- /col-lg-10 -->
+		</div> <!-- /row1-product-intro -->
+	</div> <!-- /container -->
+</div> <!-- /product-intro -->
+
+<div class="container" id="cont-after2">
+	<div class="row" id="row1-after2">
+		<div class="col-lg-10 mx-auto">
+			<h4>Like I mentioned a moment ago, <strong>your gut is the place</strong> where the magic and the tragic actually take place.</h4>
+			<p>In order for your body to be successfully programmed for maximum fat loss, you must help the Slim Bacteria to continuously grow and and thrive in your gut.</p>
+			<p><strong>And we've designed the ONLY supplement on the market today that specifically &ldquo;reprograms&rdquo; your body to be able to burn unwanted fat and lose weight effortlessly.</strong></p>
+			<p>Listen... I'm not telling you by any means that you can swing through the drive-thru every single day and grab a bag of burgers and fries for lunch and then gorge yourself on pizza for dinner.</p>
+			<p>But if you're on THIS page right now then you already know that.</p>
+			<h2>You're here because you've tried literally EVERYTHING you can think of to get rid of that excess weight <strong>and NOTHING has worked.</strong></h2>
+			<p>You've spent countless hours trying to put a Band-Aid on a bleeding artery without ever knowing why you're even bleeding!</p>
+			<p>So out of all the thousands of so called &ldquo;weight loss supplements&rdquo; on the market right now, what makes Provitalize so very different, especially when it comes to weight loss?</p>
+			<p>Let's take a look:</p>
+			<p>When I realized some time ago that the hidden key to weight and fat loss HAD to start in the gut I have to admit I got a little obsessed.</p>
+			<p>I didn't want to just have my team create yet another so called &ldquo;weight loss product&rdquo; that requires you to still eat less than 1800 calories and exercise every other day.</p>
+			<h3>I wanted to specifically create a formula to allow your body to lose this fat automatically.</h3>
+			<p>And even you still decided to exercise and eat healthier, it's not because you need to, but because it just helps you to lose weight FASTER.</p>
+			<p><strong>It wasn't an easy task.</strong></p>
+			<h2 class="redalert">We spent thousands of hours trying to perfect our formula.</h2>
+			<p>Different bacteria strains affect the body in different ways.</p>
+			<p>I can't tell you how many times I wanted to throw in the towel, and throw a whole bunch of supplement bottles against the wall in frustration (that last part might have happened once or twice!)</p>
+			<p>It was clear to me that this supplement HAD to successfully reprogram the body to accomplish several things or I wasn't even going to release a test batch:</p>
+			<div class="borderbox">
+				<h3>1. Blunt uncontrollable food cravings and large appetite</h3>
+				<p class="text-center"><img src="{{ 'control-cravings.jpg' | asset_url }}" class="img-fluid img-thumbnail float-lg-left mr-md-4 mb-4" alt=""></p>
+				<p>...so that you will be less tempted to binge eat on high fat and high calories food. Abnormally large cravings and hunger are usually the reason why most people keep putting on weight. When you crave less, you eat less, and your body absorb less calories.</p>
+			</div> <!-- /borderbox -->
+			<div class="borderbox">
+				<h3>2. Reduce the calories and fat being absorbed from the food you eat.</h3>
+				<p class="text-center"><img src="{{ 'reduce-calories.jpg' | asset_url }}" class="img-fluid img-thumbnail float-lg-left mr-md-4 mb-4" alt=""></p>
+				<p>This means that even if you eat the same amount of food, your body will be &ldquo;programmed&rdquo; to absorb less calories than before. As I've mentioned, the gut bacteria affect how much calories and fat are being absorbed from the food you eat. Two people can eat the same amount of food but absorb different amount of calories (one of the reasons why some people put on weight much quicker than others even though they eat the same).</p>
+			</div> <!-- /borderbox -->
+			<div class="borderbox">
+				<h3>3. Shrink fat cells and block fat storage.</h3>
+				<p class="text-center"><img src="{{ 'shrink-fat-cells.jpg' | asset_url }}" class="img-fluid img-thumbnail float-lg-left mr-md-4 mb-4" alt=""></p>
+				<p>Whenever there are excess fatty acid or calories in your body, they will accumulate and store in your fat cell as fats. These will cause the fats under your skin (especially the thigh, waist, belly) to expand and get fat. Some bacteria strain can program your fat cell to block fat storage (like a shield).</p>
+			</div> <!-- /borderbox -->
+			<div class="borderbox">
+				<h3>4. Boost metabolism</h3>
+				<p class="text-center"><img src="{{ 'boost-metabolism.jpg' | asset_url }}" class="img-fluid img-thumbnail float-lg-left mr-md-4 mb-4" alt=""></p>
+				<p>...by increasing energy expenditure so that you burn more calories each day. This would not only make you feel more energetic each day, but also create an &ldquo;energy deficiency&rdquo; so that your body will burn stored fat from your body, especially in your thigh, waist and belly.</p>
+			</div> <!-- /borderbox -->
+			<p>It was a daunting task, but after multiple failed attempted, we had our very first samples of Provitalize in our hands...</p>
+			<p>And...</p>
+			<h2 class="redalert">The Results Have Been Amazing For The First Batch Of 10,000 Customers!</h2>
+			<div class="row testicontainer">
+				<div class="col-md-3 testipic">
+					<img class="img-fluid img-thumbnail" src="{{ 'testipic-patricia.c.jpg' | asset_url }}" alt="">
+				</div> <!-- /testipic -->
+				<div class="col-md-9 testibody">
+					<h5>Amazing!</h5>
+					<p>I’ve tried many probiotics with little result in the past.</p>
+					<p>Now, I’m just about at the end of my first 30 days of Provitalize and can say my joints are happier, I’m sleeping more soundly and saving the best for last...</p>
+                    <p><b><u>Lost 8 Pounds!</u></b></p>
+                  	<p><strong>Patricia C</strong></p>
+				</div> <!-- /testibody -->
+			</div> <!-- /testicontainer -->
+			<div class="row testicontainer">
+				<div class="col-md-3 testipic">
+					<img class="img-fluid img-thumbnail" src="{{ 'testipic-michelle.w.jpg' | asset_url }}" alt="Joyce B.">
+				</div> <!-- /testipic -->
+				<div class="col-md-9 testibody">
+					<h5> I Was Disappointed In So Many Weight Loss Product...But Now, I’ve Losing 20 Pounds At The Age Of 66!</h5>
+                    <p>Before Provitalize... I tried so many products that have promised me so much and FAILED.</p>
+                    <p>But your product came through with FLYING colours!!!</p>
+              	    <p>I took a chance, I believed and I’ve <b><u>lost 20 POUNDS in the last few months</u></b>.</p>
+                    <p>Not only that, my acid reflux has disappeared...My digestion is better and I’m telling ALL my friends about it!!!</p>
+                    <p>I sure hope they try this product right now, and start living the life I wished I had YEARS AGO!</p>
+                    <p>Thank you for being honest, being truthful about a your product that has been a MIRACLE for me.</p>
+                    <p><strong>Joyce B</strong></p>
+				</div> <!-- /testibody -->
+			</div> <!-- /testicontainer -->
+			<p>But... as exciting as it is to see how quickly and effectively the weight was falling off...</p>
+			<h3>Frankly, the most surprising thing for us was not how quickly or how much weight people were losing.</h3>
+			<div class="row testicontainer">
+				<div class="col-md-3 testipic">
+					<img class="img-fluid img-thumbnail" src="https://cdn.shopify.com/s/files/1/2060/5733/files/Michelle-W-600-x-600.jpg" alt="Michelle W.">
+				</div> <!-- /testipic -->
+				<div class="col-md-9 testibody">
+					<h5>Amazing Energy, Eliminated Brain Fog!</h5>
+					<p>My girlfriend and I started on Provitalize 2 months ago to work on our gut issues.</p>
+					<p>I’ve been researching a lot on our inner eco-system and we decided to give it a try.</p>
+					<p>We’ve tried many different probiotics to help with our digestion and this is THE ONE!</p>
+                    <p><b><u>Her brain fog has lifted and my energy has been great.</u></b> (:</p>
+					<p>We’re ready to order our next bottles after finishing 2 each.</p>
+					<p>I’m not paid to share this review, just wanted to let other ladies know that this product WORKS!</p>
+					<p><strong>Michelle W</strong></p>
+				</div> <!-- /testibody -->
+			</div> <!-- /testicontainer -->
+          <h3>Sure, the results were nothing short of <strong>spectacular</strong>.</h3>
+			<div class="row testicontainer">
+				<div class="col-md-3 testipic">
+					<img class="img-fluid img-thumbnail" src="https://cdn.shopify.com/s/files/1/2060/5733/files/Jennifer-T-600x600.jpg" alt="">
+				</div> <!-- /testipic -->
+				<div class="col-md-9 testibody">
+					<h5>Starting On Autoship For Both Provitalize &amp; Previtalize!</h5>
+					<p>I’ve been feeling so much better after taking Provitalize and Previtalize.</p>
+					<p>I wanted to make sure that it worked before I went on autoship...and I wanna tell you ladies that this works like a CHARM!</p>
+					<p>I’m ordering more right now as I’m typing this!!!</p>
+					<p><strong>Jennifer T</strong></p>
+				</div> <!-- /testibody -->
+			</div> <!-- /testicontainer -->
+			<h3>People even started seeing their fat shrinking in just 2 weeks.</h3>
+			<div class="row testicontainer">
+				<div class="col-md-3 testipic">
+					<img class="img-fluid img-thumbnail" src="https://cdn.shopify.com/s/files/1/2060/5733/files/Rachel-Z-600x600.jpg" alt="">
+				</div> <!-- /testipic -->
+				<div class="col-md-9 testibody">
+					<h5>So Effective!</h5>
+                  <p>I have used turmeric curcumin but never with notable results.</p>
+                  <p>I strongly believe that the reason provitalize is so effective is because of how it is compounded with black pepper along with the other vital ingredients to make this a successful formula for healthy wellness.</p>
+                  <p>I’m losing weight and have only been using it for 2 weeks!!!</p>
+					<p><strong>Rachel Z</strong></p>
+				</div> <!-- /testibody -->
+			</div> <!-- /testicontainer -->
+			<h3>On average people were losing 2 to 5 pounds a week.</h3>
+			<div class="row testicontainer">
+				<div class="col-md-3 testipic">
+					<img class="img-fluid img-thumbnail" src="{{ 'testipic-melanie.w.jpg' | asset_url }}" alt="">
+				</div> <!-- /testipic -->
+				<div class="col-md-9 testibody">
+					<h5>Bloating? Gone! Lost 5 Pounds In 14 Days With NO Effort!</h5>
+                  <p>I have been taking the product for approximately 2 weeks.</p>
+                  <p>I have noticed two things, first my bloating and feeling puffy has decreased and second my cravings/appetite is decreasing as well.</p>
+                  <p>I have <b><u>lost 5 pounds in the two weeks without effort</u></b>!!!</p></p>
+					<p><strong>Melanie W</strong></p>
+				</div> <!-- /testibody -->
+			</div> <!-- /testicontainer -->
+          	<h3><center>But what was most surprising for us was that...</center></h3>
+			<h2 class="redalert">NONE Of Them Made Any Changes To Their Diet Or Lifestyle.</h2>
+			<h3>They didn't try to eat less.</h3>
+			<div class="row testicontainer">
+				<div class="col-md-3 testipic">
+					<img class="img-fluid img-thumbnail" src="https://cdn.shopify.com/s/files/1/2060/5733/files/Debbie-M-270x270.jpg" alt="">
+				</div> <!-- /testipic -->
+				<div class="col-md-9 testibody">
+					<h5>Appetite reduction and toning up</h5>
+                  	<p>I’ll admit I was skeptical at first considering I’ve tried every diet and every fad available. I’m was about 15 lbs overweight.</p> 
+                  	<p>I’m on week 2 and I notice a decrease in appetite and most notably, I feel fuller quicker and eat a little less each meal.</p>
+                    <p>I lost 4 lbs so far. I don’t have that bloat around the belly anymore. 
+                 	 <p><b>I’m not doing any diet programs while doing this</b>, just eating regular food but healthier and in moderation.</p>
+					<p><strong>Debbie M</strong></p>
+				</div> <!-- /testibody -->
+			</div> <!-- /testicontainer -->
+			<div class="row testicontainer">
+				<div class="col-md-3 testipic">
+				<img class="img-fluid img-thumbnail" src="{{ 'testipic-joyce.b.jpg' | asset_url }}" alt="">
+				</div> <!-- /testipic -->
+				<div class="col-md-9 testibody">
+					<h5>Just ASTOUNDING!!!</h5>
+					<p>40 was not kind to me; with no change in my eating habits I went from a size two to a size ten.</p>
+                  <p>I have a very slight bone structure...so I was devastated!</p>
+                  <p>I exercised, I went carb free but nothing worked!</p>
+                  <p>What’s worse? My hair changed texture, my nails fell apart, I got acid reflux and constipation.</p>
+                  <p>I bloated up looking pregnant..... I tried the "special yogurt"... it did nothing.</p>
+                  <p>I was lost, frustrated and on the verge of giving up.</p>
+                  <p>4 weeks ago, I came across Provitalize on Facebook from a post my Friend shared about her weight loss journey.</p>
+                  <p>I read up on it and I said heck with it and ordered some.</p>
+                  <p><b>For the first time in nearly eight years I am ACTUALLY losing weight!!!</b></p>
+                  <p><b><u>No change in eating habits and my exercise discipline bites.</u></b> (I need to work on that...)</p>
+                  <p>While I don't do scales, I can't give you a number.</p>
+                  <p>But I barely bloat now...</p>
+                  <p>My swimsuit is getting loose...</p>
+                  <p>And most importantly my clothes are looking so much better!</p>
+                  <p>I am HOOKED!!!</p>
+                  <p>Provitalize for me!!!</p>
+					<p><strong>Rebecca C</strong></p>                  
+				</div> <!-- /testibody -->
+			</div> <!-- /testicontainer -->
+			<div class="row testicontainer">
+				<div class="col-md-3 testipic">
+					<img class="img-fluid img-thumbnail" src="https://cdn.shopify.com/s/files/1/2060/5733/files/Jin-K-600x600.jpg" alt="">
+				</div> <!-- /testipic -->
+				<div class="col-md-9 testibody">
+					<h5>I Didn’t Eat One CRUMB Of Junk Food At A 3 Day Long PTA!!!</h5>
+                    <p>Provitalize has given me NEW WILLPOWER!</p>
+                    <p>I work in education and during teacher appreciation week our PTA brings in three days of lunch, and junk food all week long.</p>
+                    <p>Donughts, cookies, muffins, chips, cakes, etc.</p>
+                    <p>That whole week I didn't eat one crumb of any of that food and actually did an intentional three day fast. I was fine.</p>
+                    <p>I felt powerful and confident this when I was taking Provitalize.</p>
+                    <p>A few weeks later I tried to fast again, but could not do one day.</p>
+                    <p>Provitalize was the common denominator.</p>
+                    <p>It gave me a control over food that I never had before.</p>
+                    <p>And more importantly <b><u>it gave me my life back</u></b>!</p>
+                    <p>I am certainly reordering and going back on Provitalize again and again.</p>
+					<p><strong>Jin K</strong></p>
+				</div> <!-- /testibody -->
+			</div> <!-- /testicontainer -->
+			<h3>They didn't try to exercise more.</h3>
+			<div class="row testicontainer">
+				<div class="col-md-3 testipic">
+					<img class="img-fluid img-thumbnail" src="{{ 'testipic-b.ortolano.png' | asset_url }}" alt="">
+				</div> <!-- /testipic -->
+				<div class="col-md-9 testibody">
+					<h5>Everything In One Bottle</h5>
+              	    <p>I'm almost finished with my first bottle and I've definitely noticed an increase in my energy, not falling asleep at 3pm.</p> 
+              	    <p>I feel like my food cravings have subsided and have noticed changes in my body especially the mid-section. I appreciate the value of probiotics on overall health so I will continue to take Provitalize.</p>
+                  	<p><strong>B Ortolano</strong></p>
+				</div> <!-- /testibody -->
+			</div> <!-- /testicontainer -->
+			<h3>They just took this Fat Loss Reprogram Formula and then see the weight fell off.</h3>
+			<div class="row testicontainer">
+				<div class="col-md-3 testipic">
+					<img class="img-fluid img-thumbnail" src="{{ 'testipic-jin.k.jpg' | asset_url }}" alt="">
+				</div> <!-- /testipic -->
+				<div class="col-md-9 testibody">
+					<h5>My Husband Started Taking Provitalize Too</h5>
+					<p>Even my husband who is my biggest critic has noticed a big difference so he started taking them.</p>
+                  <p>This is probably the best weight loss/feel good supplement I've ever taken... In two weeks, my gut has reduced significantly and my cravings have subsided bigtime..</p>
+                  <p>I'm still in awe, it was nearly impossible for me lose a pound starving myself and exercising previously. But in the last two weeks of taking Provitalize, <b><u>I've dropped almost 4 lbs...</u></b> I'm 42.</p>
+					<p><strong>Idania F</strong></p>
+				</div> <!-- /testibody -->
+			</div> <!-- /testicontainer -->
+			<h3>It works like magic.</h3>
+			<div class="row testicontainer">
+				<div class="col-md-3 testipic">
+					<img class="img-fluid img-thumbnail" src="https://cdn.shopify.com/s/files/1/2060/5733/files/Petra-L-600x600.jpg" alt="">
+				</div> <!-- /testipic -->
+				<div class="col-md-9 testibody">
+					<h5>It works like magic.</h5>
+					<p>Bought Provitalize to help with my Celiacs and to stop sugar / carb cravings. I saw Previtalize during check out. </p>
+                    <p>Tried other natural products to help with Adrenal fatigue & managinging cortisol levels under Doctor supervision. </p>
+                  	<p>This combination of Pro & Pre together has helped me like no other.</p>
+                  	<p>They really work for me! Thank you.</p>
+                  	<p><strong>Petra L</strong></p>
+				</div> <!-- /testibody -->
+			</div> <!-- /testicontainer -->
+			<p><strong>From stressed out professors in Missouri, to fit nutritionists in Colorado, to busy single moms in Phoenix, to previously-chubby grandmas in Washington...</strong></p>
+			<p>Provitalize works for anyone who wants to lose weight without changing their eating habits or lifestyle.</p>
+			<p>It is simple to use, backed by science, and incredibly effective.</p>
+			<h2 class="redalert">And the same results are waiting for you!</h2>
+			<p>That's just a few of the literally thousands of reviews we've gotten from people all across the world who've already experienced the power of Provitalize...</p>
+			<p>But what makes it work so incredibly well for weight loss?</p>
+			<p>We discovered the exact combination of ingredients from around the globe that when put together in the right amounts create the &ldquo;perfect storm&rdquo; of fat loss!</p>
+		</div> <!-- /col-lg-10 -->
+	</div> <!-- /row1-after2 -->
+</div> <!-- /cont-after2 -->
+
+<div class="jumbotron jumbotron-fluid" id="product-benefits">
+	<div class="container">
+		<div class="row" id="row1-product-benefits">
+			<div class="col-lg-12 mx-auto">
+				<p class="text-center"><img class="img-fluid float-lg-right ml-md-4 mb-4" src="{{ 'provitalize-fat-loss.png' | asset_url }}" alt="Provitalize Bottle"></p>
+				<h1 class="text-left"><em>Provitalize:</em><br><span class="highlight">Formulated for Maximum Fat Loss</span></h1>
+				<h3>Provitalize contains ingredients that work together to do one or more of these 4 key functions:</h3>
+				<ul class="listyes">
+					<li><strong>Block Fat Absorption</strong> &ndash; Provitalize prevents your body from absorbing large amounts of fat from the food that you eat, especially on a high-fat diet.</li>
+					<li><strong>Ban Fat Storage</strong> &ndash; Provitalize blocks fat storage by preventing the fat cells from getting bigger (thus preventing you from literally getting bigger as well)</li>
+					<li><strong>Boost Metabolism</strong> &ndash; Provitalize increases your energy expenditure by burning the excess calories and stored fat in your body.</li>
+					<li><strong>Banish Cravings</strong> &ndash; Provitalize curbs unwanted food cravings and abnormally large appetites by reducing inflammation and regulating the hunger hormones in our bodies.</li>
+				</ul> <!-- /listyes -->
+              <p><a href="#first-pt"><img src="{{ 'cta-button.png' | asset_url }}" class="img-fluid" alt=""></a></p>
+			</div> <!-- /col-lg-10 -->
+		</div> <!-- /row1-product-benefits -->
+	</div> <!-- /container -->
+</div> <!-- /product-benefits -->
+
+<div class="container" id="cont-after3">
+	<div class="row" id="row1-after3">
+		<div class="col-lg-10 mx-auto">
+			<h3>There are a total of <strong>8 powerful ingredients inside every capsule of Provitalize</strong> that help it work its magic and...</h3>
+			<p>It all starts with the three of the most effective Slim Bacteria.</p>
+			<p>These three strains are the SUPERHEROES of the probiotic world especially when it comes to reducing body fat.</p>
+			<p>The first probiotic strain is</p>
+		</div> <!-- /col-lg-10 -->
+	</div> <!-- /row1-after3 -->
+</div> <!-- /cont-after3 -->
+
+<div class="jumbotron jumbotron-fluid" id="probiotic-gasseri">
+	<div class="container">
+		<div class="row" id="row1-probiotic-gasseri">
+			<div class="col-lg-10 mx-auto">
+				<h2><strong>Probiotic Super Strain #1:</strong> L. gasseri</h2>
+				<p><img src="{{ 'l-gasseri-sbt-2055.jpg' | asset_url }}" class="img-fluid img-thumbnail" alt=""></p>
+				<h4><strong>L. gasseri has it all.</strong> It's one of the newest and most specific probiotic strains that targets obesity and metabolic syndrome.</h4>
+				<p>This remarkable probiotic actually <strong>reduces fat absorption, increases your metabolism, reduces food cravings, and also helps prevent fat from being stored in your body</strong>.</p>
+				<p>And it's that last part there that's <strong class="redalert">SO vitally important.</strong></p>
+				<p>Which means you won't have to eat rabbit food all the time hoping and praying it will help you lose weight. You can even indulge in the occasional snack or dessert without the usual crushing guilt you may be feeling right now.</p>
+				<div class="borderbox">
+					<h4>Here’s the full study on L. gasseri I mentioned earlier:</h4>
+					<p>A recent study on 210 Japanese adults found this particular strain of probiotic to be particularly effective in decreasing excess bodyweight.</p>
+					<p>The study published in the Journal of Nutrition, showed that consumption of fermented milk containing the probiotic, Lactobacillus gasseri (L. gasseri) for 12 weeks, resulted in substantially reduced abdominal fat compared to the placebo control group.</p>
+				</div> <!-- /borderbox -->
+				<h2>Up next:</h2>
+			</div> <!-- /col-lg-10 -->
+		</div> <!-- /row1-probiotic-gasseri -->
+	</div> <!-- /container -->
+</div> <!-- /probiotic-gasseri -->
+
+<div class="jumbotron jumbotron-fluid" id="probiotic-breve">
+	<div class="container">
+		<div class="row" id="row1-probiotic-breve">
+			<div class="col-lg-10 mx-auto">
+				<h2><strong>Probiotic Super Strain #2:</strong> B. breve</h2>
+				<p><img src="{{ 'b-breve.jpg' | asset_url }}" class="img-fluid img-thumbnail" alt=""></p>
+				<h4>Clinical trials have shown that B. breve helps to:</h4>
+				<ul class="listyes">
+					<li>Maintain healthy body weight</li>
+					<li>Support healthy cholesterol levels</li>
+					<li>Help maintain healthy blood sugar levels</li>
+					<li>Regulate stress hormones (like cortisol I mentioned earlier!)</li>
+				</ul> <!-- /listyes -->
+				<p>Research has proven that B. breve significantly lowers fat mass in adults with a tendency for obesity.</p>
+				<p>One of effective ways which B. breve helps with weight loss is by &ldquo;turning on&rdquo; the genes that increases fat metabolism.</p>
+				<p>In other words, it helps your body to burn more fat.</p>
+				<p>On top of that, B. breve is also extremely effective at decreasing inflammation.</p>
+				<p>As you know, inflammation is one of the biggest causes of food cravings and weight gain.</p>
+				<div class="borderbox">
+					<p>A 12 week Japanese animal study found that <strong>B. breve <em>&ldquo;resulted in significantly decreased CRP levels compared with the placebo group&rdquo;</em></strong>, where CRP is a key measure of inflammation.</p>
+					<p>The same study also found this contributed to <strong>significantly lowering fat mass</strong>.</p>
+					<p>While a team of Japanese scientists led by Yodai Kobayashi found that giving B. breve to mice flushed inflammation from their cells, helping to reverse the symptoms of Alzheimer's.</p>
+				</div> <!-- /borderbox -->
+				<h3>Then finally comes...</h3>
+			</div> <!-- /col-lg-10 -->
+		</div> <!-- /row1-probiotic-breve -->
+	</div> <!-- /container -->
+</div> <!-- /probiotic-breve -->
+
+<div class="jumbotron jumbotron-fluid" id="probiotic-lactis">
+	<div class="container">
+		<div class="row" id="row1-probiotic-lactis">
+			<div class="col-lg-10 mx-auto">
+				<h2><strong>Probiotic Super Strain #3:</strong> B. lactis</h2>
+				<p><img src="{{ 'b-lactis.jpg' | asset_url }}" class="img-fluid img-thumbnail" alt=""></p>
+				<h4>B. lactis is often known as the &ldquo;Booster Shot&rdquo; of probiotics due to its ability to <strong>bulletproof the body against infections and disease</strong> by playing a key role in your overall immunity.</h4>
+				<p>This includes cleansing the body for one of the worst toxins that contributes to 610,000 deaths a year from heart attacks &ndash; LDL cholesterol.</p>
+				<div class="borderbox">
+					<p>A six month study, reported in the journal Nutrition &amp; Metabolism, found that eating a yogurt containing B. lactis for 6 months can <em>&ldquo;significantly reduce total serum cholesterol and LDL cholesterol and improve the LDL:HDL cholesterol ratio&rdquo;</em>.</p>
+					<p>In fact, B. lactis was found to <u>plummet total cholesterol by 4% and the heart attack triggering LDL-cholesterol by 5%</u>.</p>
+				</div> <!-- /borderbox -->
+				<p>Daily ingestion of milk containing B. lactis also significantly reduced the BMI, total cholesterol, low-density lipoprotein, and inflammatory markers in humans.</p>
+				<p>However, the biggest reasons why we specially included it is because clinical, randomized-controlled studies show that B. lactis has positive effects on metabolism and also helps to reduce inflammation in the body.</p>
+				<p>This one-two punch essentially reduces your calorie intake by blunting unnecessary food cravings while increasing the &ldquo;burn effect&rdquo; of the calories in your body.</p>
+			</div> <!-- /col-lg-10 -->
+		</div> <!-- /row1-probiotic-lactis -->
+	</div> <!-- /container -->
+</div> <!-- /probiotic-lactis -->
+
+<div class="container" id="cont-after4">
+	<div class="row" id="row1-after4">
+		<div class="col-lg-10 mx-auto">
+			<h3>When we saw the overwhelming research on these three powerful strains of probiotics we knew <strong>they absolutely MUST be in our formula.</strong></h3>
+			<p>By taking these 3 probiotic strains in the right dosages and ratios consistently (which we have perfected in our formula), your body will become a machine at blocking fat absorption, banning fat storage, boosting metabolism and banishing unwanted cravings.</p>
+			<h4>The scientific studies and results speak for themselves.</h4>
+			<p>But as I've mentioned earlier, we went one step further.</p>
+			<p>We want to create best fat loss formula that would not only help you to achieve a slim and attractive body, but make it effortless to maintain it forever.</p>
+			<h1>The <strong>3 Powerful Herbal Ingredients</strong> That Work Synergistically To Accelerate Your Fat Loss And Keep Them Off</h1>
+			<p>FACT: A clinical study was conducted where 140 overweight people took these 3 herbal ingredients combined for 16 weeks. From there, they lost 10 pounds of body weight and an inch of fat more around the hips and waist (as compared to the placebo)</p>
+			<h4>The first ingredient is...</h4>
+			<div class="borderbox">
+				<h2><strong>Turmeric</strong></h2>
+				<p class="text-center"><img src="{{ 'turmeric.jpg' | asset_url }}" class="img-fluid img-thumbnail float-lg-left mr-md-4 mb-4" alt=""></p>
+				<p>You probably already know that Turmeric is one of the highest-rated and highest-sought after herb in the world right now, with the compound curcumin being one of the most powerful anti-inflammatory substances on earth.</p>
+				<h5>In one of the highest-profile studies done on Turmeric and weight loss, it shows <strong>there are at least seven powerful ways that curcumin can help weight loss</strong>.</h5>
+				<p><strong>This includes:</strong></p>
+				<ul class="listyes">
+					<li>Preventing fat storage</li>
+					<li>Increasing metabolism</li>
+					<li>Reducing inflammation which aids weight loss.</li>
+				</ul> <!-- /listyes -->
+			</div> <!-- /borderbox -->
+			<h4>Next, we have:</h4>
+			<div class="borderbox">
+				<h2><strong>Moringa Leaf</strong></h2>
+				<p class="text-center"><img src="{{ 'moringa.jpg' | asset_url }}" class="img-fluid img-thumbnail float-lg-left mr-md-4 mb-4" alt=""></p>
+				<p><strong>Moringa leaf</strong> (<em>moringa oleifera</em>) has been used for over 5000 years as a healing plant. It has a huge concentration of vitamins E and C and has been proven to support healthy brain function and is even being tested currently (with some surprising results!) as a possible Alzheimer's treatment.</p>
+				<p>In addition, Moringa Leaf is like a sponge at soaking up toxins in the bloodstream.</p>
+				<p><em>The Journal of Food Science and Technology reported in one study in which 30 women reduced their blood sugar by 13.5% just by swallowing a single tablespoon of moringa leaf powder every day.</em></p>
+				<p>While a study at the University of Medical Sciences in Isfahan, Iran, found that Moringa Leaf can help to reduce inflammation in as little as 5 days.</p>
+				<p>In other words, it contains several vitamins that can boost metabolism and reduce inflammation, which helps with weight loss.</p>
+			</div> <!-- /borderbox -->
+			<h4>Finally, we added:</h4>
+			<div class="borderbox">
+				<h2><strong>Curry Leaf</strong></h2>
+				<p class="text-center"><img src="{{ 'curry-leaves.jpg' | asset_url }}" class="img-fluid img-thumbnail float-lg-left mr-md-4 mb-4" alt=""></p>
+				<p>This superfood works synergistically with all the other ingredients and contains VITAL nutrients for a healthy body. It's got phosphorous, iron, vitamins C, vitamin A, B-vitamins, and vitamin E and more.</p>
+				<p>It's known to improve digestion, help maintain healthy cholesterol and help regulate blood sugar as well.</p>
+				<p>But the reason why we added Curry Leaf is because it contains a unique compound called “carbazole alkaloids”. These alkaloids play a vital role in weight loss as well.</p>
+			</div> <!-- /borderbox -->
+			<h5>As you can see from the ingredients list, we've really gone to town in tracking down the <strong>best ingredients</strong> to create what we believe to be the most potent weight loss supplement on the market today.</h5>
+			<p>Yet that's not all that makes Provitalize so exceptional.</p>
+			<p>As mentioned, many pricier supplements are no better than “sugar pills” due to their low quality capsules.</p>
+			<p>Cheaply made capsules melt like an ice cube in a volcano the moment they reach your stomach acid, depriving you of their health benefits.</p>
+			<p>For a supplement to be effective it has to survive your stomach acid, a shower in gastric juices and a pounding by your liver. And then it had to be able to be absorbed fully into the body for maximum effect.</p>
+			<h2>How We Maximized Delivery, Absorption And Bioavailability By Adding 3 More Ingredients</strong></h2>
+			<h4>The first is a compound called <strong>piperine.</strong></h4>
+			<p class="text-center"><img src="{{ 'pepper.jpg' | asset_url }}" class="img-fluid img-thumbnail" alt=""></p>
+			<p>It's a compound found in black pepper and what it does is pretty remarkable. This compound has actually been shown to increase the absorption of nutrients into your body by as much as 30% or more!</p>
+			<p><strong>In the special case of turmeric, it’s been proven to increase the absorption of curcumin by up to (get this) 2000%!</strong></p>
+			<p>And we're using the most potent (and patented!) piperine on the planet, <strong>BioPerine&reg;</strong>!</p>
+			<p>So we're not leaving the absorption of GOOD nutrients into your body up to chance, not by a long shot. Making sure your body is getting ALL the possible good nutrients and NONE of the fat storing bad ones is exactly why we created Provitalize in the first place.</p>
+			<h4>Second, we've added something called <strong>sunflower lecithin</strong> to every capsule of Provitalize.</h4>
+			<p class="text-center"><img src="{{ 'sunflower-lecithin.jpg' | asset_url }}" class="img-fluid img-thumbnail" alt=""></p>
+			<p>It makes the entire supplement &ldquo;fat soluble&rdquo; which means that instead of going straight into your urine, the supplement protected from being broken down slowly in your system.</p>
+			<p>This way, Provitalize releases its goodness over time giving you <strong>MAXIMUM fat loss and health benefits.</strong></p>
+			<h4>Finally, we compressed every single ingredient into special capsules called <strong>&ldquo;Delayed-Release Capsules&rdquo;</strong> (DR capsules).</h4>
+			<p class="text-center"><img src="https://cdn.shopify.com/s/files/1/2060/5733/files/Provitalize_Capsules.jpg" class="img-fluid img-thumbnail" alt=""></p>
+			<p>These capsule casings are made from a special coating that keeps them together far longer than your average off-the-shelf supplement. Then at the optimal moment, they dissolve and parachute in their contents to your lower intestine for maximum absorption.</p>
+			<p>So with Provitalize, you're getting a supplement for which no expense has been spared in optimizing the selection of ingredients and the quality in how it's manufactured.</p>
+			<p class="text-center"><img class="img-fluid" src="{{ 'provitalize-supplements.jpg' | asset_url }}" alt="Provitalize Bottle"></p>
+			<p>All you need to do is to take Provitalize once a day for your body to start dropping the fat automatically and effortlessly.</p>
+			<h1>Here's <strong>What You Can Expect</strong> When You Take Provitalize Everyday</h1>
+			<p>When you start taking Provitalize, 3 things happen that help your body to lose weight naturally.</p>
+			<h4><strong>#1</strong> The unique probiotic strains in Provitalize heal the gut by destroying harmful bacteria that cause uncontrollable food cravings and large appetites.</h4>
+			<p>This helps the body to curb food cravings and reduce snacking, which are often the reason why people find it difficult to lose weight effectively.</p>
+			<h4><strong>#2</strong> It helps repair the damage caused by bad bacteria.</h4>
+			<p>Poor gut health causes high inflammation in the body. And if it's left untreated, it will often result in a host of other illnesses and diseases.</p>
+			<p>The good probiotic strains and turmeric found in Provitalize creates a double whammy anti-inflammatory effect, which has an indirect effect of helping to shed unwanted weight.</p>
+			<h4><strong>#3</strong> When you take Provitalize every day, it will flood your gut with fat-burning probiotic strains.</h4>
+			<p>Provitalize is not just an ordinary probiotic supplement. Sure, it has the usual health benefits like most other probiotic supplements.</p>
+			<p>But what's truly unique about Provitalize is that it contains 3 unique fat-burning probiotic strains that have been clinically researched and proven to reduce body fat.</p>
+			<h5>These 3 effects create the perfect condition for your body to lose weight naturally on its own.</h5>
+			<p>Now, please don't think that Provitalize is a magic weight loss pill. If your gut has been suffering from years of damage and abuse, it could take a few weeks to a couple of months for it to repair gut and begin the healing process.</p>
+			<p>But that doesn't necessarily mean that you'd have to wait for a long time to start seeing results.</p>
+			<p>When you take Provitalize every day, you're helping your body to create the most optimal environment to lose weight naturally on its own.</p>
+			<p>This is the reason why many customers have seen their weight dropping within the first couple of weeks.</p>
+			<div class="row testicontainer">
+				<div class="col-md-3 testipic">
+					<img class="img-fluid img-thumbnail" src="https://cdn.shopify.com/s/files/1/2060/5733/files/Billie-Arnold-600x600.jpg" alt="">
+				</div> <!-- /testipic -->
+				<div class="col-md-9 testibody">
+					<h5>Feel so much better!</h5>
+					<p>I've used several different types of probiotics and other supplements to help with my belly fat, and Provitalize is the only one that I've really had good results with!</p> 
+                  	<p>I would totally recommend this product and I'll be purchasing more once I've finished my current bottle.</p>
+					<p><strong>BJ Arnold</strong></p>
+				</div> <!-- /testibody -->
+			</div> <!-- /testicontainer -->
+			<div class="row testicontainer">
+				<div class="col-md-3 testipic">
+					<img class="img-fluid img-thumbnail" src="{{ 'testipic-camy.c.jpg' | asset_url }}" alt="">
+				</div> <!-- /testipic -->
+				<div class="col-md-9 testibody">
+					<h5>It works!</h5>
+              	    <p>I have just completed my first month of Provitalize and I am very happy with the results. <b><u>I’ve lost 7 pounds!</u></b> It has definitely <b><u>curbed my hunger and cravings</u></b>. More importantly my <b><u>digestive system is feeling and working better than it ever has</u></b> and it feels great!</p>
+					<p><strong>Camy C</strong></p>
+				</div> <!-- /testibody -->
+			</div> <!-- /testicontainer -->
+			<div class="row testicontainer">
+				<div class="col-md-3 testipic">
+					<img class="img-fluid img-thumbnail" src="{{ 'testipic-christina.a.jpg' | asset_url }}" alt="">
+				</div> <!-- /testipic -->
+				<div class="col-md-9 testibody">
+					<h5>Losing ounces daily</h5>
+					<p>I am happy with Provitalize! My energy level is up and I sleep better at night. I am gradually losing ounces every day!</p>
+                	<p>I like seeing progress even if it is only 2 ounces. I have <b><u>better self-control in my eating</u></b> and I feel satisfied after each meal. Thanks for your product!!</p>
+					<p><strong>Sandra G</strong></p>
+				</div> <!-- /testibody -->
+			</div> <!-- /testicontainer -->
+			<div class="row testicontainer">
+				<div class="col-md-3 testipic">
+					<img class="img-fluid img-thumbnail" src="https://cdn.shopify.com/s/files/1/2060/5733/files/Carmela_S_600x600.jpg" alt="">
+				</div> <!-- /testipic -->
+				<div class="col-md-9 testibody">
+					<h5>Excellent product.</h5>
+					<p>What I like thus far: I am able to get out of bed and sit up without joint stiffness nor aching joint. I noticed a difference in less than one month.</p>
+					<p><strong>Carmela S</strong></p>
+				</div> <!-- /testibody -->
+			</div> <!-- /testicontainer -->
+			<div class="row testicontainer">
+				<div class="col-md-3 testipic">
+					<img class="img-fluid img-thumbnail" src="https://cdn.shopify.com/s/files/1/2060/5733/files/Elizabeth-A-600x600.jpg" alt="">
+				</div> <!-- /testipic -->
+				<div class="col-md-9 testibody">
+					<h5>I feel great!</h5>
+					<p>I have been using Provitalize for 2 months now and I feel great. I have energy and for the first time I am “regular”. I have lost a few pounds, but the fact that I feel so good is what keeps me coming back.</p>
+					<p><strong>Elizabeth A</strong></p>
+				</div> <!-- /testibody -->
+			</div> <!-- /testicontainer -->
+			<h2>How Would You Like To <strong>Experience The Exponential Fat Burning Effect</strong>?</h2>
+			<p>In just 30 days, you will already begin to see positive changes in your weight.</p>
+			<p>Many customers were surprised at how much weight they could lose in just a couple of weeks.</p>
+			<h4>But that's only the beginning.</h4>
+			<p>You see, the real amazing transformation starts appearing after 60 days.</p>
+			<p>While many customers start seeing results within 2-3 weeks, often times it could take more than 2 months for these fat-burning strains to fully colonize and multiply in the gut.</p>
+			<p><strong>(This is the reason why many customers are buying at least <span class="redalert">2 or more bottles at a time</span>.)</strong></p>
+			<p>Just as how the bad bacteria creates a variety of health issues when they are allowed to proliferate...</p>
+			<p>And once these fat-burning strains are allowed to fully ‘take root&rdquo; and self-multiply, your body will begin to experience lasting &ldquo;fat-burning multiplier&rdquo; effects.</p>
+			<h2>Imagine having an <strong>exponential fat burning effect</strong> in the body once they start to multiply!</h2>
+			<p class="text-center"><img src="{{ 'fat-burning-effect.jpg' | asset_url }}" class="img-fluid img-thumbnail" alt=""></p>
+			<p>Essentially, by taking just 2 capsules of Provitalize every day for more than 2 months, you're setting yourself up for a massive weight loss effect.</p>
+			<h2>When that happens, you will start seeing your fat fall off <strong>like a domino</strong>!</h2>
+			<p class="text-center"><img src="{{ 'domino.jpg' | asset_url }}" class="img-fluid img-thumbnail" alt=""></p>
+		</div> <!-- /col-lg-10 -->
+	</div> <!-- /row1-after4 -->
+</div> <!-- /cont-after4 -->
+
+<div class="jumbotron jumbotron-fluid" id="guarantee">
+	<div class="container">
+		<div class="row" id="row1-guarantee">
+			<div class="col-lg-10 mx-auto">
+				<h1>Lose The Fat Or It's <strong>Free</strong></h1>
+				<p class="text-center"><img src="{{ 'guarantee.jpg' | asset_url }}" class="img-fluid img-thumbnail" alt=""></p>
+				<h4>We've put hundreds of hours and thousands of dollars of research into creating <strong>the most effective Fat Loss Reprogramming Formula...</strong></h4>
+				<p>All designed to help people to lose fat as fast as possible.</p>
+				<p>However, it's impossible for every single person to see amazing transformation in just a short period of time.</p>
+				<p>Everyone has a unique body with a unique lifestyle. Everyone's gut composition is different.</p>
+				<p>If your gut is not in an optimal condition, then it might take much longer to see results.</p>
+				<p>There has been rare cases where customers only started seeing results after 4 months.</p>
+				<p>However even in those rare cases, as they continue taking 2 capsules every day, once the slim bacteria starts to fully colonize and multiply, their weight fell up with like a snap.</p>
+				<p><strong>While we do have some other products like <span class="redalert">Previtalize</span> and <span class="redalert">PostBurn</span> which can 5-10x your weight loss results, we also want to ensure that you're fully satisfied or it's yours free.</strong></p>
+				<p>When you order Provitalize today, you're not just getting another weight loss supplement.</p>
+				<p>Instead, you're getting a body that works hard to burn extra fats for you and keep them off. This is why you're fully protected by a 60-day 100% money back guarantee.</p>
+				<h2><strong>Try at least 2 months</strong> and if you don't love it for any reason, we'll refund every last cent you paid.</h2>
+			</div> <!-- /col-lg-10 -->
+		</div> <!-- /row1-guarantee -->
+	</div> <!-- /container -->
+</div> <!-- /guarantee -->
+
+<div class="container" id="cont-after5">
+	<div class="row" id="row1-after5">
+		<div class="col-lg-10 mx-auto">
+			<h2>How Much Is The Investment To <strong>Reprogram Your Body To Lose Fat Effectively</strong>?</h2>
+			<div class="borderbox">
+				<ul class="listyes">
+					<li>To not have to try another frustrating diet plan</li>
+					<li>To not have to spend money buying other useless weight loss supplements that easily cost $90-$180</li>
+					<li>To not have to go to a gym or hire a personal trainer which easily cost $150-$200 per hour</li>
+				</ul> <!-- /listyes -->
+			</div> <!-- /borderbox -->
+			<h4>But before I tell you what this will cost you, let me tell you what we had to do to develop this amazing product.</h4>
+			<p><strong>First, getting this miracle L. gasseri was no easy feat.</strong></p>
+			<p>When we first wanted to manufacture this product, we started approaching the various manufacturing companies.</p>
+			<p>All except 3 of them said they don't supply it at that point in time.</p>
+			<p>You see, L. gasseri is a rare ingredient that is not readily available. Some manufacturers even asked whether we wanted to use the common-supermarket ones like <em>acidophilus</em> instead.</p>
+			<p><em>Ugh, no thank you.</em></p>
+			<p>Out of the 3 who supplied them, 2 of them said that they don't have it in stock at the moment.</p>
+			<p>And because certain probiotics like L. gasseri needed a very comprehensive lab, unique development technique and produced in a GMP-certified facility, <strong>it takes <span class="redalert">2 months</span> to produce the quality and quantity that we wanted</strong>.</p>
+			<p>The last one said they have some in stock, but because they had very limited supply, they charged us an exorbitant amount.</p>
+			<p>Essentially our L. gasseri is going to cost <strong>10 times</strong> more than the usual common probiotic.</p>
+			<p>And that's just one ingredient.</p>
+			<h5>To produce Provitalize, it's going to cost us a bomb.</h5>
+			<p>My team said we should just drop the idea. It's too expensive to produce. Let alone maintain our operations.</p>
+			<p>If we want to cover:</p>
+			<ul class="listinfo">
+				<li>The cost for research and development</li>
+				<li>The cost of labor to get it made</li>
+				<li>Plus the cost to stock and maintain it</li>
+			</ul> <!-- /listinfo -->
+			<p>...And just earn enough to break even and have a sustainable business, <strong>we had to sell it for <span class="redalert">$169</span> per bottle</strong>.</p>
+			<p><strong>And that's just breaking even.</strong></p>
+			<p>But when I saw how effective the clinical studies are and how it's going to revolutionized the weight loss industry, I knew I just had to do it.</p>
+			<p><em>Women are known to spend tens of thousands of dollars at a time</em> on surgeries, supplements, spas or other unorthodox means just to gain that killer figure.</p>
+			<p>And then another tens of thousands of dollars each year to maintain that figure forever.</p>
+			<p>Seeing the results of the studies and how it could literally reprogram your body to be slim, to never have to worry about your weight ever again...</p>
+			<h5>At $169, Provitalize is most definitely worth it.</h5>
+			<p><strong class="redalert">But you don't have to pay $169.</strong> Nor will you need to pay $99, which I'm sure you'll agree would be a steal. That's just about $3 a day - less than a Caffe Latte from Starbucks.</p>
+			<p>It's also a very good deal when you consider that you can lose 10-15 pounds in just 12 weeks. Never have to suffer through another fad diet, workout gimmick or useless supplement again.</p>
+			<p>No.</p>
+			<h5>Instead with today's special offer you can get started for just $67. <strong>That's $100 off what it should cost.</strong></h5>
+			<p>I know it sounds crazy to be selling at a huge loss. Especially with a product that has such an amazing results.</p>
+			<p>But we have done the math. As long as we stay out of stores and sell it directly through you. So no middleman to jack up the price. <strong>We can pass these savings directly to you.</strong></p>
+			<p>We don't know how long we can keep selling it at this price before we start to go under. But there's a way we can push the cost down even more.</p>
+			<h5>And that's by having a large demand for Provitalize.</h5>
+			<p>After much <strike>shouting and screaming</strike> negotiation, our manufacturer has finally agreed to lower the cost <em>IF the demand for Provitalize gets larger and we can order a larger batch</em>. Something about the economy of scale.</p>
+			<h3>So when you order our <strong>special four bottle plan</strong>, you won't pay $67 per bottle or a whopping 268 dollars.</h3>
+			<h3>Instead, you will be getting Provitalize for <strong>just <u>$49 per bottle</u></strong>. That's just $1.67 per day.</h3>
+		</div> <!-- /col-lg-10 -->
+	</div> <!-- /row1-after5 -->
+  <!-- Price Table Anchor -->
+
+  <div id="first-pt"></div>
+
+  <div class="row orderrow" id="row2-after5">
+		<div class="col-lg-4">
+			<h2 class="num-bottle">Targeted Loss: 1-5 Pounds</h2>
+			<h5 class="supp-amt">1-Month Supply</h5>
+			<h1>$67 Per Bottle</h1>
+			<p class="offer-image"><img src="{{ 'offer-1-bottle.jpg' | asset_url }}" class="img-fluid" alt=""></p>
+			<h2 class="price"><small>TODAY:</small> $67<br><small><strike>$169</strike> <span class="savings">Save $102</span></small></h2>
+			<p class="cta"><a href="#row1-previtalize"><img src="{{ 'cta-button.png' | asset_url }}" class="img-fluid" alt=""></a></p>
+			<p class="cc-icons"><img src="{{ 'cc-icons.jpg' | asset_url }}" class="img-fluid" alt=""></p>
+		</div> <!-- /col-lg-4 -->
+		<div class="col-lg-4 best-seller">
+			<h2 class="num-bottle">Targeted Loss: >10-25 Pounds</h2>
+			<h5 class="supp-amt">4-Month Supply</h5>
+			<h1>Only $49 Per Bottle</h1>
+			<p class="offer-image"><img src="{{ 'offer-4-bottles-before.jpg' | asset_url }}" class="img-fluid" alt=""></p>
+			<h2 class="price"><small>TODAY:</small> $199<br><small><strike>$676</strike> <span class="savings">Save $477</span></small></h2>
+			<p class="cta"><a href="#row1-previtalize"><img src="{{ 'cta-button.png' | asset_url }}" class="img-fluid" alt=""></a></p>
+			<p class="cc-icons"><img src="{{ 'cc-icons.jpg' | asset_url }}" class="img-fluid" alt=""></p>
+		</div> <!-- /col-lg-4 -->
+		<div class="col-lg-4">
+			<h2 class="num-bottle">Targeted Loss: 5-10 Pounds</h2>
+			<h5 class="supp-amt">2-Month Supply</h5>
+			<h1>$59 Per Bottle</h1>
+			<p class="offer-image"><img src="{{ 'offer-2-bottles.jpg' | asset_url }}" class="img-fluid" alt=""></p>
+			<h2 class="price"><small>TODAY:</small> $119<br><small><strike>$338</strike> <span class="savings">Save $219</span></small></h2>
+			<p class="cta"><a href="#row1-previtalize"><img src="{{ 'cta-button.png' | asset_url }}" class="img-fluid" alt=""></a></p>
+			<p class="cc-icons"><img src="{{ 'cc-icons.jpg' | asset_url }}" class="img-fluid" alt=""></p>
+		</div> <!-- /col-lg-4 -->
+	</div> <!-- /row2-after6 -->
+</div> <!-- /cont-after5 -->
+
+<div class="jumbotron jumbotron-fluid" id="previtalize">
+	<div class="container">
+		<div class="row" id="row1-previtalize">
+			<div class="col-lg-12 mx-auto">
+				<p class="text-center"><img class="img-fluid float-lg-left mr-md-4 mb-4" src="{{ 'previtalize.jpg' | asset_url }}" alt="Previtalize Bottle"></p>
+				<h1 class="text-left"><em>But Wait!</em><br><span class="highlight">Free Bonus Worth $100:</span> Accelerate Your Weight Loss By 5X With PREvitalize</h1>
+				<p>While it usually takes around 60 days or more for these fat-burning strains to fully colonize and multiply, it's possible to accelerate this process with the right kind of prebiotic.</p>
+				<p><strong>Prebiotics are &ldquo;food&rdquo; for probiotic bacteria</strong> which help these strains to germinate and multiply faster.</p>
+				<p>And after months of formulating and testing, we've created a unique prebiotic formula that is able to accelerate the benefits of Provitalize by as much as 500%!</p>
+				<h5>We called it Previtalize.</h5>
+				<p>Previtalize contains natural ingredients that create &ldquo;super starches&rdquo; in the gut. These super starches are Probiotic bacteria's favorite &ldquo;food&rdquo;. As it feasts on them, it goes into overdrive, populating the fat-burning strains in your gut.</p>
+				<p>After doing thorough research into the prebiotics marketplace, we can vouch there's no other prebiotic that can compete with Previtalize's science-backed results, premium grade delivery system and its wide range of health benefits.</p>
+				<h5>Its special formulation has shown to further the fat-burning powers of Provitalize while reducing stress, improving your mood and sleep quality.</h5>
+				<p>Many customers who take both Previtalize and Provitalize experience even faster and greater fat loss effect, while helping them to maintain their results for the long-term.</p>
+				<p>Recently we have gotten incredible responses from customers who take both Provitalize and Previtalize together. <strong>In fact, most customers are now buying both of them together!</strong></p>
+                <div class="row testicontainer">
+                    <div class="col-md-3 testipic">
+                        <img class="img-fluid img-thumbnail" src="https://cdn.shopify.com/s/files/1/2060/5733/files/Jennifer-K-600x600.jpg" alt="">
+                    </div> <!-- /testipic -->
+                    <div class="col-md-9 testibody">
+                        <h5>Feel so much more alive</h5>
+                      	<p>Ever since I added Previtalize, it accelerated my weight loss through the months... My weight dropped by an additional 5 pounds in a month.</p>
+                      	<p>I can sleep more peacefully at night now and I don't feel that stressed out anymore. I just feel so much more alive!</p>
+                        <p><strong>Jennifer J</strong></p>
+                    </div> <!-- /testibody -->
+                </div> <!-- /testicontainer -->
+			<div class="row testicontainer">
+				<div class="col-md-3 testipic">
+					<img class="img-fluid img-thumbnail" src="{{ 'testipic-maryjo.m.jpg' | asset_url }}" alt="">
+				</div> <!-- /testipic -->
+				<div class="col-md-9 testibody">
+					<h5>You Got to Add Previtalize to Provitalize!</h5>
+					<p>I was already quite satisfied with Provitalize when my IBS improved from it.</p>
+                    <p>But when I added Previtalize to Provitalize, my weight and my appetite has been in much better control. And it helped me clear my thoughts and emotions. I don't behave like a grumpy old lady anymore.</p>
+                 	<p>You got to add Previtalize to Provitalize.</p>
+                  	<p><strong>MaryJo M</strong></p>
+				</div> <!-- /testibody -->
+			</div> <!-- /testicontainer -->
+				<p class="text-center"><img src="{{ 'exponential-effect.jpg' | asset_url }}" class="img-fluid img-thumbnail" alt=""></p>
+				<h2>That made us really excited. And we have <strong>GREAT news</strong> for you today.</h2>
+				<p>Previtalize normally retails for $50 per bottle.</p>
+				<p>But after seeing the recent amazing results from our customers, we're currently giving away <u>2 FREE bottles of Previtalize (worth $100)</u> when you choose the 4-bottle bundle today.</p>
+				<p>That's a $100 extra bonus, on top of the additional discount that comes with the 4-bottle option ($196).</p>
+				<h5>Essentially, you will be saving a total of $296 while achieving an accelerated fat loss rate!</h5>
+				<p><strong>But this is a limited time offer.</strong> We've only set aside 300 bottles of Previtalize to give away. That means <strong><u>only 150 fortunate customers will get to take advantage of this special deal</u></strong>.</p>
+				<p>Once our allocated stock runs out, this deal will end (and we estimate that this offer will be snagged up very quickly).</p>
+			</div> <!-- /col-lg-10 -->
+		</div> <!-- /row1-previtalize -->
+	</div> <!-- /container -->
+</div> <!-- /previtalize -->
+
+<div class="container" id="cont-after6">
+	<div class="row" id="row1-after6">
+		<div class="col-lg-10 mx-auto">
+			<h2><strong>Select 4 bottles of Provitalize now</strong> by clicking on the &ldquo;Checkout Now&rdquo; button below, and get 2 bottles of Previtalize FREE today</h2>
+		</div> <!-- /col-lg-10 -->
+	</div> <!-- /row1-after6 -->
+
+    <div id="second-pt"></div>
+	<div class="row orderrow" id="row2-after6">
+		<div class="col-lg-4">
+			<h2 class="num-bottle">Targeted Loss: 1-5 Pounds</h2>
+			<h5 class="supp-amt">1-Month Supply</h5>
+			<h1>$67 Per Bottle</h1>
+			<p class="offer-image"><img src="{{ 'offer-1-bottle.jpg' | asset_url }}" class="img-fluid" alt=""></p>
+			<h2 class="price"><small>TODAY:</small> $67<br><small><strike>$169</strike> <span class="savings">Save $102</span></small></h2>
+			<p class="cta"><a href="https://shop.betterbody.co/a/secure/checkout/ELTOrm7bR3gosmGTwAl3"><img src="{{ 'cta-button.png' | asset_url }}" class="img-fluid" alt=""></a></p>
+			<p class="cc-icons"><img src="{{ 'cc-icons.jpg' | asset_url }}" class="img-fluid" alt=""></p>
+		</div> <!-- /col-lg-4 -->
+		<div class="col-lg-4 best-seller">
+			<h2 class="num-bottle">Targeted Loss: >10-25 Pounds</h2>
+			<h5 class="supp-amt">4-Month Supply</h5>
+          <h1>$49 Per Bottle <strong>+ 2 FREE Bottles of Previtalize (Worth $100)</strong></h1>
+			<p class="offer-image"><img src="{{ 'offer-4-bottles.jpg' | asset_url }}" class="img-fluid" alt=""></p>
+			<h2 class="price"><small>TODAY:</small> $199<br><small><strike>$676</strike> <span class="savings">Save $477</span></small></h2>
+			<p class="cta"><a href="https://shop.betterbody.co/a/secure/checkout/oAqclqGId66rxuCCUXia"><img src="{{ 'cta-button.png' | asset_url }}" class="img-fluid" alt=""></a></p>
+			<p class="cc-icons"><img src="{{ 'cc-icons.jpg' | asset_url }}" class="img-fluid" alt=""></p>
+		</div> <!-- /col-lg-4 -->
+		<div class="col-lg-4">
+			<h2 class="num-bottle">Targeted Loss: 5-10 Pounds</h2>
+			<h5 class="supp-amt">2-Month Supply</h5>
+			<h1>$59 Per Bottle</h1>
+			<p class="offer-image"><img src="{{ 'offer-2-bottles.jpg' | asset_url }}" class="img-fluid" alt=""></p>
+			<h2 class="price"><small>TODAY:</small> $119<br><small><strike>$338</strike> <span class="savings">Save $219</span></small></h2>
+			<p class="cta"><a href="https://shop.betterbody.co/a/secure/checkout/XY6iHBVbSMtsFJDG14Kf"><img src="{{ 'cta-button.png' | asset_url }}" class="img-fluid" alt=""></a></p>
+			<p class="cc-icons"><img src="{{ 'cc-icons.jpg' | asset_url }}" class="img-fluid" alt=""></p>
+		</div> <!-- /col-lg-4 -->
+	</div> <!-- /row2-after6 -->
+	<div class="row" id="row3-after6">
+		<div class="col-lg-10 mx-auto">
+			<h2><strong>Once you place your order, you will be taken to a page that looks like this:</strong></h2>
+			<p class="text-center"><img src="{{ 'order-page-screenshot.png' | asset_url }}" class="img-fluid img-thumbnail" alt=""></p>
+			<h2>Simply enter your shipping and payment details.</h2>
+			<h5><strong>Your information is protected</strong> by 256-bit secure shopping cart where 100% of your data is encrypted by McAfee Secure and TrustE Certified Privacy.</h5>
+			<p>This is the same data security used by most banks, government and military organization.</p>
+			<p>So you can be assured your information is lock-tight secure and wont be shared with anyone, including us.</p>
+			<p><strong>Once completed, your order of Provitalize will be packed in our warehouse, and then be shipped.</strong></p>
+			<h4><strong>Shipping is free if you're in the US or Canada.</strong> If you live elsewhere, we'll need to add a small fee.</h4>
+			<p>Then when it arrives, simply take Provitalize once a day to start the fat burning process.</p>
+			<h2>And then you can finally wave your weight gain troubles goodbye.</h2>
+		</div> <!-- /col-lg-10 -->
+	</div> <!-- /row3-after6 -->
+	<div class="row orderrow" id="row4-after6">
+		<div class="col-lg-4">
+			<h2 class="num-bottle">Targeted Loss: 1-5 Pounds</h2>
+			<h5 class="supp-amt">1-Month Supply</h5>
+			<h1>$67 Per Bottle</h1>
+			<p class="offer-image"><img src="{{ 'offer-1-bottle.jpg' | asset_url }}" class="img-fluid" alt=""></p>
+			<h2 class="price"><small>TODAY:</small> $67<br><small><strike>$169</strike> <span class="savings">Save $102</span></small></h2>
+			<p class="cta"><a href="https://shop.betterbody.co/a/secure/checkout/ELTOrm7bR3gosmGTwAl3"><img src="{{ 'cta-button.png' | asset_url }}" class="img-fluid" alt=""></a></p>
+			<p class="cc-icons"><img src="{{ 'cc-icons.jpg' | asset_url }}" class="img-fluid" alt=""></p>
+		</div> <!-- /col-lg-4 -->
+		<div class="col-lg-4 best-seller">
+			<h2 class="num-bottle">Targeted Loss: >10-25 Pounds</h2>
+			<h5 class="supp-amt">4-Month Supply</h5>
+			<h1>$49 Per Bottle <strong>+ 2 FREE Bottles of Previtalize (Worth $100)</strong></h1>
+			<p class="offer-image"><img src="{{ 'offer-4-bottles.jpg' | asset_url }}" class="img-fluid" alt=""></p>
+			<h2 class="price"><small>TODAY:</small> $199<br><small><strike>$676</strike> <span class="savings">Save $477</span></small></h2>
+			<p class="cta"><a href="https://shop.betterbody.co/a/secure/checkout/oAqclqGId66rxuCCUXia"><img src="{{ 'cta-button.png' | asset_url }}" class="img-fluid" alt=""></a></p>
+			<p class="cc-icons"><img src="{{ 'cc-icons.jpg' | asset_url }}" class="img-fluid" alt=""></p>
+		</div> <!-- /col-lg-4 -->
+		<div class="col-lg-4">
+			<h2 class="num-bottle">Targeted Loss: 5-10 Pounds</h2>
+			<h5 class="supp-amt">2-Month Supply</h5>
+			<h1>$59 Per Bottle</h1>
+			<p class="offer-image"><img src="{{ 'offer-2-bottles.jpg' | asset_url }}" class="img-fluid" alt=""></p>
+			<h2 class="price"><small>TODAY:</small> $119<br><small><strike>$338</strike> <span class="savings">Save $219</span></small></h2>
+			<p class="cta"><a href="https://shop.betterbody.co/a/secure/checkout/XY6iHBVbSMtsFJDG14Kf"><img src="{{ 'cta-button.png' | asset_url }}" class="img-fluid" alt=""></a></p>
+			<p class="cc-icons"><img src="{{ 'cc-icons.jpg' | asset_url }}" class="img-fluid" alt=""></p>
+		</div> <!-- /col-lg-4 -->
+	</div> <!-- /row4-after6 -->
+	<div class="row" id="row5-after6">
+		<div class="col-lg-10 mx-auto">
+			<h1><strong>Order Provitalize Now</strong> Before It Gets Sold Out Again</h1>
+			<p>I've told you earlier that it takes a lot of time (and money) to research, test and perfect the formula for Provitalize.</p>
+			<h4>When we first launched Provitalize, the initial responses were amazing... It went out of stock in less than 2 weeks!</h4>
+			<p>Many people were desperate to get their hands on Provitalize so that they can lose weight effortlessly and were upset that they were not able to buy it.</p>
+			<p>So while we ordered a 2nd batch, many of them started to pre-order in large bulk so that they can receive all their bottles the moment it arrive.</p>
+			<h4>But even before the 2nd batch arrived, it ran out again!</h4>
+			<p>It was a painful experience... But no one likes their weight loss process to stop halfway.</p>
+			<p>And now, even though <strong>Provitalize is already back in stock</strong>, in order to not miss out again, many people are already choosing to order Provitalize in large batches (4 bottles) before the batch runs out again.</p>
+			<p>They are already looking to take Provitalize as soon as possible so that they can shed the excess fat on their tummy area.</p>
+			<p>And this is why many of them are also choosing to invest in the 4-bottle choice or more so that they can &ldquo;lock-in&rdquo; the bulk discount.</p>
+			<p class="text-center"><img src="{{ 'order-summary.jpg' | asset_url }}" class="img-fluid img-thumbnail" alt=""></p>
+			<p class="text-center"><img src="{{ 'order-summary2.jpg' | asset_url }}" class="img-fluid img-thumbnail" alt=""></p>
+			<div class="row testicontainer">
+				<div class="col-md-3 testipic">
+					<img class="img-fluid img-thumbnail" src="{{ 'testipic-jasmine.a-new.jpg' | asset_url }}" alt="">
+				</div> <!-- /testipic -->
+				<div class="col-md-9 testibody">
+					<h5>Shed more than 20 pounds!</h5>
+             	    <p>Ever since I started Provitalize, I’ve <b><u>shed more than 20 pounds</u></b>! All my <b><u>cravings for greasy muffins have vanished</u></b>. My clothes have steadily shrunk from XL to S. On top of that, I feel more energetic everyday and I don’t feel so bloated anymore. Definitely stocking up more.</p>
+					<p><strong>Jasmine A</strong></p>
+				</div> <!-- /testibody -->
+			</div> <!-- /testicontainer -->
+			<div class="row testicontainer">
+				<div class="col-md-3 testipic">
+					<img class="img-fluid img-thumbnail" src="{{ 'testipic-joan.d-new.jpg' | asset_url }}" alt="">
+				</div> <!-- /testipic -->
+				<div class="col-md-9 testibody">
+					<h5>I look more youthful</h5>
+					<p>I used to look like a balloon when I stood beside my friend. After 4 months of Provitalize, I’ve slimmed so much that I can even fit into her clothes. My family is saying I look more youthful and radiant too.</p> 
+                  	<p>Everyone around me is so amazed that they are all asking me to tell them what I’ve been taking. And I would ask them to try Provitalize.</p>
+					<p><strong>Joan D</strong></p>
+				</div> <!-- /testibody -->
+			</div> <!-- /testicontainer -->
+			<h2>As you can see, <strong>there's already a very high demand for Provitalize</strong>, with many people already jumping on board with bulk orders.</h2>
+			<p>So, if you're interested to help your body to drop the stubborn fat, and finally gaining the body you've been longing for, don't miss out on this special offer.</p>
+			<p>We're not sure how long before it will run out again.</p>
+			<h1><strong>Are You Ready</strong> To Start Your Fat Loss Journey?</h1>
+			<p>So as it stands, you have 3 choices right now:</p>
+			<h3><strong>Option 1:</strong> You ignore all these amazing results, research and clinical studies</h3>
+			<p>You can continue to live your life.</p>
+			<p>Risk having the Fat Bacteria creating havoc and causing other health problems. You might even start seeing your weight continue to rise month after month, year after year.</p>
+			<h3><strong>Option 2:</strong> You can continue to restrict what you eat and exercise hard</h3>
+			<p>You can try to starve yourself and try your hardest to exercise off the excess fat.</p>
+			<p>If you try hard enough, you might even see a bit of weight fall off for a short while. Although as long as the fat bacteria works hard against you, you might start seeing your weight go higher again.</p>
+			<h3><strong>Option 3:</strong> Try Provitalize without risk</h3>
+			<p>Try it for at least 60 days to allow the Slim Bacteria to fully colonize and multiply.</p>
+			<p>As they start to reprogram your body for fat loss, you will start to see the weight fall off automatically.</p>
+		</div> <!-- /col-lg-10 -->
+	</div> <!-- /row5-after6 -->
+	<div class="row orderrow" id="row6-after6">
+		<div class="col-lg-4">
+			<h2 class="num-bottle">Targeted Loss: 1-5 Pounds</h2>
+			<h5 class="supp-amt">1-Month Supply</h5>
+			<h1>$67 Per Bottle</h1>
+			<p class="offer-image"><img src="{{ 'offer-1-bottle.jpg' | asset_url }}" class="img-fluid" alt=""></p>
+			<h2 class="price"><small>TODAY:</small> $67<br><small><strike>$169</strike> <span class="savings">Save $102</span></small></h2>
+			<p class="cta"><a href="https://shop.betterbody.co/a/secure/checkout/ELTOrm7bR3gosmGTwAl3"><img src="{{ 'cta-button.png' | asset_url }}" class="img-fluid" alt=""></a></p>
+			<p class="cc-icons"><img src="{{ 'cc-icons.jpg' | asset_url }}" class="img-fluid" alt=""></p>
+		</div> <!-- /col-lg-4 -->
+		<div class="col-lg-4 best-seller">
+			<h2 class="num-bottle">Targeted Loss: >10-25 Pounds</h2>
+			<h5 class="supp-amt">4-Month Supply</h5>
+			<h1>$49 Per Bottle <strong>+ 2 FREE Bottles of Previtalize (Worth $100)</strong></h1>
+			<p class="offer-image"><img src="{{ 'offer-4-bottles.jpg' | asset_url }}" class="img-fluid" alt=""></p>
+			<h2 class="price"><small>TODAY:</small> $199<br><small><strike>$676</strike> <span class="savings">Save $477</span></small></h2>
+			<p class="cta"><a href="https://shop.betterbody.co/a/secure/checkout/oAqclqGId66rxuCCUXia"><img src="{{ 'cta-button.png' | asset_url }}" class="img-fluid" alt=""></a></p>
+			<p class="cc-icons"><img src="{{ 'cc-icons.jpg' | asset_url }}" class="img-fluid" alt=""></p>
+		</div> <!-- /col-lg-4 -->
+		<div class="col-lg-4">
+			<h2 class="num-bottle">Targeted Loss: 5-10 Pounds</h2>
+			<h5 class="supp-amt">2-Month Supply</h5>
+			<h1>$59 Per Bottle</h1>
+			<p class="offer-image"><img src="{{ 'offer-2-bottles.jpg' | asset_url }}" class="img-fluid" alt=""></p>
+			<h2 class="price"><small>TODAY:</small> $119<br><small><strike>$338</strike> <span class="savings">Save $219</span></small></h2>
+			<p class="cta"><a href="https://shop.betterbody.co/a/secure/checkout/XY6iHBVbSMtsFJDG14Kf"><img src="{{ 'cta-button.png' | asset_url }}" class="img-fluid" alt=""></a></p>
+			<p class="cc-icons"><img src="{{ 'cc-icons.jpg' | asset_url }}" class="img-fluid" alt=""></p>
+		</div> <!-- /col-lg-4 -->
+	</div> <!-- /row6-after6 -->
+	<div class="row" id="row7-after6">
+		<div class="col-lg-10 mx-auto">
+			<h2>You Can't Choose The Body You Were Born With, <strong>But You Can Choose The Body You Want To Live With</strong></h2>
+			<p>Until very recently, we're thought that the reason why we can't lose weight is because we're not disciplined enough with our eating diets and desire.</p>
+			<p>Or we're not disciplined enough to live an active lifestyle and exercise regularly.</p>
+			<p>But even if we are, often times even after doing all these things, <strong>we still find it hard to lose weight</strong>.</p>
+			<p>We may blame our parents or the genes that we were given, wishing that losing weight and getting the body we want could be much easier.</p>
+			<p>What's the point of living if we have to struggle so much? All the joy and little pleasure in life are sucked out in our effort to lose weight.</p>
+			<h4>But it doesn't have to be this way.</h4>
+			<p>And now you know that it CAN be easier.</p>
+			<p>You can lose weight the easy and effortless way.</p>
+			<h5>All you need to do is to change the gut bacteria in your gut.</h5>
+			<p>It can happen right now with Provitalize.</p>
+			<p>Go ahead and click on the Add To Cart button to order your bottles of Provitalize now.</p>
+		</div> <!-- /col-lg-10 -->
+	</div> <!-- /row7-after6 -->
+	<div class="row orderrow" id="row8-after6">
+		<div class="col-lg-4">
+			<h2 class="num-bottle">Targeted Loss: 1-5 Pounds</h2>
+			<h5 class="supp-amt">1-Month Supply</h5>
+			<h1>$67 Per Bottle</h1>
+			<p class="offer-image"><img src="{{ 'offer-1-bottle.jpg' | asset_url }}" class="img-fluid" alt=""></p>
+			<h2 class="price"><small>TODAY:</small> $67<br><small><strike>$169</strike> <span class="savings">Save $102</span></small></h2>
+			<p class="cta"><a href="https://shop.betterbody.co/a/secure/checkout/ELTOrm7bR3gosmGTwAl3"><img src="{{ 'cta-button.png' | asset_url }}" class="img-fluid" alt=""></a></p>
+			<p class="cc-icons"><img src="{{ 'cc-icons.jpg' | asset_url }}" class="img-fluid" alt=""></p>
+		</div> <!-- /col-lg-4 -->
+		<div class="col-lg-4 best-seller">
+			<h2 class="num-bottle">Targeted Loss: >10-25 Pounds</h2>
+			<h5 class="supp-amt">4-Month Supply</h5>
+			<h1>$49 Per Bottle <strong>+ 2 FREE Bottles of Previtalize (Worth $100)</strong></h1>
+			<p class="offer-image"><img src="{{ 'offer-4-bottles.jpg' | asset_url }}" class="img-fluid" alt=""></p>
+			<h2 class="price"><small>TODAY:</small> $199<br><small><strike>$676</strike> <span class="savings">Save $477</span></small></h2>
+			<p class="cta"><a href="https://shop.betterbody.co/a/secure/checkout/oAqclqGId66rxuCCUXia"><img src="{{ 'cta-button.png' | asset_url }}" class="img-fluid" alt=""></a></p>
+			<p class="cc-icons"><img src="{{ 'cc-icons.jpg' | asset_url }}" class="img-fluid" alt=""></p>
+		</div> <!-- /col-lg-4 -->
+		<div class="col-lg-4">
+			<h2 class="num-bottle">Targeted Loss: 5-10 Pounds</h2>
+			<h5 class="supp-amt">2-Month Supply</h5>
+			<h1>$59 Per Bottle</h1>
+			<p class="offer-image"><img src="{{ 'offer-2-bottles.jpg' | asset_url }}" class="img-fluid" alt=""></p>
+			<h2 class="price"><small>TODAY:</small> $119<br><small><strike>$338</strike> <span class="savings">Save $219</span></small></h2>
+			<p class="cta"><a href="https://shop.betterbody.co/a/secure/checkout/XY6iHBVbSMtsFJDG14Kf"><img src="{{ 'cta-button.png' | asset_url }}" class="img-fluid" alt=""></a></p>
+			<p class="cc-icons"><img src="{{ 'cc-icons.jpg' | asset_url }}" class="img-fluid" alt=""></p>
+		</div> <!-- /col-lg-4 -->
+	</div> <!-- /row8-after6 -->
+	<div class="row" id="row9-after6">
+		<div class="col-lg-10 mx-auto">
+			<h1 class="redalert">FAQ</h1>
+
+			<div id="accordion">
+				<div class="card">
+					<div class="card-header" id="question1">
+						<h5 class="mb-0 normalfont">
+							<a class="btn btn-link" data-toggle="collapse" data-target="#answer1" aria-expanded="false" aria-controls="answer1">
+                              <strong>Q:</strong> How does Provitalize work?
+							</a>
+						</h5>
+					</div> <!-- question1 -->
+					<div id="answer1" class="collapse" aria-labelledby="question1" data-parent="#accordion">
+						<div class="card-body">
+                          <p>It contains 3 super slim bacteria and 5 science-backed ingredients that help you to lose weight effortlessly and automatically by:</p>
+                          <ul class="listyes">
+                              <li><strong>Block Fat Absorption</strong> &ndash; Provitalize prevents your body from absorbing large amounts of fat from the food that you eat, especially on a high-fat diet.</li>
+                              <li><strong>Ban Fat Storage</strong> &ndash; Provitalize blocks fat storage by preventing the fat cells from getting bigger (thus preventing you from literally getting bigger as well)</li>
+                              <li><strong>Boost Metabolism</strong> &ndash; Provitalize increases your energy expenditure by burning the excess calories and stored fat on your body.</li>
+                              <li><strong>Banish Cravings</strong> &ndash; Provitalize curb unwanted food cravings and abnormally large hunger by reducing inflammation and regulating the hunger hormones.</li>
+                          </ul> <!-- /listyes -->
+						</div> <!-- /card-body -->
+					</div> <!-- /answer1 -->
+				</div> <!-- /card -->
+				<div class="card">
+					<div class="card-header" id="question2">
+						<h5 class="mb-0 normalfont">
+							<a class="btn btn-link" data-toggle="collapse" data-target="#answer2" aria-expanded="false" aria-controls="answer2">
+                              <strong>Q:</strong> Is there any proof that Provitalize works?
+							</a>
+						</h5>
+					</div> <!-- question2 -->
+					<div id="answer2" class="collapse" aria-labelledby="question2" data-parent="#accordion">
+						<div class="card-body">
+                          <p>Provitalize contains the 3 optimal probiotic strains for weight loss, along with 5 other science backed ingredients. It has an average 4.8 out of 5 star ratings, hundreds of positive reviews, and has helped over 12,000 people to trigger effortless weight loss.</p>
+                          <div data-oke-reviews-widget="" data-oke-reviews-subscriber-id="4d5b04a1-e19b-4a1c-a050-a802b963ad01"></div>
+						</div> <!-- /card-body -->
+					</div> <!-- /answer2 -->
+				</div> <!-- /card -->
+				<div class="card">
+					<div class="card-header" id="question3">
+						<h5 class="mb-0 normalfont">
+							<a class="btn btn-link" data-toggle="collapse" data-target="#answer3" aria-expanded="false" aria-controls="answer3">
+                              <strong>Q:</strong> What's inside Provitalize?
+							</a>
+						</h5>
+					</div> <!-- question3 -->
+					<div id="answer3" class="collapse" aria-labelledby="question3" data-parent="#accordion">
+						<div class="card-body">
+                          <p>It contains:</p>
+                          <ul class="listyes">
+                              <li>L. gasseri</li>
+                              <li>B. breve</li>
+                              <li>B. lactis</li>
+                              <li>Turmeric</li>
+                              <li>Moringa Leaves</li>
+                              <li>Curry Leaves</li>
+                              <li>BioPerine</li>
+                              <li>Sunflower Lecithin</li>
+                              <li>DR Capsules</li>
+                          </ul> <!-- /listyes -->
+						</div> <!-- /card-body -->
+					</div> <!-- /answer3 -->
+				</div> <!-- /card -->
+				<div class="card">
+					<div class="card-header" id="question4">
+						<h5 class="mb-0 normalfont">
+							<a class="btn btn-link" data-toggle="collapse" data-target="#answer4" aria-expanded="false" aria-controls="answer4">
+                              <strong>Q:</strong> What if Provitalize doesn't work?
+							</a>
+						</h5>
+					</div> <!-- question4 -->
+					<div id="answer4" class="collapse" aria-labelledby="question4" data-parent="#accordion">
+						<div class="card-body">
+                          <p>We've put hundreds of hours and thousands of dollars of research into formulating Provitalize, all designed to help people to lose fat as fast as possible.</p>
+                          <p>However, it's impossible for every single person to see amazing transformation in just a short period of time. Everyone has a unique body with a unique lifestyle. Everyone's gut composition is different. If your gut is not in the optimal condition, then it might take much longer to see results.</p>
+                          <p>There are rare cases where some customers only started seeing results after 4 months.</p>
+                          <p>However even in those rare cases, as they continue taking 2 capsules every day, once the slim bacteria starts to fully colonize and multiply, their weight fell up with like a snap.</p>
+                          <p>While we do have some other products like Previtalize and PostBurn which can 5-10x your weight loss results, we also want to ensure that you're fully satisfied or it's yours free.</p>
+                          <p>When you order Provitalize today, you're not just getting another weight loss supplement.</p>
+                          <p>Instead, you're getting a body that works hard to burn extra fats for you and keeps them off. This is why <strong>you're fully protected by a 60-day 100% money back guarantee</strong>.</p>
+                          <p>Try at least 2 months and if you don't love it for any reason we'll refund every last cent you paid.</p>
+                          <p>Simply drop us an email and we will process your refund. No questions asked, no troublesome phone call.</p>
+						</div> <!-- /card-body -->
+					</div> <!-- /answer4 -->
+				</div> <!-- /card -->
+				<div class="card">
+					<div class="card-header" id="question5">
+						<h5 class="mb-0 normalfont">
+							<a class="btn btn-link" data-toggle="collapse" data-target="#answer5" aria-expanded="false" aria-controls="answer5">
+                              <strong>Q:</strong> Is the payment secured?
+							</a>
+						</h5>
+					</div> <!-- question5 -->
+					<div id="answer5" class="collapse" aria-labelledby="question5" data-parent="#accordion">
+						<div class="card-body">
+                          <p>Your information is protected by 256-bit secure shopping cart where 100% of your data is encrypted by McAfee Secure and TrustE Certified Privacy.</p>
+                          <p>This is the same data security used by most banks, government and military organization. So you can be assured your information is lock-tight secure and won't be shared with anyone, including us.</p>
+						</div> <!-- /card-body -->
+					</div> <!-- /answer5 -->
+				</div> <!-- /card -->
+			</div> <!-- /accordion -->
+          
+		</div> <!-- /col-lg-10 -->
+	</div> <!-- /row9-after6 -->
+	<div class="row orderrow" id="row10-after6">
+		<div class="col-lg-4">
+			<h2 class="num-bottle">Targeted Loss: 1-5 Pounds</h2>
+			<h5 class="supp-amt">1-Month Supply</h5>
+			<h1>$67 Per Bottle</h1>
+			<p class="offer-image"><img src="{{ 'offer-1-bottle.jpg' | asset_url }}" class="img-fluid" alt=""></p>
+			<h2 class="price"><small>TODAY:</small> $67<br><small><strike>$169</strike> <span class="savings">Save $102</span></small></h2>
+			<p class="cta"><a href="https://shop.betterbody.co/a/secure/checkout/ELTOrm7bR3gosmGTwAl3"><img src="{{ 'cta-button.png' | asset_url }}" class="img-fluid" alt=""></a></p>
+			<p class="cc-icons"><img src="{{ 'cc-icons.jpg' | asset_url }}" class="img-fluid" alt=""></p>
+		</div> <!-- /col-lg-4 -->
+		<div class="col-lg-4 best-seller">
+			<h2 class="num-bottle">Targeted Loss: >10-25 Pounds</h2>
+			<h5 class="supp-amt">4-Month Supply</h5>
+			<h1>$49 Per Bottle <strong>+ 2 FREE Bottles of Previtalize (Worth $100)</strong></h1>
+			<p class="offer-image"><img src="{{ 'offer-4-bottles.jpg' | asset_url }}" class="img-fluid" alt=""></p>
+			<h2 class="price"><small>TODAY:</small> $199<br><small><strike>$676</strike> <span class="savings">Save $477</span></small></h2>
+			<p class="cta"><a href="https://shop.betterbody.co/a/secure/checkout/oAqclqGId66rxuCCUXia"><img src="{{ 'cta-button.png' | asset_url }}" class="img-fluid" alt=""></a></p>
+			<p class="cc-icons"><img src="{{ 'cc-icons.jpg' | asset_url }}" class="img-fluid" alt=""></p>
+		</div> <!-- /col-lg-4 -->
+		<div class="col-lg-4">
+			<h2 class="num-bottle">Targeted Loss: 5-10 Pounds</h2>
+			<h5 class="supp-amt">2-Month Supply</h5>
+			<h1>$59 Per Bottle</h1>
+			<p class="offer-image"><img src="{{ 'offer-2-bottles.jpg' | asset_url }}" class="img-fluid" alt=""></p>
+			<h2 class="price"><small>TODAY:</small> $119<br><small><strike>$338</strike> <span class="savings">Save $219</span></small></h2>
+			<p class="cta"><a href="https://shop.betterbody.co/a/secure/checkout/XY6iHBVbSMtsFJDG14Kf"><img src="{{ 'cta-button.png' | asset_url }}" class="img-fluid" alt=""></a></p>
+			<p class="cc-icons"><img src="{{ 'cc-icons.jpg' | asset_url }}" class="img-fluid" alt=""></p>
+		</div> <!-- /col-lg-4 -->
+	</div> <!-- /row10-after6 -->
+</div> <!-- /cont-after6 -->
+
+<div class="container" id="cont-references">
+	<div class="row" id="row1-references">
+		<div class="col-lg-10 mx-auto">
+			<h3 class="normalfont">REFERENCES:</h3>
+			<ol>
+				<li>http://www.fischbachgroup.org/michaelfischbach</li>
+				<li>https://www.scientificamerican.com/article/how-gut-bacteria-tell-their-hosts-what-to-eat/</li>
+				<li>https://www.drdavidwilliams.com/gut-bacteria-may-influence-food-cravings</li>
+				<li>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4425030/</li>
+				<li>https://www.sciencedirect.com/science/article/pii/S0882401012001106</li>
+				<li>https://www.ncbi.nlm.nih.gov/pubmed/23614897 - Kadooka Y, Sato M, Ogawa A, Miyoshi M, Uenishi H, Ogawa H, Ikuyama K, Kagoshima M, Tsuchida T. Effect of Lactobacillus gasseri SBT2055 in fermented milk on abdominal adiposity in adults in a randomised controlled trial. Br J Nutr. 2013 Apr 25:1-8. [Epub ahead of print]</li>
+				<li>https://www.tandfonline.com/doi/abs/10.1271/bbb.100267</li>
+				<li>https://www.globalhealingcenter.com/natural-health/bifidobacterium-lactis-the-health-benefits-of-probiotics</li>
+				<li>https://www.cdc.gov/heartdisease/facts.htm</li>
+				<li>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4761174/ - Kiessling G, Schneider J, Jahreis G. Long-term consumption of fermented dairy products over 6 months increases HDL cholesterol. Eur J Clin Nutr. 2002;56:843–849. doi: 10.1038/sj.ejcn.1601399.</li>
+				<li>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3144156/?tool=pubmed</li>
+			</ol>
+			<p>Representations regarding the efficacy and safety of Provitalize have not been evaluated by the Food and Drug Administration.  Two human clinical trials suggest that ingestion of Probiotics (Lacto. gasseri) can lead to a reduction in weight or body fat, copies of which may be found <a href="https://nccih.nih.gov/research/statistics/NHIS/2012/natural-products/biotics" target="_blank">here</a>. It is recommended that users follow a strict diet and exercise regimen to achieve weight loss results.</p>
+			<p>Disclaimer:</p>
+			<p>These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure or prevent any diseases. The weight loss and fitness testimonials presented apply only to the individuals depicted, cannot be guaranteed, and should not be considered typical. Every testimonial on this website is from a real customer who used the product Provitalize, and/or nutrition advice listed on the website. No one was paid for a testimonial or endorsement. Results (weight, body fat percentage, circumference measurements, etc.) were self-reported by the customer. You should assume that any results shown in testimonials, advertisements, stories, blog posts, articles, forums or anywhere else on this site or our associated websites are not typical. Results may vary from person to person based on body size and other factors.</p>
+		</div> <!-- /col-lg-10 -->
+	</div> <!-- /row1-references -->
+</div> <!-- /cont-references -->
+
+
+
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>

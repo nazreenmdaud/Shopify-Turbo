@@ -1,0 +1,26 @@
+.center-bold {
+	text-align: center; 
+	font-weight: bold!important;
+	color: red;
+}
+
+.okeReviews-reviewsWidget-header div {
+	display:none!important;
+}
+
+.logo-size{
+	width: 75%!important;
+	height: 75%!important;
+
+}
+
+
+@media screen and (max-width: 600px) {
+ .pricing-headline {
+	font-size: 10px!important;
+
+	}
+}
+
+
+

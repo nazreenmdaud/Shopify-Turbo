@@ -1,0 +1,81 @@
+<header class="banner center page_banner dark-overlay-{{ section.settings.image_darken }}">
+  <img  src="{{ section.settings.image | img_url: '100x' }}"
+       alt="{% if section.settings.image.alt != blank %}{{ section.settings.image.alt }}{% else %}{{ blog.title | escape }}{% endif %}"
+       class="lazyload {{ settings.image_loading_style }}"
+       data-src="{{ section.settings.image | img_url: '1400x' }}"
+       sizes="100vw"
+       srcset="{{ section.settings.image | img_url: '480x' }} 480w,
+               {{ section.settings.image | img_url: '765x' }} 765w,
+               {{ section.settings.image | img_url: '1400x' }} 1400w,
+               {{ section.settings.image | img_url: '2048x' }} 2048w"
+       />
+  
+  <div class="caption captionOverlay--true" style="text-align:right">
+    <h1 class="headline">{{ page.title }}</h1>
+  </div>
+  
+</header>
+
+
+
+<section>
+  <div class="container main content"> {{page.content}}</div>
+</section>
+<section class="comment">
+  <div class="main-div">
+
+    <div class="question">{{section.settings.question}}</div>
+    <div class="title"><h1>{{section.settings.title}}</h1></div>
+    <div class="btn-get-in-touch">
+      <a href="{{section.settings.btnLink}}" class="action_button first_button highlight-true">{{section.settings.btnText}}</a></div>
+    <div class="thankyou">{{section.settings.bottomText}}</div>
+  </div>
+</section>
+{% schema %}
+  {
+    "name": "About",
+	"class": "shopify-section image-with-text-overlay-section under-menu",
+    "settings": [
+		{
+			"type": "image_picker",
+			"id": "image",
+			"label": "Banner Image"
+		},
+		{
+			"type":"header",
+			"content":"Bottom Text"
+		},
+		{
+			"type": "text",
+			"id": "question",
+			"label": "Have Question Text"
+		},
+		{
+			"type": "text",
+			"id": "title",
+			"label": "Main Title"
+		},
+		{
+			"type": "text",
+			"id": "btnText",
+			"label": "Button Text"
+		},
+		{
+			"type": "url",
+			"id": "btnLink",
+			"label": "Button URL"
+		},
+		{
+			"type": "text",
+			"id": "bottomText",
+			"label": "Bottom Text"
+		}
+	]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}
