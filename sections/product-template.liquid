@@ -122,9 +122,9 @@
               <link itemprop="availability" href="http://schema.org/{% if variant.available %}InStock{% else %}OutOfStock{% endif %}">
               <meta itemprop="itemCondition" content="New" />
 
-              <span class="sold_out">{% if variant.available == false %}{{ 'products.product.sold_out' | t }}{% endif %}</span>
+              <span class="sold_out">{% if variant.available == false %}{{ 'product.sold_out' | t }}{% endif %}</span>
               <span itemprop="price" content="{{ variant.price | money_without_currency | remove: "," }}" class="{% if variant.compare_at_price > variant.price %}sale{% endif %}">
-                <span class="current_price {% if product.available == false %}hidden{% endif %}">
+                <span class="current_price {% if available == false %}hidden{% endif %}">
                   {% if variant.price > 0 %}
                     <span class="money">{{ variant.price | money }}</span>
                   {% else %}
@@ -146,7 +146,8 @@
                 </span>
               {% endif %}
             </p>
-<form action="/cart/add" data-productid="{{product.id}}"  method="post" enctype="multipart/form-data" id="AddToCartForm">
+{% comment %}
+          <form action="/cart/add" data-productid="{{product.id}}"  method="post" enctype="multipart/form-data" id="AddToCartForm">
 {% if product.available %}{% include 'subscription-product' %}{% endif %}<br>
            <select id="product-select-{{ product.id }}" name='id'><br>
              {% for variant in product.variants %}
@@ -173,10 +174,12 @@
            </button>
            
          </form>
-         
-            {% include 'product-notify-me' %}
+         {% endcomment %}
+          
           {% endif %}
+{% include 'product-form' with 'product' %}
 
+            {% include 'product-notify-me' %}
           {% if section.settings.product_description_position == "top" %}
             {% if product.description != blank %}
              <div class="description" itemprop="description">
@@ -184,11 +187,11 @@
              </div>
            {% endif %}
           {% endif %}
-
+{% comment %}
           {% unless collection_handles contains 'coming-soon' %}
             {% include 'product-form' with 'product' %}
           {% endunless %}
-
+{% endcomment %}
           {% if section.settings.product_description_position == "bottom" %}
             {% if product.description != blank %}
              <div class="description bottom" itemprop="description">

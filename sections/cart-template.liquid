@@ -18,7 +18,7 @@
       <div class="six columns offset-by-five">
         <p class="quote">{{ 'cart.general.continue_browsing_html' | t }}</p>
 
-        <a href="{% if cart.items.first.product.collections != blank %}{{ cart.items.first.product.collections.last.url }}{% else %}/pages/pp-provitalize-3{% endif %}" class="action_button continue-button add_to_cart">{{ 'cart.general.continue_shopping_link_html' | t }}</a>
+        <a href="{% if cart.items.first.product.collections != blank %}{{ cart.items.first.product.collections.last.url }}{% else %}/collections/bundle-offers{% endif %}" class="action_button continue-button add_to_cart">{{ 'cart.general.continue_shopping_link_html' | t }}</a>
       </div>
       <br class="clear" />
     </div>
@@ -177,7 +177,7 @@
             {% endif %}
             
               <div>
-                <p>Click "+" to add more bottles, "-" to remove extra bottles. You can pay with Paypal or credit card in the checkout page.</p>
+                <p>You can pay with Paypal or credit card in the checkout page.</p>
               </div>
             
           </div>
