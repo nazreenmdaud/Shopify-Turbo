@@ -37,6 +37,11 @@ _:-moz-tree-row(hover), html {
     padding-bottom: 20px;
 }
 
+#pricePlans-3h ul.planContainer-3h{
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
 /*.container{
     width:100%;
 
@@ -49,15 +54,11 @@ _:-moz-tree-row(hover), html {
     width: 100%;
 }*/
 
-.green-bold li{
+.pointers li{
     font-size: 19px;
     font-weight: bold;
     margin-left: 0;
     display:inline-flex;
-}
-
-.green-bold, .green-bold li {
-    color:#1c796d;
 }
 
 p.pt-text{
@@ -153,6 +154,15 @@ section{
     color: #626262;
 }
 
+.pickmeup{
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+.nocaffeine{
+    width: 1120px;
+}
+
 .bg-img p, .whatisprov p, .how-gut p,
 .hidden-mech p, .right-type p, .designing p,
 .fomulated p, .backed p, .backed2 p, .item p, .science p,
@@ -164,7 +174,8 @@ section{
 .testibody p, .bg-img ul li,.first-3 ul li,
 .next-3 ul li, .faq ul li,
 .reviews p, .dr-oz p, .cookbook p, .bonus-cont-in ul li,
-.price-table p, .price-table ul li, .navbar-collapse p {
+.price-table p, .price-table ul li, .navbar-collapse p,
+.backed ul li, .additional-herb ul li {
 
     font-family: "gotham-normal", sans-serif !important;
     font-size: 19px !important;
@@ -172,6 +183,10 @@ section{
 }
 .disclaimer p{
     font-size: 14px !important;
+}
+
+.bg-img h2{
+    width: 80%;
 }
 
 p.journal {
@@ -215,7 +230,7 @@ ul li, .dr-face img {
     margin-top: 40px;
 }
 
-#hidden-mech h1{
+#hidden-mech h1, #hidden-mech h2, #hidden-mech p, .guarantee p, .guarantee h1{
     color:#fff!important;
 }
 
@@ -236,7 +251,7 @@ ul li, .dr-face img {
 }
 
 hr{
-    color:#ffffff00;
+    color:#ffffff00!important;
 }
 
 .hidden-mech blockquote {
@@ -250,7 +265,7 @@ hr{
 
 h1 {
     font-family: "gotham-bold", sans-serif !important;
-    background: linear-gradient(to right, #4998A7, #093783);
+    background: linear-gradient(to right, #000000, #656565);
     background-clip: text;
     -webkit-background-clip: text;
     color: rgba(0, 0, 0, .2) !important;
@@ -269,9 +284,10 @@ h1 a{
 .bg-img h1 {
     text-align: left;
     font-size:33px!important;
+    width: 90%;
 }
 
-.disclaimer h1 {
+.disclaimer h1, .white {
     color: white!important;
 }
 
@@ -328,7 +344,7 @@ h4 {
     font-size: 19px;
 }
 
-section, .padbottom50, .padbottom50-pt {
+.padbottom50, .padbottom50-pt {
     padding-bottom: 100px;
 }
 
@@ -481,7 +497,7 @@ ul.ticks li {
     background: url('https://cdn.shopify.com/s/files/1/2060/5733/files/tick_33cb1af4-0777-4fc8-87a1-bf56d7d1c26d.png?16035742931872340420') left top no-repeat;
     padding: 0 0 0.5rem 6rem;
 }
-ul.ticks, ul.header-icon {
+ul.ticks, ul.header-icon, ul.beneficial, ul.en-supp {
     list-style-type: none;
     padding: 0;
     margin: 0;
@@ -501,7 +517,7 @@ ul.ticks, ul.header-icon {
     content: "";
     height: 100%;
     width: 100%;
-    background: linear-gradient(to right, #03a196, #093783);
+    background: linear-gradient(to right, #FF6B00, #ce9417);
     position: absolute;
     top: 0;
     z-index: -1;
@@ -644,7 +660,7 @@ ul.ticks, ul.header-icon {
     text-align: center;
 }
 .shipping-bottom {
-    padding-bottom: 173px!important;
+    padding-bottom: 38px!important;
 }
 .shipping-bottom2 {
     padding-bottom: 20px!important;
@@ -660,7 +676,7 @@ span.price-size{
 }
 
 .title-3h{
-    background: #d2d2d2;
+    background: none;
     color: white;
     font-weight: 600;
 }
@@ -670,16 +686,17 @@ span.price-size{
 }
 
 .title-3h h2{
-    color:#000;
+    color:#646464;
+    padding-top: 15px;
 }
 
 .title-m-3h h2{
-    color: white;
+    color: #646464;
+    padding-top: 15px;
 }
 
 .title-m-3h{
-    background: #157e76;
-    color: white;
+    background: none;
     font-weight: 600;
 }
 
@@ -690,9 +707,10 @@ span.price-size{
 }*/
 
 li.button{
-    background: #157E76;
+    background: linear-gradient(to right, #FF6B00, #ce9417);
     border-radius: 30px;
     color:#fff;
+    padding: 5px 15px;
 }
 
 .testicontainer {
@@ -917,7 +935,8 @@ li.button{
     .references p, .designing ul li, .reviews p,
     .testibody p, .bg-img ul li, .card ul li, .ingredient-box ul li,
     .dr-oz p, .cookbook p, .bonus-cont-in ul li,
-    .price-table p, .price-table ul li, .navbar-collapse p {
+    .price-table p, .price-table ul li, .navbar-collapse p,
+    .additional-herb ul li, .backed ul li {
 
         font-size: 16px!important;
         margin: 0!important;
@@ -1031,6 +1050,7 @@ li.button{
     border: 1px solid grey;
     -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
 }
 
 .planContainer {
@@ -1151,28 +1171,28 @@ li.button{
         height: 2.8em;
         border-radius: 4px;
         margin: 1.5em 0 1.8em;*/
-    background: linear-gradient(to right, #03a196, #093783);
+    background: linear-gradient(to right, #FF6B00, #ce9417);
     border-radius: 25px;
     color: #fff;
     padding: 9px 40px;
 }
 
 .planContainer .button a.bestPlanButton {
-    background: linear-gradient(to right, #03a196, #093783);
+    background: linear-gradient(to right, #FF6B00, #ce9417);
     border-radius: 25px;
     color: #fff;
     padding: 9px 40px;
 }
 
 .planContainer .button a.bestPlanButton2 {
-    background: linear-gradient(to right, #03a196, #093783);
+    background: linear-gradient(to right, #FF6B00, #ce9417);
     border-radius: 25px;
     color: #fff;
     padding: 15px 40px;
 }
 
 .planContainer .button a.mostPopularButton {
-    background: linear-gradient(to right, #529835, #155317);
+    background: linear-gradient(to right, #FF6B00, #ce9417);
     border-radius: 25px;
     color: #fff;
     padding: 15px 40px;
@@ -1212,6 +1232,14 @@ li.button{
     .mobile {
         display: block;
     }
+
+    .C_btn {
+        padding: 10px 30px;
+    }
+
+    .nocaffeine {
+        width: 100%;
+    }
     
     .center-align-ticks{
         text-align: left!important;
@@ -1234,9 +1262,9 @@ li.button{
         margin-top: -42px;
     }
 
-    #header_section {
+    /*#header_section {
         padding-top: 50px;
-    }
+    }*/
     
     .pad-bottom-0{
         padding-bottom: 0;
@@ -1246,7 +1274,7 @@ li.button{
         font-size: 16px!important;
     }
 
-    .navbar-feature{
+    .navbar-feature, .pad0, .pad0 div{
         padding: 0!important;
     }
 
@@ -1371,7 +1399,8 @@ li.button{
     .references p, .designing ul li, .reviews p,
     .testibody p, .bg-img ul li, .card ul li, .ingredient-box ul li,
     .dr-oz p, .cookbook p, .bonus-cont-in ul li,
-    .price-table p, .price-table ul li, .navbar-collapse p {
+    .price-table p, .price-table ul li, .navbar-collapse p,
+    .additional-herb ul li, .backed ul li {
 
         font-size: 16px!important;
         margin: 0!important;
@@ -1495,7 +1524,7 @@ li.button{
 
     .disclaimer h1.reference {
 
-        font-size: 15px;
+        font-size: 19px;
     }
 
 }
@@ -1905,7 +1934,7 @@ a {
     padding-bottom: 10px;
 }
 .icon-counter i{
-    background: linear-gradient(to right, #4998A7, #093783);
+    background: linear-gradient(to right, #000000, #656565);
     background-clip: text;
     -webkit-background-clip: text;
     color: rgba(0, 0, 0, .2) !important;
@@ -2112,11 +2141,9 @@ table th {
 .green{
     color:green!important;
 }
-.centerborder {
-    border: solid 2px #5ea85e!important;
-}
+
 .centerborder-3h {
-    border: solid 2px #157E76!important;
+    border: solid 4px #FF6B00!important;
 }
 .price-table p.mycaption{
     font-size: 11px!important;
@@ -2533,7 +2560,229 @@ width:199px;height:197px;
 margin: 0 auto;
 }
 
+.backed-backedpic1
+{
+background:url('https://cdn.shopify.com/s/files/1/2060/5733/files/backedpics.png') 0px -0px;
+width:300px;height:300px;
+}
 
+.backed-backedpic2
+{
+background:url('https://cdn.shopify.com/s/files/1/2060/5733/files/backedpics.png') -300px -0px;
+width:300px;height:300px;
+}
+
+.backed-backedpic3
+{
+background:url('https://cdn.shopify.com/s/files/1/2060/5733/files/backedpics.png') -600px -0px;
+width:300px;height:300px;
+}
+
+.bg-backedpic4 {
+    width: 300px; height: 300px;
+    background: url('https://cdn.shopify.com/s/files/1/2060/5733/files/backedpics2.png') -10px -10px;
+}
+
+.bg-backedpic5 {
+    width: 300px; height: 300px;
+    background: url('https://cdn.shopify.com/s/files/1/2060/5733/files/backedpics2.png') -330px -10px;
+}
+
+.bg-backedpic6 {
+    width: 300px; height: 300px;
+    background: url('https://cdn.shopify.com/s/files/1/2060/5733/files/backedpics2.png') -10px -330px;
+}
+
+.sprite { background: url('https://cdn.shopify.com/s/files/1/2060/5733/files/backed-icon-pic.png') no-repeat top left; width: 122px; height: 121px; float: right; } 
+.sprite.backed-icon3 { background-position: 0 0; } 
+.sprite.backed-icon2 { background-position: 0 -131px; } 
+.sprite.backed-icon1 { background-position: 0 -262px; } 
+
+.testihead2-testipic4
+{
+background:url('https://cdn.shopify.com/s/files/1/2060/5733/files/testi-heads2.jpg') 0px -0px;
+width:185px;height:240px;
+}
+
+.testihead2-testipic5
+{
+background:url('https://cdn.shopify.com/s/files/1/2060/5733/files/testi-heads2.jpg') -185px -0px;
+width:185px;height:240px;
+}
+
+.testihead2-testipic6
+{
+background:url('https://cdn.shopify.com/s/files/1/2060/5733/files/testi-heads2.jpg') -370px -0px;
+width:185px;height:240px;
+}
+
+.testihead2-testipic7
+{
+background:url('https://cdn.shopify.com/s/files/1/2060/5733/files/testi-heads2.jpg') -555px -0px;
+width:185px;height:240px;
+}
+
+.ingredientish-ingredient1
+{
+background:url('https://cdn.shopify.com/s/files/1/2060/5733/files/ingredientish.png') -0px 0px;
+width:281px;height:161px;
+}
+
+.ingredientish-ingredient2
+{
+background:url('https://cdn.shopify.com/s/files/1/2060/5733/files/ingredientish.png') -0px -161px;
+width:281px;height:161px;
+}
+
+.ingredientish-ingredient3
+{
+background:url('https://cdn.shopify.com/s/files/1/2060/5733/files/ingredientish.png') -0px -322px;
+width:281px;height:161px;
+}
+
+.ingredientish-ingredient4
+{
+background:url('https://cdn.shopify.com/s/files/1/2060/5733/files/ingredientish.png') -0px -483px;
+width:281px;height:161px;
+}
+
+.ingredientish-ingredient5
+{
+background:url('https://cdn.shopify.com/s/files/1/2060/5733/files/ingredientish2.png') -0px 0px;
+width:281px;height:161px;
+}
+
+.ingredientish-ingredient6
+{
+background:url('https://cdn.shopify.com/s/files/1/2060/5733/files/ingredientish2.png') -0px -161px;
+width:281px;height:161px;
+}
+
+.ingredientish-ingredient7
+{
+background:url('https://cdn.shopify.com/s/files/1/2060/5733/files/ingredientish2.png') -0px -322px;
+width:281px;height:161px;
+}
+
+.graph-graph1
+{
+background:url('https://cdn.shopify.com/s/files/1/2060/5733/files/graph-sprite.png') 0px -0px;
+width:555px;height:380px;
+}
+
+.graph-graph2
+{
+background:url('https://cdn.shopify.com/s/files/1/2060/5733/files/graph-sprite.png') -555px -0px;
+width:555px;height:380px;
+}
+
+.testihead3-testipic8
+{
+background:url('https://cdn.shopify.com/s/files/1/2060/5733/files/testi-heads3.jpg') -0px 0px;
+width:185px;height:240px;
+}
+
+.testihead3-testipic9
+{
+background:url('https://cdn.shopify.com/s/files/1/2060/5733/files/testi-heads3.jpg') -0px -240px;
+width:185px;height:240px;
+}
+
+.testihead3-testipic10
+{
+background:url('https://cdn.shopify.com/s/files/1/2060/5733/files/testi-heads3.jpg') -0px -480px;
+width:185px;height:240px;
+}
+
+.testihead3-testipic11
+{
+background:url('https://cdn.shopify.com/s/files/1/2060/5733/files/testi-heads3.jpg') -0px -720px;
+width:185px;height:240px;
+}
+
+.bottles-bottle_11
+{
+background:url('https://cdn.shopify.com/s/files/1/2060/5733/files/bottlesss.jpg') 0px -2px;
+width:276px;height:147px;
+}
+
+.bottles-bottle_21
+{
+background:url('https://cdn.shopify.com/s/files/1/2060/5733/files/bottlesss.jpg') -276px -0px;
+width:276px;height:149px;
+}
+
+.bottles-bottle_31
+{
+background:url('https://cdn.shopify.com/s/files/1/2060/5733/files/bottlesss.jpg') -552px -1px;
+width:276px;height:148px;
+}
+
+.testihead4-testipic18
+{
+background:url('https://cdn.shopify.com/s/files/1/2060/5733/files/testi-heads4.png') -0px 0px;
+width:185px;height:240px;
+}
+
+.testihead4-testipic17
+{
+background:url('https://cdn.shopify.com/s/files/1/2060/5733/files/testi-heads4.png') -0px -240px;
+width:185px;height:240px;
+}
+
+.testihead4-testipic16
+{
+background:url('https://cdn.shopify.com/s/files/1/2060/5733/files/testi-heads4.png') -0px -480px;
+width:185px;height:240px;
+}
+
+.testihead4-testipic15
+{
+background:url('https://cdn.shopify.com/s/files/1/2060/5733/files/testi-heads4.png') -0px -720px;
+width:185px;height:240px;
+}
+
+.testihead4-testipic14
+{
+background:url('https://cdn.shopify.com/s/files/1/2060/5733/files/testi-heads4.png') -0px -960px;
+width:185px;height:240px;
+}
+
+.testihead4-testipic13
+{
+background:url('https://cdn.shopify.com/s/files/1/2060/5733/files/testi-heads4.png') -0px -1200px;
+width:185px;height:240px;
+}
+
+.testihead4-testipic12
+{
+background:url('https://cdn.shopify.com/s/files/1/2060/5733/files/testi-heads4.png') -0px -1440px;
+width:185px;height:240px;
+}
+
+.shippings-orange-shipping
+{
+background:url('https://cdn.shopify.com/s/files/1/2060/5733/files/shippings.png') 0px -0px;
+width:230px;height:118px;
+}
+
+.shippings-grey-shipping
+{
+background:url('https://cdn.shopify.com/s/files/1/2060/5733/files/shippings.png') -230px -0px;
+width:230px;height:118px;
+}
+
+.dark-orange, .testicontainer strong.namaste, .whatisprov h1, .science h3{
+    color:#cc6b01!important;
+}
+
+.whatisprov h1{
+    background: none;
+}
+
+.inblocker{
+    display:inline-block
+}
 .testiheads{
     display:inline-block;
     border: 7px solid #ffffff;
@@ -2619,7 +2868,7 @@ margin: 0 auto;
 
 .disclaimer a{
     border-radius: 15px;
-    background: #eaffff;
+    background: linear-gradient(to right, #ffffe2, #b9ba92);
 }
 
 .disclaimer h1.reference {
@@ -2638,9 +2887,9 @@ div.content {
 }
 
 .redtop{
-    background: -webkit-linear-gradient(left, #4998A7, #093783);
-    background: -o-linear-gradient(left, #4998A7, #093783);
-    background: linear-gradient(to right, #4998A7, #093783);
+    background: -webkit-linear-gradient(left, #000000, #656565);
+    background: -o-linear-gradient(left, #000000, #656565);
+    background: linear-gradient(to right, #000000, #656565);
 }
 .redtop h2 {
     color: #fff;
@@ -2666,10 +2915,12 @@ button:hover{
 }
 
 .adaybottle{
-    background-color: #d44700;
+    background-color: #FF6B00;
     width: 90%;
     padding: 8px 10px;
     margin: 0 auto;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
 }
 
 .pricePlans-3h #plans .plan2 {
@@ -2687,8 +2938,7 @@ button:hover{
 
 .planContainer-3h .button a
 {
-  padding-top:5px;
-  padding-bottom:5px;
+  padding: 5px 30px;
 }
 
 .planContainer-3h .button a img
