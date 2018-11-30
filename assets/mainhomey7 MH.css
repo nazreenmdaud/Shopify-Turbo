@@ -7,13 +7,8 @@ _:-moz-tree-row(hover), html {
 }
 
 @font-face {
-    font-family: journal;
-    src: url('https://cdn.shopify.com/s/files/1/2060/5733/files/journal.ttf');
-}
-
-@font-face {
     font-family: gotham-normal;
-    src: url(../assets/GothamMediumRegular.ttf);
+    src: url('Arial');
 }
 
 @font-face {
@@ -33,7 +28,7 @@ _:-moz-tree-row(hover), html {
 !important;
 }
 
-#pricePlans ul.planContainer, #pricePlans-3h ul.planContainer-3h, .padbot20 {
+#pricePlans ul.planContainer, .padbot20 {
     padding-bottom: 20px;
 }
 
@@ -49,89 +44,8 @@ _:-moz-tree-row(hover), html {
     width: 100%;
 }*/
 
-.green-bold li{
-    font-size: 19px;
-    font-weight: bold;
-    margin-left: 0;
-    display:inline-flex;
-}
-
-.green-bold, .green-bold li {
-    color:#1c796d;
-}
-
-p.pt-text{
-    font-size: 14px!important;
-}
-
-@media (max-width: 767px) {
-    .navbar-header .navbar-toggle {
-        display: block;
-        background: transparent;
-        /*border: 1px solid #03857c;*/
-    }
-}
-
-.navbar-header .navbar-toggle .icon-bar {
-    background: #03857c;
-}
-
-/*.navbar-fixed-top {
-    top: -20px!important;
-}*/
-
-.navbar-fixed-top.scrolled {
-  /*background-color: #efefef !important;*/
-  background: linear-gradient(to right, #fff, #fffcfc)!important;
-  
-}
-
-.navbar-fixed-top{
-    box-shadow:0px 0px 15px #525252;
-    transition: background-color 100ms linear;
-    background-color: #fff;
-}
-
-.navbar-nav {
-    margin: 7.5px -15px!important ;
-}
-
-.nav{
-    width: 82%;
-}
-
-.nav li a{
-    color:black;
-    font-size: 19px;
-    font-family: "body-fonto", sans-serif !important;
-}
-
-.navbar-collapse button, .navbar-header button{
-    background: none;
-}
-
-.navbar-collapse button a, .navbar-header button a{
-    color:black;
-    font-size: 19px;
-    background: linear-gradient(to right, #36a13f, #50a15d);
-    border-radius: 50px;
-    color: #fff;
-    font-family: "gotham-bold", sans-serif !important;
-    padding: 15px 20px;
-}
-
-.navbar-collapse button a:hover, .navbar-header button a:hover{
-    text-decoration: none;
-    border:none;
-}
-
-.navbar-collapse button:hover, .navbar-header button a:hover{
-    text-decoration: none;
-    border:none!important;
-}
-
-.width8{
-    width: 8%;
+.foranchor {
+    padding-bottom: 30px;
 }
 
 .width10 {
@@ -146,18 +60,8 @@ p.pt-text{
     width: 10%;
 }
 
-.width10-sticky {
-    width: 10%;
-    float: left;
-}
-
 .width20 {
     width: 20%;
-}
-
-.width20-cta {
-    width: 20%;
-    margin-left:-10px;
 }
 
 .width30 {
@@ -186,16 +90,12 @@ p.pt-text{
     width: 50%;
 }
 
-.width70, .widthfornav {
+.width65 {
+    width: 65%;
+}
+
+.width70 {
     width: 70%;
-}
-
-.width55 {
-    width: 55%;
-}
-
-.width80{
-    width: 80%;
 }
 
 .content {
@@ -207,6 +107,73 @@ img {
 }
 section{
     scroll-behavior: smooth;
+}
+
+@media (max-width: 767px) {
+    .navbar-header .navbar-toggle {
+        display: block;
+        background: transparent;
+        /*border: 1px solid #03857c;*/
+    }
+}
+
+/*.nav li a.grey-nav:hover{
+    left: 0;
+    background-color: desaturate(#FF22CC, 40%);
+}*/
+
+.navbar-header .navbar-toggle .icon-bar {
+    background: #03857c;
+}
+
+.navbar-fixed-top.scrolled {
+  /*background-color: #efefef !important;*/
+  background: linear-gradient(to right, #fff, #fffcfc)!important;
+  
+}
+
+.navbar-fixed-top{
+    box-shadow:0px 0px 15px #c7c7c7;
+    transition: background-color 100ms linear;
+    background-color: #fff;
+}
+
+.nav{
+    width: 82%;
+}
+
+.nav li a{
+    color:black;
+    font-size: 19px;
+    font-family: "gotham-normal", sans-serif !important;
+}
+
+.nav li button{
+    background: none;
+}
+
+.nav li button a{
+    color:black;
+    font-size: 19px;
+    background: linear-gradient(to right, #03a196, #093783);
+    border-radius: 50px;
+    color: #fff;
+    font-family: "gotham-bold", sans-serif !important;
+    padding: 15px 20px;
+}
+
+.nav li button a:hover{
+    text-decoration: none;
+    border:none;
+}
+
+.nav li button:hover{
+    text-decoration: none;
+    border:none;
+}
+
+.navbar-nav {
+    margin: 7.5px -15px!important;
 }
 
 .bg-img p, .whatisprov p, .how-gut p,
@@ -230,34 +197,11 @@ section{
     font-size: 14px !important;
 }
 
-p.journal {
-    font-family: "journal", sans-serif !important;
-    font-size: 34px!important;
-    float: none!important;
+.pad0{
+    padding: 0!important;
 }
 
-.navbar-collapse p{
-    float: right;
-    font-weight: bold;
-    margin: 0!important
-}
-
-.navbar .container{
-    padding:0!important;
-}
-
-.mid-guarantee-icon{
-    width: 90%;
-    text-align: center;
-    display: block;
-    margin: 0 auto;
-}
-
-.foranchor {
-    padding-bottom: 30px;
-}
-
-ul li, .dr-face img {
+ul li, .dr-face img, div.backed2 {
     margin-left: 50px;
 }
 
@@ -267,20 +211,8 @@ ul li, .dr-face img {
 
 .pt-container ul li{
     font-family: "gotham-normal", sans-serif !important;
-    font-size: 19px;
+    font-size: 17px;
     margin: 0 50px;
-}
-
-.timeline-img {
-    margin-top: 40px;
-}
-
-#hidden-mech h1{
-    color:#fff!important;
-}
-
-.rocket-img {
-    width: 2.5%;
 }
 
 .dr-face img{
@@ -314,16 +246,9 @@ h1 {
     background-clip: text;
     -webkit-background-clip: text;
     color: rgba(0, 0, 0, .2) !important;
-    margin-top: 100px;
-    margin-bottom: 10px;
-  
     /*font-weight: 800!important;*/
     text-align: center;
     line-height: 1.2!important;
-}
-
-h1 a{
-    font-family: "gotham-bold", sans-serif !important;
 }
 
 .bg-img h1 {
@@ -332,7 +257,7 @@ h1 a{
 }
 
 .disclaimer h1 {
-    color: white!important;
+    color: white !important;
 }
 
 h2 {
@@ -366,7 +291,7 @@ h2 {
     color: rgba(0, 0, 0, .2) !important;
 }
 
-.planContainer .button a,.planContainer-3h .button a, .faq a {
+.planContainer .button a, .faq a {
     font-family: "gotham-bold", sans-serif !important;
 }
 
@@ -374,33 +299,31 @@ h2 {
     margin-left: 50px;
     font-weight: bold;
 }
-.designing h4, .backed h4, .three-cc h2, .disc-bg p{
+.free-shipping h3, .designing h4, .backed h4, .three-cc h2, .disc-bg p{
     font-family: "gotham-normal", sans-serif !important;
 }
 
 h4 {
     margin-left: 50px;
     font-weight: 900!important;
-    font-size: 18px!important;
+    font-size: 25px!important;
 }
 
 .h5, h5 {
     font-size: 19px;
 }
 
-section, .padbottom50, .padbottom50-pt {
-    padding-bottom: 100px;
+section, .padbottom50 {
+    padding-bottom: 50px;
 }
 
 .button {
     background: none;
     border: none;
 }
-
 #header_section{
     padding-top: 100px;
 }
-
 
 #header_section:after {
     content: '';
@@ -412,6 +335,7 @@ section, .padbottom50, .padbottom50-pt {
     overflow: visible;
     left: 0;
     top: 100px;
+
     z-index: -1;
 }
 
@@ -419,13 +343,6 @@ section, .padbottom50, .padbottom50-pt {
     margin-left: 14%;
 }
 
-.C_btn{
-    padding: 10px 15px;
-}
-
-.refbutton h1.reference {
-    font-family: "gotham-bold", sans-serif !important;
-}
 #header_section .C_btn:hover{
     border: none;
 }
@@ -440,7 +357,7 @@ section, .padbottom50, .padbottom50-pt {
     height: calc(100% - 10px) !important;
 }
 .pad40{
-    padding-top: 0px;
+    padding-top: 40px;
 }
 .mar50{
     margin-bottom: 50px;
@@ -473,14 +390,9 @@ section, .padbottom50, .padbottom50-pt {
     line-height: 1.4;
 }
 
-/*#header_section h1.below_video{
-    font-family: "signpainter", sans-serif !important;
-    text-align: center;
-    color: #204b87 !important;
-    font-size: 50px;
-    line-height: 15px;
-    margin: 30px 0 0 0;
-}*/
+.logo-n-number{
+    padding: 0 200px;
+}
 
 #header_section h3{
     font-family: "Open Sans", sans-serif !important;
@@ -530,25 +442,83 @@ section, .padbottom50, .padbottom50-pt {
     line-height: 1.8;
 }
 
-.center-align-ticks{
-    display: block;
-    text-align: center;
-    padding: 0 20px!important;
-}
-
 /*ul.ticks{
     list-style-image: url('https://cdn.shopify.com/s/files/1/2060/5733/files/tick.png?14499464694995875439');
     margin: 30px;
 }*/
 
 ul.ticks li {
-    background: url('https://cdn.shopify.com/s/files/1/2060/5733/files/tick_33cb1af4-0777-4fc8-87a1-bf56d7d1c26d.png?16035742931872340420') left top no-repeat;
+    background: url('https://cdn.shopify.com/s/files/1/2060/5733/files/tick_33cb1af4-0777-4fc8-87a1-bf56d7d1c26d.png') left top no-repeat;
     padding: 0 0 0.5rem 6rem;
 }
 ul.ticks {
     list-style-type: none;
     padding: 0;
     margin: 0;
+}
+
+ul.ticks li.otp {
+    background: url(https://cdn.shopify.com/s/files/1/2060/5733/files/tick_33cb1af4-0777-4fc8-87a1-bf56d7d1c26d.png) left top no-repeat;
+    padding: 0 1rem 0.5rem 4rem;
+}
+
+.green-bold, .green-bold li{
+    color:#1c796d;
+    font-size: 19px;
+    font-weight: bold;
+    margin-left: 0;
+}
+
+p.pt-text{
+    font-size: 14px!important;
+}
+.green-bold li{
+    display:inline-flex;
+}
+
+.center-align-ticks{
+    display: block;
+    text-align: center;
+    padding: 0 20px!important;
+}
+
+.css-sprite-secure-CCsecure
+{
+background:url('https://cdn.shopify.com/s/files/1/2060/5733/files/css-sprite-secured.png') 0px -0px;
+width:215px;height:112px;
+}
+
+.css-sprite-secure-paypalsecure
+{
+background:url('https://cdn.shopify.com/s/files/1/2060/5733/files/css-sprite-secured.png') -215px -0px;
+width:215px;height:112px;
+}
+
+.css-sprite-secure-mcafeesecure
+{
+background:url('https://cdn.shopify.com/s/files/1/2060/5733/files/css-sprite-secured.png') -430px -0px;
+width:215px;height:112px;
+}
+
+.css-sprite-secure-trusteesecure
+{
+background:url('https://cdn.shopify.com/s/files/1/2060/5733/files/css-sprite-secured.png') -645px -0px;
+width:215px;height:112px;
+}
+
+.trusted-logo{
+    display: block;
+    text-align: center;
+}   
+
+.t-logo {
+    display: inline-block;
+}
+
+.secure {
+    border: #E5E5E5 solid 3px;
+    border-radius: 20px;
+    padding: 0 10px;
 }
 
 #hidden-mech, #hidden-mech2 #guarantee {
@@ -610,7 +580,7 @@ ul.ticks {
 }
 
 .bottle-pic a:hover, .backed a:hover, .bg-img a:hover, .faq-cta a:hover,
-.stickyheader a:hover, .planContainer .button a:hover, .planContainer-3h .button a:hover{
+.stickyheader a:hover, .planContainer .button a:hover{
     text-decoration: none;
     -webkit-transform: scale(1.04);
     -moz-transform: scale(1.04);
@@ -619,16 +589,16 @@ ul.ticks {
     transform: scale(1.04);
 }
 
-.bottle-pic a, .backed a, .bg-img a, .faq-cta a, .stickyheader a {
+.bottle-pic button, .backed button, .bg-img button, .faq-cta button, .stickyheader button {
     border-radius: 25px;
     box-shadow: 2px 2px 4px #000000;
 }
 
-.bottle-pic a, .backed a, .faq-cta a {
+.bottle-pic button, .backed button, .faq-cta button {
     background: linear-gradient(to right, #831010, #da0101);
 }
 
-.bg-img a, .stickyheader a {
+.bg-img button, .stickyheader button {
     background: linear-gradient(to right, #03a196, #093783);
 }
 
@@ -707,56 +677,15 @@ ul.ticks {
     padding-bottom: 100px;
     text-align: center;
 }
-.shipping-bottom {
-    padding-bottom: 173px!important;
-}
-.shipping-bottom2 {
-    padding-bottom: 20px!important;
-}
 
 .free-shipping2 {
     padding-bottom: 0px!important;
 }
 
-span.price-size{
-    font-size: 50px;
-    color:#000!important;
-}
-
-.title-3h{
-    background: #d2d2d2;
-    color: white;
-    font-weight: 600;
-}
-
-.title-3h p{
-    color: #afafaf;
-}
-
-.title-3h h2{
-    color:#000;
-}
-
-.title-m-3h h2{
-    color: white;
-}
-
-.title-m-3h{
-    background: #157e76;
-    color: white;
-    font-weight: 600;
-}
-
-/*.free-shipping h3 {
+.free-shipping h3 {
     padding-top: 30px;
     width: 80%;
     margin: 0 auto;
-}*/
-
-li.button{
-    background: #157E76;
-    border-radius: 30px;
-    color:#fff;
 }
 
 .testicontainer {
@@ -831,9 +760,9 @@ li.button{
     margin-bottom: 5px;
 }
 
-.fomulated {
+/*.fomulated {
     border-top: 8px solid #0B3478;
-}
+}*/
 
 .child p{
     font-size: 28px!important;
@@ -977,7 +906,7 @@ li.button{
     .next-3 p, .maximum-del p, .last-3 p, .bottle-pic p,
     .product-table p, .ing-logo p, .guarantee p,
     .free-shipping p, .company-profile p, .faq p,
-    .references p, .designing ul li, .reviews p,
+    .references p, .designing ul li,
     .testibody p, .bg-img ul li, .card ul li, .ingredient-box ul li,
     .dr-oz p, .cookbook p, .bonus-cont-in ul li,
     .price-table p, .price-table ul li, .navbar-collapse p {
@@ -1054,18 +983,18 @@ li.button{
     list-style: none;
 }
 
-#pricePlans:after, #pricePlans-3h:after {
+#pricePlans:after {
     content: '';
     display: table;
     clear: both;
 }
 
-#pricePlans, #pricePlans-3h {
+#pricePlans {
     zoom: 1;
 }
 
-#pricePlans, #pricePlans-3h {
-    max-width: 80em;
+#pricePlans {
+    max-width: 73em;
     margin: 0 auto;
 }
 
@@ -1079,19 +1008,8 @@ li.button{
     width: 100%;
     text-align: center;
     border-radius: 23px;
-    margin: 0 0 20px 0!important;
+    margin: 0 0 20px 0;
 
-    -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
-}
-
-#pricePlans-3h #plans .plan {
-    background: #fff;
-    float: left;
-    width: 100%;
-    text-align: center;
-    margin: 0 0 20px 0!important;
-    border: 1px solid grey;
     -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
 }
@@ -1101,7 +1019,7 @@ li.button{
     border-radius: 20px;
 }
 
-.planContainer .title h2, .planContainer-3h .title h2 {
+.planContainer .title h2 {
     font-size: 30px;
     font-weight: 500;
     color: #3e4f6a;
@@ -1109,7 +1027,7 @@ li.button{
     padding: .6em 0;
 }
 
-.planContainer .title h2.bestPlanTitle, .planContainer-3h .title h2.bestPlanTitle {
+.planContainer .title h2.bestPlanTitle {
     background: #3e4f6a;
 
     background: -webkit-linear-gradient(top, #475975, #364761);
@@ -1121,7 +1039,7 @@ li.button{
     border-radius: 5px 5px 0 0;
 }
 
-.planContainer .price2 p, .planContainer-3h .price2 p {
+.planContainer .price2 p {
     background: #3e4f6a;
 
     background: -webkit-linear-gradient(top, #529835, #155317);
@@ -1138,7 +1056,7 @@ li.button{
     padding-top: 15px;
 }
 
-.planContainer .price p, .planContainer-3h .price p {
+.planContainer .price p {
     background: #3e4f6a;
 
     background: -webkit-linear-gradient(top, #475975, #364761);
@@ -1158,11 +1076,11 @@ li.button{
     /*background: #2b899;*/
 }
 
-.planContainer .price p span, .planContainer-3h .price p span {
+.planContainer .price p span {
     color: #8394ae;
 }
 
-.planContainer .options, .planContainer-3h .options {
+.planContainer .options {
     margin-top: 10em;
 }
 
@@ -1172,33 +1090,13 @@ li.button{
     line-height: 2.3;
 }
 
-.planContainer-3h .options li {
-    font-weight: 700;
-    color: #000;
-    line-height: 1;
-}
-
-.pt-container ul li{
-    font-size: 17px!important;
-}
-
-.secure {
-    border: #E5E5E5 solid 3px;
-    border-radius: 20px;
-    padding: 0 10px;
-}
-
 .green-text{
     color: #155317!important;
 }
 
-.planContainer .options li span, .planContainer-3h .options li span {
-    font-weight: 600;
+.planContainer .options li span {
+    font-weight: 400;
     color: #979797;
-}
-
-.planContainer-3h .button a {
-    color: #fff;
 }
 
 .planContainer .button a {
@@ -1224,21 +1122,21 @@ li.button{
     background: linear-gradient(to right, #03a196, #093783);
     border-radius: 25px;
     color: #fff;
-    padding: 9px 40px;
+    padding: 9px 20px;
 }
 
 .planContainer .button a.bestPlanButton2 {
     background: linear-gradient(to right, #03a196, #093783);
     border-radius: 25px;
     color: #fff;
-    padding: 15px 40px;
+    padding: 15px 20px;
 }
 
 .planContainer .button a.mostPopularButton {
     background: linear-gradient(to right, #529835, #155317);
     border-radius: 25px;
     color: #fff;
-    padding: 15px 40px;
+    padding: 15px 20px;
 }
 
 #credits {
@@ -1260,59 +1158,32 @@ li.button{
     text-align: center;
 }
 
-#pricePlans #plans .plan, #pricePlans-3h #plans .plan {
-    margin: 0 1% 20px 0;
+#pricePlans #plans .plan {
+    margin: 0 1% 20px 0 !important;
+}
+
+#pricePlans #plans .plan {
     float: none;
     display: inline-block;
 }
 
 
 @media screen and (max-width: 480px) {
-    .desktop, .pages {
+    .desktop, .pages, .nav li button {
         display: none;
     }
 
     .mobile {
         display: block;
     }
-    
-    .center-align-ticks{
-        text-align: left!important;
+    div.backed2{
+        margin-left: 0;
     }
-
+    
     .green-bold li{
         display: block;
         text-align: left;
     }
-
-    .vid-container{
-        padding-bottom: 0;
-    }
-
-    .padbottom50-pt {
-        padding-bottom: 0;
-    }
-
-    .header-mob-space{
-        margin-top: -42px;
-    }
-
-    #header_section {
-        padding-top: 50px;
-    }
-    
-    .pad-bottom-0{
-        padding-bottom: 0;
-    }
-    .navbar-header button a{
-        padding: 5px 10px;
-        font-size: 16px!important;
-    }
-
-    .navbar-feature{
-        padding: 0!important;
-    }
-
     .font25{
         font-size: 25px!important;
     }
@@ -1322,19 +1193,13 @@ li.button{
         font-size: 15px!important;
     }
 
-    .shifto{
-        margin-left: 60px;
-        margin-bottom: 15px;
-    }
-
     .cookbook-cta {
         height: 110px!important;
         width: 80%;
     }
 
-    p.journal {
-        font-size: 27px!important;
-        line-height: 1;
+    .pt-container ul li{
+        font-size: 15px!important;
     }
 
     .small-fs{
@@ -1351,15 +1216,6 @@ li.button{
     .bonus-cont-in {
         margin: 20px;
     }
-    
-    .width30-m {
-        width: 30%;
-        float: left;
-    }
-
-    .pt-container ul li{
-        font-size: 15px!important;
-    }
 
     .bottom10 {
         bottom: 0;
@@ -1375,10 +1231,6 @@ li.button{
 
     .item {
         width: 100%;
-    }
-
-    .redtop h2 {
-        font-size: 16px !important;
     }
 
     .width10 {
@@ -1409,6 +1261,10 @@ li.button{
         margin-left: 0!important;
     }
 
+    .padbot20-m {
+        padding-bottom: 20px!important;
+    }
+
     .bottle-pic a, .backed a, .bg-img a, .faq-cta a, .stickyheader a{
         font-size: 13px;
     }
@@ -1418,6 +1274,10 @@ li.button{
     }
     .price-table p.mycaption {
         font-size: 11px!important;
+    }
+
+    .trusted-logo{
+        margin:0!important;
     }
 
     .padtop20-mob{
@@ -1431,7 +1291,7 @@ li.button{
     .next-3 p, .maximum-del p, .last-3 p, .bottle-pic p,
     .product-table p, .ing-logo p, .guarantee p,
     .free-shipping p, .company-profile p, .faq p,
-    .references p, .designing ul li, .reviews p,
+    .references p, .designing ul li,
     .testibody p, .bg-img ul li, .card ul li, .ingredient-box ul li,
     .dr-oz p, .cookbook p, .bonus-cont-in ul li,
     .price-table p, .price-table ul li, .navbar-collapse p {
@@ -1493,15 +1353,7 @@ li.button{
     .designing h1,
     .right-type h1,
     .how-gut h1,
-    .bottle-pic h1,
-    .hidden-mech h1,
-    .fomulated h1,
-    .backed h1,
-    .maximum-del h1,
-    .guarantee h1,
-    .reviews h1,
-    .vid-container h1,
-    .price-table h1 {
+    .bottle-pic h1 {
         font-size: 22px;
     }
 
@@ -1540,7 +1392,10 @@ li.button{
         top: 100px;
     }
     .video_section img{
-        width: 60%;
+        width: 60%!important;
+    }
+    .padbottom0{
+        padding-bottom: 0!important;
     }
     .icon-counter{
         display: contents;
@@ -1557,7 +1412,6 @@ li.button{
     }
 
     .disclaimer h1.reference {
-
         font-size: 15px;
     }
 
@@ -1565,17 +1419,13 @@ li.button{
 
 @media screen and (min-width: 481px) and (max-width: 768px) {
 
-    #pricePlans #plans .plan, #pricePlans-3h #plans .plan {
+    #pricePlans #plans .plan {
         width: 49%;
         margin: 0 2% 20px 0;
     }
 
-    .pages {
+    .pages, .nav li button {
         display: none;
-    }
-    
-    .buttonize {
-        font-size: 17px;
     }
 
     .padtop20-mob {
@@ -1583,10 +1433,6 @@ li.button{
     }
 
     #pricePlans #plans > li:nth-child(2n) {
-        margin-right: 0;
-    }
-
-    #pricePlans-3h #plans > li:nth-child(2n) {
         margin-right: 0;
     }
 
@@ -1607,7 +1453,7 @@ li.button{
     }
 
     .mobile{
-        display: none;
+        display: block;
     }
 
     .science-row {
@@ -1660,7 +1506,7 @@ li.button{
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {
 
-    #pricePlans #plans .plan, #pricePlans-3h #plans .plan {
+    #pricePlans #plans .plan {
         width: 49%;
         margin: 0 2% 20px 0;
     }
@@ -1668,15 +1514,9 @@ li.button{
     #pricePlans #plans > li:nth-child(2n) {
         margin-right: 0;
     }
-
-    #pricePlans-3h #plans > li:nth-child(2n) {
-        margin-right: 0;
-    }
-
     .vid-list-container{
         padding-left: 0;
     }
-
     .video-left{
         left: 35px;
     }
@@ -1684,19 +1524,16 @@ li.button{
         background-position: right 25% top 65%;
         background-size: 30%;
     }
-    .desktop{
-        display: none;
-    }
 
 }
 
 @media screen and (min-width: 1025px) {
 
-    #pricePlans, #pricePlans-3h {
+    #pricePlans {
         margin: 2em auto;
     }
 
-    #pricePlans #plans .plan, #pricePlans-3h #plans .plan {
+    #pricePlans #plans .plan {
         width: 31%;
         margin: 0 1.33% 20px 0;
 
@@ -1713,11 +1550,7 @@ li.button{
         margin-right: 0;
     }
 
-    #pricePlans-3h #plans > li:last-child {
-        margin-right: 0;
-    }
-
-    #pricePlans #plans .plan:hover, #pricePlans-3h #plans .plan:hover {
+    #pricePlans #plans .plan:hover {
         -webkit-transform: scale(1.04);
         -moz-transform: scale(1.04);
         -ms-transform: scale(1.04);
@@ -1768,6 +1601,9 @@ li.button{
         margin-bottom: 10px;
     }
 
+    .planContainer ul li {
+    }
+
     .social_icons li {
         margin: 0 0 0 0;
     }
@@ -1785,40 +1621,24 @@ li.button{
 
     }
 
-    .shipping-bottom {
-        padding-bottom: 20px!important;
+    .trusted-logo {
+        margin: 0 8rem;
     }
     
-    .navbar-header {
-        float: none!important;
-    }
-
-    .navbar-collapse.collapse{
-        display: none!important;
-    }
-
-    .navbar-testi{
-        margin-left: 150px;
-    }
-
-    .width30-m {
+    .video_section img {
         width: 30%;
-        float: left;
-    }
-
-    .nav-cta{
-        margin-top: 16px;
-        float: right!important;
     }
 
     .bottom10 {
         bottom: 0px;
     }
-
-    .video_section img {
-        width: 30%;
-    }
     
+    .center-align-ticks{
+        display: block;
+        text-align: center;
+        padding: 0 25%;
+    }
+
     #header_section:after{
         display: none;
     }
@@ -1829,25 +1649,7 @@ li.button{
         max-width: 100%;
     }
 
-    .center-align-ticks{
-        display: block;
-        text-align: center;
-        padding: 0 25%;
-    }
-
-    .additional-herb h1,
-    .designing h1,
-    .right-type h1,
-    .how-gut h1,
-    .bottle-pic h1,
-    .hidden-mech h1,
-    .fomulated h1,
-    .backed h1,
-    .maximum-del h1,
-    .guarantee h1,
-    .reviews h1,
-    .vid-container h1,
-    .price-table h1 {
+    .bg-img h1 {
         font-size: 28px;
     }
 
@@ -1908,10 +1710,10 @@ li.button{
         padding: 0;
     }
 
-/*    #pricePlans #plans .plan {
-        width: 95%;
-        margin: 0 0 20px 0!important;
-    }*/
+    #pricePlans #plans .plan {
+        /*width: 95%;*/
+        margin: 0 0 20px 0;
+    }
 
     .free-shipping h3 {
         width: 100%;
@@ -1920,8 +1722,16 @@ li.button{
 
     .card-header .btn-link {
         white-space: normal;
+        word-break: break-word;
     }
 
+    .additional-herb h1,
+    .designing h1,
+    .right-type h1,
+    .how-gut h1,
+    .bottle-pic h1 {
+        font-size: 28px;
+    }
     .video-left{
         left: 200px;
     }
@@ -1932,9 +1742,6 @@ li.button{
         width: 80%;
         padding-left: 0; 
     }
-    .mobile{
-        display: block;
-    }
 }
     .video-left{
         left: 35px;
@@ -1944,20 +1751,7 @@ li.button{
     .video-right {
         right: -90px;
     }
-    .nav-cta{
-        margin-top: 16px;
-    }
-    .navbar-feature button{
-        padding:0!important;
-    }
-    .bonus-cont-in h2.black {
-        font-size: 18px!important;
-    }
-    .navbar-testi{
-        margin-left: 0px!important;
-    }
 }
-
 #hide{
     display:none;
 }
@@ -1978,10 +1772,6 @@ a {
     margin-left: 50px;
     margin-right: 20px;
     border-radius: 50%;
-}
-
-.pt-container ul li{
-    font-size: 15px!important;
 }
 
 .yellow-section h2 {
@@ -2168,7 +1958,9 @@ table th {
 .last-3 sup{
     font-size: 10px;
 }
-
+.todayat {
+    font-size: 26px!important;    
+}
 .red{
     color:red!important;
 }
@@ -2177,9 +1969,6 @@ table th {
 }
 .centerborder {
     border: solid 2px #5ea85e!important;
-}
-.centerborder-3h {
-    border: solid 2px #157E76!important;
 }
 .price-table p.mycaption{
     font-size: 11px!important;
@@ -2595,8 +2384,8 @@ width:190px;height:190px;
     font-weight: 200!important;
 }
 
-.disclaimer a{
-    border-radius: 15px;
+.disclaimer button{
+    border-radius: 50px;
     background: #eaffff;
 }
 
@@ -2612,68 +2401,5 @@ width:190px;height:190px;
 }
 
 div.content {
-    padding: 40px 0 0 0!important;
-}
-
-.redtop{
-    background: -webkit-linear-gradient(left, #4998A7, #093783);
-    background: -o-linear-gradient(left, #4998A7, #093783);
-    background: linear-gradient(to right, #4998A7, #093783);
-}
-.redtop h2 {
-    color: #fff;
-    font-family: "gotham-bold", sans-serif !important;
-}
-
-.options li.todayat {
-    font-size: 26px!important;    
-}
-
-ul.ticks li.otp {
-    background: url(https://cdn.shopify.com/s/files/1/2060/5733/files/tick_33cb1af4-0777-4fc8-87a1-bf56d7d1c26d.png) left top no-repeat;
-    padding: 0 1rem 0.5rem 4rem;
-    margin: 0;
-}
-
-button:hover{
-    border: none;
-}
-
-.guarantee h4 {
-    font-size: 27px!important;
-}
-
-.adaybottle{
-    background-color: #d44700;
-    width: 90%;
-    padding: 8px 10px;
-    margin: 0 auto;
-}
-
-.pricePlans-3h #plans .plan2 {
-    border: none!important;
-    box-shadow: none;
-}
-
-.free-ex{
-    padding: 10px 0;
-}
-.plans ul li.button
-{
-  padding-right:5px;
-}
-
-.planContainer-3h .button a
-{
-  padding-top:5px;
-  padding-bottom:5px;
-}
-
-.planContainer-3h .button a img
-{
-  padding-right:3px;
-}
-
-.refbutton{
-    padding: 5px 10px;
+    padding: 30px 0 0 0!important;
 }
