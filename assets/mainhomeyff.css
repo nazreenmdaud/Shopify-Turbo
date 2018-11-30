@@ -37,17 +37,17 @@ _:-moz-tree-row(hover), html {
     padding-bottom: 20px;
 }
 
-/*.container{
-    width:100%;
 
-}*/
-/*.centered-content{
-    width:1200px;
-    margin: 0 auto;
-}*/
-/*.fullWidth{
-    width: 100%;
-}*/
+#suggested:before {
+  height: 50px;
+  display: block;
+  content: '';
+}
+
+.ing-logo ul.ticks{
+    text-align: left;
+    display:inline-block;
+}
 
 .green-bold li{
     font-size: 19px;
@@ -90,6 +90,7 @@ p.pt-text{
     box-shadow:0px 0px 15px #525252;
     transition: background-color 100ms linear;
     background-color: #fff;
+    height: 56px;
 }
 
 .navbar-nav {
@@ -103,14 +104,13 @@ p.pt-text{
 .nav li a{
     color:black;
     font-size: 19px;
-    font-family: "body-fonto", sans-serif !important;
 }
 
-.navbar-collapse button, .navbar-header button{
+/*.navbar-collapse button, .navbar-header button{
     background: none;
-}
+}*/
 
-.navbar-collapse button a, .navbar-header button a{
+/*.navbar-collapse button a, .navbar-header button a{
     color:black;
     font-size: 19px;
     background: linear-gradient(to right, #36a13f, #50a15d);
@@ -128,6 +128,10 @@ p.pt-text{
 .navbar-collapse button:hover, .navbar-header button a:hover{
     text-decoration: none;
     border:none!important;
+}*/
+
+.nav>li>a {
+    padding: 10px 3px!important;
 }
 
 .width8{
@@ -209,6 +213,14 @@ section{
     scroll-behavior: smooth;
 }
 
+.navbar-brand {
+    padding: 7px 15px!important;
+}
+
+.nav li a.grey-nav:hover{
+    left: 0;
+}
+
 .bg-img p, .whatisprov p, .how-gut p,
 .hidden-mech p, .right-type p, .designing p,
 .fomulated p, .backed p, .backed2 p, .item p, .science p,
@@ -218,9 +230,9 @@ section{
 .free-shipping p, .company-profile p, .faq p,
 .references p, .designing ul li,
 .testibody p, .bg-img ul li,.first-3 ul li,
-.next-3 ul li, .faq ul li,
+.next-3 ul li, .faq ul li, .bottle-pic ul li,
 .reviews p, .dr-oz p, .cookbook p, .bonus-cont-in ul li,
-.price-table p, .price-table ul li, .navbar-collapse p {
+.price-table p, .price-table ul li {
 
     font-family: "gotham-normal", sans-serif !important;
     font-size: 19px !important;
@@ -236,11 +248,11 @@ p.journal {
     float: none!important;
 }
 
-.navbar-collapse p{
+/*.navbar-collapse p{
     float: right;
     font-weight: bold;
     margin: 0!important
-}
+}*/
 
 .navbar .container{
     padding:0!important;
@@ -397,10 +409,13 @@ section, .padbottom50, .padbottom50-pt {
     border: none;
 }
 
-#header_section{
+/*#header_section{
+    padding-top: 100px;
+}*/
+
+.top-spacing{
     padding-top: 100px;
 }
-
 
 #header_section:after {
     content: '';
@@ -545,7 +560,7 @@ ul.ticks li {
     background: url('https://cdn.shopify.com/s/files/1/2060/5733/files/tick_33cb1af4-0777-4fc8-87a1-bf56d7d1c26d.png?16035742931872340420') left top no-repeat;
     padding: 0 0 0.5rem 6rem;
 }
-ul.ticks {
+ul.ticks, ul.suggesting {
     list-style-type: none;
     padding: 0;
     margin: 0;
@@ -934,6 +949,7 @@ li.button{
     .cb-cta-mobile{
         font-weight: 100!important;
         font-size: 15px!important;
+        display: -webkit-inline-box;
     }
 
     .cookbook-cta {
@@ -979,8 +995,8 @@ li.button{
     .free-shipping p, .company-profile p, .faq p,
     .references p, .designing ul li, .reviews p,
     .testibody p, .bg-img ul li, .card ul li, .ingredient-box ul li,
-    .dr-oz p, .cookbook p, .bonus-cont-in ul li,
-    .price-table p, .price-table ul li, .navbar-collapse p {
+    .dr-oz p, .cookbook p, .bonus-cont-in ul li, .bottle-pic ul li,
+    .price-table p, .price-table ul li {
 
         font-size: 16px!important;
         margin: 0!important;
@@ -1268,12 +1284,21 @@ li.button{
 
 
 @media screen and (max-width: 480px) {
-    .desktop, .pages {
+    .desktop, .pages, .nav li button {
         display: none;
     }
 
     .mobile {
         display: block;
+    }
+
+    /*.fornav{
+        width: 83%!important;
+        float: right!important;
+    }*/
+
+    .whitebg{
+        background-color: #fff;
     }
     
     .center-align-ticks{
@@ -1320,6 +1345,7 @@ li.button{
     .cb-cta-mobile{
         font-weight: 100!important;
         font-size: 15px!important;
+        display: -webkit-inline-box;
     }
 
     .shifto{
@@ -1433,8 +1459,8 @@ li.button{
     .free-shipping p, .company-profile p, .faq p,
     .references p, .designing ul li, .reviews p,
     .testibody p, .bg-img ul li, .card ul li, .ingredient-box ul li,
-    .dr-oz p, .cookbook p, .bonus-cont-in ul li,
-    .price-table p, .price-table ul li, .navbar-collapse p {
+    .dr-oz p, .cookbook p, .bonus-cont-in ul li, .bottle-pic ul li,
+    .price-table p, .price-table ul li {
 
         font-size: 16px!important;
         margin: 0!important;
@@ -1793,9 +1819,9 @@ li.button{
         float: none!important;
     }
 
-    .navbar-collapse.collapse{
+    /*.navbar-collapse.collapse{
         display: none!important;
-    }
+    }*/
 
     .navbar-testi{
         margin-left: 150px;
@@ -2031,6 +2057,15 @@ margin: 0;
 
 .show, .stickyheader:hover {
     display: flex;
+}
+
+ul.nav li a.con-button{
+    background: #39B54A;
+    color: white;
+    font-family: "gotham-bold", sans-serif !important;
+    border-radius: 20px;
+    text-transform: uppercase;
+    padding: 10px 20px!important;
 }
 
 /* Table 3 Style */
@@ -2637,6 +2672,10 @@ ul.ticks li.otp {
 
 button:hover{
     border: none;
+}
+
+button.nobg{
+    background-color: none;
 }
 
 .guarantee h4 {

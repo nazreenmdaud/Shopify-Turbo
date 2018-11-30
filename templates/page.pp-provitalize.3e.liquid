@@ -37,13 +37,6 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
- <!--  <style>
-  /*.navbar 
-    {
-    display: none;
-  }*/
-  </style> -->
   
 </head>
 
@@ -64,14 +57,15 @@
             
 
         </div>
-        <div>
+        <div class="whitebg">
             <div class="collapse navbar-collapse" id="myNavbar">
-                <ul class="nav navbar-nav width80">
+                <ul class="nav navbar-nav fornav">
                     <li><a class="hover grey-nav" href="#howitworks">How It Works</a></li>
                     <li><a class="hover grey-nav" href="#reviews">Reviews</a></li>
                     <li><a class="hover grey-nav" href="#ingredients">Ingredients</a></li>
+                    <li><a class="hover grey-nav" href="#suggested">Suggested Use</a></li>
                     <li>
-                        <button><a href="#priceAnchor">See Bundle</a></button>
+                        <a href="#priceAnchor" class="con-button desktop">Choose Option Now</a>
                     </li>
                 </ul>
             </div>
@@ -79,7 +73,7 @@
     </div>
 </nav>
 
-<section id="header_section">
+<section id="header_section" class="top-spacing">
     <!-- <div class="bblogo">
         <img src="https://cdn.shopify.com/s/files/1/2060/5733/files/Logo_4c_150x_61ec6233-ccec-407c-bddd-fc12e9982cab.png" alt="">
     </div> -->
@@ -88,7 +82,7 @@
     </div> -->
   
     <div class="contacts">
-        <p><img class="width10-phone" src="https://cdn.shopify.com/s/files/1/2060/5733/files/phone.png"> +1 702-425-4248<br>
+        <p><img class="width10-phone" src="https://cdn.shopify.com/s/files/1/2060/5733/files/phone.png"> +1-844-707-7730<br>
             <span class="small-fs">Mon to Fri | 10AM to 4PM CST</span></p>
 
         <div class="socialshare">
@@ -224,9 +218,9 @@
     </div>
 </section>
 
-<section id="hidden-mech">
+<!-- <section id="hidden-mech">
    
-</section>
+</section> -->
 <!-- The Right Type Of Probiotic That Promote Effortless Weight Loss -->
 <!-- <section>
     <div class="right-type">
@@ -267,18 +261,11 @@
                 <p>Incorporate advanced nutrition technology to ensure maximum delivery, absorption and bioavailability</p></div>
           </div>
 
-       
-        <!-- <h4>For it to be well received by the body, we also ensure that they are:</h4>
-        <div class="row centerImage">
-            <div class="col-xs-12 col-md-4"><p class="paracenter"><img class="width50" src="https://cdn.shopify.com/s/files/1/2060/5733/files/synergy_f0c7fbd6-a702-4752-8212-4e83e15b4df7.png?9557875951222471718"></p><p>Synergistic</p></div>
-            <div class="col-xs-12 col-md-4"><p class="paracenter"><img class="width50" src="https://cdn.shopify.com/s/files/1/2060/5733/files/safe_9a4400e0-cb07-498b-806a-171f57b30a41.png?9557875951222471718"></p><p>Safe</p></div>
-            <div class="col-xs-12 col-md-4"><p class="paracenter"><img class="width50" src="https://cdn.shopify.com/s/files/1/2060/5733/files/stimulant.png?9557875951222471718"></p><p>Stimulant Free</p></div>
-          </div> -->
     </div>
 </section>
 
 <!-- Provitalize: Formulated for Maximum Fat Loss -->
-<hr class="padbottom50" id="howitworks">
+<hr id="howitworks">
 <section>
   <div id="first-CTA-anchor"></div>
     <div class="fomulated">
@@ -329,7 +316,7 @@
         </p>
     </div>
 </section>
-<hr class="foranchor" id="reviews">
+<hr id="reviews">
 <!-- Static Testimonial  -->
 <section class="pad-bottom-0">
     <div class="static-test col-md-12">
@@ -667,6 +654,40 @@
       </div>
     </div>
 </section>
+<hr id="suggested">
+<!-- Suggested Use & Supplment Facts-->
+<section>
+    <div class="bottle-pic">
+        <div class="product-table">
+            <p class="paracenter"><img class="width50" src="{{'product-table-min.png' | asset_url}}">
+            </p><br><br>
+        
+        </div>
+        <h1>Suggested Use</h1>
+        <div class="ing-logo">
+        <ul class="ticks">
+            <li>Each bottle comes with 30 servings. </li>
+
+            <li>For best results, take 2 capsules each morning for at least 60-90 days. </li>
+
+            <li>May be taken with or without food. </li>
+
+            <li>Store in a cool, dry place. No refrigeration needed.</li>
+
+        </ul></div>
+        <br><br>
+        <div class="ing-logo">
+            <div class="icon"><div class="css-sprite-stimulant-min"></div></div>
+            <div class="icon"><div class="css-sprite-tp-item5-min"></div></div>
+            <div class="icon"><div class="css-sprite-tp-item1-min"></div></div>
+            <div class="icon"><div class="css-sprite-tp-item2-min"></div></div>
+            <div class="icon"><div class="css-sprite-tp-item4-min"></div></div>
+            <div class="icon"><div class="css-sprite-tp-item3-min"></div></div>         
+            
+        </div>
+    </div>
+</section>
+
 <!-- Bottle Pic with Supp Table -->
 <section>
     <div class="bottle-pic">
@@ -684,22 +705,7 @@
         </p>
     </div>
 </section>
-<!-- Product Table -->
-<section>
-    <div class="product-table">
-        <p class="paracenter"><img class="width50" src="{{'product-table-min.png' | asset_url}}">
-        </p><br><br>
-        <div class="ing-logo">
-            <div class="icon"><div class="css-sprite-stimulant-min"></div></div>
-            <div class="icon"><div class="css-sprite-tp-item5-min"></div></div>
-            <div class="icon"><div class="css-sprite-tp-item1-min"></div></div>
-            <div class="icon"><div class="css-sprite-tp-item2-min"></div></div>
-            <div class="icon"><div class="css-sprite-tp-item4-min"></div></div>
-            <div class="icon"><div class="css-sprite-tp-item3-min"></div></div>         
-            
-        </div>
-    </div>
-</section>
+
 <!-- Guarantee -->
 <section class="pad-bottom-0">
     <div class="guarantee">
@@ -888,7 +894,7 @@ hr#priceAnchor {
     </div>
 </section> -->
 <!-- Price Table 1 -->
-<hr class="padbottom50-pt" id="priceAnchor">
+<hr id="priceAnchor">
 <section style="padding-bottom:50px;">
   <br>
     <div class="price-table">
@@ -899,7 +905,7 @@ hr#priceAnchor {
     
     <div class="logo-n-number col-md-12">
         <div class="col-md-4">
-        <p class="paracenter"><img class="float-left" src="https://cdn.shopify.com/s/files/1/2060/5733/files/logo_n_number.png"></p></div>
+        <p class="paracenter"><img class="float-left" src="https://cdn.shopify.com/s/files/1/2060/5733/files/newnumber_iwth_logo.png"></p></div>
         <div class="col-md-8 pad0-m">
         <p class="paracenter"><img class="float-right timeline-img" src="https://cdn.shopify.com/s/files/1/2060/5733/files/progress_bar_1.png"></p></div>
     </div>
@@ -944,7 +950,7 @@ hr#priceAnchor {
                             <li><span>Retail: </span><span class="line-through">$67</span></li>
                             <br>
                             <li>Now Only </li>
-                            <li>$<span class="price-size">40</span></li>
+                            <li>$<span class="price-size">40</span>US</li>
                             <br>
                             <li>+</li>
                             <li><img class="width55" src="https://cdn.shopify.com/s/files/1/2060/5733/files/shipping_price.png"></li>
@@ -967,7 +973,7 @@ hr#priceAnchor {
                             <li><span>Retail: </span><span class="line-through">$248</span></li>
                             <br>
                             <li>Now Only </li>
-                            <li>$<span class="price-size">90</span></li>
+                            <li>$<span class="price-size">90</span>US</li>
                             <li>(Only $30 Per Bottle)</li>
                             <br>
                             <li>+</li>
@@ -995,7 +1001,7 @@ hr#priceAnchor {
                             <li><span>Retail: </span><span class="line-through">$449</span></li>
                             <br>
                             <li>Now Only </li>
-                            <li>$<span class="price-size">140</span></li>
+                            <li>$<span class="price-size">140</span>US</li>
                             <li>(Only $24 Per Bottle)</li>
                             <br>
                             <li>+</li>
@@ -1198,7 +1204,7 @@ hr#priceAnchor {
     
     <div class="logo-n-number col-md-12">
         <div class="col-md-4">
-        <p class="paracenter"><img class="float-left" src="https://cdn.shopify.com/s/files/1/2060/5733/files/logo_n_number.png"></p></div>
+        <p class="paracenter"><img class="float-left" src="https://cdn.shopify.com/s/files/1/2060/5733/files/newnumber_iwth_logo.png"></p></div>
         <div class="col-md-8 pad0-m">
         <p class="paracenter"><img class="float-right timeline-img" src="https://cdn.shopify.com/s/files/1/2060/5733/files/progress_bar_1.png"></p></div>
     </div>
@@ -1243,7 +1249,7 @@ hr#priceAnchor {
                             <li><span>Retail: </span><span class="line-through">$67</span></li>
                             <br>
                             <li>Now Only </li>
-                            <li>$<span class="price-size">40</span></li>
+                            <li>$<span class="price-size">40</span>US</li>
                             <br>
                             <li>+</li>
                             <li><img class="width55" src="https://cdn.shopify.com/s/files/1/2060/5733/files/shipping_price.png"></li>
@@ -1266,7 +1272,7 @@ hr#priceAnchor {
                             <li><span>Retail: </span><span class="line-through">$248</span></li>
                             <br>
                             <li>Now Only </li>
-                            <li>$<span class="price-size">90</span></li>
+                            <li>$<span class="price-size">90</span>US</li>
                             <li>(Only $30 Per Bottle)</li>
                             <br>
                             <li>+</li>
@@ -1294,7 +1300,7 @@ hr#priceAnchor {
                             <li><span>Retail: </span><span class="line-through">$449</span></li>
                             <br>
                             <li>Now Only </li>
-                            <li>$<span class="price-size">140</span></li>
+                            <li>$<span class="price-size">140</span>US</li>
                             <li>(Only $24 Per Bottle)</li>
                             <br>
                             <li>+</li>
@@ -1851,7 +1857,7 @@ hr#priceAnchor {
                         Paypal's Buyer's Protection also ensures that you are fully protected. <br>If you don't have Paypal, you can either:<br>
                         Email us at <a href="mailto:Contact@betterbody.co">Contact@betterbody.co</a><br>
                         Drop us a Facebook message<br>
-                        Call us at +1 702-425-4248 (Mon to Fri, 10AM to 4PM CST)
+                        Call us at +1-844-707-7730 (Mon to Fri, 10AM to 4PM CST)
                         </p>
                     </div> <!-- /card-body -->
                 </div> <!-- /answer17 -->
@@ -2032,7 +2038,7 @@ hr#priceAnchor {
                         <ul class="listyes">
                             <li>Email us at <a href="mailto:Contact@betterbody.co">Contact@betterbody.co</a></li>
                             <li>Drop us a Facebook message</li>
-                            <li>Call us at +1 702-425-4248 (Mon to Fri, 10AM to 4PM CST)</li>
+                            <li>Call us at +1-844-707-7730 (Mon to Fri, 10AM to 4PM CST)</li>
                         </ul>
                     </p>
                     </div> <!-- /card-body -->
@@ -2053,7 +2059,7 @@ hr#priceAnchor {
                         Email: contact@betterbody.co<br>
                         Online Contact Form: <a href="https://shop.betterbody.co/pages/contact-us">https://shop.betterbody.co/pages/contact-us</a><br>
                         Facebook Message: <a href="https://www.facebook.com/betterbodyco/">https://www.facebook.com/betterbodyco/</a><br>
-                        Phone: +1 702-425-4248 (Mon to Fri, 10AM to 4PM CST) 
+                        Phone: +1-844-707-7730 (Mon to Fri, 10AM to 4PM CST) 
                         </p>
                     </div> <!-- /card-body -->
                 </div> <!-- /answer26 -->
@@ -2185,7 +2191,7 @@ hr#priceAnchor {
 
                 if ( $(window).width() < 480) {      
                     if ($(this).scrollTop() > 100) { 
-                        $('.navbar-header .navbar-brand img').attr('src','https://cdn.shopify.com/s/files/1/2060/5733/files/buttoncta.png');
+                         $('.navbar-header .navbar-brand img').attr('src','https://cdn.shopify.com/s/files/1/2060/5733/files/con-cta.png');
                     }
                     if ($(this).scrollTop() < 100) { 
                         $('.navbar-header .navbar-brand img').attr('src','https://cdn.shopify.com/s/files/1/2060/5733/files/Logo_4c_150x_61ec6233-ccec-407c-bddd-fc12e9982cab.png');
@@ -2204,6 +2210,28 @@ hr#priceAnchor {
   $('.panel-collapse').on('hide.bs.collapse', function () {
     $(this).siblings('.card-header').removeClass('active');
   });
+</script>
+
+<script>
+
+    // The function actually applying the offset
+function offsetAnchor() {
+  if (location.hash.length !== 0) {
+    window.scrollTo(window.scrollX, window.scrollY - 80);
+  }
+}
+
+// Captures click events of all a elements with href starting with #
+$(document).on('click', 'a[href^="#"]', function(event) {
+  // Click events are captured before hashchanges. Timeout
+  // causes offsetAnchor to be called after the page jump.
+  window.setTimeout(function() {
+    offsetAnchor();
+  }, 0);
+});
+
+// Set the offset when entering page with hash present in the url
+window.setTimeout(offsetAnchor, 0);
 </script>
 
 </body>

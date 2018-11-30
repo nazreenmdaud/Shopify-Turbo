@@ -403,6 +403,12 @@ h4 {
 .video_section, .mid-text {
     margin-top: 20%;
 }
+.mid-text2 {
+    margin-top: 8%;
+}
+.mid-text3 {
+    margin-top: 18%;
+}
 
 .buttonize{
     display: grid;
@@ -469,7 +475,7 @@ h4 {
 .bonus-cont-in h2, .bonus-cont-in h3{
     font-weight: 800;
 }
-.bonus-cont-in h2, .bonus-cont-in h3{
+.bonus-cont-in h2, .bonus-cont-in h3, .backed h2{
     text-align: center;
 }
 
@@ -1231,6 +1237,17 @@ li.button{
 
     .mobile {
         display: block;
+    }
+
+    .bg-img h1 {
+        text-align: left;
+        font-size: 26px!important;
+        width: 100%;
+    }
+
+    .bottle-mobile{
+        float:right;
+        width: 65%;
     }
 
     .C_btn {
@@ -2772,8 +2789,12 @@ background:url('https://cdn.shopify.com/s/files/1/2060/5733/files/shippings.png'
 width:230px;height:118px;
 }
 
-.dark-orange, .testicontainer strong.namaste, .whatisprov h1, .science h3{
+.dark-orange, .testicontainer strong.namaste, .whatisprov h1, .science h3, .backed h2{
     color:#cc6b01!important;
+}
+
+.light-orange{
+    color:#FF6B00;
 }
 
 .whatisprov h1{
