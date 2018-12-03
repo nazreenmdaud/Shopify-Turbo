@@ -2937,7 +2937,7 @@ button:hover{
 
 .adaybottle{
     background-color: #FF6B00;
-    width: 90%;
+    width: 100%;
     padding: 8px 10px;
     margin: 0 auto;
     border-top-left-radius: 20px;
@@ -2970,3 +2970,7 @@ button:hover{
 .refbutton{
     padding: 5px 10px;
 }
+
+.card-body p {
+        padding: 0 12px!important;
+    }

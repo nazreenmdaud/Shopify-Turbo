@@ -94,16 +94,17 @@ p.pt-text{
 }
 
 .navbar-nav {
-    margin: 7.5px -15px!important ;
+    float: none!important;
+    margin: 7px 30px!important;
 }
 
 .nav{
-    width: 82%;
+    width: 100%;
 }
 
 .nav li a{
     color:black;
-    font-size: 19px;
+    font-size: 16px;
 }
 
 /*.navbar-collapse button, .navbar-header button{
@@ -401,7 +402,7 @@ h4 {
 }
 
 section, .padbottom50, .padbottom50-pt {
-    padding-bottom: 100px;
+    padding-bottom: 30px;
 }
 
 .button {
@@ -414,7 +415,8 @@ section, .padbottom50, .padbottom50-pt {
 }*/
 
 .top-spacing{
-    padding-top: 100px;
+    padding-top: 50px!important;
+    padding-bottom: 100px!important;
 }
 
 #header_section:after {
@@ -846,9 +848,9 @@ li.button{
     margin-bottom: 5px;
 }
 
-.fomulated {
+/*.fomulated {
     border-top: 8px solid #0B3478;
-}
+}*/
 
 .child p{
     font-size: 28px!important;
@@ -1292,6 +1294,22 @@ li.button{
         display: block;
     }
 
+    .nav{
+        width: 65%;
+    }
+
+    .navbar-fixed-bottom .navbar-collapse, .navbar-fixed-top .navbar-collapse {
+        max-height: 380px!important;
+    }
+
+    .pad0, .pad0 div{
+        padding: 0!important;
+    }
+
+    .forpp3l-50bottom{
+        padding-bottom: 0!important;
+    }
+
     /*.fornav{
         width: 83%!important;
         float: right!important;
@@ -1323,7 +1341,7 @@ li.button{
     }
 
     #header_section {
-        padding-top: 50px;
+        padding-top: 10px;
     }
     
     .pad-bottom-0{
@@ -1851,8 +1869,9 @@ li.button{
 
     img.mobile_view {
         display: block;
-        width: 85%;
+        width: 65%;
         max-width: 100%;
+        float: right;
     }
 
     .center-align-ticks{
@@ -1878,7 +1897,7 @@ li.button{
     }
 
     .bg-img h2 {
-        font-size: 18px !important;
+        font-size: 25px !important;
     }
 
     /********** Responsive code For ALL Pages **********/
@@ -2060,7 +2079,7 @@ margin: 0;
 }
 
 ul.nav li a.con-button{
-    background: #39B54A;
+    background: linear-gradient(to right, #4998A7, #093783);
     color: white;
     font-family: "gotham-bold", sans-serif !important;
     border-radius: 20px;
@@ -2647,7 +2666,7 @@ width:190px;height:190px;
 }
 
 div.content {
-    padding: 40px 0 0 0!important;
+    padding: 20px 0 0 0!important;
 }
 
 .redtop{
@@ -2716,3 +2735,16 @@ button.nobg{
 .refbutton{
     padding: 5px 10px;
 }
+
+.pad-bottom-0{
+    padding-bottom: 0!important;
+}
+
+.height70{
+    height: 70%;
+}
+
+.forpp3l-50bottom{
+    padding-bottom: 150px;
+}
+
