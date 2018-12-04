@@ -1,6 +1,7 @@
 <!DOCTYPE html>
-<!-- PP3M -->
+<!-- PP3E -->
 <head>
+  
   
    <!-- Google Tag Manager -->
     <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -16,7 +17,7 @@
     <meta name="trustpilot-one-time-domain-verification-id" content="LbgqT9fj1SHwN1Ncg8xEJdcHUCXgIUkNvcO7IwjU"/>
 
     <title>Product Page - Provitalize</title>
-   <style>.header , #header{display:none !important;}
+   <style>.header , #header, .navbar{display:none !important;}
      .adaybottle{ width:100% !important;}
   </style>
  
@@ -27,26 +28,53 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
-  <style>
-  .navbar 
-    {
-    display: none;
-  }
-  </style>
   
 </head>
 
 
 <body>
 
-<section id="header_section" class="forpp3l-50bottom">
+<!-- Navigation -->
+<nav class="navbar navbar-fixed-top">
+    <div class="container pad0">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="#header_section" onscroll="changeButton()"><img src="https://cdn.shopify.com/s/files/1/2060/5733/files/Logo_4c_150x_61ec6233-ccec-407c-bddd-fc12e9982cab.png" alt=""></a>
+
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            
+
+        </div>
+        <div class="whitebg">
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav fornav">
+                    <li><a data-toggle="collapse" data-target=".in" class="hover grey-nav" href="#howitworks">Benefits</a></li>
+                    <li><a data-toggle="collapse" data-target=".in" class="hover grey-nav" href="#ingredients">Ingredients</a></li>
+                    <li><a data-toggle="collapse" data-target=".in" class="hover grey-nav" href="#suggested">Suggested Use</a></li>
+                    <li><a data-toggle="collapse" data-target=".in" class="hover grey-nav" href="#guarantee">Refund Policy</a></li>
+                    <li><a data-toggle="collapse" data-target=".in" class="hover grey-nav" href="#reviews">Reviews</a></li>
+                    <li><a data-toggle="collapse" data-target=".in" class="hover grey-nav" href="#faq">FAQ</a></li>
+                    <li>
+                        <a data-toggle="collapse" data-target=".in" href="#priceAnchor" class="con-button desktop">Buy Now</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</nav>
+
+
+
+<section id="header_section" class="top-spacing2">
     <!-- <div class="bblogo">
         <img src="https://cdn.shopify.com/s/files/1/2060/5733/files/Logo_4c_150x_61ec6233-ccec-407c-bddd-fc12e9982cab.png" alt="">
     </div> -->
-   <div class="bblogo">
+<!--    <div class="bblogo">
         <img src="https://cdn.shopify.com/s/files/1/2060/5733/files/Logo_4c_150x_61ec6233-ccec-407c-bddd-fc12e9982cab.png" alt="">
-    </div>
+    </div> -->
   
     <div class="contacts">
         <p><img class="width10-phone" src="https://cdn.shopify.com/s/files/1/2060/5733/files/phone.png"> +1-844-707-7730<br>
@@ -59,12 +87,13 @@
     </div>
 
     <br>
-    <div class="bg-img header-mob-space">
-        <div class="col-md-9 pad0">
-            <h1>Unique Probiotic Strains & Herbs That</h1>
+    <div class="bg-img header-mob-space forppn">
+        <div class="col-md-12 pad0">
+            <h1 class="for3n-h1">Unique Probiotic Strains & Herbs That</h1>
             <img class="mobile_view" src="https://cdn.shopify.com/s/files/1/2060/5733/files/main-top-bottle.png" alt="bottole images">
-            <h2>Signal The Body To Burn Fat</h2>
+            <h2 class="for3n-h2">Signal The Body To Burn Fat</h2>
             <hr class="mobile">
+
             <p>Scientifically studied ingredients that promote effective
             <br>weight loss:</p>
             <ul>
@@ -74,18 +103,16 @@
                 <li>Reduce cravings, appetite and hunger</li>
             </ul>
             <br>
-            <a class="C_btn" href="#first-CTA-anchor">LEARN HOW IT WORKS</a>
+            <!-- <a class="C_btn" href="#first-CTA-anchor">LEARN HOW IT WORKS</a> -->
             
         </div>
-        <div class="col-md-3">
+        <!-- <div class="col-md-3">
             <div class="video_section">
                 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/vZXZ1zuyzVc?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
                 <p class="paracenter"><img src="{{'arrow-click-here-min.png' | asset_url}}"></p>
-                  
-                    <!-- <h1 class="below_video">Click here</h1>
-                    <h3>to see video</h3> -->
+
             </div>
-        </div>
+        </div> -->
     </div>
 
 </section>
@@ -103,10 +130,24 @@
         styleElem.innerHTML = "#header_section:after {transform: scale(" + headerBgScale + ", 1); -ms-transform: scale(" + headerBgScale + ", 1); -webkit-transform: scale(" + headerBgScale + ", 1);}" +
             "#disclaimer:after {transform: scale(" + disclaimerBgScale + ", 1); -ms-transform: scale(" + disclaimerBgScale + ", 1); -webkit-transform: scale(" + disclaimerBgScale + ", 1);}" +
             "#hidden-mech:after {transform: scale(" + disclaimerBgScale + ", 1); -ms-transform: scale(" + disclaimerBgScale + ", 1); -webkit-transform: scale(" + disclaimerBgScale + ", 1);}" + 
-            "#hidden-mech2:after {transform: scale(" + disclaimerBgScale + ", 1); -ms-transform: scale(" + disclaimerBgScale + ", 1); -webkit-transform: scale(" + disclaimerBgScale + ", 1);}";
+            "#hidden-mech2:after {transform: scale(" + disclaimerBgScale + ", 1); -ms-transform: scale(" + disclaimerBgScale + ", 1); -webkit-transform: scale(" + disclaimerBgScale + ", 1);}"
+            + 
+            "#videooo:after {transform: scale(" + disclaimerBgScale + ", 1); -ms-transform: scale(" + disclaimerBgScale + ", 1); -webkit-transform: scale(" + disclaimerBgScale + ", 1);}";
     });
 
 </script>
+
+<!-- Disclaimer -->
+<section id="videooo">
+    <div class="disclaimer">
+        <h1 class="for3nh11">Watch How Provitalize Customers Regained Their Figure With Provitalize, Even at 66</h1>
+        <br>
+        <div class="fw-video">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/vZXZ1zuyzVc?cc_load_policy=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        
+    </div>
+</section>
 
 <!-- What is Provitalize -->
 <section>
@@ -187,6 +228,9 @@
     </div>
 </section>
 
+<!-- <section id="hidden-mech">
+   
+</section> -->
 <!-- The Right Type Of Probiotic That Promote Effortless Weight Loss -->
 <!-- <section>
     <div class="right-type">
@@ -227,17 +271,11 @@
                 <p>Incorporate advanced nutrition technology to ensure maximum delivery, absorption and bioavailability</p></div>
           </div>
 
-       
-        <!-- <h4>For it to be well received by the body, we also ensure that they are:</h4>
-        <div class="row centerImage">
-            <div class="col-xs-12 col-md-4"><p class="paracenter"><img class="width50" src="https://cdn.shopify.com/s/files/1/2060/5733/files/synergy_f0c7fbd6-a702-4752-8212-4e83e15b4df7.png?9557875951222471718"></p><p>Synergistic</p></div>
-            <div class="col-xs-12 col-md-4"><p class="paracenter"><img class="width50" src="https://cdn.shopify.com/s/files/1/2060/5733/files/safe_9a4400e0-cb07-498b-806a-171f57b30a41.png?9557875951222471718"></p><p>Safe</p></div>
-            <div class="col-xs-12 col-md-4"><p class="paracenter"><img class="width50" src="https://cdn.shopify.com/s/files/1/2060/5733/files/stimulant.png?9557875951222471718"></p><p>Stimulant Free</p></div>
-          </div> -->
     </div>
 </section>
 
 <!-- Provitalize: Formulated for Maximum Fat Loss -->
+<hr id="howitworks">
 <section>
   <div id="first-CTA-anchor"></div>
     <div class="fomulated">
@@ -288,9 +326,75 @@
         </p>
     </div>
 </section>
+<hr>
+<!-- Static Testimonial  -->
+<section class="pad-bottom-0">
+    <div class="static-test col-md-12">
+        <div class="row testicontainer">
+            <div class="col-md-3 testipic">
+                <!-- <img src="{{'testipic-joyce.b-min.jpg' | asset_url}}"/> -->
+                <div class="img-sprite css-sprite-testipic-joyceb-min"></div>
+            </div> <!-- /testipic -->
+            <div class="col-md-9 testibody">
+                <h2>Just ASTOUNDING!!!</h2>
+                <p>40 was not kind to me; with no change in my eating habits I went from a size two to a size ten.</p> <br>
+                <p>I exercised, I went carb free but nothing worked.</p><br>
+                <p>4 weeks ago, I came across Provitalize on Facebook from a post my friend shared about her weight loss journey.</p><br>
+                <p>I read up on it and ordered some.</p>
+                <p><b>For the first time in nearly eight years I am losing weight!</b></p>
+                <p><strong>Rebecca C</strong></p>
+            </div> <!-- /testibody -->
+        </div> <!-- /testicontainer -->
 
+        <div class="row testicontainer">
+            <div class="col-md-3 testipic">
+                <!-- <img src="{{'testipic-jin.k.2.jpg' | asset_url}}"/> -->
+                <div class="img-sprite css-sprite-testipic-jink2"></div>
+            </div> <!-- /testipic -->
+            <div class="col-md-9 testibody">
+                <h2>I Didn’t Eat One CRUMB Of Junk Food At A 3 Day Long PTA!</h2>
+                <p>I work in education and during teacher appreciation week our PTA brings in three days of lunch and junk food all week long.</p><br>
+                <p>Donuts, cookies, muffins, chips, cakes, etc.</p><br>
+                <p>That whole week I didn't eat one crumb of any of that food.</p><br>
+                <p>I felt powerful and confident when I was taking Provitalize.</p><br>
+                <p>I am certainly reordering and going back on Provitalize again and again.</p>
+                <p><strong>Jin K</strong></p>
+            </div> <!-- /testibody -->
+        </div> <!-- /testicontainer -->
+
+        <div class="row testicontainer">
+            <div class="col-md-3 testipic">
+                <!-- <img src="{{'testipic-jin.k-min.jpg' | asset_url}}"/> -->
+                <div class="img-sprite css-sprite-testipic-jink-min"></div>
+            </div> <!-- /testipic -->
+            <div class="col-md-9 testibody">
+                <h2>My Husband Started Taking Provitalize Too</h2>
+                <p>Even my husband who is my biggest critic has noticed a big difference so he started taking them.</p><br>
+                <p>This is probably the best weight loss/feel good supplement I've ever taken... In two weeks, my gut has reduced significantly and my cravings have subsided big time..</p><br>
+                <p>I'm 42.</p>
+                <p><strong>Idania F</strong></p>
+            </div> <!-- /testibody -->
+        </div> <!-- /testicontainer -->
+
+        <div class="row testicontainer">
+            <div class="col-md-3 testipic">
+                <!-- <img src="{{'testipic-petra.l-min.jpg' | asset_url}}"/> -->
+                <div class="img-sprite css-sprite-testipic-petral-min"></div>
+            </div> <!-- /testipic -->
+            <div class="col-md-9 testibody">
+                <h2>It works like magic.</h2>
+                <p>Bought Provitalize to help with my Celiacs and to stop sugar / carb cravings.</p><br>
+                <p>They really work for me! Thank you.</p>
+                <p><strong>Petra L</strong></p>
+            </div> <!-- /testibody -->
+        </div> <!-- /testicontainer -->
+
+
+    </div>
+</section>
+<hr>
 <!-- The Science Behind Provitalize -->
-<section>
+<section id="ingredients">
     <div class="science">
       <p class="mobile_view"></p>
       <div id="second-CTA-anchor"></div>
@@ -560,6 +664,40 @@
       </div>
     </div>
 </section>
+<hr id="suggested">
+<!-- Suggested Use & Supplment Facts-->
+<section>
+    <div class="bottle-pic">
+        <div class="product-table">
+            <p class="paracenter"><img class="width50" src="{{'product-table-min.png' | asset_url}}">
+            </p><br><br>
+        
+        </div>
+        <h1>Suggested Use</h1>
+        <div class="ing-logo">
+        <ul class="ticks">
+            <li>Each bottle comes with 30 servings. </li>
+
+            <li>For best results, take 2 capsules each morning for at least 60-90 days. </li>
+
+            <li>May be taken with or without food. </li>
+
+            <li>Store in a cool, dry place. No refrigeration needed.</li>
+
+        </ul></div>
+        <br><br>
+        <div class="ing-logo">
+            <div class="icon"><div class="css-sprite-stimulant-min"></div></div>
+            <div class="icon"><div class="css-sprite-tp-item5-min"></div></div>
+            <div class="icon"><div class="css-sprite-tp-item1-min"></div></div>
+            <div class="icon"><div class="css-sprite-tp-item2-min"></div></div>
+            <div class="icon"><div class="css-sprite-tp-item4-min"></div></div>
+            <div class="icon"><div class="css-sprite-tp-item3-min"></div></div>         
+            
+        </div>
+    </div>
+</section>
+
 <!-- Bottle Pic with Supp Table -->
 <section>
     <div class="bottle-pic">
@@ -577,24 +715,9 @@
         </p>
     </div>
 </section>
-<!-- Product Table -->
-<section>
-    <div class="product-table">
-        <p class="paracenter"><img class="width50" src="{{'product-table-min.png' | asset_url}}">
-        </p><br><br>
-        <div class="ing-logo">
-            <div class="icon"><div class="css-sprite-stimulant-min"></div></div>
-            <div class="icon"><div class="css-sprite-tp-item5-min"></div></div>
-            <div class="icon"><div class="css-sprite-tp-item1-min"></div></div>
-            <div class="icon"><div class="css-sprite-tp-item2-min"></div></div>
-            <div class="icon"><div class="css-sprite-tp-item4-min"></div></div>
-            <div class="icon"><div class="css-sprite-tp-item3-min"></div></div>         
-            
-        </div>
-    </div>
-</section>
+
 <!-- Guarantee -->
-<section class="pad-bottom-0">
+<section class="pad-bottom-0" id="guarantee">
     <div class="guarantee">
         <h1>Satisfaction Guaranteed</h1>
         <p class="paracenter"><img class="width20-fs" src="{{'60-days-min.png' | asset_url}}"></p>
@@ -606,18 +729,15 @@
     <div class="faq-cta">
         <p class="paracenter">
             
-                <a class="bottom10 tnb-3 C_btn" href="#priceAnchor2">TRY PROVITALIZE NOW</a>
+                <a class="bottom10 tnb-3 C_btn" href="#priceAnchor">TRY PROVITALIZE NOW</a>
             
         </p>
     </div>
   </section>
-<!--   <section id="guarantee">
-        <img class="fullWidth"
-             src="https://cdn.shopify.com/s/files/1/2060/5733/files/happy-adults.png?13087154971331885015">
-  </section> -->
+
 <hr>
   <!-- Okendo Reviews -->
-<section style="padding-bottom:50px;">
+<section class="padbot20"  id="reviews">
   <div class="reviews" id="okendosection">
     <h1>More than 14,000 have tried Provitalize</h1>
     <p class="paracenter">All reviews below are from actual paying customers. They have been authenticated and verified by Okendo, an independent third party reviewing company.</p>
@@ -781,9 +901,9 @@ hr#priceAnchor {
     </div>
 </section> -->
 <!-- Price Table 1 -->
-<hr class="padbottom50-pt" id="priceAnchor">
-<section style="padding-bottom:50px;">
-  <br>
+<hr class="padbot20">
+<section style="padding-bottom:50px;" id="priceAnchor">
+
     <div class="price-table">
 <!-- 
         <h1>Buy Provitalize Now At Just $1 A Day</h1>
@@ -843,7 +963,7 @@ hr#priceAnchor {
                             <li><img class="width55" src="https://cdn.shopify.com/s/files/1/2060/5733/files/shipping_price.png"></li>
                         </ul>
 
-                        <li class="button marg-20"><a class="bestPlanButton2 gtm-buy1-pp6" href="https://shop.betterbody.co/a/secure/checkout/07HeeCGFASWP7LGDvAyj"><img class="width20-cta" src="https://cdn.shopify.com/s/files/1/2060/5733/files/cart-img.png"> one time purchase</a></li>
+                        <li class="button marg-20"><a class="bestPlanButton2 gtm-buy1-pp6" href="/a/secure/checkout/07HeeCGFASWP7LGDvAyj"><img class="width20-cta" src="https://cdn.shopify.com/s/files/1/2060/5733/files/cart-img.png"> one time purchase</a></li>
                     </ul>
                 </li>
 
@@ -1077,11 +1197,9 @@ hr#priceAnchor {
     </div>
 </section>
 
-
-
 <!-- Price Table 2 -->
-<hr class="padbottom50-pt" id="priceAnchor2">
-<section>
+<hr class="padbottom50-pt">
+<section id="priceAnchor2">
   <br>
     <div class="price-table">
 <!-- 
@@ -1142,7 +1260,7 @@ hr#priceAnchor {
                             <li><img class="width55" src="https://cdn.shopify.com/s/files/1/2060/5733/files/shipping_price.png"></li>
                         </ul>
 
-                        <li class="button marg-20"><a class="bestPlanButton2 gtm-buy1-pp6" href="https://shop.betterbody.co/a/secure/checkout/07HeeCGFASWP7LGDvAyj"> <img class="width20-cta" src="https://cdn.shopify.com/s/files/1/2060/5733/files/cart-img.png">one time purchase</a></li>
+                        <li class="button marg-20"><a class="bestPlanButton2 gtm-buy1-pp6" href="/a/secure/checkout/07HeeCGFASWP7LGDvAyj"> <img class="width20-cta" src="https://cdn.shopify.com/s/files/1/2060/5733/files/cart-img.png">one time purchase</a></li>
                     </ul>
                 </li>
 
@@ -1311,80 +1429,9 @@ hr#priceAnchor {
     </div>
 </section>
 <!-- </div> -->
-<!-- Static Testimonial  -->
-<section class="pad-bottom-0">
-    <div class="static-test col-md-12">
-        <div class="row testicontainer">
-            <div class="col-md-3 testipic">
-                <!-- <img src="{{'testipic-joyce.b-min.jpg' | asset_url}}"/> -->
-                <div class="img-sprite css-sprite-testipic-joyceb-min"></div>
-            </div> <!-- /testipic -->
-            <div class="col-md-9 testibody">
-                <h2>Just ASTOUNDING!!!</h2>
-                <p>40 was not kind to me; with no change in my eating habits I went from a size two to a size ten.</p> <br>
-                <p>I exercised, I went carb free but nothing worked.</p><br>
-                <p>4 weeks ago, I came across Provitalize on Facebook from a post my friend shared about her weight loss journey.</p><br>
-                <p>I read up on it and ordered some.</p>
-                <p><b>For the first time in nearly eight years I am losing weight!</b></p>
-                <p><strong>Rebecca C</strong></p>
-            </div> <!-- /testibody -->
-        </div> <!-- /testicontainer -->
-
-        <div class="row testicontainer">
-            <div class="col-md-3 testipic">
-                <!-- <img src="{{'testipic-jin.k.2.jpg' | asset_url}}"/> -->
-                <div class="img-sprite css-sprite-testipic-jink2"></div>
-            </div> <!-- /testipic -->
-            <div class="col-md-9 testibody">
-                <h2>I Didn’t Eat One CRUMB Of Junk Food At A 3 Day Long PTA!</h2>
-                <p>I work in education and during teacher appreciation week our PTA brings in three days of lunch and junk food all week long.</p><br>
-                <p>Donuts, cookies, muffins, chips, cakes, etc.</p><br>
-                <p>That whole week I didn't eat one crumb of any of that food.</p><br>
-                <p>I felt powerful and confident when I was taking Provitalize.</p><br>
-                <p>I am certainly reordering and going back on Provitalize again and again.</p>
-                <p><strong>Jin K</strong></p>
-            </div> <!-- /testibody -->
-        </div> <!-- /testicontainer -->
-
-        <div class="row testicontainer">
-            <div class="col-md-3 testipic">
-                <!-- <img src="{{'testipic-jin.k-min.jpg' | asset_url}}"/> -->
-                <div class="img-sprite css-sprite-testipic-jink-min"></div>
-            </div> <!-- /testipic -->
-            <div class="col-md-9 testibody">
-                <h2>My Husband Started Taking Provitalize Too</h2>
-                <p>Even my husband who is my biggest critic has noticed a big difference so he started taking them.</p><br>
-                <p>This is probably the best weight loss/feel good supplement I've ever taken... In two weeks, my gut has reduced significantly and my cravings have subsided big time..</p><br>
-                <p>I'm 42.</p>
-                <p><strong>Idania F</strong></p>
-            </div> <!-- /testibody -->
-        </div> <!-- /testicontainer -->
-
-        <div class="row testicontainer">
-            <div class="col-md-3 testipic">
-                <!-- <img src="{{'testipic-petra.l-min.jpg' | asset_url}}"/> -->
-                <div class="img-sprite css-sprite-testipic-petral-min"></div>
-            </div> <!-- /testipic -->
-            <div class="col-md-9 testibody">
-                <h2>It works like magic.</h2>
-                <p>Bought Provitalize to help with my Celiacs and to stop sugar / carb cravings.</p><br>
-                <p>They really work for me! Thank you.</p>
-                <p><strong>Petra L</strong></p>
-            </div> <!-- /testibody -->
-        </div> <!-- /testicontainer -->
-
-
-    </div>
-</section>
-
-<div class="bottle-pic">
-        <br>
-        <p class="paracenter">
-            <a class="tnb-2 C_btn" href="#priceAnchor">TRY PROVITALIZE NOW</a>
-        </p>
-    </div>
+<hr>
 <!-- FAQ -->
-<section>
+<section id="faq">
     <div class="faq">
         <h1>Frequently Asked Questions</h1>
         <h4 class="paracenter removeMar">Click on the questions to see the answers below</h4>
@@ -2149,12 +2196,13 @@ hr#priceAnchor {
 
                 if ( $(window).width() < 480) {      
                     if ($(this).scrollTop() > 100) { 
-                        $('.navbar-header .navbar-brand img').attr('src','https://cdn.shopify.com/s/files/1/2060/5733/files/buttoncta.png');
+                         $('.navbar-header .navbar-brand img').attr('src','https://cdn.shopify.com/s/files/1/2060/5733/files/bn-button_1.jpg');
+                         $('.navbar-header a').attr('href','#priceAnchor');
+
                     }
                     if ($(this).scrollTop() < 100) { 
                         $('.navbar-header .navbar-brand img').attr('src','https://cdn.shopify.com/s/files/1/2060/5733/files/Logo_4c_150x_61ec6233-ccec-407c-bddd-fc12e9982cab.png');
-                    }
-
+                    } 
                 } 
             });
         });
@@ -2169,6 +2217,37 @@ hr#priceAnchor {
     $(this).siblings('.card-header').removeClass('active');
   });
 </script>
+
+<script>
+
+    // The function actually applying the offset
+function offsetAnchor() {
+  if (location.hash.length !== 0) {
+    window.scrollTo(window.scrollX, window.scrollY - 80);
+  }
+}
+
+// Captures click events of all a elements with href starting with #
+$(document).on('click', 'a[href^="#"]', function(event) {
+  // Click events are captured before hashchanges. Timeout
+  // causes offsetAnchor to be called after the page jump.
+  window.setTimeout(function() {
+    offsetAnchor();
+  }, 0);
+});
+
+// Set the offset when entering page with hash present in the url
+window.setTimeout(offsetAnchor, 0);
+</script>
+
+<script>
+    $(document).ready(function () {
+    $("nav").find("li").on("click", "a", function () {
+        $('.navbar-collapse.in').collapse('hide');
+    });
+});
+</script>
+
 
 </body>
 

@@ -344,6 +344,15 @@ h1 a{
     font-size:33px!important;
 }
 
+.bg-img h1.for3n-h1 {
+    text-align: left;
+    font-size:37px!important;
+}
+
+.bg-img h2.for3n-h2 {
+    font-size:30px!important;
+}
+
 .disclaimer h1 {
     color: white!important;
 }
@@ -417,6 +426,11 @@ section, .padbottom50, .padbottom50-pt {
 .top-spacing{
     padding-top: 50px!important;
     padding-bottom: 100px!important;
+}
+
+.top-spacing2{
+    padding-top: 0!important;
+    padding-bottom: 50px!important;
 }
 
 #header_section:after {
@@ -568,7 +582,7 @@ ul.ticks, ul.suggesting {
     margin: 0;
 }
 
-#hidden-mech, #hidden-mech2 #guarantee {
+#hidden-mech, #hidden-mech2, #videooo {
     position: relative;
 }
 
@@ -579,6 +593,17 @@ ul.ticks, ul.suggesting {
 
 #hidden-mech:after,
 #disclaimer:after {
+    content: "";
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(to right, #03a196, #093783);
+    position: absolute;
+    top: 0;
+    z-index: -1;
+
+}
+
+#videooo:after {
     content: "";
     height: 100%;
     width: 100%;
@@ -1292,6 +1317,10 @@ li.button{
 
     .mobile {
         display: block;
+    }
+
+    .disclaimer h1.for3nh11{
+        font-size: 27px!important;
     }
 
     .nav{
@@ -2748,3 +2777,17 @@ button.nobg{
     padding-bottom: 150px;
 }
 
+.fw-video{
+    border: white solid 10px;
+    -webkit-box-shadow: 14px 15px 29px -4px rgba(2,28,70,0.85);
+-moz-box-shadow: 14px 15px 29px -4px rgba(2,28,70,0.85);
+box-shadow: 14px 15px 29px -4px rgb(18, 91, 83);
+}
+
+.forppn{
+    background-position: right 0% top!important;
+}
+
+#videooo{
+    padding: 10px 0 60px 0px!important;
+}

@@ -60,14 +60,14 @@
         <div class="whitebg">
             <div class="collapse navbar-collapse" id="myNavbar">
                 <ul class="nav navbar-nav fornav">
-                    <li><a class="hover grey-nav" href="#howitworks">Benefits</a></li>
-                    <li><a class="hover grey-nav" href="#ingredients">Ingredients</a></li>
-                    <li><a class="hover grey-nav" href="#suggested">Suggested Use</a></li>
-                    <li><a class="hover grey-nav" href="#guarantee">Refund Policy</a></li>
-                    <li><a class="hover grey-nav" href="#reviews">Reviews</a></li>
-                    <li><a class="hover grey-nav" href="#faq">FAQ</a></li>
+                    <li><a data-toggle="collapse" data-target=".in" class="hover grey-nav" href="#howitworks">Benefits</a></li>
+                    <li><a data-toggle="collapse" data-target=".in" class="hover grey-nav" href="#ingredients">Ingredients</a></li>
+                    <li><a data-toggle="collapse" data-target=".in" class="hover grey-nav" href="#suggested">Suggested Use</a></li>
+                    <li><a data-toggle="collapse" data-target=".in" class="hover grey-nav" href="#guarantee">Refund Policy</a></li>
+                    <li><a data-toggle="collapse" data-target=".in" class="hover grey-nav" href="#reviews">Reviews</a></li>
+                    <li><a data-toggle="collapse" data-target=".in" class="hover grey-nav" href="#faq">FAQ</a></li>
                     <li>
-                        <a href="#priceAnchor" class="con-button desktop">Buy Now</a>
+                        <a data-toggle="collapse" data-target=".in" href="#priceAnchor" class="con-button desktop">Buy Now</a>
                     </li>
                 </ul>
             </div>
@@ -2234,6 +2234,15 @@ $(document).on('click', 'a[href^="#"]', function(event) {
 // Set the offset when entering page with hash present in the url
 window.setTimeout(offsetAnchor, 0);
 </script>
+
+<script>
+    $(document).ready(function () {
+    $("nav").find("li").on("click", "a", function () {
+        $('.navbar-collapse.in').collapse('hide');
+    });
+});
+</script>
+
 
 </body>
 
