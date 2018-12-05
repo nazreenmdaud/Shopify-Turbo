@@ -419,10 +419,6 @@ section, .padbottom50, .padbottom50-pt {
     border: none;
 }
 
-/*#header_section{
-    padding-top: 100px;
-}*/
-
 .top-spacing{
     padding-top: 50px!important;
     padding-bottom: 100px!important;
@@ -528,7 +524,7 @@ section, .padbottom50, .padbottom50-pt {
     padding-top: 70px;
     background-image: url('https://cdn.shopify.com/s/files/1/2060/5733/files/main-top-bottle.png');
     background-repeat: no-repeat;
-    background-position: right 25% top;
+    background-position: right 18% top;
     background-size: 50%;
     width: 100%;
     min-height: 520px;
@@ -1323,6 +1319,10 @@ li.button{
         font-size: 27px!important;
     }
 
+    .header-p{
+        padding-top: 100px;
+    }
+
     .nav{
         width: 65%;
     }
@@ -1338,6 +1338,7 @@ li.button{
     .forpp3l-50bottom{
         padding-bottom: 0!important;
     }
+
 
     /*.fornav{
         width: 83%!important;
@@ -1898,9 +1899,11 @@ li.button{
 
     img.mobile_view {
         display: block;
-        width: 65%;
+        width: 85%;
         max-width: 100%;
-        float: right;
+        position: absolute;
+        left: 30%;
+        bottom: 49%;
     }
 
     .center-align-ticks{
@@ -2029,6 +2032,15 @@ li.button{
     }
     .navbar-testi{
         margin-left: 0px!important;
+    }
+    .bg-img h1.for3n-h1 {
+        text-align: left;
+        font-size: 35px!important;
+    }
+
+    .bg-img h2.for3n-h2 {
+        font-size: 25px!important;
+        width: 65%;
     }
 }
 

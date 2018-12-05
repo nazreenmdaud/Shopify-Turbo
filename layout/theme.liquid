@@ -78,7 +78,9 @@
   
     {{ content_for_header }}
 
-  {% include "trackify" %}</head>
+  {% include "trackify" %}
+	{{ shop.metafields.loox["global_html_head"] }}
+</head>
   {% if template contains "index" %}
     {% assign feature_image = true %}
   {% elsif template contains "about" %}
@@ -252,7 +254,9 @@
    
        
     
-  {% include 'zipify-couponcountdown-theme' %}{% include 'upsellapp-theme' %}</body>
+  {% include 'zipify-couponcountdown-theme' %}{% include 'upsellapp-theme' %}
+	{{ shop.metafields.loox["global_html_body"] }}
+</body>
   
 </html>
 {% endcapture %}
