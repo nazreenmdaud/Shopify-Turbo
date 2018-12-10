@@ -1549,8 +1549,12 @@ li.button{
 @media screen and (min-width: 481px) and (max-width: 768px) {
 
     #pricePlans #plans .plan, #pricePlans-3h #plans .plan {
-        width: 49%;
+        width: 32%;
         margin: 0 2% 20px 0;
+    }
+
+    .nocaffeine{
+        width: 100%;
     }
 
     .pages {
@@ -1644,7 +1648,7 @@ li.button{
 @media screen and (min-width: 769px) and (max-width: 1024px) {
 
     #pricePlans #plans .plan, #pricePlans-3h #plans .plan {
-        width: 49%;
+        width: 32%;
         margin: 0 2% 20px 0;
     }
 

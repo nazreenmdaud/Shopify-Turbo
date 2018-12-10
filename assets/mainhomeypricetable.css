@@ -7,8 +7,8 @@ _:-moz-tree-row(hover), html {
 }
 
 @font-face {
-    font-family: journal;
-    src: url('https://cdn.shopify.com/s/files/1/2060/5733/files/journal.ttf');
+    font-family: patua;
+    src: url('https://cdn.shopify.com/s/files/1/2060/5733/files/PatuaOne-Regular.otf');
 }
 
 @font-face {
@@ -117,7 +117,7 @@ p.pt-text{
     background: linear-gradient(to right, #36a13f, #50a15d);
     border-radius: 50px;
     color: #fff;
-    font-family: "gotham-bold", sans-serif !important;
+    font-family: patua!important;
     padding: 15px 20px;
 }
 
@@ -288,9 +288,9 @@ ul li, .dr-face img {
     margin: 0 50px;
 }
 
-.timeline-img {
+/*.timeline-img {
     margin-top: 40px;
-}
+}*/
 
 #hidden-mech h1{
     color:#fff!important;
@@ -326,7 +326,7 @@ hr{
 }
 
 h1 {
-    font-family: "gotham-bold", sans-serif !important;
+    font-family: patua!important;
     background: linear-gradient(to right, #4998A7, #093783);
     background-clip: text;
     -webkit-background-clip: text;
@@ -340,7 +340,7 @@ h1 {
 }
 
 h1 a{
-    font-family: "gotham-bold", sans-serif !important;
+    font-family: patua!important;
 }
 
 .bg-img h1 {
@@ -363,27 +363,27 @@ h1 a{
 
 h2 {
     color: #204b87;
-    font-size: 25px !important;
+    font-size: 33px !important;
 }
 
 .yellow-section h2{
-    font-family: "gotham-bold", sans-serif !important;
+    font-family: patua!important;
     color:#113F71;
     text-align: center;
     background:#d5f1ff;
 }
 
 .stickyheader h2{
-    font-family: "gotham-bold", sans-serif !important;
+    font-family: patua!important;
     color:#fff;
     text-align: center;
 }
 
 .bg-img h2, .pt-container h2, .bonus-cont-in h2{
-    font-family: "gotham-bold", sans-serif !important;
+    font-family: patua!important;
     font-weight: bold;
-    color: #e09500;
-    margin-top: 0;
+    color: #000;
+    margin-top: 10px;
 }
 .bonus-cont-in h2{
     background: linear-gradient(to right, #b61212, #ff1600);
@@ -393,7 +393,8 @@ h2 {
 }
 
 .planContainer .button a,.planContainer-3h .button a, .faq a {
-    font-family: "gotham-bold", sans-serif !important;
+    font-family: lato,sans-serif;
+    font-weight: 600;
 }
 
 .ingredient-box h2, .science-row h2, .science-row img, .testibody h2 {
@@ -460,7 +461,7 @@ section, .padbottom50, .padbottom50-pt {
 }
 
 .refbutton h1.reference {
-    font-family: "gotham-bold", sans-serif !important;
+    font-family: patua!important;
 }
 #header_section .C_btn:hover{
     border: none;
@@ -490,7 +491,7 @@ section, .padbottom50, .padbottom50-pt {
 
 .buttonize{
     display: grid;
-    font-family: "gotham-bold", sans-serif !important;
+    font-family: patua!important;
     font-size: 25px;
     border: solid 1px #dbdbdb!important;
     text-align: center;
@@ -650,7 +651,7 @@ ul.ticks, ul.suggesting {
 }
 
 .bottle-pic a, .backed a, .bg-img a, .faq-cta a {
-    font-family: "gotham-bold", sans-serif !important;
+    font-family: patua!important;
     color: #fff !important;
     font-weight: bold;
     font-size: 25px;
@@ -755,7 +756,7 @@ ul.ticks, ul.suggesting {
     text-align: center;
 }
 .shipping-bottom {
-    padding-bottom: 173px!important;
+    padding-bottom: 147px!important;
 }
 .shipping-bottom2 {
     padding-bottom: 20px!important;
@@ -780,7 +781,7 @@ span.price-size{
 }
 
 .title-3h p{
-    color: #afafaf;
+    color: #696969;
 }
 
 .title-3h h2{
@@ -792,7 +793,7 @@ span.price-size{
 }
 
 .title-m-3h{
-    background: #157e76;
+    background: #838383;
     color: white;
     font-weight: 600;
 }
@@ -804,9 +805,10 @@ span.price-size{
 }*/
 
 li.button{
-    background: #157E76;
+    background: #29aac3;
     border-radius: 30px;
     color:#fff;
+    box-shadow: inset 2px 2px 2px rgba(255, 255, 255, .4), inset -2px -2px 2px rgba(0, 0, 0, .4);
 }
 
 .testicontainer {
@@ -1332,6 +1334,8 @@ li.button{
     margin: 0 1% 20px 0;
     float: none;
     display: inline-block;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 .disclaimer h1.for3nh11{
     width: 80%;
@@ -1691,8 +1695,10 @@ li.button{
 @media screen and (min-width: 481px) and (max-width: 768px) {
 
     #pricePlans #plans .plan, #pricePlans-3h #plans .plan {
-        width: 49%;
+        width: 32%;
         margin: 0 2% 20px 0;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
     }
 
     .pages {
@@ -1713,6 +1719,10 @@ li.button{
 
     #pricePlans-3h #plans > li:nth-child(2n) {
         margin-right: 0;
+    }
+
+    .shipping-bottom {
+        padding-bottom: 147px!important;
     }
 
     .width20 {
@@ -1786,8 +1796,14 @@ li.button{
 @media screen and (min-width: 769px) and (max-width: 1024px) {
 
     #pricePlans #plans .plan, #pricePlans-3h #plans .plan {
-        width: 49%;
+        width: 32%;
         margin: 0 2% 20px 0;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+
+    .shipping-bottom {
+        padding-bottom: 147px!important;
     }
 
     #pricePlans #plans > li:nth-child(2n) {
@@ -1830,6 +1846,9 @@ li.button{
         -ms-transition: all .25s;
         -o-transition: all .25s;
         transition: all .25s;
+
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
     }
 
     
@@ -1912,10 +1931,6 @@ li.button{
     .bg-img {
         background: none;
 
-    }
-
-    .shipping-bottom, .shipping-bottom3r {
-        padding-bottom: 20px!important;
     }
     
     .navbar-header {
@@ -2081,12 +2096,20 @@ li.button{
     }
     .bg-img h1.for3n-h1 {
         text-align: left;
-        font-size: 35px!important;
-    }
+        font-size: 35px!important;    }
 
     .bg-img h2.for3n-h2 {
         font-size: 25px!important;
         width: 57%;
+    }
+
+    .shipping-bottom {
+        padding-bottom: 20px!important;
+    }
+
+    .pad0-m{
+        padding-left: 0!important;
+        padding-right: 0!important;
     }
 
     img.mobile_view {
@@ -2177,7 +2200,7 @@ margin: 0;
 ul.nav li a.con-button{
     background: linear-gradient(to right, #4998A7, #093783);
     color: white;
-    font-family: "gotham-bold", sans-serif !important;
+    font-family: patua!important;
     border-radius: 20px;
     text-transform: uppercase;
     padding: 10px 20px!important;
@@ -2329,7 +2352,8 @@ table th {
     border: solid 2px #5ea85e!important;
 }
 .centerborder-3h {
-    border: solid 2px #157E76!important;
+    border: solid 2px #74BCCA!important;
+    background: aliceblue;
 }
 .centerborder-3r {
     border: solid 2px #fe0400!important;
@@ -2835,7 +2859,7 @@ div.content {
 }
 .redtop h2 {
     color: #fff;
-    font-family: "gotham-bold", sans-serif !important;
+    font-family: patua!important;
 }
 
 .options li.todayat {
@@ -2861,10 +2885,12 @@ button.nobg{
 }
 
 .adaybottle{
-    background-color: #d44700;
-    width: 90%;
+    background-color: #74BCCA;
+    width: 100%;
     padding: 8px 10px;
     margin: 0 auto;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
 .pricePlans-3h #plans .plan2 {
@@ -2882,8 +2908,7 @@ button.nobg{
 
 .planContainer-3h .button a
 {
-  padding-top:5px;
-  padding-bottom:5px;
+    padding: 0 8px;
 }
 
 .planContainer-3h .button a img
