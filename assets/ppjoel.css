@@ -1,0 +1,37 @@
+
+
+#shopify-section-header, .header, #fsb_bar {display:none;}
+
+@font-face {
+      font-family: 'Aileron';
+      src: url('Aileron-UltraLight.otf'),
+           url('Aileron-UltraLight.otf') format('otf'),
+           url('Aileron-UltraLight.otf') format('truetype');
+      font-weight: normal;
+      font-style: normal; }
+
+div a, div p { font-family: 'Aileron' !important; }
+
+
+@font-face {
+      font-family: 'Aileron-Thin';
+      src: url('Aileron-Thin.otf'),
+           url('Aileron-Thin.otf') format('otf'),
+           url('Aileron-Thin.otf') format('truetype');
+      font-weight: normal;
+      font-style: normal; }
+
+
+
+h1, h2, h3 { font-family: 'Aileron-Thin' !important; }
+
+.subtitle p{
+	text-align: left;
+}
+
+
+/*########## NAVBAR ##########*/
+
+
+
+/*########## END NAVBAR ##########*/
