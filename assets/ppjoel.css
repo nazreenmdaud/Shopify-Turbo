@@ -25,8 +25,24 @@ div a, div p { font-family: 'Aileron' !important; }
 
 h1, h2, h3 { font-family: 'Aileron-Thin' !important; }
 
-.subtitle p{
+/*.subtitle p{
 	text-align: left;
+}*/
+
+.featured_content{
+  background-color: #fff!important;
+}
+
+.feature_divider {
+  display: none!important;
+}
+
+.caption-content .pretext p, h1.headline, .subtitle p {
+  color: #fff!important;
+}
+
+.gallery-cell{
+  text-align: center!important;
 }
 
 
