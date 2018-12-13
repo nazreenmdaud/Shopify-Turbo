@@ -4757,23 +4757,12 @@
               "content": "<p><strong>Phone: <\/strong>+1 844-707-7730&nbsp;<br>Mon to Fri : 10AM to 4PM CST<\/p>\n<p><strong>Business Address:<\/strong><br> 304 S. Jones Blvd,<br> Las Vegas, NV 89107<\/p>\n<p><strong>Singapore Address:<\/strong><br> 81 Ubi Avenue 4<br> #05-27 408830<\/p>",
               "social_icons_footer": true
             }
-          },
-          "1530016208352": {
-            "type": "newsletter",
-            "settings": {
-              "title": "Subscribe today!",
-              "newsletter_text": "",
-              "show_firstname": true,
-              "show_lastname": false,
-              "show_social": false
-            }
           }
         },
         "block_order": [
           "footer-0",
           "footer-1",
-          "footer-3",
-          "1530016208352"
+          "footer-3"
         ],
         "settings": {
           "copyright_text": "",
@@ -5859,115 +5848,168 @@
       "page-details-template": {
         "type": "page-details-template",
         "blocks": {
-          "page-details-template-0": {
-            "type": "image_with_text_overlay",
+          "1544569315435": {
+            "type": "featured_video",
             "settings": {
-              "image": "shopify:\/\/shop_images\/Better-Body-Co-Shop-Banners-3y.jpg",
+              "source": "youtube",
+              "aspect_ratio": "16:9",
+              "autoplay": false,
+              "autoloop": true,
+              "video_dark_overlay": false,
+              "video": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+              "mp4": "",
+              "ogv": "",
+              "image": "",
+              "display_text_over_video": true,
               "pretext": "",
-              "title": "",
-              "subtitle": "",
-              "caption_background": false,
-              "caption_background_transparency": false,
+              "title": "Say Hello To A Better Body",
+              "subtitle": "<p>Introducing Provitalize:<\/p>\n<p>Thermogenic Probiotic Formula<\/p>",
               "text_position": "center",
               "text_align": "center",
-              "button1": "",
+              "caption_background": false,
+              "caption_background_transparency": false,
+              "button1_label": "Watch Video",
               "button1_link": "",
               "button1_highlight": false,
-              "button2": "",
-              "button2_link": "",
-              "button2_highlight": false
+              "button2_label": "Shop Now",
+              "button2_link": "shopify:\/\/collections\/all",
+              "button2_highlight": true
             }
           },
-          "page-details-template-1": {
-            "type": "divider",
-            "settings": {
-              "divider_spacing": 20,
-              "divider_border": false
-            }
-          },
-          "page-details-template-2": {
+          "1544569491936": {
             "type": "rich_text_and_image",
             "settings": {
               "image": "",
-              "title": "<h1> More than just supplements... <br> Get a better body and re-live your days of youth! <\/h1>",
-              "content": "<p>Join over 10,000 customers who have regained their health and are enjoying a&nbsp;happier life with their family and friends.<\/p>\n<p>If you're&nbsp;looking to&nbsp;<strong>shed stubborn fat, massively reduce inflammation while healing your gut<\/strong>,&nbsp;check out our Provitalize probiotics.If you'd like to&nbsp;<strong>reduce stress, sleep&nbsp;better&nbsp; and&nbsp;speed up your weight loss process<\/strong>, checkout Previtalize prebiotics.If you want to&nbsp;<strong>advance your workouts and shed more fat for the same amount of effort<\/strong>, go for Postburn. advanced weight management supplement.<\/p>",
+              "title": "What's The Difference Between Normal Vs Thermogenic Probiotics?",
+              "content": "<p>While most probiotics only help digestion &amp; immunity, \"thermogenic\" probiotics are strains that mimic the fat burning effects of thermogenic supplements (capsicun, green tea, caffeine etc) minus some of the side effects. These unique strains have been studied to impact fat storage, calorie absorption, metabolism &amp; support weight management.<\/p>",
               "text_size": "featured_text",
               "text_alignment": "center",
               "button_label": "",
               "button_link": ""
             }
           },
-          "page-details-template-3": {
-            "type": "divider",
+          "1544569592983": {
+            "type": "image_with_text",
             "settings": {
-              "divider_spacing": 10,
-              "divider_border": false
+              "layout": false,
+              "frontpage_text_align": "left",
+              "frontpage_image_position": "left",
+              "image": "",
+              "title": "",
+              "text": "<p><strong>Thermogenic Strain #1: L. Gasseri<\/strong> is commonly found in fermented foods and dairy products like Puba (a Brazilian staple). A study of 210 people showed an average of 8.5% loss of body fat after 12 weeks of consuming L. Gasseri. (1)<\/p>\n<p><\/p>\n<p><strong>Thermogenic Strain #2: B. Breve<\/strong> is largely found naturally in our digestive tract<strong>. <\/strong>Additional studies have showed that B. Breve \"activates\" genes that impact fat metabolism and supports blood sugar levels. (2)<\/p>\n<p><\/p>\n<p><strong>Thermogenic Strain #3: B. Lactis <\/strong> is present in raw milk and is used as starter culture for cheese, cottage cheese and butter milk. This special strains has also been shown to promote better digestion, manage inflammatory responses, cholesterol levels and also acts as an anti-oxidant. (3)<\/p>",
+              "link": "",
+              "button_label": ""
             }
           },
-          "page-details-template-4": {
-            "type": "featured_collection",
+          "1544569817297": {
+            "type": "rich_text_and_image",
             "settings": {
-              "title": "Single Product Collection",
-              "collection": "bundle-offers",
-              "collection_style": "grid",
-              "products_per": 3,
-              "products_limit": 8
+              "image": "",
+              "title": "Choosing Specific Strains   For A Specific Purpose.",
+              "content": "<p>With multiple probiotic supplements available, it's crucial to pick the one that is right for you. It's common to get confused over which strains to pick so we've done the heavy lifting and formulated the perfect probiotic to support a healthy weight management diet.<\/p>",
+              "text_size": "featured_text",
+              "text_alignment": "center",
+              "button_label": "",
+              "button_link": ""
             }
           },
-          "page-details-template-5": {
-            "type": "divider",
+          "1544587331401": {
+            "type": "page",
             "settings": {
-              "divider_spacing": 10,
-              "divider_border": false
+              "content_page": ""
             }
           },
-          "page-details-template-18": {
-            "type": "quote",
+          "1544570308266": {
+            "type": "rich_text_and_image",
             "settings": {
-              "quote_text": "40% of online shoppers abandon a site that takes more than 3 seconds to load",
-              "quote_link": ""
+              "image": "",
+              "title": "How Does Provitalize Work?",
+              "content": "<p>Our gut bacteria plays a bigger role in weight management when we previously thought. Here's how Provitalize works.<\/p>",
+              "text_size": "featured_text",
+              "text_alignment": "center",
+              "button_label": "",
+              "button_link": ""
             }
           },
-          "page-details-template-16": {
+          "1544570338658": {
             "type": "image_gallery",
             "settings": {
-              "page_landing_image_1": "shopify:\/\/shop_images\/Provitalize_10.png",
-              "page_landing_image_2": "shopify:\/\/shop_images\/Postburn_4-Bottle.png",
-              "page_landing_image_3": "shopify:\/\/shop_images\/Previtalize_4Bottles_1800x1080-v2.jpg"
+              "page_landing_image_1": "shopify:\/\/shop_images\/woman-meditating-thailand.jpg",
+              "page_landing_image_2": "",
+              "page_landing_image_3": ""
             }
           },
-          "page-details-template-9": {
-            "type": "divider",
+          "1544570780099": {
+            "type": "rich_text_and_image",
             "settings": {
-              "divider_spacing": 10,
-              "divider_border": false
+              "image": "",
+              "title": "The Perfect Blend Of Thermogenic Probiotics, Natural Craving Support Herbs & Absorption Boosters",
+              "content": "<p>Not all diet supplements are created equal. When choosing the right one, always consider products based on actual science, are natural with no stimulants &amp; those that are optimized for maximum formula delivery and absorption. This synergistic formula blend supports all diets &amp; workout regimes creating a higher impact on stubborn fat.<\/p>",
+              "text_size": "featured_text",
+              "text_alignment": "center",
+              "button_label": "",
+              "button_link": ""
             }
           },
-          "1537358380014": {
+          "1544570836457": {
+            "type": "image_gallery",
+            "settings": {
+              "page_landing_image_1": "",
+              "page_landing_image_2": "",
+              "page_landing_image_3": ""
+            }
+          },
+          "1544570916364": {
+            "type": "rich_text_and_image",
+            "settings": {
+              "image": "",
+              "title": "Easier & Faster: How Provitalize Can Help Maximize Results From Any Diet Plan",
+              "content": "<p>Keto, Vegan, Paleo. Going on diets to manage weight can be daunting. We're here to make things easier and to support you from falling off the bandwagon.<\/p>",
+              "text_size": "featured_text",
+              "text_alignment": "center",
+              "button_label": "",
+              "button_link": ""
+            }
+          },
+          "1544595626999": {
             "type": "page",
             "settings": {
-              "content_page": "provitalize-weight-loss-reviews"
+              "content_page": ""
             }
           },
-          "1537431409257": {
+          "1544571117162": {
+            "type": "rich_text_and_image",
+            "settings": {
+              "image": "",
+              "title": "Diet-Friendly Supplements Produced With   The Highest Quality & Safety In Mind.",
+              "content": "",
+              "text_size": "featured_text",
+              "text_alignment": "center",
+              "button_label": "",
+              "button_link": ""
+            }
+          },
+          "1544596557624": {
             "type": "page",
             "settings": {
-              "content_page": "about"
+              "content_page": ""
             }
           }
         },
         "block_order": [
-          "page-details-template-0",
-          "page-details-template-1",
-          "page-details-template-2",
-          "page-details-template-3",
-          "page-details-template-4",
-          "page-details-template-5",
-          "page-details-template-18",
-          "page-details-template-16",
-          "page-details-template-9",
-          "1537358380014",
-          "1537431409257"
+          "1544569315435",
+          "1544569491936",
+          "1544569592983",
+          "1544569817297",
+          "1544587331401",
+          "1544570308266",
+          "1544570338658",
+          "1544570780099",
+          "1544570836457",
+          "1544570916364",
+          "1544595626999",
+          "1544571117162",
+          "1544596557624"
         ],
         "settings": {}
       },
@@ -6015,6 +6057,495 @@
           "rv_max_display": 6,
           "rv_per": 3
         }
+      },
+      "page-details-ppjoel-template": {
+        "type": "page-details-ppjoel-template",
+        "blocks": {
+          "1544602611348": {
+            "type": "featured_video",
+            "settings": {
+              "source": "html5",
+              "aspect_ratio": "4:3",
+              "autoplay": false,
+              "autoloop": true,
+              "video_dark_overlay": true,
+              "video": "",
+              "mp4": "https:\/\/cdn.shopify.com\/s\/files\/1\/2060\/5733\/files\/Image_optimising.mp4",
+              "ogv": "",
+              "image": "",
+              "display_text_over_video": true,
+              "pretext": "",
+              "title": "Say Hello To A Better Body.",
+              "subtitle": "<p>INTRODUCING PROVITALIZE:<\/p>\n<p>THERMOGENIC PROBIOTIC FORMULA<\/p>",
+              "text_position": "center",
+              "text_align": "center",
+              "caption_background": false,
+              "caption_background_transparency": true,
+              "button1_label": "Watch Video",
+              "button1_link": "shopify:\/\/pages\/test-purposes",
+              "button1_highlight": false,
+              "button2_label": "Shop Now",
+              "button2_link": "shopify:\/\/products\/provitalize-2-bottle-ocu-test",
+              "button2_highlight": true
+            }
+          },
+          "page-details-ppjoel-template-1": {
+            "type": "divider",
+            "settings": {
+              "divider_spacing": 20,
+              "divider_border": false
+            }
+          },
+          "1544604535625": {
+            "type": "rich_text_and_image",
+            "settings": {
+              "image": "",
+              "title": "What's The Difference Between Normal Vs Thermogenic Probiotics?",
+              "content": "<p>While most probiotics only help digestion &amp; immunity, \"thermogenic\" probiotics are strains that mimic the fat burning effects of thermogenic supplements (capsicun, green tea, caffeine etc) minus some of the side effects. These unique strains have been studied to impact fat storage, calorie absorption, metabolism &amp; support weight management.<\/p>",
+              "text_size": "featured_text",
+              "text_alignment": "center",
+              "button_label": "",
+              "button_link": ""
+            }
+          },
+          "page-details-ppjoel-template-3": {
+            "type": "divider",
+            "settings": {
+              "divider_spacing": 10,
+              "divider_border": false
+            }
+          },
+          "1544604585661": {
+            "type": "image_with_text",
+            "settings": {
+              "layout": true,
+              "frontpage_text_align": "left",
+              "frontpage_image_position": "left",
+              "image": "shopify:\/\/shop_images\/taking-a-pill-taking-a-vitamin-istock-medium_edited_1.png",
+              "title": "",
+              "text": "<p><strong>Thermogenic Strain #1: L. Gasseri<\/strong> is commonly found in fermented foods and dairy products like Puba (a Brazilian staple). A study of 210 people showed an average of 8.5% loss of body fat after 12 weeks of consuming L. Gasseri. (1)<\/p>\n<p>_<\/p>\n<p><strong>Thermogenic Strain #2: B. Breve<\/strong> is largely found naturally in our digestive tract<strong>. <\/strong>Additional studies have showed that B. Breve \"activates\" genes that impact fat metabolism and supports blood sugar levels. (2)<\/p>\n<p>_<\/p>\n<p><strong>Thermogenic Strain #3: B. Lactis <\/strong> is present in raw milk and is used as starter culture for cheese, cottage cheese and butter milk. This special strains has also been shown to promote better digestion, manage inflammatory responses, cholesterol levels and also acts as an anti-oxidant. (3)<\/p>",
+              "link": "",
+              "button_label": ""
+            }
+          },
+          "page-details-ppjoel-template-5": {
+            "type": "divider",
+            "settings": {
+              "divider_spacing": 10,
+              "divider_border": false
+            }
+          },
+          "1544604704353": {
+            "type": "rich_text_and_image",
+            "settings": {
+              "image": "",
+              "title": "Choosing Specific Strains   For A Specific Purpose",
+              "content": "<p>With multiple probiotic supplements available, it's crucial to pick the one that is right for you. It's common to get confused over which strains to pick so we've done the heavy lifting and formulated the perfect probiotic to support a healthy weight management diet.<\/p>",
+              "text_size": "featured_text",
+              "text_alignment": "center",
+              "button_label": "",
+              "button_link": ""
+            }
+          },
+          "page-details-ppjoel-template-9": {
+            "type": "divider",
+            "settings": {
+              "divider_spacing": 10,
+              "divider_border": false
+            }
+          },
+          "1544604759420": {
+            "type": "rich_text_and_image",
+            "settings": {
+              "image": "",
+              "title": "Life Is Too Short To Miss Diet Goals. Get The Support You Need",
+              "content": "<p>Meet Provitalize, a thermogenic probiotic supplement that dieters, workout enthusiasts &amp; yoga mums love to add to their daily meals when they need the extra support. With natural herbs , specific thermogenic probiotic strains &amp; absorption boosters, anyone will have a better shot at achieving weight loss goals.<\/p>",
+              "text_size": "featured_text",
+              "text_alignment": "center",
+              "button_label": "",
+              "button_link": ""
+            }
+          },
+          "page-details-ppjoel-template-11": {
+            "type": "divider",
+            "settings": {
+              "divider_spacing": 10,
+              "divider_border": false
+            }
+          },
+          "1544604807375": {
+            "type": "image_with_text",
+            "settings": {
+              "layout": false,
+              "frontpage_text_align": "left",
+              "frontpage_image_position": "right",
+              "image": "shopify:\/\/shop_images\/hero_shot_pro2.png",
+              "title": "",
+              "text": "<p>#1: 3 SPECIFIC THERMOGENIC PROBIOTICS STRAINS<\/p>\n<p>L. Gasseri SBT 2055B.<\/p>\n<p>Breve IDDC 4011<\/p>\n<p>B. Lactis 4011<\/p>\n<p>_<\/p>\n<p>#2: 3 NATURAL HERBS FOR CRAVING SUPPORT<\/p>\n<p>Curcumin (from Turmeric)<\/p>\n<p>Moringa Leaf<\/p>\n<p>Curry Leaf<\/p>\n<p>_<\/p>\n<p>#3: 3 INGREDIENT &amp; NUTRIENT ABSORPTION BOOSTERS<\/p>\n<p>Sunflower Lecithin<\/p>\n<p>BioPerine&reg; (Black Pepper Extract)<\/p>\n<p>DRCaps&trade; (Acid-Resistant Capsules)<\/p>",
+              "link": "",
+              "button_label": ""
+            }
+          },
+          "page-details-ppjoel-template-13": {
+            "type": "divider",
+            "settings": {
+              "divider_spacing": 10,
+              "divider_border": false
+            }
+          },
+          "1544605015801": {
+            "type": "rich_text_and_image",
+            "settings": {
+              "image": "",
+              "title": "How Does Provitalize Work?",
+              "content": "<p>Our gut bacteria plays a bigger role in weight management when we previously thought. Here's how Provitalize works.<\/p>",
+              "text_size": "featured_text",
+              "text_alignment": "center",
+              "button_label": "",
+              "button_link": ""
+            }
+          },
+          "1544688194575": {
+            "type": "image_gallery2",
+            "settings": {
+              "page_landing_image_13": "shopify:\/\/shop_images\/comic1-01.png",
+              "subtitle13": "Specific Probiotics Impact Stubborn Fat",
+              "page_landing_image_23": "shopify:\/\/shop_images\/comic1-02.png",
+              "subtitle23": "Natural Herbs Help With Cravings",
+              "page_landing_image_33": "shopify:\/\/shop_images\/comic1-03.png",
+              "subtitle33": "Ingredient Boosters Support Absorption"
+            }
+          },
+          "page-details-ppjoel-template-17": {
+            "type": "divider",
+            "settings": {
+              "divider_spacing": 20,
+              "divider_border": false
+            }
+          },
+          "1544605129273": {
+            "type": "rich_text_and_image",
+            "settings": {
+              "image": "",
+              "title": "The Perfect Blend Of Thermogenic Probiotics, Natural Craving Support Herbs & Absorption Boosters",
+              "content": "<p>Not all diet supplements are created equal. When choosing the right one, always consider products based on actual science, are natural with no stimulants &amp; those that are optimized for maximum formula delivery and absorption. This synergistic formula blend supports all diets &amp; workout regimes creating a higher impact on stubborn fat.<\/p>",
+              "text_size": "featured_text",
+              "text_alignment": "center",
+              "button_label": "",
+              "button_link": ""
+            }
+          },
+          "page-details-ppjoel-template-19": {
+            "type": "divider",
+            "settings": {
+              "divider_spacing": 20,
+              "divider_border": false
+            }
+          },
+          "1544688108306": {
+            "type": "image_gallery2",
+            "settings": {
+              "page_landing_image_13": "shopify:\/\/shop_images\/1.11_79665050-747a-4a81-af90-8c19bee392a6.png",
+              "subtitle13": "<h3>L. Gasseri, B. Lactis, B. Breve Probiotics<\/h3><br><p>Specific strains have been selected for their thermogenic properties that includes boosting metabolism, impacting calorie storage & digestion of stubborn fat.<\/p>",
+              "page_landing_image_23": "shopify:\/\/shop_images\/1.22_6bf5b358-6197-46e6-93e7-fc69c7c4a971.png",
+              "subtitle23": "<h3>Cucurmin, Moringa Leaf & Curry Leaf Extracts<\/h3><br><p>Our blend of natural herbs support inflammatory response & manages cravings for sugary foods.<\/p>",
+              "page_landing_image_33": "shopify:\/\/shop_images\/1.3_9f71e3a8-c56e-4756-906c-3310c4a44368.png",
+              "subtitle33": "<h3>Sunflower Lecithin, BioPerine® & DRCaps™<\/h3><br><p>Most supplements are not optimized for delivery which means you only get a fraction of what you pay for. That's why we've created a highly bioavailable supplement for maximum potency.<\/p>"
+            }
+          },
+          "1544605198829": {
+            "type": "divider",
+            "settings": {
+              "divider_spacing": 20,
+              "divider_border": false
+            }
+          },
+          "1544605237944": {
+            "type": "rich_text_and_image",
+            "settings": {
+              "image": "",
+              "title": "Easier & Faster: How Provitalize Can Help Maximize Results From Any Diet Plan",
+              "content": "<p>Keto, Vegan, Paleo. Going on diets to manage weight can be daunting. We're here to make things easier and to support you from falling off the bandwagon.<\/p>",
+              "text_size": "featured_text",
+              "text_alignment": "center",
+              "button_label": "",
+              "button_link": ""
+            }
+          },
+          "1544687987481": {
+            "type": "image_gallery2",
+            "settings": {
+              "page_landing_image_13": "shopify:\/\/shop_images\/2.1_3938e1e3-3c4d-4c6c-a428-77accabde7a6.png",
+              "subtitle13": "<h3>Say No To Cravings  & Second Helpings<\/h3><br><p>The natural ingredients have been shown to support smaller appetites and faster satiation.  Donuts, Pizza, Fried Chicken, Ice-Cream, Cookies. If those are your greatest enemies, don't worry Provitalize has got you covered.<\/p>",
+              "page_landing_image_23": "shopify:\/\/shop_images\/2.2.png",
+              "subtitle23": "<h3>Maximize Workout Results<\/h3><br><p>Whether you're lifting weights, going for HIIT, jogs, daily walks or even going for dance class to get into better shape, Provitalize is there to amplify your results like your personal gym trainer. Minus the musty smell and sweat of course.<\/p>",
+              "page_landing_image_33": "shopify:\/\/shop_images\/2.3.png",
+              "subtitle33": "<h3>Absorb Important Nutrients Better<\/h3><br><p>Most diets ask you to give up certain foods. This typically includes many natural anti-oxidants and nutrients. Provitalize is there to back you up and provide the right vitamins & supplement your diet with absorption boosters.<\/p>"
+            }
+          },
+          "1544605284516": {
+            "type": "divider",
+            "settings": {
+              "divider_spacing": 20,
+              "divider_border": false
+            }
+          },
+          "1544605298998": {
+            "type": "rich_text_and_image",
+            "settings": {
+              "image": "",
+              "title": "Diet-Friendly Supplements Produced With   The Highest Quality & Safety In Mind.",
+              "content": "",
+              "text_size": "featured_text",
+              "text_alignment": "center",
+              "button_label": "",
+              "button_link": ""
+            }
+          },
+          "1544605330607": {
+            "type": "image_gallery",
+            "settings": {
+              "page_landing_image_1": "shopify:\/\/shop_images\/icon-1.png",
+              "subtitle1": "<p>Keto, Paleo & Vegan Friendly<\/p>",
+              "page_landing_image_2": "shopify:\/\/shop_images\/icon-2.png",
+              "subtitle2": "<p>Non-GMO & Stimulant Free<\/p>",
+              "page_landing_image_3": "shopify:\/\/shop_images\/icon-3.png",
+              "subtitle3": "<p>GMP Facility Certfied<\/p>",
+              "page_landing_image_4": "shopify:\/\/shop_images\/icon-4.png",
+              "subtitle4": "<p>Based On Clinical Studies<\/p>"
+            }
+          },
+          "1544605349347": {
+            "type": "divider",
+            "settings": {
+              "divider_spacing": 20,
+              "divider_border": false
+            }
+          },
+          "1544605353447": {
+            "type": "rich_text_and_image",
+            "settings": {
+              "image": "",
+              "title": "Real Results: What Others Are Saying",
+              "content": "<p>All reviews below are from actual paying customers. They have been authenticated and verified by Okendo, an independent third party reviewing company.<\/p>",
+              "text_size": "featured_text",
+              "text_alignment": "center",
+              "button_label": "",
+              "button_link": ""
+            }
+          },
+          "1544605406179": {
+            "type": "divider",
+            "settings": {
+              "divider_spacing": 20,
+              "divider_border": false
+            }
+          },
+          "1544605470936": {
+            "type": "rich_text_and_image",
+            "settings": {
+              "image": "",
+              "title": "Serving Over 20,000 Happy Customers",
+              "content": "<p>Plus, it also works for men. Many wives buy Provitalize for their husbands to try with great results.<\/p>",
+              "text_size": "featured_text",
+              "text_alignment": "center",
+              "button_label": "",
+              "button_link": ""
+            }
+          },
+          "1544605501455": {
+            "type": "rich_text_and_image",
+            "settings": {
+              "image": "",
+              "title": "Order With A Peace Of Mind",
+              "content": "<p>Here at Better Body Co, we make sure every customer loves their product or we will refund 100% of their investment. We're so confident you'll enjoy Provitalize that we'll even absorb the fee on shipping returns.<\/p>",
+              "text_size": "featured_text",
+              "text_alignment": "center",
+              "button_label": "",
+              "button_link": ""
+            }
+          },
+          "1544687360494": {
+            "type": "image_gallery2",
+            "settings": {
+              "page_landing_image_13": "shopify:\/\/shop_images\/icon-5_39846ba6-febe-481c-882e-835622d0308a.png",
+              "subtitle13": "",
+              "page_landing_image_23": "shopify:\/\/shop_images\/icon-6.png",
+              "subtitle23": "",
+              "page_landing_image_33": "shopify:\/\/shop_images\/icon-7_c4b665b8-9619-4508-ada5-54d705b86b21.png",
+              "subtitle33": ""
+            }
+          },
+          "1544605546535": {
+            "type": "divider",
+            "settings": {
+              "divider_spacing": 20,
+              "divider_border": false
+            }
+          },
+          "1544605561241": {
+            "type": "rich_text_and_image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/quote1.jpg",
+              "title": "",
+              "content": "",
+              "text_size": "featured_text",
+              "text_alignment": "center",
+              "button_label": "",
+              "button_link": ""
+            }
+          },
+          "1544605611513": {
+            "type": "divider",
+            "settings": {
+              "divider_spacing": 20,
+              "divider_border": false
+            }
+          },
+          "1544605605869": {
+            "type": "image_gallery",
+            "settings": {
+              "page_landing_image_1": "shopify:\/\/shop_images\/5.1.png-Manage_Weight_Naturally_2c72c788-9110-4c01-9717-e881d8355111.png",
+              "subtitle1": "Manage Weight Naturally",
+              "page_landing_image_2": "shopify:\/\/shop_images\/5.2-Impact_Fat_Absorption_9d095436-29f3-4538-a3ae-755b7cfc085b.png",
+              "subtitle2": "Impact Fat Absorption",
+              "page_landing_image_3": "shopify:\/\/shop_images\/5.3-_Improve_Digestion_49a8ede8-b818-45ac-8d5b-66568fc5aee8.png",
+              "subtitle3": "Improve Digestion",
+              "page_landing_image_4": "shopify:\/\/shop_images\/5.4-Support_Inflammatory_Response.png",
+              "subtitle4": "Support Inflammatory Response"
+            }
+          },
+          "1544614561892": {
+            "type": "divider",
+            "settings": {
+              "divider_spacing": 20,
+              "divider_border": false
+            }
+          },
+          "1544605679214": {
+            "type": "featured_video",
+            "settings": {
+              "source": "html5",
+              "aspect_ratio": "4:3",
+              "autoplay": false,
+              "autoloop": true,
+              "video_dark_overlay": true,
+              "video": "",
+              "mp4": "https:\/\/cdn.shopify.com\/s\/files\/1\/2060\/5733\/files\/face-smile.mp4",
+              "ogv": "",
+              "image": "",
+              "display_text_over_video": true,
+              "pretext": "",
+              "title": "Try Provitalize Today & Experience A Better Tomorrow",
+              "subtitle": "<p>THE POWER OF THERMOGENIC PROBIOTICS<\/p>",
+              "text_position": "center",
+              "text_align": "center",
+              "caption_background": false,
+              "caption_background_transparency": false,
+              "button1_label": "",
+              "button1_link": "",
+              "button1_highlight": false,
+              "button2_label": "",
+              "button2_link": "",
+              "button2_highlight": false
+            }
+          },
+          "1544605856589": {
+            "type": "divider",
+            "settings": {
+              "divider_spacing": 20,
+              "divider_border": false
+            }
+          },
+          "1544605868060": {
+            "type": "image_with_text",
+            "settings": {
+              "layout": false,
+              "frontpage_text_align": "left",
+              "frontpage_image_position": "left",
+              "image": "shopify:\/\/shop_images\/reen-bottle-img-comp_fdf14dab-8682-4546-9370-ca4585a8f0a8.png",
+              "title": "",
+              "text": "<p>#1: THERMOGENIC PROBIOTICS<\/p>\n<p>Supports healthy weight management<\/p>\n<p>Impacts fat &amp; calorie absorption<\/p>\n<p>Improves digestion<\/p>\n<p>_<\/p>\n<p>#2: NATURAL HERBS<\/p>\n<p>Promotes healthy inflammatory response<\/p>\n<p>Manages cravings<\/p>\n<p>Balances &amp; boosts immunity<\/p>\n<p>_<\/p>\n<p>#3: ABSORPTION BOOSTERS<\/p>\n<p>Aids glowing hair, skin &amp; nail growth<\/p>\n<p>Promotes cardio health<\/p>\n<p>Enables higher nutrient absorption<\/p>",
+              "link": "",
+              "button_label": ""
+            }
+          },
+          "1544605968266": {
+            "type": "divider",
+            "settings": {
+              "divider_spacing": 20,
+              "divider_border": false
+            }
+          },
+          "1544605996862": {
+            "type": "rich_text_and_image",
+            "settings": {
+              "image": "",
+              "title": "3rd Party Reviews By Okendo",
+              "content": "<p>See what customers are saying in real-time.<\/p>",
+              "text_size": "featured_text",
+              "text_alignment": "center",
+              "button_label": "",
+              "button_link": ""
+            }
+          },
+          "1544606017298": {
+            "type": "rich_text_and_image",
+            "settings": {
+              "image": "",
+              "title": "F.A.Q",
+              "content": "<p>Frequently asked questions regarding dosages, ingredients, medical conditions, product effectiveness, shipping, customer support and returns policies.<\/p>",
+              "text_size": "featured_text",
+              "text_alignment": "center",
+              "button_label": "",
+              "button_link": ""
+            }
+          }
+        },
+        "block_order": [
+          "1544602611348",
+          "page-details-ppjoel-template-1",
+          "1544604535625",
+          "page-details-ppjoel-template-3",
+          "1544604585661",
+          "page-details-ppjoel-template-5",
+          "1544604704353",
+          "page-details-ppjoel-template-9",
+          "1544604759420",
+          "page-details-ppjoel-template-11",
+          "1544604807375",
+          "page-details-ppjoel-template-13",
+          "1544605015801",
+          "1544688194575",
+          "page-details-ppjoel-template-17",
+          "1544605129273",
+          "page-details-ppjoel-template-19",
+          "1544688108306",
+          "1544605198829",
+          "1544605237944",
+          "1544687987481",
+          "1544605284516",
+          "1544605298998",
+          "1544605330607",
+          "1544605349347",
+          "1544605353447",
+          "1544605406179",
+          "1544605470936",
+          "1544605501455",
+          "1544687360494",
+          "1544605546535",
+          "1544605561241",
+          "1544605611513",
+          "1544605605869",
+          "1544614561892",
+          "1544605679214",
+          "1544605856589",
+          "1544605868060",
+          "1544605968266",
+          "1544605996862",
+          "1544606017298"
+        ],
+        "settings": {}
       }
     },
     "content_for_index": [

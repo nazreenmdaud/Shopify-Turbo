@@ -38,35 +38,93 @@
       {% elsif block.type == 'image_gallery' %}
         <div class="container">
           <div class="sixteen columns">
-           <div class="one-third column alpha thumbnail gallery-image-wrapper">
+           <div class="four columns alpha thumbnail gallery-image-wrapper">
               {% if block.settings.page_landing_image_1 %}
                 <div class="gallery-cell">
                   <a href="{{ block.settings.page_landing_image_1 | img_url: '1520x' }}" class="lightbox" rel="detail-gallery">
                     <img src="{{ block.settings.page_landing_image_1 | img_url: '760x' }}" alt="{{ block.settings.page_landing_image_1.alt }}">
                   </a>
                 </div>
+               <h3 style="text-align:center;">{{block.settings.subtitle1}}</h3>
               {% else %}
                 {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
               {% endif %}
             </div>
-            <div class="one-third column thumbnail gallery-image-wrapper">
+            <div class="four columns thumbnail gallery-image-wrapper">
               {% if block.settings.page_landing_image_2 %}
                 <div class="gallery-cell">
                   <a href="{{ block.settings.page_landing_image_2 | img_url: '1520x' }}" class="lightbox" rel="detail-gallery">
                     <img src="{{ block.settings.page_landing_image_2 | img_url: '760x' }}" alt="{{ block.settings.page_landing_image_2.alt }}">
                   </a>
                 </div>
+               <h3 style="text-align:center;">{{block.settings.subtitle2}}</h3>
               {% else %}
                 {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
               {% endif %}
             </div>
-            <div class="one-third column omega thumbnail gallery-image-wrapper">
+            <div class="four columns omega thumbnail gallery-image-wrapper">
               {% if block.settings.page_landing_image_3 %}
                 <div class="gallery-cell">
                   <a href="{{ block.settings.page_landing_image_3 | img_url: '1520x' }}" class="lightbox" rel="detail-gallery">
                     <img src="{{ block.settings.page_landing_image_3 | img_url: '760x' }}" alt="{{ block.settings.page_landing_image_3.alt }}">
                   </a>
                 </div>
+                <h3 style="text-align:center;">{{block.settings.subtitle3}}</h3>
+              {% else %}
+                {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+              {% endif %}
+            </div>
+            <div class="four columns omega thumbnail gallery-image-wrapper">
+              {% if block.settings.page_landing_image_4 %}
+                <div class="gallery-cell">
+                  <a href="{{ block.settings.page_landing_image_4 | img_url: '1520x' }}" class="lightbox" rel="detail-gallery">
+                    <img src="{{ block.settings.page_landing_image_4 | img_url: '760x' }}" alt="{{ block.settings.page_landing_image_4.alt }}">
+                  </a>
+                </div>
+              <h3 style="text-align:center;">{{block.settings.subtitle4}}</h3>
+              {% else %}
+                {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+              {% endif %}
+            </div>
+          </div>
+        </div>
+
+        <!-- Image gallery 2-->
+      {% elsif block.type == 'image_gallery2' %}
+        <div class="container">
+          <div class="sixteen columns">
+           <div class="one-third column alpha thumbnail gallery-image-wrapper">
+              {% if block.settings.page_landing_image_13 %}
+                <div class="gallery-cell">
+                  <a href="{{ block.settings.page_landing_image_13 | img_url: '1520x' }}" class="lightbox" rel="detail-gallery">
+                    <img src="{{ block.settings.page_landing_image_13 | img_url: '760x' }}" alt="{{ block.settings.page_landing_image_13.alt }}">
+                  </a>
+                </div>
+               <h3 style="text-align:center;">{{block.settings.subtitle13}}</h3>
+              {% else %}
+                {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+              {% endif %}
+            </div>
+            <div class="one-third column thumbnail gallery-image-wrapper">
+              {% if block.settings.page_landing_image_23 %}
+                <div class="gallery-cell">
+                  <a href="{{ block.settings.page_landing_image_23 | img_url: '1520x' }}" class="lightbox" rel="detail-gallery">
+                    <img src="{{ block.settings.page_landing_image_23 | img_url: '760x' }}" alt="{{ block.settings.page_landing_image_23.alt }}">
+                  </a>
+                </div>
+               <h3 style="text-align:center;">{{block.settings.subtitle23}}</h3>
+              {% else %}
+                {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+              {% endif %}
+            </div>
+            <div class="one-third column omega thumbnail gallery-image-wrapper">
+              {% if block.settings.page_landing_image_33 %}
+                <div class="gallery-cell">
+                  <a href="{{ block.settings.page_landing_image_33 | img_url: '1520x' }}" class="lightbox" rel="detail-gallery">
+                    <img src="{{ block.settings.page_landing_image_33 | img_url: '760x' }}" alt="{{ block.settings.page_landing_image_33.alt }}">
+                  </a>
+                </div>
+                <h3 style="text-align:center;">{{block.settings.subtitle33}}</h3>
               {% else %}
                 {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
               {% endif %}
@@ -586,11 +644,17 @@
       "type": "image_gallery",
       "name": "Image gallery",
       "settings": [
+        
         {
           "type": "image_picker",
           "id": "page_landing_image_1",
           "label": "Image 1",
           "info": "760 x 500px recommended"
+        },
+        {
+          "type": "text",
+          "id": "subtitle1",
+          "label": "Subheading 1"
         },
         {
           "type": "image_picker",
@@ -599,10 +663,71 @@
           "info": "760 x 500px recommended"
         },
         {
+          "type": "text",
+          "id": "subtitle2",
+          "label": "Subheading 2"
+        },
+        {
           "type": "image_picker",
           "id": "page_landing_image_3",
           "label": "Image 3",
           "info": "760 x 500px recommended"
+        },
+        {
+          "type": "text",
+          "id": "subtitle3",
+          "label": "Subheading3"
+        },
+        {
+          "type": "image_picker",
+          "id": "page_landing_image_4",
+          "label": "Image 4",
+          "info": "760 x 500px recommended"
+        },
+        {
+          "type": "text",
+          "id": "subtitle4",
+          "label": "Subheading4"
+        }
+      ]
+    },
+    {
+      "type": "image_gallery2",
+      "name": "Image gallery 2",
+      "settings": [
+        
+        {
+          "type": "image_picker",
+          "id": "page_landing_image_13",
+          "label": "Image 13",
+          "info": "760 x 500px recommended"
+        },
+        {
+          "type": "text",
+          "id": "subtitle13",
+          "label": "Subheading 13"
+        },
+        {
+          "type": "image_picker",
+          "id": "page_landing_image_23",
+          "label": "Image 23",
+          "info": "760 x 500px recommended"
+        },
+        {
+          "type": "text",
+          "id": "subtitle23",
+          "label": "Subheading 23"
+        },
+        {
+          "type": "image_picker",
+          "id": "page_landing_image_33",
+          "label": "Image 33",
+          "info": "760 x 500px recommended"
+        },
+        {
+          "type": "text",
+          "id": "subtitle33",
+          "label": "Subheading33"
         }
       ]
     },
