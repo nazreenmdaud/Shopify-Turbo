@@ -6066,16 +6066,16 @@
             "settings": {
               "source": "html5",
               "aspect_ratio": "4:3",
-              "autoplay": false,
+              "autoplay": true,
               "autoloop": true,
               "video_dark_overlay": true,
               "video": "",
-              "mp4": "https:\/\/cdn.shopify.com\/s\/files\/1\/2060\/5733\/files\/Image_optimising.mp4",
+              "mp4": "https:\/\/cdn.shopify.com\/s\/files\/1\/2060\/5733\/files\/face-smile.mp4?11626849963831433523https:\/\/cdn.shopify.com\/s\/files\/1\/2060\/5733\/files\/face-smile.mp4",
               "ogv": "",
               "image": "",
               "display_text_over_video": true,
               "pretext": "",
-              "title": "Say Hello To A Better Body.",
+              "title": "Say Hello To A Better Body",
               "subtitle": "<p>INTRODUCING PROVITALIZE:<\/p>\n<p>THERMOGENIC PROBIOTIC FORMULA<\/p>",
               "text_position": "center",
               "text_align": "center",
@@ -6087,13 +6087,6 @@
               "button2_label": "Shop Now",
               "button2_link": "shopify:\/\/products\/provitalize-2-bottle-ocu-test",
               "button2_highlight": true
-            }
-          },
-          "page-details-ppjoel-template-1": {
-            "type": "divider",
-            "settings": {
-              "divider_spacing": 20,
-              "divider_border": false
             }
           },
           "1544604535625": {
@@ -6121,7 +6114,7 @@
               "layout": true,
               "frontpage_text_align": "left",
               "frontpage_image_position": "left",
-              "image": "shopify:\/\/shop_images\/taking-a-pill-taking-a-vitamin-istock-medium_edited_1.png",
+              "image": "shopify:\/\/shop_images\/WEB_dna_woman.png",
               "title": "",
               "text": "<p><strong>Thermogenic Strain #1: L. Gasseri<\/strong> is commonly found in fermented foods and dairy products like Puba (a Brazilian staple). A study of 210 people showed an average of 8.5% loss of body fat after 12 weeks of consuming L. Gasseri. (1)<\/p>\n<p>_<\/p>\n<p><strong>Thermogenic Strain #2: B. Breve<\/strong> is largely found naturally in our digestive tract<strong>. <\/strong>Additional studies have showed that B. Breve \"activates\" genes that impact fat metabolism and supports blood sugar levels. (2)<\/p>\n<p>_<\/p>\n<p><strong>Thermogenic Strain #3: B. Lactis <\/strong> is present in raw milk and is used as starter culture for cheese, cottage cheese and butter milk. This special strains has also been shown to promote better digestion, manage inflammatory responses, cholesterol levels and also acts as an anti-oxidant. (3)<\/p>",
               "link": "",
@@ -6131,7 +6124,7 @@
           "page-details-ppjoel-template-5": {
             "type": "divider",
             "settings": {
-              "divider_spacing": 10,
+              "divider_spacing": 30,
               "divider_border": false
             }
           },
@@ -6164,26 +6157,6 @@
               "text_alignment": "center",
               "button_label": "",
               "button_link": ""
-            }
-          },
-          "page-details-ppjoel-template-11": {
-            "type": "divider",
-            "settings": {
-              "divider_spacing": 10,
-              "divider_border": false
-            }
-          },
-          "1544604807375": {
-            "type": "image_with_text",
-            "settings": {
-              "layout": false,
-              "frontpage_text_align": "left",
-              "frontpage_image_position": "right",
-              "image": "shopify:\/\/shop_images\/hero_shot_pro2.png",
-              "title": "",
-              "text": "<p>#1: 3 SPECIFIC THERMOGENIC PROBIOTICS STRAINS<\/p>\n<p>L. Gasseri SBT 2055B.<\/p>\n<p>Breve IDDC 4011<\/p>\n<p>B. Lactis 4011<\/p>\n<p>_<\/p>\n<p>#2: 3 NATURAL HERBS FOR CRAVING SUPPORT<\/p>\n<p>Curcumin (from Turmeric)<\/p>\n<p>Moringa Leaf<\/p>\n<p>Curry Leaf<\/p>\n<p>_<\/p>\n<p>#3: 3 INGREDIENT &amp; NUTRIENT ABSORPTION BOOSTERS<\/p>\n<p>Sunflower Lecithin<\/p>\n<p>BioPerine&reg; (Black Pepper Extract)<\/p>\n<p>DRCaps&trade; (Acid-Resistant Capsules)<\/p>",
-              "link": "",
-              "button_label": ""
             }
           },
           "page-details-ppjoel-template-13": {
@@ -6246,11 +6219,11 @@
             "type": "image_gallery2",
             "settings": {
               "page_landing_image_13": "shopify:\/\/shop_images\/1.11_79665050-747a-4a81-af90-8c19bee392a6.png",
-              "subtitle13": "<h3>L. Gasseri, B. Lactis, B. Breve Probiotics<\/h3><br><p>Specific strains have been selected for their thermogenic properties that includes boosting metabolism, impacting calorie storage & digestion of stubborn fat.<\/p>",
+              "subtitle13": "<h3>L. Gasseri, B. Lactis, B. Breve Probiotics<\/h3><p>Specific strains have been selected for their thermogenic properties that includes boosting metabolism, impacting calorie storage & digestion of stubborn fat.<\/p>",
               "page_landing_image_23": "shopify:\/\/shop_images\/1.22_6bf5b358-6197-46e6-93e7-fc69c7c4a971.png",
-              "subtitle23": "<h3>Cucurmin, Moringa Leaf & Curry Leaf Extracts<\/h3><br><p>Our blend of natural herbs support inflammatory response & manages cravings for sugary foods.<\/p>",
+              "subtitle23": "<h3>Cucurmin, Moringa Leaf & Curry Leaf Extracts<\/h3><p>Our blend of natural herbs support inflammatory response & manages cravings for sugary foods.<\/p>",
               "page_landing_image_33": "shopify:\/\/shop_images\/1.3_9f71e3a8-c56e-4756-906c-3310c4a44368.png",
-              "subtitle33": "<h3>Sunflower Lecithin, BioPerine® & DRCaps™<\/h3><br><p>Most supplements are not optimized for delivery which means you only get a fraction of what you pay for. That's why we've created a highly bioavailable supplement for maximum potency.<\/p>"
+              "subtitle33": "<h3>Sunflower Lecithin, BioPerine® & DRCaps™<\/h3><p>Most supplements are not optimized for delivery which means you only get a fraction of what you pay for. That's why we've created a highly bioavailable supplement for maximum potency.<\/p>"
             }
           },
           "1544605198829": {
@@ -6276,11 +6249,11 @@
             "type": "image_gallery2",
             "settings": {
               "page_landing_image_13": "shopify:\/\/shop_images\/2.1_3938e1e3-3c4d-4c6c-a428-77accabde7a6.png",
-              "subtitle13": "<h3>Say No To Cravings  & Second Helpings<\/h3><br><p>The natural ingredients have been shown to support smaller appetites and faster satiation.  Donuts, Pizza, Fried Chicken, Ice-Cream, Cookies. If those are your greatest enemies, don't worry Provitalize has got you covered.<\/p>",
+              "subtitle13": "<h3>Say No To Cravings  & Second Helpings<\/h3><p>The natural ingredients have been shown to support smaller appetites and faster satiation.  Donuts, Pizza, Fried Chicken, Ice-Cream, Cookies. If those are your greatest enemies, don't worry Provitalize has got you covered.<\/p>",
               "page_landing_image_23": "shopify:\/\/shop_images\/2.2.png",
-              "subtitle23": "<h3>Maximize Workout Results<\/h3><br><p>Whether you're lifting weights, going for HIIT, jogs, daily walks or even going for dance class to get into better shape, Provitalize is there to amplify your results like your personal gym trainer. Minus the musty smell and sweat of course.<\/p>",
+              "subtitle23": "<h3>Maximize Workout Results<\/h3><p>Whether you're lifting weights, going for HIIT, jogs, daily walks or even going for dance class to get into better shape, Provitalize is there to amplify your results like your personal gym trainer. Minus the musty smell and sweat of course.<\/p>",
               "page_landing_image_33": "shopify:\/\/shop_images\/2.3.png",
-              "subtitle33": "<h3>Absorb Important Nutrients Better<\/h3><br><p>Most diets ask you to give up certain foods. This typically includes many natural anti-oxidants and nutrients. Provitalize is there to back you up and provide the right vitamins & supplement your diet with absorption boosters.<\/p>"
+              "subtitle33": "<h3>Absorb Important Nutrients Better<\/h3><p>Most diets ask you to give up certain foods. This typically includes many natural anti-oxidants and nutrients. Provitalize is there to back you up and provide the right vitamins & supplement your diet with absorption boosters.<\/p>"
             }
           },
           "1544605284516": {
@@ -6369,11 +6342,11 @@
             "type": "image_gallery2",
             "settings": {
               "page_landing_image_13": "shopify:\/\/shop_images\/icon-5_39846ba6-febe-481c-882e-835622d0308a.png",
-              "subtitle13": "",
+              "subtitle13": "<h3>Free Fast Shipping  (2-7 Days In The US)<\/h3><p>No one likes waiting 21 days or more for their parcel. That's why we've given free expedited shipping on our dime, all so you get to try our products before the week ends.<\/p>",
               "page_landing_image_23": "shopify:\/\/shop_images\/icon-6.png",
-              "subtitle23": "",
+              "subtitle23": "<h3>60-Day, Empty Bottle, 100% Guarantee<\/h3><p>Enjoy Provitalize for the next 60 days and if you don't love the experience, return us your empty bottle to get a full 100% money back guarantee.<\/p>",
               "page_landing_image_33": "shopify:\/\/shop_images\/icon-7_c4b665b8-9619-4508-ada5-54d705b86b21.png",
-              "subtitle33": ""
+              "subtitle33": "<h3>Risk-Free Returns & Shipping <\/h3><p>Don't be afraid to give it back, Should you decide that you don't enjoy Provitalize, we'll even cover your return shipping fees.<\/p>"
             }
           },
           "1544605546535": {
@@ -6383,71 +6356,11 @@
               "divider_border": false
             }
           },
-          "1544605561241": {
-            "type": "rich_text_and_image",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/quote1.jpg",
-              "title": "",
-              "content": "",
-              "text_size": "featured_text",
-              "text_alignment": "center",
-              "button_label": "",
-              "button_link": ""
-            }
-          },
-          "1544605611513": {
-            "type": "divider",
-            "settings": {
-              "divider_spacing": 20,
-              "divider_border": false
-            }
-          },
-          "1544605605869": {
-            "type": "image_gallery",
-            "settings": {
-              "page_landing_image_1": "shopify:\/\/shop_images\/5.1.png-Manage_Weight_Naturally_2c72c788-9110-4c01-9717-e881d8355111.png",
-              "subtitle1": "Manage Weight Naturally",
-              "page_landing_image_2": "shopify:\/\/shop_images\/5.2-Impact_Fat_Absorption_9d095436-29f3-4538-a3ae-755b7cfc085b.png",
-              "subtitle2": "Impact Fat Absorption",
-              "page_landing_image_3": "shopify:\/\/shop_images\/5.3-_Improve_Digestion_49a8ede8-b818-45ac-8d5b-66568fc5aee8.png",
-              "subtitle3": "Improve Digestion",
-              "page_landing_image_4": "shopify:\/\/shop_images\/5.4-Support_Inflammatory_Response.png",
-              "subtitle4": "Support Inflammatory Response"
-            }
-          },
           "1544614561892": {
             "type": "divider",
             "settings": {
               "divider_spacing": 20,
               "divider_border": false
-            }
-          },
-          "1544605679214": {
-            "type": "featured_video",
-            "settings": {
-              "source": "html5",
-              "aspect_ratio": "4:3",
-              "autoplay": false,
-              "autoloop": true,
-              "video_dark_overlay": true,
-              "video": "",
-              "mp4": "https:\/\/cdn.shopify.com\/s\/files\/1\/2060\/5733\/files\/face-smile.mp4",
-              "ogv": "",
-              "image": "",
-              "display_text_over_video": true,
-              "pretext": "",
-              "title": "Try Provitalize Today & Experience A Better Tomorrow",
-              "subtitle": "<p>THE POWER OF THERMOGENIC PROBIOTICS<\/p>",
-              "text_position": "center",
-              "text_align": "center",
-              "caption_background": false,
-              "caption_background_transparency": false,
-              "button1_label": "",
-              "button1_link": "",
-              "button1_highlight": false,
-              "button2_label": "",
-              "button2_link": "",
-              "button2_highlight": false
             }
           },
           "1544605856589": {
@@ -6500,11 +6413,85 @@
               "button_label": "",
               "button_link": ""
             }
+          },
+          "1544775860553": {
+            "type": "rich_text_and_image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/8_ingredients.png",
+              "title": "",
+              "content": "",
+              "text_size": "featured_text",
+              "text_alignment": "center",
+              "button_label": "",
+              "button_link": ""
+            }
+          },
+          "1544776120227": {
+            "type": "rich_text_and_image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Screen_Shot_2018-12-13_at_7.46.21_PM.png",
+              "title": "<div class=\"supplement\"><\/div>",
+              "content": "",
+              "text_size": "featured_text",
+              "text_alignment": "center",
+              "button_label": "",
+              "button_link": ""
+            }
+          },
+          "1544780399940": {
+            "type": "image_with_text",
+            "settings": {
+              "layout": true,
+              "frontpage_text_align": "left",
+              "frontpage_image_position": "right",
+              "image": "shopify:\/\/shop_images\/WEB_tummy_woman2.png",
+              "title": "What Taking Provitalize <br>Will Do For You",
+              "text": "<p>Manage Weight Naturally<\/p>\n<p>Impact Fat Absorption<\/p>\n<p>Improve Digestion<\/p>\n<p>Support Inflammatory Response<\/p>",
+              "link": "",
+              "button_label": ""
+            }
+          },
+          "1544786983136": {
+            "type": "image_with_text_overlay",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/quote1.png",
+              "pretext": "",
+              "title": "",
+              "subtitle": "",
+              "caption_background": false,
+              "caption_background_transparency": false,
+              "text_position": "right",
+              "text_align": "right",
+              "button1": "",
+              "button1_link": "",
+              "button1_highlight": false,
+              "button2": "",
+              "button2_link": "",
+              "button2_highlight": false
+            }
+          },
+          "1544788614742": {
+            "type": "image_with_text_overlay",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/WEB_2_woman.png",
+              "pretext": "<p>Try Provitalize Today &amp; Experience A Better Tomorrow<\/p>",
+              "title": "",
+              "subtitle": "<p>THE POWER OF THERMOGENIC PROBIOTICS<\/p>",
+              "caption_background": false,
+              "caption_background_transparency": false,
+              "text_position": "center",
+              "text_align": "center",
+              "button1": "",
+              "button1_link": "",
+              "button1_highlight": false,
+              "button2": "",
+              "button2_link": "",
+              "button2_highlight": false
+            }
           }
         },
         "block_order": [
           "1544602611348",
-          "page-details-ppjoel-template-1",
           "1544604535625",
           "page-details-ppjoel-template-3",
           "1544604585661",
@@ -6512,8 +6499,8 @@
           "1544604704353",
           "page-details-ppjoel-template-9",
           "1544604759420",
-          "page-details-ppjoel-template-11",
-          "1544604807375",
+          "1544775860553",
+          "1544776120227",
           "page-details-ppjoel-template-13",
           "1544605015801",
           "1544688194575",
@@ -6534,11 +6521,10 @@
           "1544605501455",
           "1544687360494",
           "1544605546535",
-          "1544605561241",
-          "1544605611513",
-          "1544605605869",
+          "1544786983136",
+          "1544780399940",
           "1544614561892",
-          "1544605679214",
+          "1544788614742",
           "1544605856589",
           "1544605868060",
           "1544605968266",

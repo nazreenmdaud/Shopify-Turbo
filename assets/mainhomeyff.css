@@ -1468,8 +1468,11 @@ li.button{
     .contacts p{
         line-height: 1em!important;
     }
-
-    .width30, .width35  {
+    
+    .width30{
+        width: 50%;
+    }
+    .width35  {
         width: 100%;
     }
 
@@ -1691,11 +1694,15 @@ li.button{
 @media screen and (min-width: 481px) and (max-width: 768px) {
 
     #pricePlans #plans .plan, #pricePlans-3h #plans .plan {
-        width: 49%;
+        width: 32%;
         margin: 0 2% 20px 0;
     }
 
-    .pages {
+    /*.fornav{
+        display: none;
+    }*/
+
+    .pages, .fornav {
         display: none;
     }
     
@@ -1921,17 +1928,17 @@ li.button{
 
     }
 
-    .shipping-bottom, .shipping-bottom3r {
-        padding-bottom: 20px!important;
+    .shipping-bottom {
+        padding-bottom: 146px!important;
     }
     
     .navbar-header {
         float: none!important;
     }
 
-    /*.navbar-collapse.collapse{
+    .navbar-collapse.collapse{
         display: none!important;
-    }*/
+    }
 
     .navbar-testi{
         margin-left: 150px;
@@ -2126,13 +2133,17 @@ li.button{
         width: 57%;
     }
 
+    .shipping-bottom {
+        padding-bottom: 20px!important;
+    }
+
     img.mobile_view {
         display: block;
         width: 85%;
         max-width: 100%;
         position: absolute;
         left: 20%;
-        bottom: 49%;
+        bottom: 47%;
     }
 }
 
@@ -3017,3 +3028,13 @@ hr#priceAnchor {
         width: 20%;
         margin: 0 auto;
     }
+    @media (width: 769px){
+    .navbar-fixed-top .navbar-collapse{
+            padding-right: 0!important;
+            padding-left: 0!important;
+        }
+    }
+
+    .collapse.in {
+    display: block !important;
+}

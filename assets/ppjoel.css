@@ -3,15 +3,15 @@
 #shopify-section-header, .header, #fsb_bar {display:none;}
 
 @font-face {
-      font-family: 'BebasNeue-Bold';
-      src: url('BebasNeue Bold.otf'),
-           url('BebasNeue Bold.otf') format('otf'),
-           url('BebasNeue Bold.otf') format('truetype');
+      font-family: 'Aileron-Black';
+      src: url('Aileron-Black.otf'),
+           url('Aileron-Black.otf') format('otf'),
+           url('Aileron-Black.otf') format('truetype');
       font-weight: normal;
       font-style: normal; }
 
 div.subtitle p{
-  font-family: 'BebasNeue-Bold' !important;
+  font-family: 'Aileron-Black' !important;
 }
 
 @font-face {
@@ -35,20 +35,23 @@ div a, div p { font-family: 'Aileron-regular' !important; }
 
 
 
-h1, h2, h3 { font-family: 'Aileron-Thin' !important; }
+h1, h2, h3, a.collection_title, .pretext p { font-family: 'Aileron-Thin' !important; }
 
-h2 {
-  font-size: 40px!important;
+h2, a.collection_title {
+  font-size: 75px!important;
+  line-height: 1!important;
 }
 /*h3 {
   margin: 20px auto -15px 0!important;
 }*/
 
-p {
+.container p, .description p {
   font-size: 20px!important;
 }
 .subtitle p{
-	font-size: 50px!important;
+	 font-size: 30px!important;
+    letter-spacing: 2px;
+    line-height: 40px!important;
 }
 
 .featured_content{
@@ -63,11 +66,16 @@ p {
   color: #fff!important;
 }
 
+.caption .headline {
+    font-size: 80px!important;
+    text-transform: none!important;
+}
+
 .caption-content {
     max-width: 90%!important;
 }
 
-.gallery-cell{
+.gallery-cell, .sixteen h3{
   text-align: center!important;
 }
 
@@ -86,6 +94,18 @@ a.highlight-false, input[type="button"].highlight-false, a.highlight-true, input
 a.highlight-false{
     color: #ffffff!important;
     border: 1px solid #ffffff!important;
+}
+
+.container .one-third.column{
+    padding: 20px!important;
+    box-shadow: #F1F1F1 1px 0px 4px 1px!important;
+    width: 340px!important;
+    height: 570px!important;
+}
+
+.container .noshadow{
+    box-shadow: none!important;
+
 }
 
 @media screen and (max-width: 480px) {
