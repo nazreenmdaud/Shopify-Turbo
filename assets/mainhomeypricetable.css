@@ -139,6 +139,16 @@ p.pt-text{
     width: 8%;
 }
 
+.background{
+  background-color: white;
+}
+
+.3bottles{
+  background: #d2d2d2;
+  line-height: 2em;
+
+}
+
 .width10 {
     width: 10%;
 }
@@ -805,7 +815,7 @@ span.price-size{
 }*/
 
 li.button{
-    background: #29aac3;
+    background:#14857c;
     border-radius: 30px;
     color:#fff;
     box-shadow: inset 2px 2px 2px rgba(255, 255, 255, .4), inset -2px -2px 2px rgba(0, 0, 0, .4);
@@ -1164,6 +1174,7 @@ li.button{
     color: #3e4f6a;
     margin: 0;
     padding: .6em 0;
+	line-height:1.9;
 }
 
 .planContainer .title h2.bestPlanTitle, .planContainer-3h .title h2.bestPlanTitle {
@@ -1245,7 +1256,7 @@ li.button{
 .planContainer-3h .options li {
     font-weight: 700;
     color: #000;
-    line-height: 1;
+/*line-height: 1;*/
 }
 
 .pt-container ul li{
@@ -2352,8 +2363,8 @@ table th {
     border: solid 2px #5ea85e!important;
 }
 .centerborder-3h {
-    border: solid 2px #74BCCA!important;
-    background: aliceblue;
+    border: solid 2px #03a196!important;
+    background: #f9fdf9;
 }
 .centerborder-3r {
     border: solid 2px #fe0400!important;
@@ -2853,7 +2864,7 @@ div.content {
 }
 
 .redtop{
-    background: -webkit-linear-gradient(left, #4998A7, #093783);
+    background: -webkit-linear-gradient(left, #74BCCA, #093783);
     background: -o-linear-gradient(left, #4998A7, #093783);
     background: linear-gradient(to right, #4998A7, #093783);
 }
@@ -2885,7 +2896,7 @@ button.nobg{
 }
 
 .adaybottle{
-    background-color: #74BCCA;
+    background-color: #14857c;
     width: 100%;
     padding: 8px 10px;
     margin: 0 auto;
