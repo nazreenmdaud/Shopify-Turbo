@@ -1,5 +1,3 @@
-
-
 #shopify-section-header, .header, #fsb_bar {display:none;}
 
 @font-face {
@@ -11,7 +9,7 @@
       font-style: normal; }
 
 div.subtitle p{
-  font-family: 'Aileron-Black' !important;
+  font-family: 'Aileron-regular' !important;
 }
 
 @font-face {
@@ -41,6 +39,8 @@ h2, a.collection_title {
   font-size: 75px!important;
   line-height: 1!important;
 }
+
+
 /*h3 {
   margin: 20px auto -15px 0!important;
 }*/
@@ -97,10 +97,10 @@ a.highlight-false{
 }
 
 .container .one-third.column{
-    padding: 20px!important;
+/*     padding: 20px!important; */
     box-shadow: #F1F1F1 1px 0px 4px 1px!important;
-    width: 340px!important;
-    height: 570px!important;
+    width: 32%!important;
+    height: auto!important;
 }
 
 .container .noshadow{
@@ -396,3 +396,17 @@ header {
 
 
 /*########## END NAVBAR ##########*/
+
+.page-details-ppjoel .block__image_with_text .section-4 .description p {
+    margin-bottom: 25px;
+}
+
+
+
+@media screen and (max-width: 768px) {
+h2, a.collection_title {
+  font-size: 32px!important;
+  line-height: 1!important;
+}
+}
+

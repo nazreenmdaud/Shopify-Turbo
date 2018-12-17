@@ -6095,7 +6095,7 @@
               "image": "",
               "title": "What's The Difference Between Normal Vs Thermogenic Probiotics?",
               "content": "<p>While most probiotics only help digestion &amp; immunity, \"thermogenic\" probiotics are strains that mimic the fat burning effects of thermogenic supplements (capsicun, green tea, caffeine etc) minus some of the side effects. These unique strains have been studied to impact fat storage, calorie absorption, metabolism &amp; support weight management.<\/p>",
-              "text_size": "featured_text",
+              "text_size": "regular_text",
               "text_alignment": "center",
               "button_label": "",
               "button_link": ""
@@ -6116,7 +6116,7 @@
               "frontpage_image_position": "left",
               "image": "shopify:\/\/shop_images\/WEB_dna_woman.png",
               "title": "",
-              "text": "<p><strong>Thermogenic Strain #1: L. Gasseri<\/strong> is commonly found in fermented foods and dairy products like Puba (a Brazilian staple). A study of 210 people showed an average of 8.5% loss of body fat after 12 weeks of consuming L. Gasseri. (1)<\/p>\n<p>_<\/p>\n<p><strong>Thermogenic Strain #2: B. Breve<\/strong> is largely found naturally in our digestive tract<strong>. <\/strong>Additional studies have showed that B. Breve \"activates\" genes that impact fat metabolism and supports blood sugar levels. (2)<\/p>\n<p>_<\/p>\n<p><strong>Thermogenic Strain #3: B. Lactis <\/strong> is present in raw milk and is used as starter culture for cheese, cottage cheese and butter milk. This special strains has also been shown to promote better digestion, manage inflammatory responses, cholesterol levels and also acts as an anti-oxidant. (3)<\/p>",
+              "text": "<p><strong>Thermogenic Strain #1: L. Gasseri<\/strong> is commonly found in fermented foods and dairy products like Puba (a Brazilian staple). A study of 210 people showed an average of 8.5% loss of body fat after 12 weeks of consuming L. Gasseri. (1)<\/p>\n<p><\/p>\n<p><strong>Thermogenic Strain #2: B. Breve<\/strong> is largely found naturally in our digestive tract<strong>. <\/strong>Additional studies have showed that B. Breve \"activates\" genes that impact fat metabolism and supports blood sugar levels. (2)<\/p>\n<p><\/p>\n<p><strong>Thermogenic Strain #3: B. Lactis <\/strong> is present in raw milk and is used as starter culture for cheese, cottage cheese and butter milk. This special strains has also been shown to promote better digestion, manage inflammatory responses, cholesterol levels and also acts as an anti-oxidant. (3)<\/p>",
               "link": "",
               "button_label": ""
             }
@@ -6153,6 +6153,30 @@
               "image": "",
               "title": "Life Is Too Short To Miss Diet Goals. Get The Support You Need",
               "content": "<p>Meet Provitalize, a thermogenic probiotic supplement that dieters, workout enthusiasts &amp; yoga mums love to add to their daily meals when they need the extra support. With natural herbs , specific thermogenic probiotic strains &amp; absorption boosters, anyone will have a better shot at achieving weight loss goals.<\/p>",
+              "text_size": "featured_text",
+              "text_alignment": "center",
+              "button_label": "",
+              "button_link": ""
+            }
+          },
+          "1544775860553": {
+            "type": "rich_text_and_image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/8_ingredients.png",
+              "title": "",
+              "content": "",
+              "text_size": "featured_text",
+              "text_alignment": "center",
+              "button_label": "",
+              "button_link": ""
+            }
+          },
+          "1544776120227": {
+            "type": "rich_text_and_image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Screen_Shot_2018-12-13_at_7.46.21_PM.png",
+              "title": "<div class=\"supplement\"><\/div>",
+              "content": "",
               "text_size": "featured_text",
               "text_alignment": "center",
               "button_label": "",
@@ -6356,11 +6380,62 @@
               "divider_border": false
             }
           },
+          "1544786983136": {
+            "type": "image_with_text_overlay",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/quote1.png",
+              "pretext": "",
+              "title": "",
+              "subtitle": "",
+              "caption_background": false,
+              "caption_background_transparency": false,
+              "text_position": "right",
+              "text_align": "right",
+              "button1": "",
+              "button1_link": "",
+              "button1_highlight": false,
+              "button2": "",
+              "button2_link": "",
+              "button2_highlight": false
+            }
+          },
+          "1544780399940": {
+            "type": "image_with_text",
+            "settings": {
+              "layout": true,
+              "frontpage_text_align": "left",
+              "frontpage_image_position": "right",
+              "image": "shopify:\/\/shop_images\/WEB_tummy_woman2.png",
+              "title": "What Taking Provitalize <br>Will Do For You",
+              "text": "<p>Manage Weight Naturally<\/p>\n<p>Impact Fat Absorption<\/p>\n<p>Improve Digestion<\/p>\n<p>Support Inflammatory Response<\/p>",
+              "link": "",
+              "button_label": ""
+            }
+          },
           "1544614561892": {
             "type": "divider",
             "settings": {
               "divider_spacing": 20,
               "divider_border": false
+            }
+          },
+          "1544788614742": {
+            "type": "image_with_text_overlay",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/WEB_2_woman.png",
+              "pretext": "<p>Try Provitalize Today &amp; Experience A Better Tomorrow<\/p>",
+              "title": "",
+              "subtitle": "<p>THE POWER OF THERMOGENIC PROBIOTICS<\/p>",
+              "caption_background": false,
+              "caption_background_transparency": false,
+              "text_position": "center",
+              "text_align": "center",
+              "button1": "",
+              "button1_link": "",
+              "button1_highlight": false,
+              "button2": "",
+              "button2_link": "",
+              "button2_highlight": false
             }
           },
           "1544605856589": {
@@ -6412,81 +6487,6 @@
               "text_alignment": "center",
               "button_label": "",
               "button_link": ""
-            }
-          },
-          "1544775860553": {
-            "type": "rich_text_and_image",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/8_ingredients.png",
-              "title": "",
-              "content": "",
-              "text_size": "featured_text",
-              "text_alignment": "center",
-              "button_label": "",
-              "button_link": ""
-            }
-          },
-          "1544776120227": {
-            "type": "rich_text_and_image",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/Screen_Shot_2018-12-13_at_7.46.21_PM.png",
-              "title": "<div class=\"supplement\"><\/div>",
-              "content": "",
-              "text_size": "featured_text",
-              "text_alignment": "center",
-              "button_label": "",
-              "button_link": ""
-            }
-          },
-          "1544780399940": {
-            "type": "image_with_text",
-            "settings": {
-              "layout": true,
-              "frontpage_text_align": "left",
-              "frontpage_image_position": "right",
-              "image": "shopify:\/\/shop_images\/WEB_tummy_woman2.png",
-              "title": "What Taking Provitalize <br>Will Do For You",
-              "text": "<p>Manage Weight Naturally<\/p>\n<p>Impact Fat Absorption<\/p>\n<p>Improve Digestion<\/p>\n<p>Support Inflammatory Response<\/p>",
-              "link": "",
-              "button_label": ""
-            }
-          },
-          "1544786983136": {
-            "type": "image_with_text_overlay",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/quote1.png",
-              "pretext": "",
-              "title": "",
-              "subtitle": "",
-              "caption_background": false,
-              "caption_background_transparency": false,
-              "text_position": "right",
-              "text_align": "right",
-              "button1": "",
-              "button1_link": "",
-              "button1_highlight": false,
-              "button2": "",
-              "button2_link": "",
-              "button2_highlight": false
-            }
-          },
-          "1544788614742": {
-            "type": "image_with_text_overlay",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/WEB_2_woman.png",
-              "pretext": "<p>Try Provitalize Today &amp; Experience A Better Tomorrow<\/p>",
-              "title": "",
-              "subtitle": "<p>THE POWER OF THERMOGENIC PROBIOTICS<\/p>",
-              "caption_background": false,
-              "caption_background_transparency": false,
-              "text_position": "center",
-              "text_align": "center",
-              "button1": "",
-              "button1_link": "",
-              "button1_highlight": false,
-              "button2": "",
-              "button2_link": "",
-              "button2_highlight": false
             }
           }
         },
