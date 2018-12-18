@@ -1691,7 +1691,7 @@ li.button{
 
 }
 
-@media screen and (min-width: 481px) and (max-width: 768px) {
+@media screen and (min-width: 481px) and (max-width: 1024px) {
 
     #pricePlans #plans .plan, #pricePlans-3h #plans .plan {
         width: 32%;

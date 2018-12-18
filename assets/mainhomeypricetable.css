@@ -8,17 +8,17 @@ _:-moz-tree-row(hover), html {
 
 @font-face {
     font-family: patua;
-    src: url('https://cdn.shopify.com/s/files/1/2060/5733/files/PatuaOne-Regular.otf');
+    src: url('https://cdn.shopify.com/s/files/1/2060/5733/files/Aileron-UltraLight.otf');
 }
 
 @font-face {
     font-family: gotham-normal;
-    src: url(../assets/GothamMediumRegular.ttf);
+    src: url(../assets/Aileron-Regular.otf);
 }
 
 @font-face {
     font-family: gotham-bold;
-    src: url('https://cdn.shopify.com/s/files/1/2060/5733/files/Gotham-Black.otf');
+    src: url(../assets/Aileron-Regular.otf);
 }
 
 .page-pp-provitalize #shopify-section-header,
