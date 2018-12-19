@@ -1129,7 +1129,12 @@ a.ctabutton{
 
 }
 
-
+@media screen and (min-width: 1440px) and (max-width: 1919px) {
+    .footerrow {
+    width: 90%;
+    margin: 0 auto!important;
+}
+}
 
 
 

@@ -73,7 +73,7 @@ hr.faqhr{
 }
 
 .subtitle p{
-	 font-size: 30px!important;
+   font-size: 30px!important;
     letter-spacing: 1.5px;
     line-height: 37px!important;
     font-weight: bold;
@@ -346,6 +346,7 @@ header {
   color: #000;
   width: 100%;
   float: left;
+  position: relative;
 }
 
 .nav-collapse a:active,
@@ -609,7 +610,7 @@ h1.experience{
   text-align: center!important;
 }
 
-#shopify-section-page-details-pp3w-template div.videoBanner .video_container{
+ div.videoBanner .video_container{
   top: calc(50% - 187px)!important;
 }
 
@@ -652,20 +653,20 @@ h1.experience{
   margin-bottom: 0!important;
 }
 
-#shopify-section-page-details-pp3w-template .sixth-section .subtitle, 
-#shopify-section-page-details-pp3w-template .seventh-section .subtitle,
+ .sixth-section .subtitle, 
+ .seventh-section .subtitle,
 .tenth-section h3.subtitle {
     margin-bottom: 20px;
     font-weight: bold;
     padding-top: 15px;
 }
 
-#shopify-section-page-details-pp3w-template div.videoBanner{
+ div.videoBanner{
   height: 56vh!important;
   width: 100%;
 }
 
-#shopify-section-page-details-pp3w-template div.videoBanner video:after {
+ div.videoBanner video:after {
     position: absolute!important;
 }
 
@@ -922,6 +923,7 @@ h1.experience{
 
 .ordernowbtn:hover, .buynow:hover{
       background:#157E76!important;
+      transition: all 0.5s;
   }
 
 .bottle1{
@@ -991,7 +993,7 @@ p.disclaimer-text{
     border-radius: 30px;
 }
 
-#shopify-section-page-details-pp3w-template div.videoBanner video {
+ div.videoBanner video {
     position: relative;
     top: auto;
     left: auto;
@@ -1008,12 +1010,12 @@ p.disclaimer-text{
 
 @media only screen and (min-width: 1441px) {
 
-  #shopify-section-page-details-pp3w-template div.videoBanner video {
+  div.videoBanner video {
  transform: scale(2.5);
 }
 }
 
-#shopify-section-page-details-pp3w-template div.videoBanner .video_container {
+ div.videoBanner .video_container {
     position: absolute;
     z-index: 2;
     text-align: center;
@@ -1057,7 +1059,7 @@ nav.navbar.navbar-expand-md.topsecbar ul li {
     text-align: center;
   }
 
-  #shopify-section-page-details-pp3w-template div.videoBanner .video_container .buttonArea{
+  div.videoBanner .video_container .buttonArea{
     margin-top: 35px;
   }
   h1.onetime{
@@ -1098,13 +1100,13 @@ nav.navbar.navbar-expand-md.topsecbar ul li {
   font-size: 33px!important;
 }
 
-  #shopify-section-page-details-pp3w-template .sixth-section .subtitle, 
-#shopify-section-page-details-pp3w-template .seventh-section .subtitle, 
+   .sixth-section .subtitle, 
+ .seventh-section .subtitle, 
 .tenth-section h3.subtitle{
   color:#000!important;
 }
 
-#shopify-section-page-details-pp3w-template .video_container .subtitle p,
+ .video_container .subtitle p,
 .description p.text-white, .description h1.headline{
   width: 90%;
 }
@@ -1113,10 +1115,10 @@ nav.navbar.navbar-expand-md.topsecbar ul li {
     width:100%;
   }
 
-  /*#shopify-section-page-details-pp3w-template h1.headline {
+  /*#shopify-section-page-details-ppjoelTest-template h1.headline {
     padding-top: 30px;
 }*/
-#shopify-section-page-details-pp3w-template div.videoBanner .video_container{
+ div.videoBanner .video_container{
   top: calc(50% - 205px)!important;
 }
 
@@ -1129,7 +1131,12 @@ a.ctabutton{
 
 }
 
-
+@media screen and (min-width: 1440px) and (max-width: 1919px) {
+    .footerrow {
+    width: 90%;
+    margin: 0 auto!important;
+}
+}
 
 
 
@@ -1137,10 +1144,10 @@ a.ctabutton{
 /*------------------------custom code from styles----------------------*/
 
 
-/* CUSTOM CSS 2018/12/15  
+/* CUSTOM CSS 2018/12/15  */
 
 
-  #shopify-section-page-details-pp3w-template{
+
     div.videoBanner {
       position: relative;
       background-color: black;
@@ -1171,17 +1178,19 @@ a.ctabutton{
       text-align: center;
       top: 50%;
       transform: translateY(-50%);
-      .headline{
+      }
+      div.videoBanner .video_container .headline{
         font-size:80px;
       }
-      .buttonArea{
+      div.videoBanner .video_container .buttonArea{
         margin-top: 50px;
-        .action_button{
+      }
+
+      div.videoBanner .video_container .buttonArea .action_button{
            border-radius: 20px;
           margin: 0px 20px;
         }
-      }
-    }
+    
 
     div.videoBanner .video-overlay {
       position: absolute;
@@ -1202,219 +1211,204 @@ a.ctabutton{
         display: none;
       }
     }
-    .first-section{
-      h1.headline{
+    .first-section h1.headline{
         color: black !important;
         font-size: 4em;
         text-align: center;
         line-height: 1.2em;
         margin-bottom: 50px;
       }
-      .text-content{
+    .first-section .text-content{
         text-align:center;
       }
-    }
-    .second-section{
-      .description{
+    
+    .second-section .description{
         height: auto;
       }
-      .col-lg-6, col-lg-4{
+    .second-section .col-lg-6, .second-section .col-lg-4{
          justify-content: center;
          align-items: center;
          display: flex;
          flex-direction: column;
       }
-      p{
+      .second-section p{
         padding: 1em;
       }
-    }
-    .third-section{
-      h1.headline{
+    
+    .third-section h1.headline{
         color: black !important;
         font-size: 4em;
         text-align: center;
         line-height: 1.2em;
         margin-bottom: 50px;
       }
-      .text-content{
+      .third-section .text-content{
         text-align:center;
       }
-    }
-    .fourth-section{
-      h1.headline{
+    
+    .fourth-section h1.headline{
         color: black !important;
         font-size: 4em;
         text-align: center;
         line-height: 1.2em;
         margin-bottom: 50px;
       }
-      .text-content{
+      .fourth-section .text-content{
         text-align:center;
       }
-    }
-    .fifth-section{
-      h1.headline{
+    
+    .fifth-section h1.headline{
         color: black !important;
         font-size: 4em;
         text-align: center;
         line-height: 1.2em;
         margin-bottom: 50px;
       }
-      .text-content{
+      .fifth-section .text-content{
         text-align:center;
       }
-    }
-    .sixth-section{
-      h1.headline{
+    
+    .sixth-section h1.headline{
         color: black !important;
         font-size: 4em;
         text-align: center;
         line-height: 1.2em;
         margin-bottom: 50px;
       }
-      .text-content{
+      .sixth-section .text-content{
         text-align:center;
       }
-      .subtitle{
+      .sixth-section .subtitle{
         margin-bottom:20px;
       }
-      .card{
+      .sixth-section .card{
         height: 100%;
         padding: 3%;
       }
-    }
-    .seventh-section{
-      h1.headline{
+    
+    .seventh-section h1.headline{
         color: black !important;
         font-size: 4em;
         text-align: center;
         line-height: 1.2em;
         margin-bottom: 50px;
       }
-      .text-content{
+      .seventh-section .text-content{
         text-align:center;
       }
-      .subtitle{
+      .seventh-section .subtitle{
         margin:20px 0;
       }
-      .card{
+      .seventh-section .card{
         height: 100%;
         padding: 3%;
       }
-    }
-    .eighth-section{
-      background: #f5f3f3;
-      h1.headline{
+    
+    .eighth-section {background: #f5f3f3;}
+    .eighth-section h1.headline{
         color: black !important;
         font-size: 4em;
         text-align: center;
         line-height: 1.2em;
         margin-bottom: 50px;
       }
-      p,.col-lg-2{
+      .eighth-section p,.eighth-section .col-lg-2{
         text-align:center;
       }
-      p{
+      .eighth-section p{
         font-size: 1em !important;
         line-height: 1;
       }
-    }
-    .nineth-section{
-      h1.headline{
+    
+    .nineth-section h1.headline{
         color: black !important;
         font-size: 4em;
         text-align: center;
         line-height: 1.2em;
         margin-bottom: 50px;
       }  
-    }
-    .tenth-section{
-      h1.headline{
+    
+    .tenth-section h1.headline{
         color: black !important;
         font-size: 4em;
         text-align: center;
         line-height: 1.2em;
         margin-bottom: 50px;
       }  
-    }
-    .eleventh-section{
-      img{
+    
+    .eleventh-section img{
         width: 100%;
       }
-      i{
+      .eleventh-section i{
         color: gray;
       }
-      .main-text{
+      .eleventh-section .main-text{
         font-size: 70px;
         margin: 0px 25px;
       }
-      .flex_box{
+      .eleventh-section .flex_box{
          justify-content: center;
          align-items: center;
          display: flex;
          flex-direction: column;
       }
-    }
-    .twelveth-section{
-      h1.headline{
+    
+    .twelveth-section h1.headline{
         color: black !important;
         font-size: 3em;
         text-align: center;
         line-height: 1.2em;
         margin-bottom: 50px;
       }       
-      .bg_img_ul li{
+      .twelveth-section .bg_img_ul li{
          font-size: 25px;
       }
-      .flex_box{
+      .twelveth-section .flex_box{
          justify-content: center;
          align-items: center;
          display: flex;
          flex-direction: column;
       }
-    }
-    .thirteen-section-desktop{
-      position: relative;
-      img{
+    
+    .thirteen-section-desktop{position: relative;}
+      .thirteen-section-desktop img{
         width: 100%;
       }
-      .description{
+      .thirteen-section-desktop .description{
           position: absolute;
           top: 50%;
           left: 50%;
           transform: translate(-50% ,-50%);
       }
-      h1.headline{
+      .thirteen-section-desktop h1.headline{
         font-size: 4em;
         text-align: center;
         line-height: 1.2em;
         margin-bottom: 50px;
       }    
-    }
-    .thirteen-section-mobile{
-       display: none;
-      img{
+    
+    .thirteen-section-mobile {display: none;}
+    .thirteen-section-mobile img{
         width: 100%;
       }
-      .description{
+      .thirteen-section-mobile .description{
           position: absolute;
           top: 50%;
           left: 50%;
           transform: translate(-50% ,-50%);
           width: 100%;
       }
-      h1.headline{
+      .thirteen-section-mobile h1.headline{
         font-size: 4em;
         text-align: center;
         line-height: 1.2em;
         margin-bottom: 50px;
       }
-    }
-    .fourteenth-section-desktop{
-      img{
+    
+    .fourteenth-section-desktop img{
         width: 100%;
       }
-    }
+    
     .fourteenth-section-mobile{
        display: none;
     }
@@ -1430,55 +1424,50 @@ a.ctabutton{
        color: black;
       text-decoration: none;
     }
-  }
+
 @media only screen and (max-width: 1024px){
-  .eleventh-section{
-    .main-text{
+  .eleventh-section .main-text{
        font-size: 45px !important;
     }
-  }
-  .thirteen-section-desktop{
-    h1.headline{
+  
+  .thirteen-section-desktop h1.headline{
       font-size: 2em!important;
     }
-  }
-  #shopify-section-page-details-pp3w-template div.videoBanner .video_container .headline{
+  
+  div.videoBanner .video_container .headline{
      font-size: 55px !important;
   }
-  #shopify-section-page-details-pp3w-template{
-    .video_container{
-      .subtitle p{
+  
+    .video_container .subtitle p{
         font-size: 20px!important;
         letter-spacing: 2px;
         line-height: 20px!important;
       }
-    }
+    
   }
-}
+
 @media only screen and (max-width: 768px){
    h1.headline{
        font-size: 3em !important;
        margin-bottom: 30px;
     }
-    .eleventh-section{
-      .flex_box{
+    .eleventh-section .flex_box{
         h3{
           margin: 25px 0px;
         }         
       }
-    }
+    
   .thirteen-section-desktop h1.headline{
     font-size: 1.8em !important;
     margin-bottom: 20px !important;
   }
-  .container-fluid.second-section{
-    img{
+  .container-fluid.second-section img{
       text-align: center;
     }
-  }
+  
 }
 @media only screen and (max-width: 480px){
-  #shopify-section-page-details-pp3w-template{
+
     h1.headline{
       font-size: 2em !important;
       line-height: 1.2;
@@ -1489,10 +1478,11 @@ a.ctabutton{
     .thirteen-section-mobile{
       position:relative;
       display: block;
-      .headline{
+      }
+     .thirteen-section-mobile .headline{
          font-size: 25px;
       }
-    }
+    
     .fourteenth-section-desktop{
       display: none;
       
@@ -1503,14 +1493,15 @@ a.ctabutton{
     i{
       font-size: 25px;
     }
-  }
-  .eleventh-section{
-    .main-text{
+
+  .eleventh-section .main-text{
         font-size: 30px !important;
     }
     
-  }
+  
 }
+
+
 @media only screen and (max-width: 375px){
   .twelveth-section .headline{
      margin-top: 50px;
@@ -1518,6 +1509,45 @@ a.ctabutton{
   }
 } 
 
+.bottleimage {
+    padding-top: 15px;
+}
 
+.menubuynow{
+    background: #0F427B!important;
+    color: #fff!important;
+    padding: 8px 25px!important;
+    border-radius: 20px;
+    font-weight: bold;
+    margin-top: 7px!important;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 1);
+}
 
+.menubuynow:hover{
+    background: #22BB1B!important;
+    color: #fff!important;
+    transition: 0.4s;
+
+}
+
+.nav-collapse a:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  bottom: 0;
+  left: 0;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.nav-collapse a:hover{
+    color: #0F427B;
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+}
 
