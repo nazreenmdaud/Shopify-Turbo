@@ -1590,3 +1590,7 @@ div.videoBanner {
     transform: scaleX(1);
 }
 
+.ingboxing {
+  margin: 0 auto;
+}
+

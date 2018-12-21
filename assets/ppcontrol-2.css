@@ -568,63 +568,7 @@ h2.okeReviews-review-main-heading {
   display:none;
 }
 
-@media only screen and (max-width: 480px){
 
-  .desktops, .purplewomen{
-  display:none;
-}
-
-  .mobiles, .purplewomen-tm{
-  display:block;
-}
-
-.pad20bottom{
-  padding-bottom: 20px!important;
-}
-
-.mobile-fullwidth{
-  width: 100%;
-}
-
-.product-tabling{
-    margin-left: 10px;
-    margin-right: 10px;
-}
-
-a.highlight-true{
-  background-color: #03857c!important;
-  border-color: #03857c!important;
-}
-
-.fpimage{
-    float: left;
-    margin: 25px 10px 0 25px;
-}
-
-.firstp {
-     margin-top: 0; 
-
-}
-
-.spimage{
-    float: left;
-    margin: 25px 10px 0 25px;
-}
-
-.tpimage{
-    float: left;
-    margin: 25px 10px 0 25px;
-}
-
-.w-10{
-  width:10%;
-}
-
-h2.clinical{
-  font-size: 28px!important;
-}
-
-  }
 
 @media screen and (min-width: 1024px) and (max-width: 1439px) {
 
@@ -963,7 +907,7 @@ h1.experience{
     margin: 0 auto;
 }
 
-.prices p, .prices h2, .customfooter a, .benefits h2, .benefits h4{
+.prices p, .prices h2, .customfooter a, .benefits h2, .benefits h4, .first-section h2{
     color:#000!important;
 }
 
@@ -977,7 +921,7 @@ h1.experience{
 
 
 .prices h2, .fourth-section h2, .seventh-section h2, .sixth-section h2,
-.realreviews h2{
+.realreviews h2, .first-section h2, .tenth-section h2{
     text-align: center;
     font-size: 55px!important;
     font-weight: bold;
@@ -1689,4 +1633,160 @@ div.videoBanner {
     background-color: #22BB1B;
     color: #fff;
     transition: 0.3s all;
+}
+
+@media only screen and (max-width: 480px){
+
+  .desktops, .purplewomen{
+  display:none;
+}
+
+  .mobiles, .purplewomen-tm{
+  display:block;
+}
+
+.neg-marg-200, .neg-marg-200-, .neg-marg-140, .neg-marg-100{
+  margin-top: 0!important;
+}
+
+.ben-img{
+  float: right;
+}
+
+.p-left-m{
+  float: left;
+}
+
+.benefits{
+  text-align: center;
+  padding-top: 0;
+}
+
+.benefits h2, .tenth-section h2, .prices h2, 
+.fourth-section h2, .seventh-section h2, .sixth-section h2, 
+.realreviews h2, .first-section h2, .tenth-section h2 {
+    font-size: 38px!important;
+    font-weight: bold;
+    text-align: center;
+}
+
+.insidebox {
+     border: none; 
+     padding: 0; 
+}
+
+.mob-divider{
+    border-top: 1px solid rgba(0,0,0,.2)!important;
+    width: 85%;
+    margin: 0 auto;
+}
+
+.benefits p{
+    text-align: center;
+    width: 100%!important;
+}
+
+.w-8{
+  width: 8%;
+}
+
+.mobiles .row .col-lg-4, .experience, p.experience-p,.formulated, .ordinary {
+  text-align: center!important;
+}
+
+p.experience-p, .satisfaction p{
+  width: 90%;
+  float: none;
+}
+
+.bubble3m, .satisfaction img{
+  width: 50%;
+}
+
+.neg-mar-40-m{
+  margin-top: -40px!important;
+}
+
+.mobiles .row .col-lg-4 h3.subtitle {
+    color: #000!important;
+    font-family: Aileron-regular!important;
+}
+
+.benefits .text-center img.mobiles, .bubble img, .benefits h4, .pill-m,
+.tenth-section .row .col-lg-12 img.mobiles, .benefits img.mobiles{
+  margin: 0 auto;
+}
+
+.bubble {
+  text-align: right;
+}
+
+.sidepad-0-m{
+  padding-left: 0!important;
+  padding-right: 0!important;
+}
+
+.sidepad-0-m p{
+  width: 95%
+}
+
+.ordinary img{
+  float: right;
+}
+
+.benefit-m, .benefit-m h2, .benefit-m p, .whenitcomes h2, .bubble3{
+  text-align: left;
+}
+
+.fourth-section h3{
+    text-align: left;
+    line-height: 1;
+}
+
+.pad20bottom{
+  padding-bottom: 20px!important;
+}
+
+.mobile-fullwidth{
+  width: 100%;
+}
+
+.product-tabling{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+a.highlight-true{
+  background-color: #03857c!important;
+  border-color: #03857c!important;
+}
+
+.fpimage{
+    float: left;
+    margin: 25px 10px 0 25px;
+}
+
+.firstp {
+     margin-top: 0; 
+
+}
+
+.spimage{
+    float: left;
+    margin: 25px 10px 0 25px;
+}
+
+.tpimage{
+    float: left;
+    margin: 25px 10px 0 25px;
+}
+
+.w-10{
+  width:10%;
+}
+
+h2.clinical{
+  font-size: 28px!important;
+}
+
 }
