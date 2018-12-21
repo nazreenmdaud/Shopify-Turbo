@@ -75,6 +75,8 @@ h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="theme-color" content="{{ settings.shop_bg_color }}">
 
+    <style>#shopify-section-header, .header, #fsb_bar {display:none;}</style>
+
     {% if settings.favicon != nil %}
       <link rel="shortcut icon" type="image/x-icon" href="{{ settings.favicon | img_url: '32x32' }}">
     {% else %}

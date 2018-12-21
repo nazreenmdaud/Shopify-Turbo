@@ -1,4 +1,4 @@
-#shopify-section-header, .header, #fsb_bar {display:none;}
+
 
 @font-face {
       font-family: 'Aileron-Black';
@@ -50,6 +50,8 @@ hr.faqhr{
 /*h3 {
   margin: 20px auto -15px 0!important;
 }*/
+
+
 
 .container p, .description p, .btn, .customfooter p, .customfooter ul li {
   font-size: 20px!important;
@@ -431,6 +433,13 @@ h2, a.collection_title {
   line-height: 1!important;
 }
 }
+
+@media screen and (max-width: 320px) {
+.cta a.ctabutton2 {
+    font-size: 1em!important;
+  }
+
+}
 h2.okeReviews-review-main-heading {
   font-size:40px!important;
 }
@@ -564,7 +573,21 @@ h2.clinical{
 
   }
 
-@media screen and (min-width: 481px) and (max-width: 768px) {
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
+
+.bottle1{
+    padding-top: 73px;
+    padding-bottom: 151px;
+}
+
+.bottle1w {
+    padding-top: 33px;
+    padding-bottom: 151px;
+}
+
+div.videoBanner .video_container{
+  top: 56%!important;
+}
 
 }
 
@@ -578,10 +601,7 @@ h2.clinical{
   margin-top: 0;
 }
 
-.bottle1 {
-    padding-top: 10px!important;
-    padding-bottom: 31px!important;
-}
+
 
 .footerrow{
     width: 100%;
@@ -610,9 +630,9 @@ h1.experience{
   text-align: center!important;
 }
 
- div.videoBanner .video_container{
+ /*div.videoBanner .video_container{
   top: calc(50% - 187px)!important;
-}
+}*/
 
 .purplewomen-tm{
   display:block;
@@ -927,7 +947,12 @@ h1.experience{
   }
 
 .bottle1{
-    padding-top: 66px;
+    padding-top: 73px;
+    padding-bottom: 151px;
+}
+
+.bottle1w {
+    padding-top: 33px;
     padding-bottom: 151px;
 }
 
@@ -1086,7 +1111,7 @@ nav.navbar.navbar-expand-md.topsecbar ul li {
     padding: 0;
   }
 
-  .bottle1 {  
+  .bottle1, .bottle1w {  
     padding-top: 10px!important;
     padding-bottom: 31px!important;
 }
@@ -1118,9 +1143,9 @@ nav.navbar.navbar-expand-md.topsecbar ul li {
   /*#shopify-section-page-details-ppjoelTest-template h1.headline {
     padding-top: 30px;
 }*/
- div.videoBanner .video_container{
-  top: calc(50% - 205px)!important;
-}
+/* div.videoBanner .video_container{
+  top: calc(50% - -3px)!important;
+}*/
 
 a.ctabutton{
   font-size: 1em!important;
@@ -1136,6 +1161,15 @@ a.ctabutton{
     width: 90%;
     margin: 0 auto!important;
 }
+
+div.videoBanner .video_container {
+  top:32%!important;
+}
+
+div.videoBanner {
+    height: 63vh!important;
+}
+
 }
 
 
@@ -1176,7 +1210,7 @@ a.ctabutton{
       position: relative;
       z-index: 2;
       text-align: center;
-      top: 50%;
+      top: 48%;
       transform: translateY(-50%);
       }
       div.videoBanner .video_container .headline{
@@ -1277,6 +1311,7 @@ a.ctabutton{
       }
       .sixth-section .text-content{
         text-align:center;
+        padding-bottom: 20px;
       }
       .sixth-section .subtitle{
         margin-bottom:20px;
@@ -1471,6 +1506,10 @@ a.ctabutton{
     h1.headline{
       font-size: 2em !important;
       line-height: 1.2;
+    }
+
+    .card-body {
+        word-break: break-word;
     }
     .thirteen-section-desktop{
       display: none;

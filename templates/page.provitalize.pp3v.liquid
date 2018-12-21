@@ -11,13 +11,11 @@
 
 {{ 'ppcontrol.css' | asset_url | stylesheet_tag }}
 
-<!-- Navigation -->
-
 
 </head>
 
 <body>
-
+<!-- Navigation -->
     <header class="fornav">
         <nav class="navbar navbar-expand-md topsecbar">
             <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
@@ -35,10 +33,13 @@
                 <li class="menu-item active"><a href="#how" data-scroll>How It Works</a></li>
                 <li class="menu-item"><a href="#ingredients" data-scroll>Ingredients</a></li>
                 <li class="menu-item"><a href="#reviews" data-scroll>Reviews</a></li>
-                <li class="menu-item"><a class="menubuynow" href="#pricetable" data-scroll>Buy Now</a></li>
+                <li class="menu-item"><a class="menubuynow desktops" href="#pricetable" data-scroll>Buy Now</a></li>
         </ul>
       </nav>
     </header>
+
+    <script src="{{ 'responsive-nav.js' | asset_url }}"></script>
+
 
                         
 
@@ -53,7 +54,7 @@
   <div class="video_container h-100">
     <div class="d-flex text-center h-100">
       <div class="my-auto w-100 text-white sayhello">
-        <h1 class="headline sayhello">Say Hello To A Better Body.</h1>
+        <h1 class="headline sayhello" id="sayhello">Say Hello To A Better Body.</h1>
         <div class="subtitle">
           <p class="desktops">Introducing Provitalize: Thermogenic Probiotic Formula<br>
               That Supports Reduction In Stubborn Fat</p>
@@ -366,7 +367,7 @@
                                         <span>1 Bottle</span>
                                     </div>
                                     <div class="option-price">
-                                        <img class="img-fluid bottleimage" src="https://cdn.shopify.com/s/files/1/2060/5733/files/pro_1_for_price_table_5d5b3c9a-3066-4589-8b08-ad8bc3d9d5a3.png" />
+                                        <img class="img-fluid bottleimage" src="https://cdn.shopify.com/s/files/1/2060/5733/files/pro___1_for_price_table.png" />
                                         <h3 class="subtitle retail">Retail:<strike> $67</strike></h3>
                                         <span class="instant">Instant Savings: $27</span>
                                         <span class="price"><span class="dollarsign">$</span>40</span>
@@ -386,7 +387,7 @@
                                     </div>
 
                                     <div class="option-price">
-                                        <img class="img-fluid bottleimage" src="https://cdn.shopify.com/s/files/1/2060/5733/files/pro_3_for_price_table_blue_17d96c3e-1ccc-4b1f-91d7-e704b736009e.png" />
+                                        <img class="img-fluid bottleimage" src="https://cdn.shopify.com/s/files/1/2060/5733/files/pro___3_for_price_table_blue.png" />
                                         <h3 class="subtitle retail">Retail:<strike> $201</strike></h3>
                                         <span class="instant">Instant Savings: $111</span>
                                         <span class="price"><span class="dollarsign">$</span>30</span>
@@ -413,7 +414,7 @@
                                     </div>
 
                                     <div class="option-price">
-                                        <img class="img-fluid bottleimage" src="https://cdn.shopify.com/s/files/1/2060/5733/files/pro_6_for_price_table_3019dbba-fb18-44f4-8255-03bbfe1d5c6e.png" />
+                                        <img class="img-fluid bottleimage" src="https://cdn.shopify.com/s/files/1/2060/5733/files/pro___6_for_price_table.png?5991139857991990495" />
                                         <h3 class="subtitle retail">Retail:<strike> $402</strike></h3>
                                         <span class="instant">Instant Savings: $262</span>
                                         <span class="price"><span class="dollarsign">$</span>23</span>
@@ -430,9 +431,16 @@
                             </div>
                         </div>
                         <!-- /.row -->
+
+                        <img class="img-fluid desktops w-100" src="https://cdn.shopify.com/s/files/1/2060/5733/files/security_badges_fordesktop.jpg" />
                     </div>
                     <!-- /.container -->
 
+
+                    <div class="thirteen-section-mobile container-fluid sidepad-0">
+                         <img class="img-fluid mobiles" src="https://cdn.shopify.com/s/files/1/2060/5733/files/security_badges_mobile_1.jpg?2697916188495489115">
+                        
+                    </div>
 
                     <div class="tenth-section container">
                         <div class="row">
@@ -551,7 +559,7 @@
                         <div class="row">
                             <div class="col-lg-12">
                                 <h1 class="headline experience">Experience The Difference Today</h1>
-                                <p class="experience-p">Each Bottle contains a 30-day supply (60 capsules). Take 2 capsules every morning with or without food. Customers have observed the best effects when they take 2 capsules immediately after waking.</p>
+                                <p class="experience-p">Each bottle contains a 30-day supply (60 capsules). Take 2 capsules every morning with or without food. Customers have observed the best effects when they take 2 capsules immediately after waking.</p>
                             </div>
                             <div class="col-md-6 col-lg-6 text-center">
 
@@ -833,7 +841,7 @@
                                     the website. No one was paid for a testimonial or endorsement. Results (weight, body fat percentage, circumference measurements, etc.) were self-reported by the customer. You should assume that any results shown in
                                     testimonials, advertisements, stories, blog posts, articles, forums or anywhere else on this site or our associated websites are not typical. Results may vary from person to person based on body size and other factors.<br><br>                                    Due to its potent anti-inflammatory effects, Provitalize should not be taken with NSAIDs, blood-thinners and Cox2-inhibitors. If you are on medication or suffer from medical conditions, please consult your doctor before
                                     consuming Provitalize or any of our supplements.</p>
-                            </div>
+                            </div><br>
                             <div class="cta text-center">
                                 <a data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample" class="ctabutton2">Click Here To See References</a>
                             </div>
@@ -946,13 +954,11 @@
     </div>
 
 
-
-    <link rel="stylesheet" type="text/css" href="http://www.prepbootstrap.com/Content/shieldui-lite/dist/css/light/all.min.css" />
-    <script type="text/javascript" src="http://www.prepbootstrap.com/Content/shieldui-lite/dist/js/shieldui-lite-all.min.js"></script>
-    <script src="{{ 'responsive-nav.js' | asset_url }}"></script>
     <script src="{{ 'fastclick.js' | asset_url }}"></script>
     <script src="{{ 'scroll.js' | asset_url }}"></script>
     <script src="{{ 'fixed-responsive-nav.js' | asset_url }}"></script>
+    <link rel="stylesheet" type="text/css" href="http://www.prepbootstrap.com/Content/shieldui-lite/dist/css/light/all.min.css" />
+    <script type="text/javascript" src="http://www.prepbootstrap.com/Content/shieldui-lite/dist/js/shieldui-lite-all.min.js"></script>
 
 <script>
 

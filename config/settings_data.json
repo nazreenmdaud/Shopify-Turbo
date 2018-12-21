@@ -5767,34 +5767,18 @@
       },
       "article-template": {
         "type": "article-template",
-        "blocks": {
-          "1531942341500": {
-            "type": "post_tags",
-            "settings": {}
-          },
-          "1532243364363": {
-            "type": "recent_posts",
-            "settings": {
-              "blog_post_count": "10"
-            }
-          }
-        },
-        "block_order": [
-          "1531942341500",
-          "1532243364363"
-        ],
         "settings": {
           "banner_enabled": false,
           "image_darken": true,
           "blog_breadcrumb": true,
-          "blog_pagination": true,
+          "blog_pagination": false,
           "blog_tags": true,
           "blog_author": false,
           "blog_date": true,
           "display_social_buttons": true,
-          "blog_comment_count": true,
-          "read_more_link": true,
-          "blog_additional_posts": true,
+          "blog_comment_count": false,
+          "read_more_link": false,
+          "blog_additional_posts": false,
           "toggle": false
         }
       },
@@ -6114,7 +6098,7 @@
               "layout": true,
               "frontpage_text_align": "left",
               "frontpage_image_position": "left",
-              "image": "shopify:\/\/shop_images\/WEB_dna_woman.png",
+              "image": "",
               "title": "",
               "text": "<p><strong>Thermogenic Strain #1: L. Gasseri<\/strong> is commonly found in fermented foods and dairy products like Puba (a Brazilian staple). A study of 210 people showed an average of 8.5% loss of body fat after 12 weeks of consuming L. Gasseri. (1)<\/p>\n<p><\/p>\n<p><strong>Thermogenic Strain #2: B. Breve<\/strong> is largely found naturally in our digestive tract<strong>. <\/strong>Additional studies have showed that B. Breve \"activates\" genes that impact fat metabolism and supports blood sugar levels. (2)<\/p>\n<p><\/p>\n<p><strong>Thermogenic Strain #3: B. Lactis <\/strong> is present in raw milk and is used as starter culture for cheese, cottage cheese and butter milk. This special strains has also been shown to promote better digestion, manage inflammatory responses, cholesterol levels and also acts as an anti-oxidant. (3)<\/p>",
               "link": "",
