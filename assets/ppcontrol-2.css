@@ -568,6 +568,10 @@ h2.okeReviews-review-main-heading {
   display:none;
 }
 
+.tablet-m{
+  display: none;
+}
+
 
 
 @media screen and (min-width: 1024px) and (max-width: 1439px) {
@@ -582,72 +586,28 @@ h2.okeReviews-review-main-heading {
     padding-bottom: 151px;
 }
 
+.second-section div.neg-marg-200-t{
+  margin-top: -200px!important;
 }
 
-@media (min-width: 768px) and (max-width: 1439px) {
-  
-.fpimage, .spimage, .tpimage, .purplewomen{
-  display:none;
+.push-col-12 {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
 }
 
-.firstp{
-  margin-top: 0;
+.introprov-tab {
+  width: 30%!important;
+}
+
+.bottle-sup-tab {
+    width: 62%!important;
+    margin: 0 auto;
+}
+
 }
 
 
-
-.footerrow{
-    width: 100%;
-    margin: 0 auto!important;
-}
-
-.ipadstretch{
-  width:100%;
-}
-
-.bottleimage {
-    padding-top: 15px;
-}
-
-.footercol ul {
-    text-align: center;
-}
-
-.experience-p {
-    width: 60%;
-    float: none!important; 
-    text-align: center;
-}
-
-h1.experience{
-  text-align: center!important;
-}
-
- /*div.videoBanner .video_container{
-  top: calc(50% - 187px)!important;
-}*/
-
-.purplewomen-tm{
-  display:block;
-  margin: 0 auto;
-}
-
-.fpimage, .spimage, .tpimage{
-  display: block!important;
-  float: left;
-  margin: 25px 10px 0 25px;
-  width: 6%;
-}
-
-.width100fortablet{
-  width: 100%
-}
-
-.pad20bottom{
-  padding-bottom: 20px!important;
-}
-  
-}
 
 @media (min-width: 1440px) and (max-width: 1919px) {
   
@@ -1635,6 +1595,123 @@ div.videoBanner {
     transition: 0.3s all;
 }
 
+@media (min-width: 768px) and (max-width: 1439px) {
+  
+.fpimage, .spimage, .tpimage, .purplewomen, .tablet-hide, .tablet-d{
+  display:none;
+}
+
+.firstp{
+  margin-top: 0;
+}
+
+.benefits h2, .tenth-section h2{
+    font-size: 43px!important;
+    /*text-align: center;*/
+}
+
+.sidepad-tab {
+    padding-left: 9px!important;
+    padding-right: 0!important;
+}
+
+.footerrow{
+    width: 100%;
+    margin: 0 auto!important;
+}
+
+.ipadstretch{
+  width:100%;
+}
+
+.bg-4-tablet {
+    background-image: url(https://cdn.shopify.com/s/files/1/2060/5733/files/header_woman.png?3558187996466195345);
+    background-position: right;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.bottleimage {
+    padding-top: 15px;
+}
+
+.footercol ul {
+    text-align: center;
+}
+
+.experience-p {
+    width: 80%;
+    float: none!important; 
+    text-align: center;
+}
+
+h1.experience, .formulated h2{
+  text-align: center!important;
+}
+
+ /*div.videoBanner .video_container{
+  top: calc(50% - 187px)!important;
+}*/
+
+.purplewomen-tm{
+  display:block;
+  margin: 0 auto;
+}
+
+.tablet-m{
+  display:block;
+}
+
+.float-r-tab{
+  float:right;
+}
+
+.introprov-tab{
+    display: block;
+    float: right;
+    width: 40%;
+}
+
+.fpimage, .spimage, .tpimage{
+  display: block!important;
+  float: left;
+  margin: 25px 10px 0 25px;
+  width: 6%;
+}
+
+.tablet-m .row .col-lg-4{
+  text-align: center!important;
+}
+
+.experience{
+    text-align: center!important;
+    float: none;
+}
+
+.width100fortablet{
+  width: 100%
+}
+
+.pad20bottom,.pad20bottom-m{
+  padding-bottom: 20px!important;
+}
+
+.neg-marg-200, .neg-marg-200-, .neg-marg-140, .neg-marg-100{
+  margin-top: 0!important;
+}
+
+.tablet-center-mar{
+  margin: 0 auto;
+}
+
+.bottle-sup-tab{
+  width: 75%!important;
+  margin: 0 auto;
+}
+
+
+}
+
 @media only screen and (max-width: 480px){
 
   .desktops, .purplewomen{
@@ -1643,6 +1720,21 @@ div.videoBanner {
 
   .mobiles, .purplewomen-tm{
   display:block;
+}
+
+.topofthepop {
+    padding-bottom: 65px;
+}
+
+.bg-4-mobile{
+    background-image: url(https://cdn.shopify.com/s/files/1/2060/5733/files/header_woman.png?3558187996466195345);
+    background-position: right;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.rightpad-0-m{
+  padding-right: 0!important;
 }
 
 .neg-marg-200, .neg-marg-200-, .neg-marg-140, .neg-marg-100{
@@ -1743,7 +1835,7 @@ p.experience-p, .satisfaction p{
     line-height: 1;
 }
 
-.pad20bottom{
+.pad20bottom,.pad20bottom-m{
   padding-bottom: 20px!important;
 }
 
@@ -1787,6 +1879,19 @@ a.highlight-true{
 
 h2.clinical{
   font-size: 28px!important;
+}
+
+.customfooter p {
+  font-size: 15px!important;
+}
+
+}
+
+@media only screen and (max-width: 320px){
+.benefits h2, .tenth-section h2, .prices h2, 
+.fourth-section h2, .seventh-section h2, .sixth-section h2, 
+.realreviews h2, .first-section h2, .tenth-section h2 {
+    font-size: 30px!important;
 }
 
 }
