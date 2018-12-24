@@ -4211,7 +4211,7 @@
     "linkedin_link": "",
     "email_link": "contact@betterbody.co",
     "favicon": "shopify:\/\/shop_images\/favicon.png",
-    "disqus_enabled": true,
+    "disqus_enabled": false,
     "disqus_shortname": "betterbody-co",
     "checkout_header_image": "",
     "checkout_logo_image": "",

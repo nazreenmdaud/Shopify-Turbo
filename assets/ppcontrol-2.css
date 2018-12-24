@@ -55,6 +55,10 @@ h4, .benefits h3, .sixth-section h3 {
   font-weight: bold;
 }
 
+h3 {
+    font-size: 1.55rem;
+}
+
 .neg-marg-200 {
   margin-top: -200px!important;
 }
@@ -341,13 +345,6 @@ header {
   opacity: 1;
 }
 
-@media screen and (min-width: 1920px) {
-  .mask {
-    display: none !important;
-    opacity: 0 !important;
-  }
-}
-
 
 /* ------------------------------------------
   NAVIGATION STYLES
@@ -564,7 +561,7 @@ h2.okeReviews-review-main-heading {
   display:block;
 }
 
-.mobiles{
+.mobiles, .tablets{
   display:none;
 }
 
@@ -574,38 +571,7 @@ h2.okeReviews-review-main-heading {
 
 
 
-@media screen and (min-width: 1024px) and (max-width: 1439px) {
 
-.bottle1{
-    padding-top: 73px;
-    padding-bottom: 151px;
-}
-
-.bottle1w {
-    padding-top: 33px;
-    padding-bottom: 151px;
-}
-
-.second-section div.neg-marg-200-t{
-  margin-top: -200px!important;
-}
-
-.push-col-12 {
-    -ms-flex: 0 0 100%;
-    flex: 0 0 100%;
-    max-width: 100%;
-}
-
-.introprov-tab {
-  width: 30%!important;
-}
-
-.bottle-sup-tab {
-    width: 62%!important;
-    margin: 0 auto;
-}
-
-}
 
 
 
@@ -617,6 +583,10 @@ h2.okeReviews-review-main-heading {
 
 .sayhello{
     padding-top: 80px;
+}
+
+.logo-resized{
+  width: 40%!important;
 }
   
 }
@@ -1605,9 +1575,30 @@ div.videoBanner {
   margin-top: 0;
 }
 
+p.ing-text-m, .spoon-sect-tab{
+    text-align: center!important;
+}
+
+.tablets{
+  display: block;
+}
+
+.bubble3m{
+  padding-left: 80px;
+  }
+
+.bottle1, .bottle1w {
+    padding-top: 10px;
+    padding-bottom: 31px;
+}
+
 .benefits h2, .tenth-section h2{
     font-size: 43px!important;
     /*text-align: center;*/
+}
+
+.headertopy-tab h2, .headertopy-tab p{
+  text-align: center!important;
 }
 
 .sidepad-tab {
@@ -1620,7 +1611,16 @@ div.videoBanner {
     margin: 0 auto!important;
 }
 
-.ipadstretch{
+.headertopy-tab p{
+    width: 99%!important;
+    margin: 0 auto!important;
+}
+
+.bubble2-tab{
+  padding-left: 90px;
+}
+
+.ipadstretch, .headertopy-tab{
   width:100%;
 }
 
@@ -1662,6 +1662,19 @@ h1.experience, .formulated h2{
   display:block;
 }
 
+.keto-tab-icon{
+  width: 72%;
+  margin: 0 auto;
+}
+
+.padbottom15-tab{
+  padding-bottom: 15px;
+}
+
+.padbottom30-tab{
+  padding-bottom: 30px;
+}
+
 .float-r-tab{
   float:right;
 }
@@ -1683,7 +1696,7 @@ h1.experience, .formulated h2{
   text-align: center!important;
 }
 
-.experience{
+.experience, .formulated{
     text-align: center!important;
     float: none;
 }
@@ -1709,11 +1722,74 @@ h1.experience, .formulated h2{
   margin: 0 auto;
 }
 
+.formulated h4{
+  text-align: center;
+}
+
+
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
+
+.bottle1{
+    padding-top: 73px;
+    padding-bottom: 151px;
+}
+
+.bottle1w {
+    padding-top: 33px;
+    padding-bottom: 151px;
+}
+
+.second-section div.neg-marg-200-t{
+  margin-top: -200px!important;
+}
+
+.push-col-12 {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+.introprov-tab {
+  width: 30%!important;
+}
+
+.bottle-sup-tab {
+    width: 62%!important;
+    margin: 0 auto;
+}
+
+.landscape-tab-bottle{
+    float: right;
+    width: 75%;
+}
+
+.landscape-tab-text{
+    max-width: 65%!important;
+    flex: 0 0 90%!important;
+}
+
+.headertopy-tab h2, .headertopy-tab p {
+    text-align: left!important;
+}
+
+.bottle-side-landscape{
+  margin-top: -120px;
+}
+
+.bubble2-tab-lansdcape{
+    width: 100%;
+    padding-left: 0;
+}
 
 }
 
 @media only screen and (max-width: 480px){
 
+p{
+  line-height: 1.2;
+}
   .desktops, .purplewomen{
   display:none;
 }
@@ -1727,14 +1803,71 @@ h1.experience, .formulated h2{
 }
 
 .bg-4-mobile{
-    background-image: url(https://cdn.shopify.com/s/files/1/2060/5733/files/header_woman.png?3558187996466195345);
+    background-image: url(https://cdn.shopify.com/s/files/1/2060/5733/files/woman_1.jpg);
     background-position: right;
     background-size: contain;
     background-repeat: no-repeat;
 }
 
+.customfooter h2 {
+    font-size: 19px!important;
+    font-weight: bold;
+}
+
+.benefits h4{
+  padding-bottom: 20px;
+}
+
+.keto-sect-m{
+    width: 95%;
+    margin: 0 auto;
+}
+
+.keto-icon-m{
+  width: 35%!important;
+}
+
+.keto-text-m{
+  width: 85%;
+}
+
+.pill-m{
+    padding-right: 71px;
+}
+
+.ing-text-m{
+    text-align: center!important;
+    padding-top: 10px;
+}
+
+.bottle-padding-m{
+  padding: 10px;
+}
+
+.introprov-m{
+  width: 45%;
+  margin-top: -83px!important;
+}
+
 .rightpad-0-m{
   padding-right: 0!important;
+}
+
+.benefits {
+    padding-top: 15px!important;
+}
+
+.padtop-0{
+    padding-top: 0!important;
+}
+
+.peace-text-m{
+  padding-top: 10px;
+}
+
+.company-logo-m{
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .neg-marg-200, .neg-marg-200-, .neg-marg-140, .neg-marg-100{
@@ -1756,7 +1889,8 @@ h1.experience, .formulated h2{
 
 .benefits h2, .tenth-section h2, .prices h2, 
 .fourth-section h2, .seventh-section h2, .sixth-section h2, 
-.realreviews h2, .first-section h2, .tenth-section h2 {
+.realreviews h2, .first-section h2, .tenth-section h2,
+.eighth-section h2 {
     font-size: 38px!important;
     font-weight: bold;
     text-align: center;
@@ -1791,8 +1925,13 @@ p.experience-p, .satisfaction p{
   float: none;
 }
 
-.bubble3m, .satisfaction img{
-  width: 50%;
+.satisfaction img{
+  width: 50%!important;
+}
+
+.bubble3m{
+  width: 70%!important;
+  float:left;
 }
 
 .neg-mar-40-m{
@@ -1835,8 +1974,20 @@ p.experience-p, .satisfaction p{
     line-height: 1;
 }
 
+.card-header h5 button{
+  text-align: left!important;
+}
+
 .pad20bottom,.pad20bottom-m{
   padding-bottom: 20px!important;
+}
+
+.pad40bottom-m {
+  padding-bottom: 40px!important;
+}
+
+.company-bio-m{
+    width: 90%!important;
 }
 
 .mobile-fullwidth{
@@ -1887,11 +2038,71 @@ h2.clinical{
 
 }
 
+
 @media only screen and (max-width: 320px){
 .benefits h2, .tenth-section h2, .prices h2, 
 .fourth-section h2, .seventh-section h2, .sixth-section h2, 
-.realreviews h2, .first-section h2, .tenth-section h2 {
+.realreviews h2, .first-section h2, .tenth-section h2,
+.eighth-section h2 {
     font-size: 30px!important;
 }
+
+.card-header {
+    padding: 3.3rem 1.25rem;
+}
+
+}
+
+@media screen and (min-width: 320px) and (max-width: 375px) {
+.headertopy h2, .tenth-section h2, .prices h2, 
+.seventh-section h2, .sixth-section h2, 
+.realreviews h2, .first-section h2, .tenth-section h2,
+.eighth-section h2{
+  width:90%;
+  margin: 0 auto;
+}
+.small-device-none{
+  display: none;
+}
+
+.card-header {
+    padding: 3.3rem 1.25rem;
+}
+
+.introprov-p-sm{
+  padding-bottom: 20px;
+}
+
+.introprov-m {
+    width: 45%;
+    margin-top: -47px!important;
+}
+}
+
+@media screen and (min-width: 1900px) {
+
+  .stretch-4-hd{
+      width: 100%;
+    }
+  .mask {
+    display: none !important;
+    opacity: 0 !important;
+  }
+
+  .neg-marg-100-wide{
+    margin-top: -100px!important;
+  }
+
+  .wide-hide{
+    display: none;
+  }
+
+  /*.benefits h2, .tenth-section h2 {
+    font-size: 95px!important;
+  }
+
+  h4 {
+    font-size: 3rem;
+}*/
 
 }
