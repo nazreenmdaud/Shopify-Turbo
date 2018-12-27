@@ -5091,39 +5091,26 @@
             "type": "search",
             "settings": {}
           },
-          "1529817040791": {
-            "type": "text",
-            "settings": {
-              "title": "stay up-to-date",
-              "text": "<p>The Digest is a collection of musings, helpful tidbits and news from Nutri-Rich.<\/p>\n<p>Receive new product updates, promotions and more. No spam, ever.<\/p>"
-            }
-          },
           "1529816958799": {
             "type": "recent_posts",
             "settings": {
-              "blog_post_count": "2"
+              "blog_post_count": "5"
             }
-          },
-          "1529817016270": {
-            "type": "post_tags",
-            "settings": {}
           }
         },
         "block_order": [
           "1529816979934",
-          "1529817040791",
-          "1529816958799",
-          "1529817016270"
+          "1529816958799"
         ],
         "settings": {
-          "image": "shopify:\/\/shop_images\/Losing_weight_after_40_by_eating_smaller_portions.png",
+          "image": "shopify:\/\/shop_images\/Maximize_Effect_of_Thermogenic_Probiotics_v2.jpg",
           "image_darken": true,
           "subtitle": "",
-          "blog_posts_per_row": 2,
-          "blog_posts_per_page": 10,
+          "blog_posts_per_row": 4,
+          "blog_posts_per_page": 8,
           "blog_tags": false,
           "blog_author": false,
-          "blog_date": true,
+          "blog_date": false,
           "blog_comment_count": true,
           "read_more_link": true,
           "toggle": false

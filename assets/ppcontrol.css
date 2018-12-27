@@ -51,6 +51,27 @@ hr.faqhr{
   margin: 20px auto -15px 0!important;
 }*/
 
+.for3ztop{
+  padding-top: 100px!important;
+}
+
+.for3ztop .row .col-lg-8 h1{
+  font-size: 2.8em;
+  text-align: left;
+  margin-bottom: 20px!important;
+  margin-top:50px;
+  font-weight: bold;
+}
+
+.for3ztop .row .col-lg-8 h2{
+    font-size: 40px!important;
+    text-align: left;
+}
+
+.for3ztop .row .col-lg-8 p{
+    padding-bottom: 30px;
+}
+
 
 
 .container p, .description p, .btn, .customfooter p, .customfooter ul li {
@@ -523,6 +544,10 @@ h2.okeReviews-review-main-heading {
 
   .mobiles, .purplewomen-tm{
   display:block;
+}
+
+.gut-image img{
+  width: 100%;
 }
 
 .pad20bottom{
@@ -1592,5 +1617,7 @@ div.videoBanner {
 
 .ingboxing {
   margin: 0 auto;
+  width: 100%;
+    height: 100%;
 }
 

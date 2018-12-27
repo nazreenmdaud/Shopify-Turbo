@@ -1,5 +1,4 @@
 
-
 @font-face {
       font-family: 'Aileron-Black';
       src: url('Aileron-Black.otf'),
@@ -97,6 +96,15 @@ h3 {
 
 .pad20bottom{
   padding-bottom: 20px!important;
+}
+
+.asterix-section{
+    border: 2px dashed #888;
+        width: 50%;
+}
+
+.asterixa {
+    padding: 5px 15px;
 }
 
 .container p, .container-fluid p, .description p, .btn, .customfooter p, .customfooter ul li, 
@@ -588,6 +596,10 @@ h2.okeReviews-review-main-heading {
 .logo-resized{
   width: 40%!important;
 }
+
+.asterix-section {
+    width: 70%;
+}
   
 }
 
@@ -671,6 +683,7 @@ h2.okeReviews-review-main-heading {
     -webkit-box-shadow: 10px 10px 5px -5px rgba(179,179,179,1);
     -moz-box-shadow: 10px 10px 5px -5px rgba(179,179,179,1);
     box-shadow: 10px 10px 5px -5px rgba(179,179,179,1);
+    z-index: 9999!important;
 }
 
 .ctabutton:hover{
@@ -1583,6 +1596,10 @@ p.ing-text-m, .spoon-sect-tab{
   display: block;
 }
 
+.asterix-section {
+    width: 80%;
+}
+
 .bubble3m{
   padding-left: 80px;
   }
@@ -1800,6 +1817,10 @@ p{
 
 .topofthepop {
     padding-bottom: 65px;
+}
+
+.asterix-section {
+    width: 90%;
 }
 
 .bg-4-mobile{
@@ -2106,3 +2127,5 @@ h2.clinical{
 }*/
 
 }
+
+
