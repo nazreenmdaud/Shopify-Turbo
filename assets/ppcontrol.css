@@ -53,9 +53,18 @@ hr.faqhr{
 
 .for3ztop{
   padding-top: 100px!important;
+  background-image: url(https://cdn.shopify.com/s/files/1/2060/5733/files/background.png);
 }
 
-.for3ztop .row .col-lg-8 h1{
+.padtop50{
+  padding-top: 50px!important;
+}
+
+.inline-block-item{
+  display: inline-block;
+}
+
+/*.for3ztop .row .col-lg-8 h1{
   font-size: 2.8em;
   text-align: left;
   margin-bottom: 20px!important;
@@ -70,7 +79,7 @@ hr.faqhr{
 
 .for3ztop .row .col-lg-8 p{
     padding-bottom: 30px;
-}
+}*/
 
 
 
@@ -156,6 +165,85 @@ a.highlight-false{
 
 }
 
+.first-section h1.headline-z {
+    color: black!important;
+    font-size: 3.6em;
+    text-align: left;
+    line-height: 1.2em;
+    padding-top: 70px;
+}
+
+.center-image{
+  margin:0 auto;
+}
+
+.insidebox{
+    border: 3px solid #eaeaea;
+    border-radius: 13px;
+    padding: 10px 5px;
+}
+
+.insidebox .row .col-lg-4, .benefits p{
+  float:left;
+  text-align: left;
+}
+
+.fourth-section p, .insidebox h4{
+  text-align: center;
+}
+
+.supporting-ingredient{
+  height: 950px;
+}
+
+.si-wrapper{
+  width: 50%;
+  box-shadow: 5px 5px 5px #b1b1b1;
+  z-index: 999;
+  margin: 0 4rem 6rem 50rem;
+  z-index: 999; 
+  padding-top: 7.5rem!important;
+}
+
+.si-wrapper-image{
+  position: absolute;
+  z-index: -1;
+}
+
+.si-inner-wrapper{
+  padding:20px;
+  background: whitesmoke;
+}
+
+.si-inner-wrapper h3{
+  font-family: 'Aileron-Regular' !important;
+  font-size: 24px;
+  font-weight: bold;
+  color:#5C5B61;
+}
+
+.si-inner-wrapper h4 {
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin: 0!important;
+  line-height: 1;
+}
+
+/*.si-inner-wrapper p{
+  padding-left: 31px;
+}*/
+
+.si-inner-wrapper span{
+  padding-right: 10px;
+}
+
+/*#si-bg{
+    background-image: url(https://cdn.shopify.com/s/files/1/2060/5733/files/benefit_summary_image_1.png);
+    background-size: contain;
+    background-position: left;
+    background-repeat: no-repeat;
+
+}*/
 
 
 /*########## NAVBAR ##########*/
@@ -598,27 +686,11 @@ h2.clinical{
 
   }
 
-@media screen and (min-width: 1024px) and (max-width: 1439px) {
 
-.bottle1{
-    padding-top: 73px;
-    padding-bottom: 151px;
-}
-
-.bottle1w {
-    padding-top: 33px;
-    padding-bottom: 151px;
-}
-
-div.videoBanner .video_container{
-  top: 56%!important;
-}
-
-}
 
 @media (min-width: 768px) and (max-width: 1439px) {
   
-.fpimage, .spimage, .tpimage, .purplewomen{
+.fpimage, .spimage, .tpimage, .purplewomen, .tablet-d{
   display:none;
 }
 
@@ -626,7 +698,9 @@ div.videoBanner .video_container{
   margin-top: 0;
 }
 
-
+p.ing-text-m {
+    text-align: center!important;
+}
 
 .footerrow{
     width: 100%;
@@ -677,18 +751,6 @@ h1.experience{
 
 .pad20bottom{
   padding-bottom: 20px!important;
-}
-  
-}
-
-@media (min-width: 1440px) and (max-width: 1919px) {
-  
-.description p{
-  font-size: 18px!important;
-}
-
-.sayhello{
-    padding-top: 80px;
 }
   
 }
@@ -796,6 +858,33 @@ h1.experience{
     background: #0F427B!important;
     text-decoration: none!important;
     border: #0F427B 2px solid;
+}
+
+.ctabutton2-z {
+    font-size: 1.4em!important;
+    background: #fff!important;
+    color: #000000!important;
+    border: #000000 2px solid;
+    padding: 10px 23px;
+    border-radius: 30px;
+    font-family: 'Aileron-bold';
+    font-weight: bold;
+    -webkit-box-shadow: 10px 10px 5px -5px rgba(179,179,179,1);
+    -moz-box-shadow: 10px 10px 5px -5px rgba(179,179,179,1);
+    box-shadow: 5px 8px 5px -5px rgba(179,179,179,1);
+}
+
+.ctabutton2-z:hover{
+    
+    color: #fff!important;
+    background: #000000!important;
+    text-decoration: none!important;
+    border: #000000 2px solid;
+    transition: all 0.4s ease-in-out;
+}
+
+.w-40{
+  width:40%!important;
 }
 
 .pricebtn{
@@ -1315,6 +1404,14 @@ div.videoBanner {
       .fourth-section .text-content{
         text-align:center;
       }
+
+      /*.fourth-section h2{
+        font-size: 4em;
+      }*/
+
+      .insidebox h3.subtitle{
+        text-align: center;
+      }
     
     .fifth-section h1.headline{
         color: black !important;
@@ -1323,6 +1420,22 @@ div.videoBanner {
         line-height: 1.2em;
         margin-bottom: 50px;
       }
+
+      .possible-section h1.headline {
+        color: black !important;
+        font-size: 4em;
+        text-align: center;
+        line-height: 1.2em;
+        margin-bottom: 10px;
+      }
+
+      .possible-section h3{
+        color: #00ac1c!important;
+        font-weight: bold;
+        font-style: italic;
+        font-size: 37px;
+      }
+
       .fifth-section .text-content{
         text-align:center;
       }
@@ -1533,6 +1646,69 @@ div.videoBanner {
       line-height: 1.2;
     }
 
+    .for3ztop h3, .tab-center{
+      text-align: center!important;
+    }
+
+    .insidebox {
+       border: none; 
+       padding: 0; 
+    }
+
+    .for3ztop {
+      padding-top: 75px!important;
+      background-size: cover;
+    }
+
+    .possible-section h3{
+      font-size: 28px;
+    }
+
+    .w-8{
+      width: 8%;
+    }
+
+    .fifth-3z h1.headline {
+        margin-bottom: 10px!important;
+      }
+
+    .mob-divider{
+      border-top: 1px solid rgba(0,0,0,.2)!important;
+      width: 85%;
+      margin: 0 auto;
+    }
+
+    .ing-text-m{
+      text-align: center!important;
+      padding-top: 10px;
+    }
+
+    .womenic-m{
+      width: 80%
+    }
+
+    .keto-sect-m{
+    width: 95%;
+    margin: 0 auto;
+    }
+
+    .keto-icon-m{
+      width: 35%!important;
+    }
+
+    .keto-text-m{
+      width: 85%;
+      text-align: center;
+    }
+
+    .cta-space-btn{
+      padding: 30px 0;
+    }
+
+    .second-video-sect{
+      width: 90%!important;
+    }
+
     .card-body {
         word-break: break-word;
     }
@@ -1561,6 +1737,21 @@ div.videoBanner {
   .eleventh-section .main-text{
         font-size: 30px !important;
     }
+
+    h2.okeReviews-review-main-heading {
+      font-size:33px!important;
+    }
+
+    .first-section h1.headline-z {
+    font-size: 2.2em;
+    text-align: center;
+    line-height: 1.2em;
+    padding-top: 0;
+}
+
+#si-bg{
+  display: none;
+}
     
   
 }
@@ -1570,6 +1761,9 @@ div.videoBanner {
   .twelveth-section .headline{
      margin-top: 50px;
      margin-bottom: 30px;
+  }
+  .ctabutton2-z {
+    font-size: 1em!important;
   }
 } 
 
@@ -1619,5 +1813,129 @@ div.videoBanner {
   margin: 0 auto;
   width: 100%;
     height: 100%;
+}
+
+.padbottom-0{
+  padding-bottom:0!important;
+}
+
+.padtop-0{
+  padding-top:0!important;
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .first-section h1.headline-z {
+    font-size: 3.1em;
+    text-align: center;
+    padding-top: 35px;
+}
+
+  .center-item-tab{
+    margin: 0 auto;
+  }
+
+  .for3ztop h3{
+    text-align: center;
+  }
+
+  .tablets{
+    display: block;
+  }
+
+  .bottle-tablet, .button-768-tab{
+    display: none;
+  }
+
+  .for3ztop{
+    background-size: cover;
+  }
+
+  .cta-space-btn{
+    padding: 30px 0;
+  }
+  
+  #si-bg{
+    display: none;
+  }
+  
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
+
+.bottle1{
+    padding-top: 73px;
+    padding-bottom: 151px;
+}
+
+.bottle1w {
+    padding-top: 33px;
+    padding-bottom: 151px;
+}
+
+div.videoBanner .video_container{
+  top: 56%!important;
+}
+
+.first-section h1.headline-z {
+    font-size: 2.2em;
+    padding-top: 30px;
+}
+
+.ctabutton2-z {
+    font-size: 0.8em!important;
+}
+
+.btn-size-1024-shop{
+  flex: 0 0 30%!important;
+  max-width: 33%!important;
+}
+
+.btn-size-1024-learn{
+  flex: 0 0 63.666667%!important;
+  max-width: 63.666667%!important;
+}
+
+.for3ztop .row .padtop50{
+  padding-top: 20px!important;
+}
+
+.bottle-tablet{
+    width: 100%!important;
+}
+
+#si-bg{
+  display: none;
+}
+
+}
+
+@media (min-width: 1440px) and (max-width: 1919px) {
+  
+.description p{
+  font-size: 18px!important;
+}
+
+.sayhello{
+    padding-top: 80px;
+}
+
+.first-section h1.headline-z {
+
+    font-size: 2.8em;
+}
+
+.ctabutton2-z {
+  font-size: 1.1em!important;
+}
+
+.for3ztop .row .padtop50{
+  padding-top: 20px!important;
+}
+
+#si-bg{
+  display: none;
+}
+
+  
 }
 
