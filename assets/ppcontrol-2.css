@@ -180,32 +180,25 @@ a.highlight-false, input[type="button"].highlight-false, a.highlight-true, input
 }
 
 .caption-content .action_button {
-    border-radius: 20px!important;
+  border-radius: 20px!important;
 }
 
 a.highlight-false{
-    color: #ffffff!important;
-    border: 1px solid #ffffff!important;
+  color: #ffffff!important;
+  border: 1px solid #ffffff!important;
 }
 
 .container .one-third.column{
 /*     padding: 20px!important; */
-    box-shadow: #F1F1F1 1px 0px 4px 1px!important;
-    width: 32%!important;
-    height: auto!important;
+  box-shadow: #F1F1F1 1px 0px 4px 1px!important;
+  width: 32%!important;
+  height: auto!important;
 }
 
 .container .noshadow{
-    box-shadow: none!important;
+  box-shadow: none!important;
 
 }
-
-
-
-/*########## NAVBAR ##########*/
-/*.logo img{
-  margin-top: 10px!important;
-}*/
 
 /* ------------------------------------------
   RESPONSIVE NAV STYLES
@@ -237,8 +230,6 @@ a.highlight-false{
   max-height: 9999px;
 }
 
-
-
 .disable-pointer-events {
   pointer-events: none !important;
 }
@@ -255,13 +246,13 @@ a.highlight-false{
 
 @media screen and (min-width: 1921px) {
   .js .nav-collapse {
-    position: relative;
+  position: relative;
   }
   .js .nav-collapse.closed {
-    max-height: none;
+  max-height: none;
   }
   .nav-toggle {
-    display: none;
+  display: none;
   }
   .js .nav-collapse-0.opened {
   max-height: 55px!important;
@@ -483,42 +474,9 @@ header {
     margin-bottom: 25px;
 }
 
-
-
-@media screen and (max-width: 768px) {
-h2, a.collection_title {
-  font-size: 32px!important;
-  line-height: 1!important;
-}
-}
-
-@media screen and (max-width: 320px) {
-.cta a.ctabutton2 {
-    font-size: 1em!important;
-  }
-
-}
 h2.okeReviews-review-main-heading {
   font-size:40px!important;
 }
-
-/*.fpimage{
-    position: absolute;
-    left: -5%;
-    bottom: 73%;
-}
-
-.spimage{
-    position: absolute;
-    left: -5%;
-    bottom: 48%;
-}
-
-.tpimage{
-    position: absolute;
-    left: -5%;
-    bottom: 28%;
-}*/
 
 .firstp{
   margin-top: -7%;
@@ -576,11 +534,6 @@ h2.okeReviews-review-main-heading {
 .tablet-m{
   display: none;
 }
-
-
-
-
-
 
 
 @media (min-width: 1440px) and (max-width: 1919px) {
@@ -1450,24 +1403,24 @@ div.videoBanner {
 
 @media only screen and (max-width: 768px){
    h1.headline{
-       font-size: 3em !important;
-       margin-bottom: 30px;
+      font-size: 3em !important;
+      margin-bottom: 30px;
     }
-    .eleventh-section .flex_box{
-        h3{
-          margin: 25px 0px;
-        }         
-      }
+    .eleventh-section .flex_box h3{
+      margin: 25px 0px;
+    }         
+
+      h2, a.collection_title {
+      font-size: 32px!important;
+      line-height: 1!important;
+    }
     
   .thirteen-section-desktop h1.headline{
-    font-size: 1.8em !important;
-    margin-bottom: 20px !important;
-  }
-  .container-fluid.second-section img{
-      text-align: center;
-    }
+      font-size: 1.8em !important;
+      margin-bottom: 20px !important;
   
-}
+    }
+  }
 @media only screen and (max-width: 480px){
 
     h1.headline{
@@ -2071,6 +2024,10 @@ h2.clinical{
 .card-header {
     padding: 3.3rem 1.25rem;
 }
+
+.cta a.ctabutton2 {
+    font-size: 1em!important;
+  }
 
 }
 

@@ -131,6 +131,10 @@ hr.faqhr{
     font-weight: bold;
 }
 
+.btn-separator{
+  margin-left: 20px;
+}
+
 .tenth-section p.small-font {font-size: 16px!important;}
 
 .featured_content{
@@ -218,9 +222,9 @@ a.highlight-false{
   text-align: center;
 }
 
-/*.supporting-ingredient{
-  height: 950px;
-}*/
+.for-1024{
+  display: none;
+}
 
 .small-font-disclaimer{
   border: dashed 1px grey;
@@ -486,13 +490,6 @@ header {
   opacity: 1;
 }
 
-@media screen and (min-width: 1920px) {
-  .mask {
-    display: none !important;
-    opacity: 0 !important;
-  }
-}
-
 
 /* ------------------------------------------
   NAVIGATION STYLES
@@ -725,6 +722,10 @@ h2.okeReviews-review-main-heading {
   padding-bottom: 20px!important;
 }
 
+.mobile-ingredient-section img{
+  width: 93%!important;
+}
+
 .mobile-fullwidth{
   width: 100%;
 }
@@ -919,6 +920,7 @@ h1.experience{
     color: #0F427B!important;
     text-decoration: none!important;
     border: #0F427B 2px solid;
+    transition: all 0.4s ease-in-out;
 }
 
 .ctabutton2{
@@ -941,6 +943,7 @@ h1.experience{
     background: #0F427B!important;
     text-decoration: none!important;
     border: #0F427B 2px solid;
+    transition: all 0.4s ease-in-out;
 }
 
 .ctabutton2-z {
@@ -1746,7 +1749,13 @@ div.videoBanner {
         h3{
           margin: 25px 0px;
         }         
-      }
+    
+
+    .foramericans {
+    width: 39%;
+    padding: 20px;
+    margin-left: 27rem;
+}}
     
   .thirteen-section-desktop h1.headline{
     font-size: 1.8em !important;
@@ -1766,6 +1775,10 @@ div.videoBanner {
 
     .for3ztop h3, .tab-center{
       text-align: center!important;
+    }
+
+    .mobiles .ctabutton i.fa-arrow-right{
+        font-size: 17px;
     }
 
     .insidebox {
@@ -1801,6 +1814,10 @@ div.videoBanner {
         padding-top: 100px;
     }
 
+    .fourth-section-3v3 h1.headline {
+        padding-top: 10px!important;
+    }
+
     .for3ztop {
       padding-top: 75px!important;
       background-size: cover;
@@ -1808,6 +1825,14 @@ div.videoBanner {
 
     .possible-section h3{
       font-size: 28px;
+    }
+
+    .works-best{
+      padding-top: 20px!important;
+    }
+
+    .faq-3v3{
+      margin-bottom: 0!important;
     }
 
     .si-mobile-image{
@@ -2038,6 +2063,13 @@ div.videoBanner {
     margin: 0 auto;
   }
 
+  .foramericans {
+    width: 58%;
+    padding: 16px;
+    margin-left: 19rem;
+    opacity: 0.8;
+  }
+
   .for3ztop h3{
     text-align: center;
   }
@@ -2057,6 +2089,10 @@ div.videoBanner {
   .cta-space-btn{
     padding: 30px 0;
   }
+
+  .for3v3 h3 {
+    width: 100%;
+}
   
   /*#si-bg{
     display: none;
@@ -2179,6 +2215,13 @@ div.videoBanner .video_container{
   top: 56%!important;
 }
 
+.foramericans {
+    width: 58%;
+    padding: 16px;
+    margin-left: 24rem;
+    opacity: 0.8;
+}
+
 .first-section h1.headline-z {
     font-size: 2.2em;
     padding-top: 30px;
@@ -2206,9 +2249,25 @@ div.videoBanner .video_container{
     width: 100%!important;
 }
 
-/*#si-bg{
+.for3v3 h3 {
+    width: 100%;
+    padding-bottom: 15px;
+    font-size: 1.4rem;
+}
+
+.btn-separator{
   display: none;
-}*/
+}
+
+.for-1024{
+  display: block;
+}
+
+a.for-1024{
+  margin-top: 18px;
+  width: 86%;
+  text-align: center;
+}
 
 .upper-si-wraapper {
     padding-top: 5rem;
@@ -2263,6 +2322,10 @@ div.videoBanner .video_container{
 .first-section h1.headline-z {
 
     font-size: 2.8em;
+}
+
+.btn-separator{
+  margin-left:0;
 }
 
 .ctabutton2-z {
@@ -2400,4 +2463,14 @@ text-decoration:underline;
 color:blue;
 text-transform:uppercase;
 cursor:pointer;}
+
+@media screen and (min-width: 1920px) {
+  .mask {
+    display: none !important;
+    opacity: 0 !important;
+  }
+  .w-93{
+    width:93%!important;
+  }
+}
 
