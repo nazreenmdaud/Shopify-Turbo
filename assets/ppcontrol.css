@@ -81,6 +81,12 @@ hr.faqhr{
     padding-bottom: 30px;
 }*/
 
+ul.ticks {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
 .thermogenic{
   color: #22BB1B;
       font-family: 'Aileron-Regular' !important;
@@ -103,7 +109,7 @@ hr.faqhr{
 }
 
 .container p, .description p, .btn, .customfooter p, .customfooter ul li,
-.foramericans ul li {
+.foramericans ul li, ul.ticks li {
   font-size: 20px!important;
 }
 .customfooter{
@@ -1445,6 +1451,16 @@ div.videoBanner {
         display: none;
       }
     }
+
+    ul.ticks li {
+        background: url('https://cdn.shopify.com/s/files/1/2060/5733/files/tick_33cb1af4-0777-4fc8-87a1-bf56d7d1c26d.png?16035742931872340420') left top no-repeat;
+        padding: 0 0 0 2rem;
+    }
+    
+    .high-m{
+      width: 40%;
+    }
+    
     .first-section h1.headline{
         color: black !important;
         font-size: 4em;
@@ -1515,11 +1531,12 @@ div.videoBanner {
         margin-bottom: 10px;
       }
 
-      .possible-section h3{
+      .possible-section h3, .mirror-section h3{
         color: #00ac1c!important;
         font-weight: bold;
         font-style: italic;
         font-size: 37px;
+        margin: 0 auto;
       }
 
       .fifth-section .text-content{
@@ -1779,6 +1796,10 @@ div.videoBanner {
 
     .mobiles .ctabutton i.fa-arrow-right{
         font-size: 17px;
+    }
+
+    .double-quote-m{
+        margin-left: 115px;
     }
 
     .insidebox {
@@ -2059,6 +2080,10 @@ div.videoBanner {
     padding-top: 35px;
 }
 
+.tablet-m{
+  display: block;
+}
+
   .center-item-tab{
     margin: 0 auto;
   }
@@ -2144,6 +2169,9 @@ div.videoBanner {
   .ctabutton2-z {
     font-size: 1em!important;
   }
+  .ctabutton2 {
+    font-size: 1.1em!important;
+  }
   .ctabutton3 {
       height: 110px!important;
       width: 80%!important;
@@ -2220,6 +2248,10 @@ div.videoBanner .video_container{
     padding: 16px;
     margin-left: 24rem;
     opacity: 0.8;
+}
+
+.tablet-m{
+  display: block;
 }
 
 .first-section h1.headline-z {
